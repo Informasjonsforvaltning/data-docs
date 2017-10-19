@@ -1,0 +1,27 @@
+include::utils/translation.adoc[]
+
+= Veileder for beskrivelse av datasett
+Direktoratet for forvaltning og IKT
+v0.8
+:description:
+:doctype: book
+:icons: font
+:toc: left
+:toclevels: 3
+:sectanchors:
+:title-logo-image: utils/logo.jpg
+
+// :sectnums:
+
+{description}
+
+include::utils/download.adoc[]
+
+:leveloffset: +1
+
+// Innhold her.
+
+
+
+
+include::utils/stats.adoc[]
