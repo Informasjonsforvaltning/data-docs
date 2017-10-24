@@ -1,0 +1,41 @@
+== 5 Enhet
+
+For å representere en datasetteier bruker man klassen Enhet. Offentlig sektors datasett skal ha organisasjoner som ansvarlige eiere.
+
+ * Det anbefales å referere direkte til Enhetsregisteret, som vil hente opplysningene direkte derfra
+ * Sekundært benytte egenskapene under med eller uten en sameas linke.
+
+Eksempel
+|===
+|+<> dct:publisher <++http://data.brreg.no/enhetsregisteret/enhet/974760673++> .+
+
+|===
+
+.Eksempel (literal block)
+....
+ <dct:publisher <http://data.brreg.no/enhetsregisteret/enhet/974760673>
+....
+
+.Eksempel (indent)
+ <dct:publisher <http://data.brreg.no/enhetsregisteret/enhet/974760673>
+
+
+=== 5.1 Enhetsnavn
+
+Navnet på enheten trengs for å vise eier og filtrere på denne.
+
+Eksempel
+|===
+|+<> a foaf:Agent ;+
+
+|===
+
+=== 5.2 Organisasjonsnummer
+
+Enheter skal oppgis med organisasjonsnummer.
+
+Eksempel
+|===
+|+<> a foaf:Agent ;+
+
+|===
