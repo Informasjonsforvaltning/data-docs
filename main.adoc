@@ -2,7 +2,7 @@ include::utils/translation.adoc[]
 
 = Veileder for beskrivelse av datasett
 Direktoratet for forvaltning og IKT
-v0.8
+v0.1
 :description:
 :doctype: book
 :icons: font
@@ -21,6 +21,8 @@ include::utils/download.adoc[]
 
 // Innhold her.
 include::Innledning.adoc[]
+include::Hva_er_et_datasett[]
+include::Datasett[]
 include::Enhet[]
 
 

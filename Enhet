@@ -5,33 +5,11 @@ For å representere en datasetteier bruker man klassen Enhet. Offentlig sektors 
  * Det anbefales å referere direkte til Enhetsregisteret, som vil hente opplysningene direkte derfra
  * Sekundært benytte egenskapene under med eller uten en sameas linke.
 
-Eksempel (tabell)
+Eksempel
 |===
 |+<> dct:publisher <++http://data.brreg.no/enhetsregisteret/enhet/974760673++> .+
 
 |===
-
-.Eksempel (literal block)
-....
- <dct:publisher <http://data.brreg.no/enhetsregisteret/enhet/974760673>
-....
-
-.Eksempel (indent)
-
- <dct:publisher <http://data.brreg.no/enhetsregisteret/enhet/974760673>
-
-.Eksempel (open block)
-
---
-  <dct:publisher <http://data.brreg.no/enhetsregisteret/enhet/974760673>
---
-
-.Eksempel (source)
-
-[source]
---
- <dct:publisher <http://data.brreg.no/enhetsregisteret/enhet/974760673>
---
 
 === 5.1 Enhetsnavn
 
@@ -52,3 +30,7 @@ Eksempel
 |+<> a foaf:Agent ;+
 
 |===
+
+=== 5.3 Utgivertype
+
+Enheter angis med organisasjonstype for å skille mellom offentlige datasetteiere og private.
