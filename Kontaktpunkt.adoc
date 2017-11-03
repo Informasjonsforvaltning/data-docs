@@ -1,0 +1,21 @@
+== Kontaktpunkt
+
+Relasjonen kontaktpunkt fra datasettbeskrivelsen peker på en klasse Organisasjonsenhet
+
+=== Organisasjonsenhet
+
+Kontaktpunkt angis med organisasjonsenhet
+
+* Dette kan være navnet til en gruppe, avdeling, seksjon eller liknende i organisasjonen.
+
+===  E-post
+
+Angi e-postadresse for kontaktpunktet dersom dette er en ønsket kontaktform
+
+===  Telefon
+
+Angi telefonnummer for kontaktpunktet dersom dette er en ønsket kontaktform
+
+=== Kontaktskjema
+
+Angi referanse til kontaktskjema på web dersom dette er en ønsket kontaktform
