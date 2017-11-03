@@ -189,7 +189,7 @@ Eksempel
 
 |===
 
-=== 4.10 Søkeord
+=== Søkeord
 
 Ord og uttrykk som hjelper brukeren til å finne datasettet inkluderes (der det ikke er eksplisitt angitt referanser til begreper)
 
@@ -209,7 +209,7 @@ Eksempel
 
 |===
 
-=== 4.11 Språk
+=== Språk
 
 For å forstå hvilket språk innholdet til datasettet har angis dette
 
@@ -229,7 +229,7 @@ Eksempel
 
 |===
 
-=== 4.12 Utgivelse
+=== Utgivelse
 
 For å forstå når datasettet er operativt og tilgjengelig angis tidspunkt for utgivelse.
 
@@ -249,7 +249,7 @@ Eksempel
 
 |===
 
-=== 4.13 Modifisert
+===  Modifisert
 
 For å forstå når datasettet sist ble oppdatert angis tidspunkt for siste endring
 
@@ -268,7 +268,7 @@ Eksempel
 
 |===
 
-=== 4.14 Eier av datasettet
+===  Eier av datasettet
 
 Identifisering av den enheten som er ansvarlig for at datasettet _er_ tilgjengelig, ikke den som faktisk gjør datasettet tilgjengelig. Eier er et obligatorisk felt.
 
@@ -288,7 +288,7 @@ Eksempel
 
 |===
 
-=== 4.15 Skaper av datasettet
+===  Skaper av datasettet
 
 Egenskapen angir produsent(er) av datasettet der dette er en annen enn dataeier
 
@@ -307,7 +307,7 @@ Eksempel
 
 |===
 
-=== 4.16 Kontaktpunkt
+===  Kontaktpunkt
 
 Egenskapen kontaktpunkt angis for å komme i dialog med eieren av datasettet.
 
@@ -328,7 +328,7 @@ Eksempel
 
 |===
 
-=== 4.17 Dokumentasjon
+===  Dokumentasjon
 
 Utdypende dokumentasjon av datasettet angis ved å peke på en side der den finnes.
 
@@ -345,7 +345,7 @@ Eksempel
 
 |===
 
-=== 4.18 Landingsside
+===  Landingsside
 
 Dokumentasjon om datasettet på en landingsside hos datasetteieren som kan beskrive datasettets innhold og struktur, og tilgang.
 
@@ -366,7 +366,7 @@ Eksempel
 |===
 
 
-=== 4.19 Tilgangsnivå
+===  Tilgangsnivå
 
 Det er behov for å angi i hvilken grad datasettet kan bli gjort tilgjengelig for allmennheten, uten hensyn til om det er publisert eller ikke
 
@@ -398,7 +398,7 @@ Eksempel
 
 |===
 
-=== 4.20 Skjermingshjemmel
+=== Skjermingshjemmel
 
 Dersom datasettet har begrensninger på deling trenger vi å vite hva skjermingen gjelder. Det kan være hjemmel (kilde for påstand) i offentlighetsloven, sikkerhetsloven, beskyttelsesinstruksen eller annet lovverk som ligger til grunn for vurdering av tilgangsnivå.
 
@@ -416,7 +416,7 @@ Eksempel
 
 |===
 
-=== 4.21 Behandlingsgrunnlag
+=== Behandlingsgrunnlag
 
 Etter personopplysningsloven § 8 og 9 skal det foreligge et grunnlag for behandling av personopplysninger.
 
@@ -430,7 +430,7 @@ Eksempel
 
 |===
 
-=== 4.22 Utleveringshjemmel
+=== Utleveringshjemmel
 
 Informasjon om utleveringshjemmel gjør det enklere for brukere av datasettet å se om det er nødvendig med egen hjemmel for innhenting eller om de kan få tillatelse til å bruke opplysninger etter søknad til dataeier.
 
@@ -442,7 +442,7 @@ Informasjon om utleveringshjemmel gjør det enklere for brukere av datasettet å
 
 |===
 
-=== 4.23 Opphav
+=== Opphav
 
 Det er behov for en sortering om innholdet er basert på avgjørelse truffet under utøvelse av offentlig myndighet (vedtak) eller er kommer fra andre kilder (bruker eller tredjepart). Vedtak anses å være autoritative kilder for hele forvaltningen.
 
@@ -463,7 +463,7 @@ Eksempel
 
 |===
 
-=== 4.24 I samsvar med standard
+=== I samsvar med standard
 
 Det er behov for å vite om et datasett er i henhold til gitt(e) standard(er).
 
@@ -477,7 +477,7 @@ Eksempel
 
 |===
 
-=== 4.25 Informasjonsmodell
+=== Informasjonsmodell
 
 En eksplisitt referanse til informasjonsmodell
 
@@ -489,7 +489,7 @@ Eksempel
 
 |===
 
-=== 4.26 Frekvens
+=== Frekvens
 
 En angivelse hvor ofte datasettet blir oppdatert.
  * *Beskriv hvor ofte datasettet har nytt innhold.* For eksempel oppdateres Enhetsregisteret med nye enheter og sletting av enheter _kontinuerlig, _mens Inntektsdata fra likningen (Skattemelding) er _årlig_ og Folketelling fra 1910 oppdateres _aldri_.
@@ -500,11 +500,11 @@ Eksempel
 
 |===
 
-=== 4.27 Datakvalitet
+=== Datakvalitet
 
 Det er viktig å beskrive kvaliteten på datasettet tydelig, slik at det er enkelt for andre å avgjøre om det kan brukes til deres formål. Beskrivelsen av kvalitet følger DQV-vokabularet. Dimensjonene som skal beskrives er: Nøyaktighet, Kompletthet, Aktualitet, Samsvar, Tilgjengelighet, Relevans
 
-==== 4.27.1 Nøyaktighet
+==== Nøyaktighet
 
 I hvilken grad representerer datasettet korrekt intensjonen som er angitt av dataeier i formålet
 
@@ -548,7 +548,7 @@ Askeladden - Riksantikvarens offisielle database over fredete kulturminner og ku
 |===
 
 
-==== 4.27.2 Kompletthet
+==== Kompletthet
 
 I hvilken grad inneholder datasettet forventede opplysninger
 
@@ -578,7 +578,7 @@ Kontakt og reservasjonsregisteret - formål benyttes til varsling og kan benytte
 |===
 
 
-==== 4.27.3 Aktualitet
+====  Aktualitet
 
 Avvik eller tilleggsopplysninger om “oppdateringsfrekvens” og “sist oppdatert”
  * Er opplysninger om “oppdateringsfrekvens” og “sist oppdatert” alltid gyldig? Er det opplysninger i datasettet som har annen oppdateringsfrekvens?
@@ -590,7 +590,7 @@ Eksempel
 |===
 
 
-==== 4.27.4 Tilgjengelighet
+====  Tilgjengelighet
 
  * Tilgjengelighet tolkes i forhold til tilgangsnivå.
 
@@ -601,7 +601,7 @@ Eksempel
 |===
 
 
-==== 4.27.5 Relevans
+====  Relevans
 
  * autoritivitet – dvs. opphav?  Kan vi si relevans i forhold til gjenbruk
 
@@ -613,12 +613,12 @@ Eksempel
 
 (Relevancy refers to the provision of information which is in accordance with the task at hand and important to the users’ query.)
 
-=== 4.28 Datasettdistribusjon
+===  Datasettdistribusjon
 
 For å angi hvor man kan få tilgang til datasettet skal det angis ulike distribusjoner.
 
 
-=== 4.29 Eksempeldata
+===  Eksempeldata
 
 Benyttes for å gi eksempeldata for et datasett, og hvordan en faktisk distribusjon ser ut.
 
@@ -628,7 +628,7 @@ Normativ definisjon
 
 |===
 
-=== 4.30 Type
+===  Type
 
 Referanse til et begrep som identifiserer datasettets type. Refererer til EU publication office sine datasett typer.
 
@@ -643,9 +643,9 @@ Eksempel
 
 |===
 
-=== 4.31 Relasjoner mellom datasett
+===  Relasjoner mellom datasett
 
-==== 4.31.1 Kilde
+====  Kilde
 
 Peker til en ressurs som er kilde til datasettet
 
@@ -654,23 +654,23 @@ Peker til en ressurs som er kilde til datasettet
  * *Et datasett som er avledet fra et annet *skal ha en referanse til kilde for det aktuelle datasettet.
  * Dersom det er et utvalg fra et annet datasett bør heller relasjonen _del av_ brukes
 
-==== 4.31.2 Testdatasett
+====  Testdatasett
 
 For å angi at et register eller datasett foreligger som testdata, typisk syntetiske eller anonymiserte, angis dette med relasjonen testdatasett til et annet datasett.
 
-==== 4.31.3 Krever
+====  Krever
 
 Peker til en ressurs som må være tilstede for at datasettet skal kunne produseres.
 
  * *Peker til ressurs (datasett eller annet) som aktuelt datasett er avhengig av*
 
-==== 4.31.4 Del av
+====  Del av
 
 Peker til et datasett som det aktuelle datasettet er en delmengde av av, eller at det er brutt opp i mindre datasett.
 
  * *Der registre oppdeles i mindre datasett skal relasjonen brukes.* F.eks. er datasettet Underenheter er del av datasettet Enhetsregisteret.
 
-==== 4.31.5 Versjon av
+====  Versjon av
 
 Peker til et datasett som det aktuelle datasettet er en versjon av.
 
@@ -678,14 +678,14 @@ Peker til et datasett som det aktuelle datasettet er en versjon av.
  * Peker til en versjon av det aktuelle datasettet kan avledes (har versjon).
  * Det kan legges til en versjons kommentar til feltet
 
-==== 4.31.6 Erstattet av
+==== Erstattet av
 
 Peker til et datasett som erstatter et aktuelt datasettet.
 
  * Et kodeverk er fortsatt i bruk, men er erstattet av en nyere utgave.
 
 
-==== 4.31.7 Relatert
+==== Relatert
 
 En generell relasjon som peker til ressurser som er relatert til datasettet.
 
