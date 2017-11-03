@@ -21,12 +21,13 @@ include::utils/download.adoc[]
 
 // Innhold her.
 include::Innledning.adoc[]
-include::Hva_er_et_datasett[]
-include::Datasett[]
-include::Enhet[]
-include::Kontaktpunkt[]
-include::Distribusjon[]
-include::Datakatalog[]
+include::Hva_er_et_datasett.adoc[]
+include::Datasett.adoc[]
+include::Enhet.adoc[]
+include::Kontaktpunkt.adoc[]
+include::Distribusjon.adoc[]
+include::Datakatalog.adoc[]
+include::Referanser.adoc[]
 
 
 
