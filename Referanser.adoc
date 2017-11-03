@@ -1,3 +1,4 @@
+
 == Referanser
 
 DCAT-W3C: https://www.w3.org/TR/vocab-dcat/[Data Catalog Vocabulary (DCAT), Recommendation 16 January 2014] +
