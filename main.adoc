@@ -26,6 +26,7 @@ include::Datasett[]
 include::Enhet[]
 include::Kontaktpunkt[]
 include::Distribusjon[]
+include::Datakatalog[]
 
 
 

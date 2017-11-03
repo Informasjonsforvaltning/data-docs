@@ -1,0 +1,49 @@
+== Datakatalog
+
+=== Hva er en datakatalog?
+
+Datasett fra en virksomhet eller flere virksomheter samles i en datakatalog.
+
+=== Tittel
+
+Kortfattet om katalogen
+
+ * Angi, uten å liste, hvilke datasett den omfatter,
+ * f.eks. datasettene til Brønnøysundregistrene.
+
+=== Beskrivelse av katalog
+
+En kort og presis beskrivelse av datasettet skal gjøre det lett for andre å se hva det inneholder. Beskrivelse er et obligatorisk felt.
+
+=== Datasett
+
+Beskriver datasettene i katalogen. Minst ett datasett er påkrevd.
+
+ * Lenke til alle datasettene
+
+=== Eier av katalog
+
+Identifisering av den enheten som er ansvarlig for katalogen. Eier er et obligatorisk felt.
+
+ * Skal peke på en Enhet (juridisk person, organisasjonsledd, underenhet)
+ * Det offisielle navnet på virksomheten vil hentes fra Enhetsregisteret, men kortform (f.eks. Difi) kan legges inn av brukeren
+
+Eksempel
+|===
+|✓** **+++<u>+++Brønnøysundregistrene+++</u>+++
+
+|===
+
+|===
+|+<>     dct:publisher <http://data.brreg.no/enhetsregisteret/enhet/974760673> .
+# brreg +
+
+|===
+
+=== 8.6 Utgivelsesdato
+
+Dato/tid katalogen først ble publisert.
+
+=== 8.7 Modifisert
+
+Dato/tid sist katalogen ble endret,. Dette kan være endring av en datasettbeskrivelse, eller andre metadata i katalogen.
