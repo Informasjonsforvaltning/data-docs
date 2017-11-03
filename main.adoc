@@ -25,6 +25,7 @@ include::Hva_er_et_datasett[]
 include::Datasett[]
 include::Enhet[]
 include::Kontaktpunkt[]
+include::Distribusjon[]
 
 
 
