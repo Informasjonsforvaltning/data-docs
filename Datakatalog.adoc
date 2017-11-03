@@ -40,10 +40,10 @@ Eksempel
 
 |===
 
-=== 8.6 Utgivelsesdato
+=== Utgivelsesdato
 
 Dato/tid katalogen først ble publisert.
 
-=== 8.7 Modifisert
+=== Modifisert
 
 Dato/tid sist katalogen ble endret,. Dette kan være endring av en datasettbeskrivelse, eller andre metadata i katalogen.

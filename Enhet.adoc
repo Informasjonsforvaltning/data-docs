@@ -1,4 +1,4 @@
-== 5 Enhet
+== Enhet
 
 For å representere en datasetteier bruker man klassen Enhet. Offentlig sektors datasett skal ha organisasjoner som ansvarlige eiere.
 
@@ -11,7 +11,7 @@ Eksempel
 
 |===
 
-=== 5.1 Enhetsnavn
+=== Enhetsnavn
 
 Navnet på enheten trengs for å vise eier og filtrere på denne.
 
@@ -21,7 +21,7 @@ Eksempel
 
 |===
 
-=== 5.2 Organisasjonsnummer
+=== Organisasjonsnummer
 
 Enheter skal oppgis med organisasjonsnummer.
 
@@ -31,6 +31,6 @@ Eksempel
 
 |===
 
-=== 5.3 Utgivertype
+=== Utgivertype
 
 Enheter angis med organisasjonstype for å skille mellom offentlige datasetteiere og private.

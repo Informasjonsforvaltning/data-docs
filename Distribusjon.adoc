@@ -1,3 +1,4 @@
+
 == Distribusjon
 
 En distribusjon er en spesifikk måte å gjøre et datasettet tilgjengelig på. Hvert datasett kan være tilgjengelig på flere måter, for eksempel i ulike format eller fra ulike nettadresser. Eksempel på distribusjoner kan være nedlastbar CSV-fil, et API eller en RSS-strøm.
