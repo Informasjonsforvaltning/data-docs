@@ -80,3 +80,22 @@ Egenskap ved datasettetdistribusjonen som refererer til en nettside som gir tilg
  * kan benyttes for å peke til en samleside om et datasett og dets distribusjoner.
  * bør peke til en side hos den originale tilbyderen av data.
 Dersom distribusjonen av datasettet  kun er tilgjengeleg via ei landingsside (for eksempel når nedlastingsURLen ikke finnes eller  ikke er kjent), skal lenken til landingssiden dupliseres som TilgangsURL på datasettets distribusjon.
+
+=== I samsvar med
+
+Benyttes for å angi et etablert skjema som distribusjonen er i samsvar med, for eksempel et XSD-dokument.
+
+=== Dokumentasjon
+
+Referanse til en side eller et dokument som beskriver og dokumenterer innhold og struktur spesifikk for distribusjonen.
+
+=== Distribusjondato
+
+Dato/tid når distribusjonen (f.eks. api) først ble publisert i tilknytning til et datasett. Når innholdet i datasettene ble gjort tilgjengelige.
+
+=== Modifisert
+
+Dato/tid sist distribusjonen (API-et, filen eller feeden) sist ble endret.
+
+=== Lisens
+Dersom data som tilgjengeliggjøres er beskyttet etter åndsverkloven (herunder databasevern), bør virksomheten si ifra seg sine egne eksklusive økonomiske rettigheter til bruk av datasettet. Dette kan enkelt gjøres ved å bruke åpne standardlisenser som Creative Commons 4.0 eller Norsk lisens for offentlige data (NLOD). Disse standardlisensene sikrer en helhetlig praksis for hvilke rettigheter brukerne har, og fritar samtidig utgiver for juridisk ansvar knyttet til datakvalitet og hva data blir brukt til.
