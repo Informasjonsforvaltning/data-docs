@@ -10,9 +10,8 @@ v0.1
 :toclevels: 3
 :sectanchors:
 :title-logo-image: utils/logo.jpg
+:sectnums:
 :sectnumlevels: 4
-
-// :sectnums:
 
 {description}
 
