@@ -1,7 +1,7 @@
 
 == Datasett
 
-=== Hvordan beskrive et datasett?
+=== Hvordan beskrive et datasett
 
 Denne veilederen beskriver videre hvordan datasett beskrives i henhold til standarden https://doc.difi.no/dcat-ap-no/[DCAT-AP-NO v.1.1]. For å ha med all nødvendig informasjon, er det en del felter som må fylles ut. I det følgende går vi gjennom de enkelte feltene og hvordan disse skal fylles ut.
 
