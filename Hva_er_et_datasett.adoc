@@ -1,6 +1,6 @@
 == Hva er et datasett?
 
-“Et _datasett_ er en samling med data (for eksempel i form av en tabell, liste eller en database)  som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API.”
+“Et _datasett_ er en samling med data (for eksempel i form av en tabell, liste eller en database)  som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API (definert som _en organisert samling av data_).” Se forøvrig ordforklaringene til https://doc.difi.no/dcat-ap-no/#_ord_uttrykk_og_forkortelser[Standard for beskrivelse av datasett og datakataloger] (DCAT-AP-NO).
 
 Veilederen kan også benyttes til å beskrive ustrukturerte samlinger av data, men hovedhensikten og dermed eksemplene i denne veilederen er utelukkende basert på beskrivelser av _strukturerte_ datasett.
 
@@ -24,6 +24,7 @@ Det er naturlig å fokusere på å beskrive datasett som oppfattes å være knyt
  * avhengig av brukerbehov, tilgjengeliggjøring (distribusjon) og formål dele det inn i mindre datasett (subsett)
 
 === Hvor dypt skal man gå i nedbrytingen?
+
 Hvis datasettet ditt er veldig stort og omfattende i den forstand at det omhandler flere ulike tema, kan det være hensiktsmessig å se etter måter å dele det opp på. Slik kan det bli mer håndterbart og enklere å sette seg inn i for brukerne.
 
 Hvis datasettet ditt for eksempel omfatter kjøretøy, dets eiere og registrerte mangler, kan det vært bedre å dele dette opp i tre datasett. Når man deler opp datasett på denne måten bør man bruke relasjoner i DCAT til å angi sammenhengen mellom de ulike datasettene.
