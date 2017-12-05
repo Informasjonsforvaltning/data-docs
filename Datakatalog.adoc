@@ -6,7 +6,6 @@ Datasett fra en virksomhet eller flere virksomheter samles i en datakatalog.
 
 === Tittel
 
-
 .Sammendrag
 
 Kortfattet om katalogen. Angi, uten å liste, hvilke datasett den omfatter.
