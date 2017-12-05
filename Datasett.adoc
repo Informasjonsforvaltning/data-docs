@@ -101,7 +101,6 @@ En setnings-beskrivelse av formålet til datasettet.
 <>  dcatno:objective “Løsøreregisteret er etablert for å tinglyse heftelser (pant) i løsøre, uten tilknytning til fast eiendom”@no .
 ----
 
-NOTE: Formål er et eget felt i registreringsløsingen til Felles datakatalog, men er ikke en egen egenskap i DCAT-AP-NO v. 1.1
 
 === Beskrivelse av datasett
 
@@ -141,12 +140,12 @@ Referanse til en side som inneholder utdypende dokumentasjon om datasettet.
 .Anbefalinger
 Utdypende dokumentasjon av datasettet angis ved å peke på en side der den finnes.
 
-.Eksempel
+.Eksempler
 
 
 * [*] https://confluence.brreg.no/display/DBNPUB/Informasjonsmodell+for+Enhetsregisteret+og+Foretaksregisteret
 ----
-foaf:page
+<> foaf:page
   <https://confluence.brreg.no/display/DBNPUB/Informasjonsmodell+for+Enhetsregisteret+og+Foretaksregisteret> .
 ----
 
@@ -164,11 +163,11 @@ Dokumentasjon om datasettet på en landingsside hos datasetteieren som kan beskr
  * kan referere til en samleside om nedlasting/bruk/søk (tjenestene)
  * det kan refereres til flere sider
 
-.Eksempel
+.Eksempler
 
 * [*] https://confluence.brreg.no/display/DBNPUB/Informasjonsmodell+for+Enhetsregisteret+og+Foretaksregisteret
 ----
-<>  dcat:landingpage
+<> dcat:landingpage
   <https://confluence.brreg.no/display/DBNPUB/Informasjonsmodell+for+Enhetsregisteret+og+Foretaksregisteret>, <https://www.brreg.no/om-oss/samfunnsoppdraget-vart/registera-vare/einingsregisteret/> .
 ----
 
@@ -336,9 +335,9 @@ https://www.difi.no/artikkel/2015/10/begrepsanalyse-og-definisjonsarbeid[https:/
 
 .Eksempler
 
-* [*]  [.underline]#Løsøre#, [.underline]#Pant#, [.underline]#Tingslysing#
+* [*]  [.underline]#Løsøre#, [.underline]#Pant#, [.underline]#Tinglysing#
 ----
-<http://data.brreg.no/datakatalog/datasett/12>
+<> <http://data.brreg.no/datakatalog/datasett/12>
     dct:subject <http://brreg.no/begrepskatalog/begep/løsøre>,
                 <http://brreg.no/begrepskatalog/begep/pant>,
                 <http://brreg.no/begrepskatalog/begep/tingslysning> .
@@ -378,7 +377,7 @@ Det er ønskelig å synliggjøre om datasettets utvalg er begrenset til bestemte
  * Benytt eksisterende avgrensninger som kommuner, fylker m.v.
  * Bør referere til geografiske områder angitt. Med URI-er (f.eks. Sentralt Stedsnavnsregister eller Administrative grenser fra Kartverket)
  * Flere områder kan angis om relevant
- * Dersom det finnes en tilsvarende landsdekkende oversikt, bør dette beskrives som et separat datasett, og disse relateres (se også <<Relasjoner mellom datasett>>.  f.eks. Observert hekking av grågås i Norge
+ * Dersom det finnes en tilsvarende landsdekkende oversikt, bør dette beskrives som et separat datasett, og disse relateres  f.eks. "Observert hekking av grågås i Norge"
 
 .Eksempler
 
@@ -409,7 +408,7 @@ En tidsromangivelse er nødvendig for datasett hvor innholdet dekker et avgrense
  * Angi tidsmessig  avgrensning dersom datasett kun har innhold fra visse perioder. For mange datasett knyttet til registerfunksjoner vil tidsrom være direkte koblet mot oppdateringsfrekvens. For andre datasett vil tidsrom være vesentlig i forhold til forståelse av bruk av dataene, f.eks folketellinger.
  * Dersom det er angitt en periode med årstall, tolkes dette som fra og med 1. januar første år til og med 31. desember siste år.
  * Ved ett årstall på begynnelse, men ikke angitt slutt, tolkes det at datasettet har data også i en ubestemt fremtid og tilsvarende om startdatoen mangler antas det at det er ikke angitt om datasettet har en start.
- * Dersom det finnes en tilsvarende komplett oversikt, bør også dette beskrives som et eget datasett, og disse relateres.  (se også “#heading=h.o7bwqtyb1gp3[4.25]#heading=h.o7bwqtyb1gp3[ Relasjoner mellom datasett]”)
+ * Dersom det finnes en tilsvarende komplett oversikt, bør også dette beskrives som et eget datasett, og disse relateres.
  * Dersom datasettet er en av flere i en tidsserie anbefales det at det lages et overordnet datasett for tidsserien uten distribusjoner som peker på hver datasett.
  * Det benyttes tidsstempel for registreringen av første og siste dataelement i datasettet.
  * Det kan angis flere tidsperioder per datasett, men det anbefales at periodene ikke er overlappende.
@@ -419,7 +418,7 @@ En tidsromangivelse er nødvendig for datasett hvor innholdet dekker et avgrense
 
 * [*] “1901”
 ----
-<http://data.brreg.no/datakatalog/datasett/12>
+<> <http://data.brreg.no/datakatalog/datasett/12>
     dct:temporal  [
         a dct:PeriodOfTime ;
         ot:hasBeginning  [
@@ -450,7 +449,7 @@ For å forstå når datasettet er operativt og tilgjengelig angis tidspunkt for 
 
 * [*] 01.01.2017 00:00
 ----
-<http://data.brreg.no/datakatalog/datasett/12>
+<> <http://data.brreg.no/datakatalog/datasett/12>
      dct:issued “2017-01-01T00:00:00+01:00”^xsd:DateTime .
 ----
 
@@ -472,7 +471,7 @@ For å forstå hvilket språk innholdet til datasettet har angis dette
 * [*] Norsk
 
 ----
-<http://data.brreg.no/datakatalog/datasett/12>
+<> <http://data.brreg.no/datakatalog/datasett/12>
      dct:language <http://publications.europa.eu/resource/authority/language/NOR> .
 ----
 
@@ -531,7 +530,7 @@ For å forstå når datasettet sist ble oppdatert angis tidspunkt for siste endr
 * [*] 01.01.2017 00:00
 
 ----
-<http://data.brreg.no/datakatalog/datasett/12>+
+<> <http://data.brreg.no/datakatalog/datasett/12>+
 ----
 
 === Aktualitet
@@ -901,7 +900,7 @@ Egenskapen kontaktpunkt angis for å komme i dialog med eieren av datasettet.
 * [*] Avdeling Digitalisering
 
 ----
-<http://data.brreg.no/datakatalog/datasett/12>
+<> <http://data.brreg.no/datakatalog/datasett/12>
     dcat:contactPoint <http://data.brreg.no/datakatalog/kontaktpunkt/a-7> .
 ----
 
@@ -912,12 +911,13 @@ For å angi hvor man kan få tilgang til datasettet skal det angis ulike distrib
 
 .Anbefalinger
 For å angi hvor man kan få tilgang til datasettet skal det angis ulike distribusjoner.
+
  * Det angis i utgangspunktet en distribusjon per fil, feed eller API
  * Dersom det er ett API som leverer flere filformater angis det som en distribusjon
 
 .Eksempler
 ----
- <http://brreg.no/catalogs/974760673/datasets/63086dda-9b72-43f0-bbc2-3ced4bc2edd6>
+ <> <http://brreg.no/catalogs/974760673/datasets/63086dda-9b72-43f0-bbc2-3ced4bc2edd6>
     dcat:distribution <http://data.brreg.no/datakatalog/distribusjon/12>
 . # til et beskrivelse av et API
 ----
@@ -934,7 +934,7 @@ Benyttes for å gi eksempeldata for et datasett, og hvordan en faktisk distribus
 .Eksempler
 
 ----
-<http://brreg.no/catalogs/974761076/datasets/e3fc94e4-cc7e-4290-b479-4e0c99dc6caa>
+<> <http://brreg.no/catalogs/974761076/datasets/e3fc94e4-cc7e-4290-b479-4e0c99dc6caa>
     dcat:distribution <http://data.brreg.no/datakatalog/distribusjon/124312>
 . # til et beskrivelse av en eksempel-distribusjon av folkeregisteret
 ----
