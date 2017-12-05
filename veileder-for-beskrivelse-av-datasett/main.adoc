@@ -1,4 +1,4 @@
-include::utils/translation.adoc[]
+include::../shared/translation.adoc[]
 
 = Veileder for beskrivelse av datasett
 Direktoratet for forvaltning og IKT
@@ -15,9 +15,9 @@ v0.1
 
 {description}
 
-include::utils/download.adoc[]
+include::../shared/download.adoc[]
 
-:leveloffset: +1
+// :leveloffset: +1
 
 // Innhold her.
 include::Innledning.adoc[]
@@ -31,4 +31,4 @@ include::Referanser.adoc[]
 
 
 
-include::utils/stats.adoc[]
+include::../shared/stats.adoc[]
