@@ -2,9 +2,10 @@ include::../shared/translation.adoc[]
 
 = Veileder for beskrivelse av datasett
 Direktoratet for forvaltning og IKT
-v0.1
+v1.0
 :description:
 :doctype: book
+:docinfo:
 :icons: font
 :toc: left
 :toclevels: 3
