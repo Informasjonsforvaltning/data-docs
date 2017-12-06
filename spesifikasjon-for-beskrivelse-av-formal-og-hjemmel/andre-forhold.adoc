@@ -1,0 +1,36 @@
+
+== Andre forhold som er vurdert av arbeidsgruppen
+
+=== Innhentingshjemmel
+
+Arbeidsgruppen har vurdert om det bør opprettes et valgfritt felt for registrering av hjemmel for innhenting av opplysningene som datasettet bygger på. Dette kunne gjøres ved en henvisning til lovgrunnlaget.
+
+Foranledningen til diskusjonen var at brukerhistoriene viser at brukerne av felleskatalogen kan ha nytte av kunnskap om hvorvidt dataene i datasettet er innhentet uten medvirkning fra borgeren. Kunnskap om dette ville kunne bidra til å tydeliggjøre opplysningenes opprinnelige kilde, og at dataeier har lov til å hente inn opplysningene direkte fra avgiver uten brukerens samtykke.
+
+Arbeidsgruppen er imidlertid kommet til at brukerbehovet antagelig dekkes implisitt eller eksplisitt av beskrivelsen av datasettet, og at behovet for å få opplysninger om utleveringshjemmel er mer sentralt.
+
+=== Opphav
+
+Arbeidsgruppen har vurdert om datakatalogen bør ha et valgfritt felt som beskriver datasettets opphav.
+
+Bakgrunnen for diskusjonen var at det forelå et behov for å kjenne til hvorvidt datasettet inneholder endelige beslutninger/vedtak for å kunne vurdere mulighetene for datafangst. +
+Dette fordi det ved tjenesteutvikling eller implementering av nye regler ofte er forutsatt at vilkår skal dokumenteres med vedtak fattet av et annet offentlig organ.
+
+Opplysninger som et forvaltningsorgan har benyttet som grunnlag for sine vedtak, vil være kvalitetssikret. Spørsmålet er om data som ligger i datasettet, men som ikke forvaltningsorganet kan gå god for er riktige, bør merkes på en måte slik at vi som brukere av felles datakatalog allerede ved første oppslag kan forstå at datakvaliteten ikke nødvendigvis er god nok til vårt formål?
+
+Dersom datasettets opplysninger skal gjenbrukes for eksempel i forbindelse med en utredning av nye regler eller tjenester, eller vurderes brukt til kontrollformål, vil det være hensiktsmessig å ha kunnskap om hvorvidt dette er sammenstilling av opplysninger som kommer fra borgeren uten dokumentasjon. Datasettet kan for eksempel være en spørreundersøkelse.
+
+Arbeidsgruppen er likevel kommet til at behovet ikke er tilstrekkelig stort til at det er nødvendig med et eget felt i datakatalogen.
+
+.Eksempel:
+Som utreder trenger jeg å vite om informasjonen i datasettet bygger på registereiers *vedtak i medhold av lov* fordi det er forutsatt at det kun er det er+++<u>+++ endelige beslutninger+++</u>+++ vi kan bruke som dokumentasjon på at vilkårene etter utdanningsstøtteloven med forskrifter er tilstede. Dette gjelder f.eks folketrygdloven, folkeregisterloven, utlendingsloven, vergeloven mfl.
+
+.Eksempel:
+Familierelasjoner, slektskap, sivilstand, og folkeregistrert adresse. Lånekassen bruker opplysningene i Folkeregisteret om familierelasjoner, sivilstand, folkeregistrert adresse mv som dokumentasjon på antall barn, forsørgeransvar, bosted osv for vurdering av rett til grunnstipend, rentefritak osv.
+
+.Eksempel:
+Ved behovsprøving av ytelser etter utdanningsstøtteloven vil det være SKD sitt endelig vedtak om beregning av skatt for et kalenderår som skal legges til grunn i saksbehandlingen. Det er derfor viktig for Lånekassen å få informasjon om datasettet inneholder vedtak fra SKD eller om det er den preutfylte skattemedlingen fra SKD til borgeren som ennå ikke er vurdert av SKD  eller innlevert skattemelding fra borgeren som ennå ikke er behandlet SKD.
+
+*3. part:* Preutfylt skattemelding +
+*Brukerinnsamling*: Innlevert skattemelding +
+*Vedtak*: Skatteoppgjør

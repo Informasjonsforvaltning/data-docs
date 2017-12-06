@@ -1,0 +1,6 @@
+
+== Normative referanser
+
+https://doc.difi.no/dcat-ap-no/[Standard for beskrivelse av datasett og datakataloger] (DCAT-AP-NO), v.1.1, 11.10.2016.
+
+https://www.datatilsynet.no/Regelverk/EUs-personvernforordning/hva-betyr/alle-ma-kunne-oppfylle-borgernes-nye-rettigheter/[EUs-personvernforordning]

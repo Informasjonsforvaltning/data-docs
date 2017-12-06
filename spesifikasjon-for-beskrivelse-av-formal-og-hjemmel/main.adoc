@@ -20,6 +20,11 @@ include::../shared/download.adoc[]
 
 // Innhold her.
 include::omfang-og-avgrensning.adoc[]
+include::normative-referanser.adoc[]
+include::begreper-og-definisjoner.adoc[]
+include::anbefaling-fra-arbeidsgruppen.adoc[]
+include::eksempler-pa-utfylling.adoc[]
+include::andre-forhold.adoc[]
 
 
 include::../shared/stats.adoc[]

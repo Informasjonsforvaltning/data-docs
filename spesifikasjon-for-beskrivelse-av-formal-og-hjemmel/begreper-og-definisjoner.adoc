@@ -1,0 +1,16 @@
+
+== Begreper og definisjoner (Terms and definitions)
+
+|===
+|*Begrep*|*Definisjon*|*Henvisning*
+
+|Behandlingsformål|Med behandlingsformål forstås en beskrivelse av hvilken hensikt som skal oppnås med behandling av personopplysninger.  |(https://doc.difi.no/dcat-ap-no/[https://www.datatilsynet.no/Regelverk/EUs-personvernforordning/hva-betyr/alle-ma-kunne-oppfylle-borgernes-nye-rettigheter/])
+|Lovhjemmel|En henvisning til det rettslige grunnlaget for behandlingen av opplysningene, herunder personopplysninger. |
+|Samtykke|En frivillig, uttrykkelig og informert erklæring fra den registrerte om at han eller hun godtar behandling av opplysninger om seg selv.|https://lovdata.no/lov/2000-04-14-31/%C2%A72[Popplyl § 2 nr 7]
+|Nødvendighetsgrunn|Behandling av personopplysninger er nødvendig for de grunner som er definert i personopplysningsloven § 8 bokstav a-f eller § 9 bokstav a-h.|http://publications.europa.eu/mdr/resource/authority/access-right/html/access-right-eng.html[Popplyl § 8 og 9]
+|Personopplysning|Opplysninger og vurderinger som kan knyttes til en enkeltperson|https://lovdata.no/dokument/NL/lov/1957-07-06-26/KAPITTEL_8[Popplyl § 2]
+|Behandling av personopplysninger|Enhver bruk av personopplysninger, som f.eks. innsamling, registrering, sammenstilling, lagring og utlevering eller en kombinasjon av slike bruksmåter.|https://lovdata.no/lov/1970-01-16-1/%C2%A714[Popplyl § 2]
+|Behandlingsgrunnlag|Rettslig grunnlag for behandling av opplysninger,  herunder personopplysninger, som kan være lov eller samtykke eller at behandlingen er nødvendig (nødvendighets grunn).|Ingen definisjon i personopplysningsloven eller GDPR, men følger av
+|Begrensning - betaling|Angir om det er kostnader knyttet til bruk av datasettet|
+|Utleveringshjemmel|Henvisning til regelverk som begrunner en offentlig virksomhet sin rett eller plikt til å utlevere opplysninger til andre private personer eller juridiske personer|
+|===
