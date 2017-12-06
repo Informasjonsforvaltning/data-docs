@@ -56,21 +56,27 @@ En distribusjon kan bli levert på ulike vis
       dct:type <http://data.brreg.no/datakatalog/distribusjonstype/API> .
 ----
 
+[.distribution]
 === Format
 
 .Sammendrag
-
+[.summary]
+--
 Hver distribusjon har format for utveksling. Format er et obligatorisk felt for en distribusjon.
+--
 
 .Anbefalinger
-
+[.recommendation]
+--
 Hver distribusjon har format for utveksling. Format er et obligatorisk felt for en distribusjon.
 
  * Det skal angis mediatype (e.g. application/json) fra (https://www.iana.org/assignments/media-types/media-types.xhtml[https://www.iana.org/assignments/media-types/media-types.xhtml])
  * Det kan angis mediatyper utover denne listen, f.eks. “application/x.sirisosi”
  * Flere formater skal kun brukes når et og samme API eller sluttbrukerapplikasjoner som tilbyr flere formater
+--
 
 .Eksempler
+[.example]
 ----
 <> <http://data.brreg.no/datakatalog/distribution/124>
       dct:format <http://data.brreg.no/datakatalog/media-type/appplication/json> .
