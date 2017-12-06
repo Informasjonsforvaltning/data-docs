@@ -1,0 +1,47 @@
+
+== Omfang og avgrensning
+https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/[Digital agenda] legger til grunn at offentlige virksomheter skal dele og gjenbruke informasjon om forhold som brukeren allerede har opplyst om. Brukernes behov skal settes i sentrum. Tjenestene skal oppleves som helhetlige og sammenhengende. Automatisert saksbehandling innebærer for eksempel at vedtak kan fattes og tjenester tilbys uten at innbyggeren må søke om å få tjenesten.
+
+I digital agenda kapittel 7.3 legges følgende til grunn:
+
+ * “... der hvor en virksomhet har behov for taushetsbelagt informasjon fra en annen virksomhet, må det foreligge hjemmel for enten innhenting eller utlevering av informasjonen. Mangler hjemmel, må virksomheten vurdere om det er mulig å etablere nødvendig hjemmel.”
+
+ * “Muligheten for gjenbruk av personopplysninger er begrenset dersom den nye bruken er uforenlig med det opprinnelige formålet for innhentingen av opplysningene. Dette gjelder ikke dersom det foreligger hjemmel i lov for gjenbruk av opplysningene.”
+
+https://lovdata.no/lov/2006-05-19-16/%C2%A78[Digitaliseringsrundskrivet for 2017] punkt 2.2 legger konkrete føringer til at skal det skal legges til rette for enkel gjenbruk av informasjon som omfattes av bestemmelsen i offentleglova § 7 om viderebruk av offentlig informasjon.
+
+En https://lovdata.no/lov/2006-05-19-16/%C2%A75[felles datakatalog] er nå under etablering. Formålet med “felles datakatalog” er å skape en oversikt over data og begreper, for å understøtte digitalisering og regelverksutvikling, samt øvrig forenkling i offentlig sektor. Dette skal bidra til å realisere “kun én gang” (“once only”).
+
+Felles datakatalog skal bygges opp med sett med metadata som beskriver datasettene, i henhold til https://lovdata.no/NL/lov/2016-05-27-14/%C2%A73-1[den norske profilen av DCAT- standarden (DCAT-AP-NO)]. Dette er metadata om blant annet kvalitet, begreper, hjemmel og formål, distribusjon/API, slik virksomhetene selv beskriver det. Tanken er at den felles datakatalogen automatisk skal samle/høste slike metadata fra virksomhetenes egne oversikter.
+
+=== Oppgave
+
+Arbeidsgruppen “formål og hjemmel” har fått i oppgave å vurdere
+
+ * hvilke metadata som skal beskrive datasettets formål og hjemmel
+ * om det skal være obligatoriske, anbefalte eller valgfrie felter for å kunne fastsette et minimums kriteriesett som beskriver formål og hjemmel
+ * om et metadatafelt for formål og hjemmel skal kunne inneholde fritekstfelt, lenker til der det finnes eller standardiserte kategorier
+ * om behovet for egne beskrivelser/metadatafelter er sannsynliggjort med brukerhistorier
+ * om brukerhistoriene dekker de tre primære bruksområdene av data i offentlig sektor til tjeneste- og regelutvikling, myndighetsutøvelse/etterlevelse, og som informasjonsbase for borgeren.
+
+=== Arbeidsgruppen
+
+Arbeidsgruppen er ledet av Difi ved Pia Virmalainen Jøsendal. Det er etablert en kjernegruppe bestående av Liv Bergliot Simonsen (Statens lånekasse for utdanning), Thomas Rigvår (Skattedirektoratet), Magne U. Sand Bakken (Statens pensjonskasse) og Jon Barstad (Arkivverket).
+
+Følgende har deltatt i denne arbeidsgruppen:
+
+|===
+|*Etat*|*Navn*
+
+|Arbeids- og velferdsdirektoratet (NAV)|Tone Gangnæs
+|Arkivverket|Jon Barstad (kjernegruppe)
+|Brønnøysundregistrene|David Norheim, Elisabeth Lilleholt, Sissel Hartvigsen, Sturla Winther, Svein Erik Grønmo, Terje Bertelsen
+|Difi|Jim J. Yang, Jon Berge Holden, Linn Aungrind, Pia Virmalainen Jøsendal (leder), Øystein Åsnes
+|Kartverket|Magni Busterud
+|Politiet|Arne Dybdahl
+|Skattedirektoratet|Ragnhild Haga (kjernegruppe), Thomas Rigvår (kjernegruppe)
+|Statens lånekasse for utdanning|Gustav Aagesen, Liv Bergliot Simonsen (kjernegruppe)
+|Statens pensjonskasse (SPK)|Magne U. Sand Bakken (kjernegruppe)
+|Statens vegvesen|Cecilie H. Bratt, Hilde Austlid, Morten Løberg
+|Statistisk sentralbyrå (SSB)|Thorleiv Valen
+|===

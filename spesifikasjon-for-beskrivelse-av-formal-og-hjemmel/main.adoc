@@ -1,11 +1,9 @@
 include::../shared/translation.adoc[]
 
-= Veileder for beskrivelse av datasett
-Direktoratet for forvaltning og IKT
+= Spesifikasjon for beskrivelse av formål og hjemmel
 v1.0
 :description:
 :doctype: book
-:docinfo:
 :icons: font
 :toc: left
 :toclevels: 3
@@ -21,15 +19,7 @@ include::../shared/download.adoc[]
 // :leveloffset: +1
 
 // Innhold her.
-include::Innledning.adoc[]
-include::Hva_er_et_datasett.adoc[]
-include::Datasett.adoc[]
-include::Enhet.adoc[]
-include::Kontaktpunkt.adoc[]
-include::Distribusjon.adoc[]
-include::Datakatalog.adoc[]
-include::Referanser.adoc[]
-
+include::omfang-og-avgrensning.adoc[]
 
 
 include::../shared/stats.adoc[]
