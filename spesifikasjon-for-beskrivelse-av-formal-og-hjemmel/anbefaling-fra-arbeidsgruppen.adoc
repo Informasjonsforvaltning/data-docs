@@ -27,7 +27,7 @@ Tabellen under inneholder en sammenstilling av anbefalingene fra arbeidsgruppen.
 
 Arbeidsgruppen mener at formålet med behandlingen av opplysningene i datasettet må komme tydelig frem, fordi dette er vesentlig informasjon for ny bruker av opplysningene. Arbeidsgruppen har i særlig grad vektlagt behandlingen av personopplysninger fordi gjenbruk av borgerens opplysninger er sentralt for anvendelsen av felles datakatalog.  Vi har derfor valgt å kalle det for behandlingsformål. Det er imidlertid ikke en begrensning til kun personopplysninger, da en god beskrivelse av hva opplysningene i datasettet er brukt til også vil være viktig informasjon for å vurdere gjenbruksverdien.
 
-Det foreslås at det ikke innføres et eget felt for formål, men at man bruker feltethttps://lovdata.no/lov/2006-05-19-16/%C2%A713#datasett-beskrivelse[https://lovdata.no/lov/2006-05-19-16/%C2%A713#datasett-beskrivelse[ ]]https://lovdata.no/dokument/NL/lov/1957-07-06-26/KAPITTEL_8#datasett-beskrivelse[“beskrivelse” i DCAT-AP-NO v.1.1]. Feltet må være fritekst og obligatorisk (uendret ift. DCAT-AP-NO v.1.1). Dersom dette feltet fylles ut i henhold til veiledningen om bruk av DCAT fra DIFI vil det gi en god forklaring på hva som var hensikten med behandlingen av opplysningene i datasettet og hva det inneholder.
+Det foreslås at det ikke innføres et eget felt for formål, men at man bruker feltet https://doc.difi.no/dcat-ap-no/#datasett-beskrivelse[“beskrivelse” i DCAT-AP-NO v.1.1]. Feltet må være fritekst og obligatorisk (uendret ift. DCAT-AP-NO v.1.1). Dersom dette feltet fylles ut i henhold til veiledningen om bruk av DCAT fra DIFI vil det gi en god forklaring på hva som var hensikten med behandlingen av opplysningene i datasettet og hva det inneholder.
 
 Vi mener at beskrivelse av datasettet sammen med andre felter i datakatalogen til sammen gir tilstrekkelig informasjon til brukeren av felles datakatalog om hvilket formål avgiverorganet har brukt opplysningene til.
 
@@ -41,7 +41,6 @@ Arbeidsgruppen mener det er behov for informasjon om hva som var det opprinnelig
 
 I DCAT-AP-NO 1.1 er “beskrivelse” omtalt slik:
 
-
 https://doc.difi.no/dcat-ap-no/#datasett-beskrivelse[https://doc.difi.no/dcat-ap-no/#datasett-beskrivelse]
 
 Arbeidsgruppen mener at vokabularet dekker behovet og at det ikke er nødvendig med en utvidelse. Dette forutsetter at det fremkommer tydelig i veilederen at formål må omfattes når datasettet skal beskrives.
@@ -52,9 +51,9 @@ Det har vært diskutert om det bør være to ulike utfyllingsfelt for beskrivels
 
 I Difi sin veileder for beskrivelse av datasett DCAT-AP-NO versjon 1.1 er feltet “beskrivelse” omtalt slik:
 
+* Bilde inn her
 
-
-Innspill til veilederen: +
+.Innspill til veilederen:
 Veilederen er under revidering og arbeidsgruppen anbefaler at tekst gjennomgås for å sikre at det går tydelig frem at behandlingsformål er en del av beskrivelsen. Slik teksten står nå er det kulepunktet “Hensikten med datasettet…” som er rettet mot formålsbeskrivelse.
 
 Som omtalt under feltdefinisjon ovenfor har det vært en diskusjon om det bør være to utfyllingsfelt. Dersom det blir to felt som skal fylles ut, en for beskrivelse og en for formål, men med felles visning er det risiko for at det blir likelydende tekst i disse to feltene. Arbeidsgruppen anbefaler ikke en slik løsning. Dersom denne løsningen likevel blir valgt må kulepunktet _hensikten med datasettet_ omtales i et eget punkt i veilederen knyttet til utfyllingsfelt for behandlingsformål.
@@ -97,7 +96,7 @@ Ved søk i felles datakatalog må vi få en del opplysninger for å bestemme om 
 |Offentlig myndighetsutøvelse|Ja
 |===
 
-*Datasett fra SPK* +
+.Datasett fra SPK
 Alle arbeidsgivere med pensjonsordning i Statens pensjonskasse (SPK) må hver måned rapportere inn opplysninger om alle sine ansatte til SPK. Opplysninger som må gis er bl.a. lønn, stillingsandel, permisjon og tittel. I tillegg til statlige etater og enkelte private virksomheter har også kommunale lærere pensjonsordning i SPK.
 
 Det er bl.a. foreslått nye regler om ettergivelse av studielån for nærmere angitte lærere i Nord-Norge. Spørsmålet er om aktuelle lærere selv må søke om ettergivelse av studielån og dokumentere stillingsforholdet. Alternativt at lærerne får beskjed fra Lånekassen om at de kan søke, men at Lånekassen innhenter nødvendig dokumentasjon. Atter alternativt at Lånekassen ettergir studielånet automatisk. I de to siste tilfellene må arbeidsgiverne rapportere inn stillingsforholdet til Lånekassen. Spørsmålet er om Lånekassen kan gjenbruke de opplysningene arbeidsgiverne alt gir til SPK.
@@ -110,7 +109,8 @@ Ved at datasettet til SPK inneholder en beskrivelse av behandlingsgrunnlaget med
 |Pensjon|Treffe vedtak om tjenestepensjon til i hovedsak statsansatte og (kommunale) lærere|https://lovdata.no/lov/1967-02-10/%C2%A713#%C2%A71[https://lovdata.no/dokument/NL/lov/1949-07-28-26/KAPITTEL_1#§1]|https://doc.difi.no/dcat-ap-no/#%C2%A727[https://lovdata.no/dokument/NL/lov/1957-07-06-26/KAPITTEL_8#§27]|Begrenset|https://lovdata.no/lov/1967-02-10/%C2%A713[https://lovdata.no/lov/1967-02-10/§13]
 |===
 
-*Andre datasett - *Ved søk i felles datakatalog vil vi få treff også på andre datasett som f.eks A-ordningen. Ved god informasjon om formålet med bruk av opplysningene i datasettet, henvisning til behandlingsgrunnlaget i A-opplysningsloven vil vi raskt kunne ta stilling til om vi skal undersøke om dette datasettet er brukbart til vårt behov.
+.Andre datasett
+Ved søk i felles datakatalog vil vi få treff også på andre datasett som f.eks A-ordningen. Ved god informasjon om formålet med bruk av opplysningene i datasettet, henvisning til behandlingsgrunnlaget i A-opplysningsloven vil vi raskt kunne ta stilling til om vi skal undersøke om dette datasettet er brukbart til vårt behov.
 
 ==== Feltdefinisjon
 
@@ -147,7 +147,7 @@ Teksten i veilederen må harmoniseres med ny personopplysningslov og den norske 
 
 Arbeidsgruppen mener det er viktig å ha et felt som gir informasjon om hvorvidt datasettet inneholder opplysninger som er ikke-offentlig (skjermet) og ikke kan utleveres uten at mottaker har et hjemmelsgrunnlag for å motta opplysningene. Om dataene er begrenset eller ikke-offentlig gir viktig informasjon for den som skal vurdere om datasettet er egnet til sitt bruk.
 
-Arbeidsgruppen anbefaler å benyttehttps://lovdata.no/dokument/NL/lov/2016-05-27-14#datasett-tilgangsniva[https://lovdata.no/dokument/NL/lov/2016-05-27-14#datasett-tilgangsniva[ ]]https://lovdata.no/lov/1967-02-10/%C2%A713#datasett-tilgangsniva[feltet “tilgangsnivå” i DCAT-AP-NO v.1.1], som angir hvilket tilgangsnivå datasettet har via en nedtrekksmeny med tre valg, jf. EU-definisjonen.
+Arbeidsgruppen anbefaler å benytte https://lovdata.no/dokument/NL/lov/2016-05-27-14#datasett-tilgangsniva[https://lovdata.no/dokument/NL/lov/2016-05-27-14#datasett-tilgangsniva[ ]]https://lovdata.no/lov/1967-02-10/%C2%A713#datasett-tilgangsniva[feltet “tilgangsnivå” i DCAT-AP-NO v.1.1], som angir hvilket tilgangsnivå datasettet har via en nedtrekksmeny med tre valg, jf. EU-definisjonen.
 
 Se #heading=h.2p2csry[4.5 Beskrivelse av skjermingshjemmel] for arbeidsgruppens forslag til å angi informasjon om betaling.
 
@@ -171,7 +171,7 @@ https://doc.difi.no/dcat-ap-no/#datasett-tilgangsniva[https://doc.difi.no/dcat-a
 
 EU Publication Office har definert de tre verdiene slik:
 
-https://doc.difi.no/dcat-ap-no/[_https://www.google.com/url?q=http://publications.europa.eu/mdr/resource/authority/access-right/html/access-right-eng.html&sa=D&ust=1491495024586000&usg=AFQjCNGXjnreBMmHwvMVG3MhXGruRZsseg]_
+https://doc.difi.no/dcat-ap-no/[http://publications.europa.eu/mdr/resource/authority/access-right/html/access-right-eng.html]_
 
 ==== Vurderinger
 
@@ -250,7 +250,7 @@ Arbeidsgruppens anbefaling er å tydeliggjøre noen punkter i veilederen:
 
 Dersom datasettet inneholder begrenset eller skjermet informasjon, mener arbeidsgruppen det bør være anbefalt at skjermingshjemmel angis med henvisning til hjemmelsgrunnlaget.
 
-Arbeidsgruppen anbefaler å benyttehttps://lovdata.no/forskrift/2007-11-09-1268/%C2%A79-3#datasett-skjermingshjemmel[https://lovdata.no/forskrift/2007-11-09-1268/%C2%A79-3#datasett-skjermingshjemmel[ ]]https://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel[feltet “skjermingshjemmel” i DCAT-AP-NO v.1.1]. Det er besluttet i siste revisjonsrunde for DCAT-AP-NO at det skal utarbeides et SKOS-vokabular (katalog) med aktuelle skjermingshjemler der det kan være en referanser til lovdata.
+Arbeidsgruppen anbefaler å benytte https://lovdata.no/forskrift/2007-11-09-1268/%C2%A79-3#datasett-skjermingshjemmel[feltet “skjermingshjemmel” i DCAT-AP-NO v.1.1]. Det er besluttet i siste revisjonsrunde for DCAT-AP-NO at det skal utarbeides et SKOS-vokabular (katalog) med aktuelle skjermingshjemler der det kan være en referanser til lovdata.
 
 For å dekke behovet for informasjon om betaling anbefales det at det blir et eget alternativ i SKOS-vokabularet (katalogen) for skjermingshjemler, og derfra en lenke til prisinformasjon i den aktuelle loven, jf reglene i https://doc.difi.no/dcat-ap-no/[offl § 8].
 
