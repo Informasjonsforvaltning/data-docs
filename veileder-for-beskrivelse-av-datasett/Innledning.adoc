@@ -1,3 +1,6 @@
+
+NOTE: For normative beskrivelser av feltene som er omtalt i dette dokumentet, se DCAT-AP-NO: https://doc.difi.no/data/dcat-ap-no-stotte-til-teknisk-implementering/[Støtte til teknisk implementering av dcat-ap-no]
+
 == Innledning
 
 === Bakgrunn
