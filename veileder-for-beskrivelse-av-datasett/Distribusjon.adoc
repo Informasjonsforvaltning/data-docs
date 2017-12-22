@@ -70,8 +70,8 @@ Hver distribusjon har format for utveksling. Format er et obligatorisk felt for 
 --
 Hver distribusjon har format for utveksling. Format er et obligatorisk felt for en distribusjon.
 
- * Det skal angis mediatype (e.g. application/json) fra (https://www.iana.org/assignments/media-types/media-types.xhtml[https://www.iana.org/assignments/media-types/media-types.xhtml])
- * Det kan angis mediatyper utover denne listen, f.eks. “application/x.sirisosi”
+ * Det skal angis mediatype (e.g. application/json) fra https://www.iana.org/assignments/media-types/media-types.xhtml[IANAs liste over offisielle medietyper]
+ * Det kan angis mediatyper utover denne listen ved å bruke mønsteret  x.+{filakronym}, f.eks. “application/x.sosi”
  * Flere formater skal kun brukes når et og samme API eller sluttbrukerapplikasjoner som tilbyr flere formater
 --
 
@@ -79,7 +79,7 @@ Hver distribusjon har format for utveksling. Format er et obligatorisk felt for 
 [.example]
 ----
 <> <http://data.brreg.no/datakatalog/distribution/124>
-      dct:format <http://data.brreg.no/datakatalog/media-type/appplication/json> .
+      dct:format "application/json" .
 ----
 
 === Tilgangslenke
