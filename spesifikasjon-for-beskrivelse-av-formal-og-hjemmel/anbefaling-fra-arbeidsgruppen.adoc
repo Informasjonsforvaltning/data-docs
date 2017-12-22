@@ -14,10 +14,10 @@ Tabellen under inneholder en sammenstilling av anbefalingene fra arbeidsgruppen.
 |===
 |*Beskrivelse av ...*|*Løsningsforslag*
 
-|Behandlingsformål|Bruk: https://lovdata.no/forskrift/2016-02-26-205/%C2%A725-1#datasett-beskrivelse[«Beskrivelse» i DCAT-AP-NO 1.1]
+|Behandlingsformål|Bruk: https://doc.difi.no/dcat-ap-no/#datasett-beskrivelse[«Beskrivelse» i DCAT-AP-NO 1.1]
 |Behandlingsgrunnlag|Bruk: to nye felt
 |Tilgangsnivå|Bruk: https://doc.difi.no/dcat-ap-no/#datasett-tilgangsniva[«Tilgangsnivå» i DCAT-AP-NO 1.1]
-|Skjermingshjemmel|Bruk: https://lovdata.no/lov/2006-05-19-16/%C2%A713#datasett-skjermingshjemmel[«Skjermingshjemmel» i DCAT-AP-NO 1.1]
+|Skjermingshjemmel|Bruk: https://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel[«Skjermingshjemmel» i DCAT-AP-NO 1.1]
 |Utleveringshjemmel|Bruk: nytt felt
 |===
 
@@ -27,7 +27,7 @@ Tabellen under inneholder en sammenstilling av anbefalingene fra arbeidsgruppen.
 
 Arbeidsgruppen mener at formålet med behandlingen av opplysningene i datasettet må komme tydelig frem, fordi dette er vesentlig informasjon for ny bruker av opplysningene. Arbeidsgruppen har i særlig grad vektlagt behandlingen av personopplysninger fordi gjenbruk av borgerens opplysninger er sentralt for anvendelsen av felles datakatalog.  Vi har derfor valgt å kalle det for behandlingsformål. Det er imidlertid ikke en begrensning til kun personopplysninger, da en god beskrivelse av hva opplysningene i datasettet er brukt til også vil være viktig informasjon for å vurdere gjenbruksverdien.
 
-Det foreslås at det ikke innføres et eget felt for formål, men at man bruker feltet https://doc.difi.no/dcat-ap-no/#datasett-beskrivelse[“beskrivelse” i DCAT-AP-NO v.1.1]. Feltet må være fritekst og obligatorisk (uendret ift. DCAT-AP-NO v.1.1). Dersom dette feltet fylles ut i henhold til veiledningen om bruk av DCAT fra DIFI vil det gi en god forklaring på hva som var hensikten med behandlingen av opplysningene i datasettet og hva det inneholder.
+Det foreslås at det ikke innføres et eget felt for formål, men at man bruker feltet https://doc.difi.no/dcat-ap-no/#datasett-beskrivelse[beskrivelse] i DCAT-AP-NO v.1.1. Feltet må være fritekst og obligatorisk (uendret ift. DCAT-AP-NO v.1.1). Dersom dette feltet fylles ut i henhold til veiledningen om bruk av DCAT fra Difi vil det gi en god forklaring på hva som var hensikten med behandlingen av opplysningene i datasettet og hva det inneholder.
 
 Vi mener at beskrivelse av datasettet sammen med andre felter i datakatalogen til sammen gir tilstrekkelig informasjon til brukeren av felles datakatalog om hvilket formål avgiverorganet har brukt opplysningene til.
 
@@ -41,8 +41,16 @@ Arbeidsgruppen mener det er behov for informasjon om hva som var det opprinnelig
 
 I DCAT-AP-NO 1.1 er “beskrivelse” omtalt slik:
 
-https://doc.difi.no/dcat-ap-no/#datasett-beskrivelse[https://doc.difi.no/dcat-ap-no/#datasett-beskrivelse]
+.Datasett: beskrivelse
+****
+*URI*: dct:description +
+*Range*: rdfs:Literal +
+*Beskrivelse*: Inneholder fritekstbeskrivelse av datasettet. Kan gjentas for parallelle  språkversjoner +
+*Kardinalitet*: 1..n +
+*Status*: Obligatorisk +
 
+kilde: https://doc.difi.no/dcat-ap-no/#datasett-beskrivelse
+****
 Arbeidsgruppen mener at vokabularet dekker behovet og at det ikke er nødvendig med en utvidelse. Dette forutsetter at det fremkommer tydelig i veilederen at formål må omfattes når datasettet skal beskrives.
 
 Det har vært diskutert om det bør være to ulike utfyllingsfelt for beskrivelse og formål, men at det vises i samme felt i felles datakatalog. Arbeidsgruppen mener dette ikke er nødvendig fordi det i de fleste tilfeller vil være naturlig å forklare hva datasettet er brukt til når det skal beskrives. Vi antar derfor at det vil bli overlappende tekst med samme meningsinnhold, noe som kan virke forvirrende. Vi anbefaler derfor at det skal være ett utfyllingsfelt.
@@ -50,8 +58,6 @@ Det har vært diskutert om det bør være to ulike utfyllingsfelt for beskrivels
 ==== Veileder
 
 I Difi sin veileder for beskrivelse av datasett DCAT-AP-NO versjon 1.1 er feltet “beskrivelse” omtalt slik:
-
-* Bilde inn her
 
 .Innspill til veilederen:
 Veilederen er under revidering og arbeidsgruppen anbefaler at tekst gjennomgås for å sikre at det går tydelig frem at behandlingsformål er en del av beskrivelsen. Slik teksten står nå er det kulepunktet “Hensikten med datasettet…” som er rettet mot formålsbeskrivelse.
@@ -62,20 +68,20 @@ Som omtalt under feltdefinisjon ovenfor har det vært en diskusjon om det bør v
 
 ==== Anbefaling
 
-Ved behandling av personopplysninger: +
+.Ved behandling av personopplysninger:
 Etter personopplysningsloven § 8 og 9 skal det foreligge et grunnlag for behandling av personopplysninger. Arbeidsgruppen anbefaler at det tas i bruk et eget felt for behandlingsgrunnlag med tre valgmuligheter tilsvarende inndelingen i personopplysningsloven. Det er lovhjemmel, samtykke eller nødvendighetsvurdering. Feltet er anbefalt og må fylles ut hvis datasettet inneholder personopplysninger For hver av de tre bør det også knyttes en henvisning til lov. Det bør være mulig å henvise til flere behandlingsgrunnlag fordi et datasett kan inneholde opplysninger som har ulike hjemler for behandlingsgrunnlag. Dette kan for eksempel være lovgrunnlag og samtykke eller nødvendighetsvurdering.
 
 Det anbefales ikke å ha et eget felt for verbal beskrivelse av behandlingsgrunnlaget. Dersom dette er et behov vil det være mulig å omtale dette under feltet “beskrivelse” eller andre steder der det er fritekst. Begrunnelsen er at fritekstfelter ikke er hensiktsmessig fordi det ikke blir maskinlesbart.
 
 ==== Brukerbehovet
 
-Dersom et datasett inneholder personopplysninger skal det være et grunnlag for behandlingen. Å få kunnskap om type behandlingsgrunnlag har stor informasjonsverdi for å vurdere om datasettet er relevant å undersøke nærmere. I tillegg gir det direkte eller indirekte gir informasjon om formålet med behandlingen, hvilken type utøvelse av offentlig myndighet det er og kvaliteten på dataene. At det henvises til lovgrunnlaget for samtykke eller nødvendighetsgrunn har også stor informasjonsverdi for brukeren av felles datakatalog bl.a for vurderingen av eget behov for hjemler for bruk av samme data.
+Dersom et datasett inneholder personopplysninger skal det være et grunnlag for behandlingen. Å få kunnskap om type behandlingsgrunnlag har stor informasjonsverdi for å vurdere om datasettet er relevant å undersøke nærmere. I tillegg gir det direkte eller indirekte informasjon om formålet med behandlingen, hvilken type utøvelse av offentlig myndighet det er og kvaliteten på dataene. At det henvises til lovgrunnlaget for samtykke eller nødvendighetsgrunn har også stor informasjonsverdi for brukeren av felles datakatalog bl.a for vurderingen av eget behov for hjemler for bruk av samme data.
 
 Samtidig vil dette på lengre sikt gi en oversikt over det offentliges behandlingsgrunnlag som videre kan ha verdi ved endring eller utarbeidelse av nytt lovverk.
 
 ==== Eksempler
 
-*Historie 1: Automatisert datafangst - Regelutvikling/tjenesteutvikling*
+.Historie 1: Automatisert datafangst - Regelutvikling/tjenesteutvikling
 
 Regjeringen la frem et forslag i RNB 2017 å utvide utdanningsstøtteordningen med en ny ettergivelsestype der studenter som tar lærerutdanning for trinn 1-7 og jobber som lærer i Nord-Norge etterpå, vil få ettergitt rundt 160 000 kroner. Denne ordningen trer ikke i kraft før om fem år.
 
@@ -106,7 +112,7 @@ Ved at datasettet til SPK inneholder en beskrivelse av behandlingsgrunnlaget med
 |===
 |*Tittel (datasett)*|*Beskrivelse og  behandlings-*|*Behandlings-*|*Utleverings-*|*Tilgangsnivå*|*Skjermings- hjemmel*
 
-|Pensjon|Treffe vedtak om tjenestepensjon til i hovedsak statsansatte og (kommunale) lærere|https://lovdata.no/lov/1967-02-10/%C2%A713#%C2%A71[https://lovdata.no/dokument/NL/lov/1949-07-28-26/KAPITTEL_1#§1]|https://doc.difi.no/dcat-ap-no/#%C2%A727[https://lovdata.no/dokument/NL/lov/1957-07-06-26/KAPITTEL_8#§27]|Begrenset|https://lovdata.no/lov/1967-02-10/%C2%A713[https://lovdata.no/lov/1967-02-10/§13]
+|Pensjon|Treffe vedtak om tjenestepensjon til i hovedsak statsansatte og (kommunale) lærere|https://lovdata.no/dokument/NL/lov/1949-07-28-26/KAPITTEL_1#§1[https://lovdata.no/dokument/NL/lov/1949-07-28-26/KAPITTEL_1#§1]|https://lovdata.no/dokument/NL/lov/1957-07-06-26/KAPITTEL_8#§27[https://lovdata.no/dokument/NL/lov/1957-07-06-26/KAPITTEL_8#§27]|Begrenset|https://lovdata.no/lov/1967-02-10/§13[https://lovdata.no/lov/1967-02-10/§13]
 |===
 
 .Andre datasett
@@ -120,14 +126,13 @@ Arbeidsgruppen foreslår at feltet _behandlingsgrunnlag _omtales slik i vokabula
 
 Grunnlaget for behandling av personopplysninger.
 
-Begrepet er ikke definert i personopplysningsloven eller i GDPR. I omtalen til Datatilsynet om begrepet behandlingsgrunnlag og GDPR brukes beskrivelsen ovenfor.   (https://lovdata.no/forskrift/2008-10-17-1119/%C2%A74[https://www.datatilsynet.no/Regelverk/EUs-personvernforordning/hva-betyr/alle-ma-kunne-oppfylle-borgernes-nye-rettigheter/])
-===
+Begrepet er ikke definert i personopplysningsloven eller i GDPR. I omtalen til Datatilsynet om begrepet behandlingsgrunnlag og GDPR brukes beskrivelsen ovenfor.   (https://www.datatilsynet.no/Regelverk/EUs-personvernforordning/hva-betyr/alle-ma-kunne-oppfylle-borgernes-nye-rettigheter/[https://www.datatilsynet.no/Regelverk/EUs-personvernforordning/hva-betyr/alle-ma-kunne-oppfylle-borgernes-nye-rettigheter/])
 
-Arbeidsgruppen foreslår i utgangspunktet at feltet _behandlingsgrunnlag _skal ha tre verdier som vi foreslår omtales i den norske DCAT. Dersom et datasett har flere behandlingsgrunnlag vil det være behov for mulighet til å fylle ut flere verdier samtidig på et datasett.
+Arbeidsgruppen foreslår i utgangspunktet at feltet _behandlingsgrunnlag_ skal ha tre verdier som vi foreslår omtales i den norske DCAT. Dersom et datasett har flere behandlingsgrunnlag vil det være behov for mulighet til å fylle ut flere verdier samtidig på et datasett.
 
 Forslaget må harmoniseres med definisjoner i ny personopplysningslov og med den norske oversettelsen av personvernforordningen når disse foreligger.
 
-Forslag til verdibeskrivelse:
+.Forslag til verdibeskrivelse:
 
 *Lovgrunnlag:* En henvisning til det rettslige grunnlaget for behandlingen av personopplysninger
 
@@ -147,9 +152,9 @@ Teksten i veilederen må harmoniseres med ny personopplysningslov og den norske 
 
 Arbeidsgruppen mener det er viktig å ha et felt som gir informasjon om hvorvidt datasettet inneholder opplysninger som er ikke-offentlig (skjermet) og ikke kan utleveres uten at mottaker har et hjemmelsgrunnlag for å motta opplysningene. Om dataene er begrenset eller ikke-offentlig gir viktig informasjon for den som skal vurdere om datasettet er egnet til sitt bruk.
 
-Arbeidsgruppen anbefaler å benytte https://lovdata.no/dokument/NL/lov/2016-05-27-14#datasett-tilgangsniva[https://lovdata.no/dokument/NL/lov/2016-05-27-14#datasett-tilgangsniva[ ]]https://lovdata.no/lov/1967-02-10/%C2%A713#datasett-tilgangsniva[feltet “tilgangsnivå” i DCAT-AP-NO v.1.1], som angir hvilket tilgangsnivå datasettet har via en nedtrekksmeny med tre valg, jf. EU-definisjonen.
+Arbeidsgruppen anbefaler å benytte feltet https://doc.difi.no/dcat-ap-no/#datasett-tilgangsniva[datasett: tilgangsnivå] i DCAT-AP-NO v.1.1, som angir hvilket tilgangsnivå datasettet har via en nedtrekksmeny med tre valg, jf. EU-definisjonen.
 
-Se #heading=h.2p2csry[4.5 Beskrivelse av skjermingshjemmel] for arbeidsgruppens forslag til å angi informasjon om betaling.
+Se <<beskrivelse-skjerningshjemmel>> for arbeidsgruppens forslag til å angi informasjon om betaling.
 
 ==== Brukerbehovet
 
@@ -169,30 +174,44 @@ Arbeidsgruppen mener at DCAT-AP-NO 1.1 “tilgangsnivå” vil dekke brukerbehov
 
 https://doc.difi.no/dcat-ap-no/#datasett-tilgangsniva[https://doc.difi.no/dcat-ap-no/#datasett-tilgangsniva]
 
-EU Publication Office har definert de tre verdiene slik:
+EU Publication Office har definert de tre verdiene slik.footnote:[http://publications.europa.eu/mdr/resource/authority/access-right/html/access-right-eng.html]:
 
-https://doc.difi.no/dcat-ap-no/[http://publications.europa.eu/mdr/resource/authority/access-right/html/access-right-eng.html]_
+|===
+|navn |beskrivelse
+
+|non-public
+|Not publicly accessible for privacy, security or other reasons. Usage note: This category may include resources that contain sensitive or personal information.
+
+|public
+|Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys.
+
+|restricted
+|Only available under certain conditions. Usage note: This category may include resources that require payment, resources shared under non-disclosure agreements, resources for which the publisher or owner has not yet decided if they can be publicly released.
+
+|===
+
 
 ==== Vurderinger
 
 Arbeidsgruppa har avgrenset mot retten til partsinnsyn etter forvaltningsloven eller særlover fordi retten til å se opplysningene i egen sak er en annen vurdering enn spørsmålet om andre skal ha rett til å se dataene. Det er ikke det primære bruksområdet for felles datakatalog å dekke behovet for innsyn i opplysningene i egen sak. Felles datakatalog skal gi brukeren en mulighet til å se hvilke opplysninger som blir brukt ved behandlingen, men krav om innsyn i egen sak må håndteres som en del av saksbehandlingen. Et datasett som f.eks er begrenset eller ikke-offentlig vil være tilgjengelige for parten(e) i saken med de begrensningene som følger av lov.
 
-I omtalen nedenfor er fokuset på informasjon om hvilken type tilgang som kan gis til datasettet og ikke spørsmålet om rett til viderebruk. Retten til viderebruk av personopplysninger krever er rettslig grunnlag jf https://lovdata.no/dokument/NL/lov/1949-07-28-26/KAPITTEL_8[popplyl § 8] og https://lovdata.no/lov/1994-06-03-15/%C2%A722[https://lovdata.no/lov/1994-06-03-15/%C2%A722[9]]. Den enkelte virksomhet må selv sikre at de har et rettslig grunnlag jf personopplysningsloven før datautveksling gjennomføres.
+I omtalen nedenfor er fokuset på informasjon om hvilken type tilgang som kan gis til datasettet og ikke spørsmålet om rett til viderebruk. Retten til viderebruk av personopplysninger krever er rettslig grunnlag jf https://lovdata.no/lov/2000-04-14-31/§8[popplyl § 8] og https://lovdata.no/lov/2000-04-14-31/§9[https://lovdata.no/lov/2000-04-14-31/§9[9]]. Den enkelte virksomhet må selv sikre at de har et rettslig grunnlag jf personopplysningsloven før datautveksling gjennomføres.
 
-Arbeidsgruppa har drøftet om de tre verdiene, _offentlig, begrenset eller ikke-offentlig_, dekker brukerbehovene. Brukerbehovet var å få informasjon om skjerming og om det er andre betingelser knyttet til bruken av datasettet. Behovet var også om de tre verdiene er tydelig avgrenset slik at det blir enkelt å forstå hvor datasettet hører hjemme.
+Arbeidsgruppa har drøftet om de tre verdiene, _offentlig_, _begrenset_ eller _ikke-offentlig_, dekker brukerbehovene. Brukerbehovet var å få informasjon om skjerming og om det er andre betingelser knyttet til bruken av datasettet. Behovet var også om de tre verdiene er tydelig avgrenset slik at det blir enkelt å forstå hvor datasettet hører hjemme.
 
-Overordnet skisse
+==== Overordnet skisse
 
 
 Nedenfor er det gjort et forsøk på å omtale hva som faller innenfor de ulike verdiene i feltet tilgangsnivå:
 
-+++<u>+++Offentlig:+++</u>+++ I denne kategorien faller datasett som kan gjøres tilgjengelig for alle og enhver. Dette er datasett som inneholder opplysninger som faller inn under offentleglovas hovedregel og ingen unntakshjemler kommer til anvendelse (http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/[offl. § 3]).
+.Offentlig
+I denne kategorien faller datasett som kan gjøres tilgjengelig for alle og enhver. Dette er datasett som inneholder opplysninger som faller inn under offentleglovas hovedregel og ingen unntakshjemler kommer til anvendelse (https://lovdata.no/lov/2006-05-19-16/§3[offl. § 3]).
 
-Dette vil også omfatte datasett med opplysninger fra virksomheter som faller utenfor https://lovdata.no/lov/2000-04-14-31/%C2%A72[offenleglovas virkeområde] under forutsetning at det ikke følger av annen lov eller avtale at opplysningene skal underlegges begrensninger for gjenbruk, taushetsrett eller plikt.
+Dette vil også omfatte datasett med opplysninger fra virksomheter som faller utenfor https://lovdata.no/lov/2006-05-19-16/§2[offenleglovas virkeområde] under forutsetning at det ikke følger av annen lov eller avtale at opplysningene skal underlegges begrensninger for gjenbruk, taushetsrett eller plikt.
 
 Kategorien omfatter datasett der det stilles vilkår som er like for alle og ikke oppleves som særlig tyngende. Dette vil f.eks være krav om brukerregistrering/API-nøkler som er gratis.
 
-Det kan også være krav etter åndsverksloven for viderebruk f.eks krav om kildehenvisning https://lovdata.no/lov/2000-04-14-31/%C2%A78[åvl § 3] som ikke er å anse som særlig tyngende og som er likt for alle.
+Det kan også være krav etter åndsverksloven for viderebruk f.eks krav om kildehenvisning https://lovdata.no/lov/1961-05-12-2/§3[åvl § 3] som ikke er å anse som særlig tyngende og som er likt for alle.
 
 Alle åpne data faller inn under denne kategorien.
 
@@ -202,38 +221,44 @@ Innholdsmessig er forslaget i samsvar med definisjonen i EU sitt rammeverk.
 
 “EU Publication Office: Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys.”
 
-+++<u>+++Begrenset:+++</u>+++ Datasettet kan gjøres tilgjengelig for alle og enhver på visse vilkår.
+.Begrenset
+Datasettet kan gjøres tilgjengelig for alle og enhver på visse vilkår.
 
 Kategorien kan omfatte datasett som
+
  * opplysningene er offentlige jf offl § 3, men det er knyttet andre begrensninger til bruken som vurderes å være særlig tyngende f.eks
- ** kun er tilgjengelig mot betaling for innsyn, https://lovdata.no/lov/1967-02-10/%C2%A713a[offentlegforskrifta § 4]
- ** er omfattet av opphavsrett og krav til vederlag før bruk https://lovdata.no/lov/1961-05-12-2/%C2%A735[åvl § 35]
+ ** kun er tilgjengelig mot betaling for innsyn, https://lovdata.no/forskrift/2008-10-17-1119/§4[offentlegforskrifta § 4]
+ ** er omfattet av opphavsrett og krav til vederlag før bruk https://lovdata.no/lov/1961-05-12-2/§35[åvl § 35]
  * er omfattet av lovbestemt taushetsrett og krever søknad og/eller konkret vurdering.
  ** lovhjemmel for utlevering av opplysningene etter en konkret vurdering. Dette er for eksempel folkeregisterloven der SKD kan vurdere utlevering av opplysningene på visse vilkår. Dersom det foreligger en slik utleveringshjemmel skal det henvises til bestemmelsen med link til lovdata.
  * er omfattet av sivilrettslige avtaler som har klausuler som begrenser offentliggjøring/gjenbruk ved å stille krav om godkjenning/samtykke, betaling osv.
- * ikke er vurdert med tanke på tilgangsnivå ennå https://lovdata.no/lov/2006-05-19-16/%C2%A73[offl § 5]
+ * ikke er vurdert med tanke på tilgangsnivå ennå https://lovdata.no/lov/2006-05-19-16/§5[offl § 5]
 
 Innholdsmessig er forslaget i samsvar med definisjonen i EU sitt rammeverk.
 
 “EU Publication Office: Only available under certain conditions. Usage note: This category may include resources that require payment, resources shared under non-disclosure agreements, resources for which the publisher or owner has not yet decided if they can be publicly released.”
 
-+++<u>+++Ikke-offentlig (skjermet) (non-public)+++</u>+++: Datasettet kan ikke gjøres tilgjengelig for alle og enhver fordi det er unntatt offentlighet på grunn av lovbestemt taushetsplikt jfhttps://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2522147/[ offl § 13].  +
-Taushetsplikten vil typisk dekke personlige forhold (herunder hemmelig adresse og de fleste sensitive personopplysninger) og forretningshemmeligheter, jf. fvl § 13. Videre kan opplysningene i datasettet ikke gjøres tilgjengelig fordi det omfattes av reglene i https://doc.difi.no/dcat-ap-no/[offl kapittel 3] for unntak fra innsynsretten.
+.Ikke-offentlig (non-public)
+Datasettet kan ikke gjøres tilgjengelig for alle og enhver fordi det er unntatt offentlighet på grunn av lovbestemt taushetsplikt jfhttps://lovdata.no/lov/2006-05-19-16/§13[ offl § 13].  +
+Taushetsplikten vil typisk dekke personlige forhold (herunder hemmelig adresse og de fleste sensitive personopplysninger) og forretningshemmeligheter, jf. fvl § 13. Videre kan opplysningene i datasettet ikke gjøres tilgjengelig fordi det omfattes av reglene i https://lovdata.no/lov/2006-05-19-16/§5[offl kapittel 3] for unntak fra innsynsretten.
 
 Innholdsmessig er forslaget i samsvar med definisjonen i EU sitt rammeverk.
 
 “EU Publication Office: Not publicly accessible for privacy, security or other reasons. Usage note: This category may include resources that contain sensitive or personal information.”
 
-Vi gjør oppmerksom på at datasett som omfattes av kategorien ikke-offentlig på grunn av taushetsplikt kan utveksles dersom det faller inn under et av unntakene fra taushetsplikten i https://lovdata.no/dokument/NL/lov/2016-05-27-14[forvaltningsloven §§ 13 a-f]. Denne konkrete vurderingen vil gjelde for alle datasett og er av en litt annen type enn de datasettene som omfattes av lovbestemt taushetsrett som er omtalt i kategorien begrenset. Vi mener det derfor vil være mest hensiktsmessig å legge datasett som i utgangspunktet omfattes av taushetsplikten under kategorien ikke-offentlig, men at det i bestemte situasjoner kan gjøres unntak jf fvl §§ 13 a-f.
+Vi gjør oppmerksom på at datasett som omfattes av kategorien ikke-offentlig på grunn av taushetsplikt kan utveksles dersom det faller inn under et av unntakene fra taushetsplikten i https://lovdata.no/lov/1967-02-10/§13a[forvaltningsloven §§ 13 a-f]. Denne konkrete vurderingen vil gjelde for alle datasett og er av en litt annen type enn de datasettene som omfattes av lovbestemt taushetsrett som er omtalt i kategorien begrenset. Vi mener det derfor vil være mest hensiktsmessig å legge datasett som i utgangspunktet omfattes av taushetsplikten under kategorien ikke-offentlig, men at det i bestemte situasjoner kan gjøres unntak jf fvl §§ 13 a-f.
 
-*Hva hvis et datasett inneholder opplysninger som naturlig faller i flere av kategoriene? * +
-Dersom datasettet inneholder både taushetsbelagt informasjon (ikke-offentlig) og det kreves f.eks lisens eller betaling for bruk (transaksjonskostnader) er det et behov for å kunne krysse av på både begrenset og ikke-offentlig. I dag er de tre kategoriene/verdiene alternativer, dvs at det bare kan krysses av for en verdi og ikke kombineres. En tilpasning kan gjøres på ulike måter. Ett forslag er å ha som prinsipp at verdien ikke-offentlig må velges dersom datasettet inneholder skjermede opplysninger og at det etableres et nytt eget felt for krav om betaling knyttet til bruk av datasettet. Et annet forslag er å åpne opp for avkrysning av både begrenset og et av de andre to andre kategoriene.  Begge forslagene fører til et behov for tilpasninger i den norske DCAT-standarden. Så vidt vi forstår vil dette ikke være en løsning fordi det vil være i strid med retningslinjene for bruk av DCAT å krysse av for flere av alternativene. Det er tatt til orde for at dersom det er behov for å krysse av for flere alternativer kan det tyde på at datasettet bør deles opp. Arbeidsgruppen tror at det i praksis vil være situasjoner der det både er taushetsbelagte opplysninger og begrensninger som bør komme frem på en eller annen måte samtidig som det ikke er naturlig eller hensiktsmessig å dele opp datasettet. En mulig løsning vil kunne være å krysse av for en av alternativene og dekke behovet for informasjon om krav til betaling under skjermingshjemmel.
+.Hva hvis et datasett inneholder opplysninger som naturlig faller i flere av kategoriene?
+
+Dersom datasettet inneholder både taushetsbelagt informasjon (ikke-offentlig) og det kreves f.eks lisens eller betaling for bruk (transaksjonskostnader) er det et behov for å kunne krysse av på både begrenset og ikke-offentlig. I dag er de tre kategoriene/verdiene alternativer, dvs at det bare kan krysses av for en verdi og ikke kombineres. En tilpasning kan gjøres på ulike måter. Ett forslag er å ha som prinsipp at verdien ikke-offentlig må velges dersom datasettet inneholder skjermede opplysninger og at det etableres et nytt eget felt for krav om betaling knyttet til bruk av datasettet. Et annet forslag er å åpne opp for avkrysning av både begrenset og et av de andre to andre kategoriene.
+
+Begge forslagene fører til et behov for tilpasninger i den norske DCAT-standarden. Så vidt vi forstår vil dette ikke være en løsning fordi det vil være i strid med retningslinjene for bruk av DCAT å krysse av for flere av alternativene. Det er tatt til orde for at dersom det er behov for å krysse av for flere alternativer kan det tyde på at datasettet bør deles opp. Arbeidsgruppen tror at det i praksis vil være situasjoner der det både er taushetsbelagte opplysninger og begrensninger som bør komme frem på en eller annen måte samtidig som det ikke er naturlig eller hensiktsmessig å dele opp datasettet. En mulig løsning vil kunne være å krysse av for en av alternativene og dekke behovet for informasjon om krav til betaling under skjermingshjemmel.
 
 Arbeidsgruppen anbefaler at de tre verdiene er alternativer som i dag, men at behovet for informasjon om begrensninger løses under skjermingshjemmel, se nedenfor.
 
 ==== Veileder
 
-I Difi sin veileder for beskrivelse av datasett i henhold til DCAT-AP-NO er under revidering så det har liten verdi å gjengi nåværende veiledningstekst.
+Difi sin veileder for beskrivelse av datasett i henhold til DCAT-AP-NO er under revidering så det har liten verdi å gjengi nåværende veiledningstekst.
 
 Arbeidsgruppens anbefaling er å tydeliggjøre noen punkter i veilederen:
 
@@ -241,18 +266,18 @@ Arbeidsgruppens anbefaling er å tydeliggjøre noen punkter i veilederen:
 
  * veilederen oppdateres i samsvar med beslutningen om nytt felt for betalingsvilkår
 
- * det må også presiseres at dersom datasettet inneholder noen opplysninger som er taushetsbelagte eller skjermet må verdien ikke-offentlig (skjermet) velges. Kategoriseringen skal gjenspeile det mest begrensede feltet/opplysningen i datasettet. Varianter (utsnitt) av datasettet kan være åpnere ved at man utelater opplysninger som gjør at det opprinnelige datasettet er begrenset eller ikke-offentlig se eksempel på#heading=h.37m2jsg[ to datasett fra Brønnøysundregisteret med og uten fødsels- og D-nummer.]
+ * det må også presiseres at dersom datasettet inneholder noen opplysninger som er taushetsbelagte eller skjermet må verdien ikke-offentlig (skjermet) velges. Kategoriseringen skal gjenspeile det mest begrensede feltet/opplysningen i datasettet. Varianter (utsnitt) av datasettet kan være åpnere ved at man utelater opplysninger som gjør at det opprinnelige datasettet er begrenset eller ikke-offentlig se eksempel på#heading=h.oq9cvdbasqzo[ to datasett fra Brønnøysundregisteret med og uten fødsels- og D-nummer.]
  * ved bruk av verdien "ikke-offentlig" er egenskapen skjermingshjemmel obligatorisk.
 
-=== Beskrivelse av skjermingshjemmel
+=== Beskrivelse av skjermingshjemmel [[beskrivelse-skjermingshjemmel]]
 
 ==== Anbefaling
 
 Dersom datasettet inneholder begrenset eller skjermet informasjon, mener arbeidsgruppen det bør være anbefalt at skjermingshjemmel angis med henvisning til hjemmelsgrunnlaget.
 
-Arbeidsgruppen anbefaler å benytte https://lovdata.no/forskrift/2007-11-09-1268/%C2%A79-3#datasett-skjermingshjemmel[feltet “skjermingshjemmel” i DCAT-AP-NO v.1.1]. Det er besluttet i siste revisjonsrunde for DCAT-AP-NO at det skal utarbeides et SKOS-vokabular (katalog) med aktuelle skjermingshjemler der det kan være en referanser til lovdata.
+Arbeidsgruppen anbefaler å benyttehttps://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel[https://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel[ ]]https://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel[feltet “skjermingshjemmel” i DCAT-AP-NO v.1.1]. Det er besluttet i siste revisjonsrunde for DCAT-AP-NO at det skal utarbeides et SKOS-vokabular (katalog) med aktuelle skjermingshjemler der det kan være en referanser til lovdata.
 
-For å dekke behovet for informasjon om betaling anbefales det at det blir et eget alternativ i SKOS-vokabularet (katalogen) for skjermingshjemler, og derfra en lenke til prisinformasjon i den aktuelle loven, jf reglene i https://doc.difi.no/dcat-ap-no/[offl § 8].
+For å dekke behovet for informasjon om betaling anbefales det at det blir et eget alternativ i SKOS-vokabularet (katalogen) for skjermingshjemler, og derfra en lenke til prisinformasjon i den aktuelle loven, jf reglene i https://lovdata.no/lov/2006-05-19-16/§8[offl § 8].
 
 For å dekke behov for å kunne oppgi skjermingshjemler som ikke står i ovennevnte skos-vokabularet (katalogen), anbefaler arbeidsgruppen å opprette et nytt valgfritt felt der man kan oppgi lenke (URI) til aktuell lov.
 
@@ -274,7 +299,7 @@ I rollen som etterforsker i politiet av en potensiell straffesak trenger jeg det
 
 I DCAT-AP-NO 1.1 er “skjermingshjemmel” omtalt slik:
 
-https://lovdata.no/dokument/NL/lov/1949-07-28-26/KAPITTEL_1#datasett-skjermingshjemmel[https://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel]
+https://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel[https://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel]
 
 I tillegg, et nytt felt: valgfritt med URI til lovdata.
 
@@ -282,9 +307,9 @@ I tillegg, et nytt felt: valgfritt med URI til lovdata.
 
 I Difi sin veileder for beskrivelse av datasett (DCAT-AP-NO) er begrensninger i tilgangsrettigheter omtalt slik:
 
-https://docs.google.com/document/d/1_4ictssi_nezkqoIPJBgo76d24_6jQab88aN9h5E-Pk/edit#heading=h.li1t9hkiw9w2[https://docs.google.com/document/d/1_4ictssi_nezkqoIPJBgo76d24_6jQab88aN9h5E-Pk/edit#heading=h.li1t9hkiw9w2]
+WARNING:  https://docs.google.com/document/d/1_4ictssi_nezkqoIPJBgo76d24_6jQab88aN9h5E-Pk/edit#heading=h.li1t9hkiw9w2[https://docs.google.com/document/d/1_4ictssi_nezkqoIPJBgo76d24_6jQab88aN9h5E-Pk/edit#heading=h.li1t9hkiw9w2]
 
-Innspill til veileder:
+.Innspill til veileder:
 
 Arbeidsgruppen anbefaler at teksten i veilederen omskrives slik at den gjenspeiler definisjonen av ikke-offentlig i DCAT. Vi mener det er uheldig å bruke overskriften sensitivt innhold fordi dette raskt tolkes til å være sensitive personopplysninger. Det anbefales at man benytter ikke-offentlig eller skjermet som overskrift og tydeliggjør i teksten at dette vil omfatte taushetsbelagte opplysninger som også kan være sensitive personopplysninger osv.
 
@@ -300,7 +325,7 @@ Brukerhistoriene viser at informasjon om utleveringshjemmel gjør det enklere fo
 
 ==== Eksempel - myndighetsutøvelse/etterlevelse og kontrollformål
 
-Lånekassen har behandlingsgrunnlag, men ikke hjemmel til datafangst direkte fra SKD i innhentingsforskriften til utdanningsstøtteloven for enkelte av opplysningene i folkeregisteret som brukes til kontroller. Lånekassen har søkt Folkeregisteret om utlevering av personopplysningene og fått innvilget utlevering av opplysningene jf vedtak fra Folkeregisteret om utlevering etter http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/[folkeregisterloven § 14] jf. https://lovdata.no/dokument/NL/lov/1949-07-28-26/KAPITTEL_1[forskriften § 9-3]. NB - Dette eksempelet vil bortfalle om noe tid fordi folkeregisterloven endres slik at alle etater må etablere egne regler i særlov/forskrifter for å kunne innhente opplysninger fra folkeregisteret.
+Lånekassen har behandlingsgrunnlag, men ikke hjemmel til datafangst direkte fra SKD i innhentingsforskriften til utdanningsstøtteloven for enkelte av opplysningene i folkeregisteret som brukes til kontroller. Lånekassen har søkt Folkeregisteret om utlevering av personopplysningene og fått innvilget utlevering av opplysningene jf vedtak fra Folkeregisteret om utlevering etter https://lovdata.no/lov/1970-01-16-1/§14[folkeregisterloven § 14] jf. https://lovdata.no/forskrift/2007-11-09-1268/§9-3[forskriften § 9-3]. NB - Dette eksempelet vil bortfalle om noe tid fordi folkeregisterloven endres slik at alle etater må etablere egne regler i særlov/forskrifter for å kunne innhente opplysninger fra folkeregisteret.
 
 Kartverket trenger i rollen som forvalter av matrikkelen å vite det juridiske grunnlaget for om vi kan hente inn personadresser fra folkeregisteret for videreformidling og til bruk av matrikkeldata.
 
@@ -308,8 +333,9 @@ Kartverket trenger i rollen som forvalter av matrikkelen å vite det juridiske g
 
 Det vil være behov for et tillegg i den norske versjonen av DCAT-AP-NO.
 
-+++<u>+++Forslag til definisjon +++</u>+++ +
+.Forslag til definisjon
 Henvisning til regelverk som begrunner en offentlig virksomhet sin rett eller plikt til å utlevere opplysninger til andre private personer eller juridiske personer.
+
 
 ==== Veileder
 
@@ -319,7 +345,7 @@ Feltet må få en forklarende tekst i veilederen slik at feltet fylles ut på en
 
 Gruppen foreslår at i den grad det skal gis henvisninger til regelverk i datakatalogen, bør de så langt det er mulig uttrykkes på en standardisert måte (formalisert). Under er noen forslag til hvordan dette kan løses:
 
- * bruke kortlenker i Lovdata på forskjellige nivåer (dette finner en ved å trykke på “dele ikonet” i bestemmelsen og kopiere “kort lenken” som vises.) Her må det vurderes å bruke ELI, for å sikre best mulig samhandlingsevne på tvers av landegrenser, https://lovdata.no/lov/1994-06-03-15/%C2%A722[https://lovdata.no/eli/norsk]
+ * bruke kortlenker i Lovdata på forskjellige nivåer (dette finner en ved å trykke på “dele ikonet” i bestemmelsen og kopiere “kort lenken” som vises.) Her må det vurderes å bruke ELI, for å sikre best mulig samhandlingsevne på tvers av landegrenser, https://lovdata.no/eli/norsk[https://lovdata.no/eli/norsk]
  * direkte API mot Lovdata slik at en kan legge inn henvisning direkte i datakatalogens GUI.
  * bruke ferdige lister (SKOS-vokabular) med lenker til Lovdata som utarbeides i felles datakatalog
 
