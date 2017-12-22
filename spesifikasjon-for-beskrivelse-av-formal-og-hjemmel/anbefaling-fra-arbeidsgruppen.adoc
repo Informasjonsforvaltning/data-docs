@@ -154,7 +154,7 @@ Arbeidsgruppen mener det er viktig å ha et felt som gir informasjon om hvorvidt
 
 Arbeidsgruppen anbefaler å benytte feltet https://doc.difi.no/dcat-ap-no/#datasett-tilgangsniva[datasett: tilgangsnivå] i DCAT-AP-NO v.1.1, som angir hvilket tilgangsnivå datasettet har via en nedtrekksmeny med tre valg, jf. EU-definisjonen.
 
-Se <<beskrivelse-skjerningshjemmel>> for arbeidsgruppens forslag til å angi informasjon om betaling.
+Se <<beskrivelse-skjermingshjemmel>> for arbeidsgruppens forslag til å angi informasjon om betaling.
 
 ==== Brukerbehovet
 
@@ -275,7 +275,7 @@ Arbeidsgruppens anbefaling er å tydeliggjøre noen punkter i veilederen:
 
 Dersom datasettet inneholder begrenset eller skjermet informasjon, mener arbeidsgruppen det bør være anbefalt at skjermingshjemmel angis med henvisning til hjemmelsgrunnlaget.
 
-Arbeidsgruppen anbefaler å benyttehttps://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel[https://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel[ ]]https://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel[feltet “skjermingshjemmel” i DCAT-AP-NO v.1.1]. Det er besluttet i siste revisjonsrunde for DCAT-AP-NO at det skal utarbeides et SKOS-vokabular (katalog) med aktuelle skjermingshjemler der det kan være en referanser til lovdata.
+Arbeidsgruppen anbefaler å benytte https://doc.difi.no/dcat-ap-no/#datasett-skjermingshjemmel[feltet “skjermingshjemmel” i DCAT-AP-NO v.1.1]. Det er besluttet i siste revisjonsrunde for DCAT-AP-NO at det skal utarbeides et SKOS-vokabular (katalog) med aktuelle skjermingshjemler der det kan være en referanser til lovdata.
 
 For å dekke behovet for informasjon om betaling anbefales det at det blir et eget alternativ i SKOS-vokabularet (katalogen) for skjermingshjemler, og derfra en lenke til prisinformasjon i den aktuelle loven, jf reglene i https://lovdata.no/lov/2006-05-19-16/§8[offl § 8].
 
@@ -307,11 +307,12 @@ I tillegg, et nytt felt: valgfritt med URI til lovdata.
 
 I Difi sin veileder for beskrivelse av datasett (DCAT-AP-NO) er begrensninger i tilgangsrettigheter omtalt slik:
 
-WARNING:  https://docs.google.com/document/d/1_4ictssi_nezkqoIPJBgo76d24_6jQab88aN9h5E-Pk/edit#heading=h.li1t9hkiw9w2[https://docs.google.com/document/d/1_4ictssi_nezkqoIPJBgo76d24_6jQab88aN9h5E-Pk/edit#heading=h.li1t9hkiw9w2]
+WARNING: Denne peker til eit avsnitt som ikke lenger eksisterer (?)
+//https://docs.google.com/document/d/1_4ictssi_nezkqoIPJBgo76d24_6jQab88aN9h5E-Pk/edit#heading=h.li1t9hkiw9w2[https://docs.google.com/document/d/1_4ictssi_nezkqoIPJBgo76d24_6jQab88aN9h5E-Pk/edit#heading=h.li1t9hkiw9w2]
 
 .Innspill til veileder:
 
-Arbeidsgruppen anbefaler at teksten i veilederen omskrives slik at den gjenspeiler definisjonen av ikke-offentlig i DCAT. Vi mener det er uheldig å bruke overskriften sensitivt innhold fordi dette raskt tolkes til å være sensitive personopplysninger. Det anbefales at man benytter ikke-offentlig eller skjermet som overskrift og tydeliggjør i teksten at dette vil omfatte taushetsbelagte opplysninger som også kan være sensitive personopplysninger osv.
+Arbeidsgruppen anbefaler at teksten i veilederen omskrives slik at den gjenspeiler definisjonen av _ikke-offentlig_ i DCAT. Vi mener det er uheldig å bruke overskriften sensitivt innhold fordi dette raskt tolkes til å være sensitive personopplysninger. Det anbefales at man benytter _ikke-offentlig_ eller _skjermet_ som overskrift og tydeliggjør i teksten at dette vil omfatte taushetsbelagte opplysninger som også kan være sensitive personopplysninger osv.
 
 === Beskrivelse av utleveringshjemmel
 

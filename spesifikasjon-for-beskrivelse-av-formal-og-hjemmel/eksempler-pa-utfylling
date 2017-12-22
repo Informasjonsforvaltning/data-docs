@@ -1,5 +1,5 @@
 
-== Eksempler på utfylling av foreslåtte felter
+==  Eksempler på utfylling av foreslåtte felter
 
 === Lånekassen
 
@@ -7,7 +7,7 @@
 |===
 |*Tittel (datasett)*|*Beskrivelse og  behandlings-*|*Behandlings-*|*Utleverings-*|*Tilgangsnivå*|*Skjermings-*
 
-|Utdanningsstøtte til elever og studenter i høyere utdanning i Norge 2016-17|Vedtak om tildeling av lån og stipend til elever og studenter i høyere utdanning i Norge i undervisningsåret 2016-17|https://lovdata.no/lov/2006-05-19-16/%C2%A713[https://lovdata.no/forskrift/2016-02-26-205/§25-1]||ikke-offentlig|https://lovdata.no/lov/1967-02-10/%C2%A713[https://lovdata.no/lov/1967-02-10/§13]
+|Utdanningsstøtte til elever og studenter i høyere utdanning i Norge 2016-17|Vedtak om tildeling av lån og stipend til elever og studenter i høyere utdanning i Norge i undervisningsåret 2016-17|https://lovdata.no/forskrift/2016-02-26-205/§25-1[https://lovdata.no/forskrift/2016-02-26-205/§25-1]||ikke-offentlig|https://lovdata.no/lov/1967-02-10/§13[https://lovdata.no/lov/1967-02-10/§13]
 |===
 
 === Statens pensjonskasse (SPK)
@@ -16,9 +16,9 @@
 |===
 |*Tittel (datasett)*|*Beskrivelse og  behandlings-*|*Behandlings-*|*Utleverings-*|*Tilgangsnivå*|*Skjermings- hjemmel*
 
-|Pensjon|Treffe vedtak om tjenestepensjon til i hovedsak statsansatte og (kommunale) lærere|https://lovdata.no/lov/2006-05-19-16/%C2%A713#%C2%A71[https://lovdata.no/dokument/NL/lov/1949-07-28-26/KAPITTEL_1#§1]|https://lovdata.no/lov/1961-05-12-2/%C2%A73#%C2%A727[https://lovdata.no/dokument/NL/lov/1957-07-06-26/KAPITTEL_8#§27]|Begrenset|https://doc.difi.no/dcat-ap-no/[https://lovdata.no/lov/1967-02-10/§13]
-|Boliglån|Treffe vedtak om boliglån til medlemmer i Statens pensjonskasse|https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/medfinansiering-av-digitaliseringsprosjekt/prosjekter-som-har-fatt-stotte-i-2016?q=boligl%C3%A5n#KAPITTEL_7-5-1[https://lovdata.no/dokument/SPH/sph-20]|https://doc.difi.no/dcat-ap-no/#KAPITTEL_7[kument/NL/lov/2016-05-27-14#KAPITTEL_7]|Begrenset|https://lovdata.no/lov/1994-06-03-15/%C2%A75[https://lovdata.no/lov/1967-02-10/§13]
-|Yrkesskade|Treffe vedtak om ytelse ved  yrkesskade mm. til statsansatte. Staten som arbeidsgiver|https://lovdata.no/lov/2000-04-14-31/%C2%A79?q=yrkesskade#KAPITTEL_7-3-24[https://lovdata.no/do]|http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/#KAPITTEL_7[kument/NL/lov/2016-05-27-14#KAPITTEL_7]|Begrenset|https://lovdata.no/dokument/NL/lov/2016-05-27-14[https://lovdata.no/lov/1967-02-10/§13]
+|Pensjon|Treffe vedtak om tjenestepensjon til i hovedsak statsansatte og (kommunale) lærere|https://lovdata.no/dokument/NL/lov/1949-07-28-26/KAPITTEL_1#§1[https://lovdata.no/dokument/NL/lov/1949-07-28-26/KAPITTEL_1#§1]|https://lovdata.no/dokument/NL/lov/1957-07-06-26/KAPITTEL_8#§27[https://lovdata.no/dokument/NL/lov/1957-07-06-26/KAPITTEL_8#§27]|Begrenset|https://lovdata.no/lov/1967-02-10/§13[https://lovdata.no/lov/1967-02-10/§13]
+|Boliglån|Treffe vedtak om boliglån til medlemmer i Statens pensjonskasse|https://lovdata.no/dokument/SPH/sph-2017/KAPITTEL_7-5-1?q=boliglån#KAPITTEL_7-5-1[https://lovdata.no/dokument/SPH/sph-20]|https://lovdata.no/dokument/NL/lov/2016-05-27-14#KAPITTEL_7[kument/NL/lov/2016-05-27-14#KAPITTEL_7]|Begrenset|https://lovdata.no/lov/1967-02-10/§13[https://lovdata.no/lov/1967-02-10/§13]
+|Yrkesskade|Treffe vedtak om ytelse ved  yrkesskade mm. til statsansatte. Staten som arbeidsgiver|https://lovdata.no/dokument/SPH/sph-2017/KAPITTEL_7-3-24?q=yrkesskade#KAPITTEL_7-3-24[https://lovdata.no/do]|https://lovdata.no/dokument/NL/lov/2016-05-27-14#KAPITTEL_7[kument/NL/lov/2016-05-27-14#KAPITTEL_7]|Begrenset|https://lovdata.no/lov/1967-02-10/§13[https://lovdata.no/lov/1967-02-10/§13]
 |===
 
 === Skatteetaten
@@ -27,19 +27,53 @@
 |===
 |*Tittel (datasett)*|*Beskrivelse og  behandlings-*|*Behandlings-*|*Utleverings-*|*Tilgangsnivå*|*Skjermings-*
 
-|Skattegrunnlag|Detaljert informasjon om skattepliktigs formue, inntekt, gjeld og fradrag|https://lovdata.no/NL/lov/1999-03-26-14[https://lovdata.no/NL/lov/1999-03-26-14]||ikke-offentlig|https://lovdata.no/lov/1994-06-03-15/%C2%A722[https://lovdata.no/NL/lov/2016-05-27-14/§3-1]
+|Skattegrunnlag|Detaljert informasjon om skattepliktigs formue, inntekt, gjeld og fradrag|https://lovdata.no/NL/lov/1999-03-26-14[https://lovdata.no/NL/lov/1999-03-26-14]||ikke-offentlig|https://lovdata.no/NL/lov/2016-05-27-14/§3-1[https://lovdata.no/NL/lov/2016-05-27-14/§3-1]
 |===
+
 === Brønnøysundregistrene
 
 
 |===
 |*Tittel (datasett)*|*Beskrivelse og  behandlings-*|*Behandlings-*|*Utleverings-*|*Tilgangsnivå*|*Skjermings-*
 
-|Enhetsregisteret inkl fødsels- og D-nummer|Vedtak om tildeling av organisasjonsnummer (entydig identifikasjon av juridisk person m.m.)|https://lovdata.no/lov/2006-05-19-16/%C2%A72[https://lovdata.no/lov/1994-06-03-15/§5] ,6 og 7|https://doc.difi.no/dcat-ap-no/[https://lovdata.no/lov/1994-06-03-15/§22]|Begrenset|https://lovdata.no/lov/2000-04-14-31/%C2%A72[https://lovdata.no/lov/1994-06-03-15/§22]
+|Enhetsregisteret inkl fødsels- og D-nummer|Vedtak om tildeling av organisasjonsnummer (entydig identifikasjon av juridisk person m.m.)|https://lovdata.no/lov/1994-06-03-15/§5[https://lovdata.no/lov/1994-06-03-15/§5] ,6 og 7|https://lovdata.no/lov/1994-06-03-15/§22[https://lovdata.no/lov/1994-06-03-15/§22]|Begrenset|https://lovdata.no/lov/1994-06-03-15/§22[https://lovdata.no/lov/1994-06-03-15/§22]
 |===
 
 |===
 |*Tittel (datasett)*|*Beskrivelse og  behandlings-*|*Behandlings-*|*Utleverings-*|*Tilgangsnivå*|*Skjermings-*
 
-|Enhetsregisteret ekskl fødsels- og D-nummer|Vedtak om tildeling av organisasjonsnummer (entydig identifikasjon av juridisk person m.m.)|https://lovdata.no/lov/1994-06-03-15/%C2%A75[https://lovdata.no/lov/1994-06-03-15/§5] ,6 og 7|http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/[https://lovdata.no/lov/1994-06-03-15/§22]|Offentlig|
+|Enhetsregisteret ekskl fødsels- og D-nummer|Vedtak om tildeling av organisasjonsnummer (entydig identifikasjon av juridisk person m.m.)|https://lovdata.no/lov/1994-06-03-15/§5[https://lovdata.no/lov/1994-06-03-15/§5] ,6 og 7|https://lovdata.no/lov/1994-06-03-15/§22[https://lovdata.no/lov/1994-06-03-15/§22]|Offentlig|
 |===
+
+==  Andre forhold som er vurdert av arbeidsgruppen
+
+=== Innhentingshjemmel
+
+Arbeidsgruppen har vurdert om det bør opprettes et valgfritt felt for registrering av hjemmel for innhenting av opplysningene som datasettet bygger på. Dette kunne gjøres ved en henvisning til lovgrunnlaget.
+
+Foranledningen til diskusjonen var at brukerhistoriene viser at brukerne av felleskatalogen kan ha nytte av kunnskap om hvorvidt dataene i datasettet er innhentet uten medvirkning fra borgeren. Kunnskap om dette ville kunne bidra til å tydeliggjøre opplysningenes opprinnelige kilde, og at dataeier har lov til å hente inn opplysningene direkte fra avgiver uten brukerens samtykke.
+
+Arbeidsgruppen er imidlertid kommet til at brukerbehovet antagelig dekkes implisitt eller eksplisitt av beskrivelsen av datasettet, og at behovet for å få opplysninger om utleveringshjemmel er mer sentralt.
+
+=== Opphav
+
+Arbeidsgruppen har vurdert om datakatalogen bør ha et valgfritt felt som beskriver datasettets opphav.
+
+Bakgrunnen for diskusjonen var at det forelå et behov for å kjenne til hvorvidt datasettet inneholder endelige beslutninger/vedtak for å kunne vurdere mulighetene for datafangst. +
+Dette fordi det ved tjenesteutvikling eller implementering av nye regler ofte er forutsatt at vilkår skal dokumenteres med vedtak fattet av et annet offentlig organ.
+
+Opplysninger som et forvaltningsorgan har benyttet som grunnlag for sine vedtak, vil være kvalitetssikret. Spørsmålet er om data som ligger i datasettet, men som ikke forvaltningsorganet kan gå god for er riktige, bør merkes på en måte slik at vi som brukere av felles datakatalog allerede ved første oppslag kan forstå at datakvaliteten ikke nødvendigvis er god nok til vårt formål?
+
+Dersom datasettets opplysninger skal gjenbrukes for eksempel i forbindelse med en utredning av nye regler eller tjenester, eller vurderes brukt til kontrollformål, vil det være hensiktsmessig å ha kunnskap om hvorvidt dette er sammenstilling av opplysninger som kommer fra borgeren uten dokumentasjon. Datasettet kan for eksempel være en spørreundersøkelse.
+
+Arbeidsgruppen er likevel kommet til at behovet ikke er tilstrekkelig stort til at det er nødvendig med et eget felt i datakatalogen.
+
+*Eksempel:* Som utreder trenger jeg å vite om informasjonen i datasettet bygger på registereiers *vedtak i medhold av lov* fordi det er forutsatt at det kun er det er+++<u>+++ endelige beslutninger+++</u>+++ vi kan bruke som dokumentasjon på at vilkårene etter utdanningsstøtteloven med forskrifter er tilstede. Dette gjelder f.eks folketrygdloven, folkeregisterloven, utlendingsloven, vergeloven mfl.
+
+*Eksempel:* Familierelasjoner, slektskap, sivilstand, og folkeregistrert adresse. Lånekassen bruker opplysningene i Folkeregisteret om familierelasjoner, sivilstand, folkeregistrert adresse mv som dokumentasjon på antall barn, forsørgeransvar, bosted osv for vurdering av rett til grunnstipend, rentefritak osv.
+
+*Eksempel:* Ved behovsprøving av ytelser etter utdanningsstøtteloven vil det være SKD sitt endelig vedtak om beregning av skatt for et kalenderår som skal legges til grunn i saksbehandlingen. Det er derfor viktig for Lånekassen å få informasjon om datasettet inneholder vedtak fra SKD eller om det er den preutfylte skattemedlingen fra SKD til borgeren som ennå ikke er vurdert av SKD  eller innlevert skattemelding fra borgeren som ennå ikke er behandlet SKD.
+
+*3. part:* Preutfylt skattemelding +
+*Brukerinnsamling:* Innlevert skattemelding +
+*Vedtak:* Skatteoppgjør
