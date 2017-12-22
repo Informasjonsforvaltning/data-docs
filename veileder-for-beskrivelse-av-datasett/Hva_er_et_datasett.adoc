@@ -1,3 +1,4 @@
+
 == Hva er et datasett?
 
 “Et _datasett_ er en samling med data (for eksempel i form av en tabell, liste eller en database)  som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API (definert som _en organisert samling av data_).” Se forøvrig ordforklaringene til https://doc.difi.no/dcat-ap-no/#_ord_uttrykk_og_forkortelser[Standard for beskrivelse av datasett og datakataloger] (DCAT-AP-NO).
