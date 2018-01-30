@@ -22,15 +22,15 @@ include::../shared/download.adoc[]
 
 // Innhold her.
 include::Intro.adoc[]
-include::Omfang_og_avgrensning.adoc[]
-include::Normative referanser.adoc[]
-include::Begreper og definisjoner.adoc[]
-include::Standardisert metode for å beskrive kvalitet på datasett.adoc[]
-include::Vedlegg A - Forslag til kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål.adoc[]
-include::Vedlegg B - Forslag ti Implementering i DCAT-AP-NO.adoc[]
-include::Vedlegg C - URIer (navnerom) som er brukt.adoc[]
-include::Vedlegg D - referanser[]
-include::Vedlegg E - Arbeidsgruppen[]
+include::Omfang-og-avgrensning.adoc[]
+include::Normative-referanser.adoc[]
+include::Begreper-og-definisjoner.adoc[]
+include::Standardisert-metode.adoc[]
+include::Vedlegg-A.adoc[]
+include::Vedlegg-B.adoc[]
+include::Vedlegg-C.adoc[]
+include::Vedlegg-D.adoc[]
+include::Vedlegg-E.adoc[]
 
 
 
