@@ -1,0 +1,37 @@
+include::../shared/translation.adoc[]
+
+= Spesifikasjon for beskrivelse av kvalitet på datasett
+Direktoratet for forvaltning og IKT
+v1.0
+:description:hvordan beskrive kvalitet på datasett i en datakatalog
+:doctype: book
+:docinfo:
+:icons: font
+:toc: left
+:toclevels: 3
+:sectanchors:
+:title-logo-image: utils/logo.jpg
+:sectnums:
+:sectnumlevels: 4
+
+{description}
+
+include::../shared/download.adoc[]
+
+// :leveloffset: +1
+
+// Innhold her.
+include::Intro.adoc[]
+include::Omfang_og_avgrensning.adoc[]
+include::Normative referanser.adoc[]
+include::Begreper og definisjoner.adoc[]
+include::Standardisert metode for å beskrive kvalitet på datasett.adoc[]
+include::Vedlegg A - Forslag til kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål.adoc[]
+include::Vedlegg B - Forslag ti Implementering i DCAT-AP-NO.adoc[]
+include::Vedlegg C - URIer (navnerom) som er brukt.adoc[]
+include::Vedlegg D - referanser[]
+include::Vedlegg E - Arbeidsgruppen[]
+
+
+
+include::../shared/stats.adoc[]
