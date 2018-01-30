@@ -1,0 +1,84 @@
+[[vedlegg med forslag til dimensjonene]]
+= Vedlegg A - Forslag til kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål
+
+Informativ del av dette dokumentet.
+
+Arbeidsgruppen foreslår å starte med følgende kvalitetsdimensjoner footnote:[ Med noe ulik ordvalg, er dimensjonene også definert i Eurostats oppdaterte definisjonsdatabase http://ec.europa.eu/eurostat/ramon/index.cfm?TargetUrl=DSP_PUB_WELC[RAMON], som i stor grad er basert på SDMX som er referert til i https://joinup.ec.europa.eu/node/147940[StatDCAT-AP].]:
+
+ . Nøyaktighet (Accuracy, http://iso25000.com/index.php/en/iso-25000-standards/iso-25012[ISO/IEC 25012], DQV Kap. 7.2)
+ . Kompletthet/Dekning
+ .. Dekning er bredere enn Kompletthet (Completeness, http://iso25000.com/index.php/en/iso-25000-standards/iso-25012[ISO/IEC 25012], DQV Kap. 7.2). Dekning inkluderer bl.a. “overdekning”. Termen “kompletthet” brukes allikevel her fordi den er allerede i bruk av flere fagmilijøer.
+ . Aktualitet (Currentness, http://iso25000.com/index.php/en/iso-25000-standards/iso-25012[ISO/IEC 25012], DQV Kap. 7.2)
+ . Samsvar (Compliance, http://iso25000.com/index.php/en/iso-25000-standards/iso-25012[ISO/IEC 25012], DQV Kap. 7.2)
+ . Tilgjengelighet (Availability, http://iso25000.com/index.php/en/iso-25000-standards/iso-25012[ISO/IEC 25012], DQV Kap. 7.2)
+ . Relevans (Relevancy, https://www.w3.org/TR/vocab-dqv/#bib-ZaveriEtAl[https://www.w3.org/TR/vocab-dqv/#bib-ZaveriEtAl], DQV Kap. 7.3)
+
+Tabellen under inneholder arbeidsgruppens forslag til kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål som bør tas med i Felles datakatalog. Når det senere arbeides med å pre-definere kvalitetsdimensjoner, kvalitetsdeldimesjoner og kvalitetsmål, vil forslagene i denne tabellen gås gjennom nøye før de endelig fastsettes.
+
+|===
+|*Kilde/Etat (med ref)  samt evt gruppering)*|*Kvalitetsdimensjon*|*Kvalitets-deldimensjon*|*Kvalitetsmål*|*Beskrivelse*
+
+|*_DQV_*|*_Nøyaktighet (Accuracy)_*|||_DQV: The degree to which data has attributes that correctly represent the true value of the intended attribute of a concept or event in a specific context of use._
+|KARTV| |||nøyaktighet av kvantitative egenskaper, riktighet av ikke-kvantitative egenskaper og objektenes klassifisering og relasjoner
+|||*Klassifikasjonsriktighet*||sammenligning mellom anvendt klassifisering og virkelighet
+|||*Ikke-kvantitativ egenskapsnøyaktighet*||hvor nær ikke-kvantitative verdier er sanne verdier eller verdier akseptert som sanne
+|||*Kvantitativ egenskapsnøyaktighet*||hvor nær kvantitative verdier er sanne verdier eller verdier akseptert som sanne
+|*KARTV*||||hvor godt stedfestingen til et objekt samsvarer med virkeligheten/fasit
+|||*Absolutt stedfestingsnøyaktighet*||hvor nær stedfestet posisjon er sann posisjon eller posisjon akseptert som sann
+|||*Nabonøyaktighet*||hvor bra stedfestet posisjon samsvarer med andre stedfestede posisjoner
+|||*Posisjonsnøyaktighet i rasterdata*||hvor bra posisjon i raster samsvarer med sann posisjon eller posisjon akseptert som sann
+|*KARTV*||*Stedfestingspålitelighet*||uttrykk for hvor sterkt mulig gjenværende grove feil i materialet for stedfestingen påvirker slutt–resultatet
+|KARTV||||kvaliteten til egenskaper som definerer tid eller tidsavhengigheter mellom objekter
+|||*Tidsnøyaktighet*||hvor nær angitte tidsverdier er sanne verdier eller verdier akseptert som sanne
+|SSB (BLUE-ETS)||||Hvor nært objekter og variable ligger de korrekte verdiene og i hvilken grad data er til å stole på
+|||*Identifiserbarhet*|Antall (med problem). Andel i prosent|Objekter med ugyldige identifikasjonsnøkler (feil syntaks)
+|||*Autensititet*|--”--|Objekter med gale identifikasjonsnøkler (men korrekt syntaks)
+|||*Konsistens*|--”--|Om objektene er innbyrdes konsistente
+|||*Mistenkelige verdier*|Antall|Knyttet til objekter
+|||*Feil knyttet til variable, f.eks. Validitet, rapporteringsfeil, registreringsfeil bearbeidingsfeil og mistenkelige verdier)*|Varians/standardavvik|Knyttet til variable, her bare summarisk gjengitt. Kan detaljere dette
+|SSB (CoP)||||Hvor langt fra sann verdi ligger resultatet? Kan man stole på det?
+|||*Utvalgsfeil*|Varians/standardavvik|Feil i statistikk grunnet at den eventuelt er basert på utvalg]
+|||*Andre feil (dekning, frafall, målefeil, bearbeidingsfeil, modellfeil)*|Varians/standardavvik|En rekke feiltyper utgjør dimensjonene, her bare summarisk gjengitt
+|*_DQV_*|*_Fullstendighet/Dekning_*|||_DQV completeness): The degree to which subject data associated with an entity has values for all expected attributes and related entity instances in a specific context of use._
+|KARTV||||beskrivelse av hvilke enheter som er med i et datasett i forhold til de som burde vært med.
+|||(*Manglende data*)||data som mangler i et datasett
+|||(*Overskytende data*)||data som ikke skal være i et datasett
+|SSB||||Angir om innholdet i datasettet er fullstendig i forhold til SSBs bruk, at det dekker akkurat det det skal dekke
+|||*Underdekning*|Antall eller andel|Manglende enheter i datasettet
+|||*Overdekning*|Antall eller andel|Forekomst av ikke-enheter i datasettet
+|||*Selektivitet*|Tekst (forklar)|Datasettet inneholder bare deler av den statistiske populasjonen
+|||*Dubletter*|Antall eller andel|Forekomst av dubletter (enheter som er registrert flere ganger)
+|SSB (CoP)||Se Accuracy||Statistikk som ikke bygger på fullstendige data vil være unøyaktig og ikke til å stole på - Se ellers Accuracy
+|*_DQV_*|*_Aktualitet (Currentness)_*|||_DQV: The degree to which data has attributes that are of the right age in a specific context of use._
+|SSB (BLUE-ETS)||*Aktualitet*|Tid (dager eller uker)|Tid mellom slutten av kildens referansetidspunkt og SSB kan bruke data
+|||*Punktlighet*|Andel som er punktlig. Prosent|Mulig forsinkelse mellom lovet og realisert tidspunkt når SSB kan få data
+|||*Tidsdifferanse*|Tid (dager eller uker)|Tid fra slutten av kildens referansetid til  SSB konkluderer med at vi kan starte jobben med data, pga. etterslep i registeret, f.eks. sene flyttemeldinger
+|||*Enheters dynamikk og variables stabilitet *(Dynamics of objects and stability of variables)|Tekst|Bla. endringer i koder mellom referansetidspunkt og SSBs bruk
+|SSB (CoP)||*Aktualitet*|Tid (dager eller uker)|Tid fra slutten av statistikkens referanseperiode til den publiseres
+|||*Punktlighet*|Andel som er punktlig. Prosent|Avvik fra publiseringstidspunkt som skal være varslet 3 måneder på forhånd
+|*_DQV_*|*_Samsvar (Compliance)_*|||_DQV: The degree to which data has attributes that adhere to standards, conventions or regulations in force and similar rules relating to data quality in a specific context of use._
+|KARTV||*ConformanceResult*||A conformance result is the outcome of comparing the value or set of values obtained from applying a
+|SSB (BLUE-ETS)||||Måler hvorvidt kilden kan gi god statistikk kombinert med andre kilder
+|||*Sammenlignbarhet av objekter* (Comparability and alignment of objects)||Dreier det seg om de samme objektene ved kobling av datasett?
+|||*Koblingsvariabel *(Linking variable)||Eventuelle problemer med koblingsvariabel
+|||*Sammenlignbarhet av variable* (Comparability of variables)||Er variablene definert eller gruppert på samme måte?
+|SSB (CoP)||*Sammenheng*|Tekst, blant annet om bruk av standard grupperinger|Henger statistikken sammen med annen statistikk på samme eller tilgrensende områder? Brukes f.eks. Samme begreper/definisjoner, grupperinger og andre internasjonale eller nasjonale standarder?
+|||*Sammenlignbarhet*|Tekst|Kan resultatene sammenlignes over tid og sted/geografi?
+|*_DQV_*|*_Tilgjengelighet (Availability)_*|||_DQV: The degree to which data has attributes that enable it to be retrieved by authorized users and/or applications in a specific context of use._
+|SSB (BLUE-ETS)||||Teknisk brukbarhet av datasettet og data i settet
+|||Lesbarhet|Tekst|Om filen kan leses (ikke problemer med formater, ødelagt fil, uvanlig karaktersett, umulig å dekode)
+|||Samsvar i fildeklarasjon|Andel?|Manglende metadata, avvik fra beskrivelse
+|||Konverterbarhet|Tekst|Feil som umuliggjør konvertering til de formater SSB bruker
+|SSB (CoP)||||Om statistikken er lett tilgjengelig og forklart for brukerne
+|||Tilgjengelighet|Tekst|Lett tilgjengelig og godt presentert statistikk: Hvor finnes den, henvisninger, bla. Til Statistikkbank. Eksempel på god tilgjengelighet: API
+|||Klarhet|Tekst|Dokumentasjon og metadata, eks. “Om statistikken”  og annen dokumentasjon
+|*_DQV_*|*_Relevans (Relevancy)_*|||_DQV: Relevancy refers to the provision of information which is in accordance with the task at hand and important to the users’ query._
+|KARTV||||det som ikke er dekket av øvrige kategorier og aggregert kvalitet basert på flere kvalitetselementer
+|||*Egnethet*||det som ikke er dekket av øvrige kategorier og aggregert kvalitet basert på flere kvalitetselementer
+|||*AggregertKvalitet*||Summering av kvalitet fra andre kvalitetselementer.
+|KARTV||||provenance, source(s) and production process(es) used in producing a resource
+|||*Lineage*||Beskrivelse av hvordan produktet er fremkommet, og beskriver kilde(r) og ulike skritt i produksjonsprosessen.
+|KARTV||*Målestokksfaktor* Denominator||Målestokksfaktor
+|KARTV||*Bruk*||brief description of the resource and/or resource series usage.
+|SSB (CoP)||*Relevans*|_Treff på websider_|Er statistikken relevant for brukeren? Også omtale av brukerundersøkelser og rutiner for brukerkontakt
+|===

@@ -1,0 +1,53 @@
+= Vedlegg E - Arbeidsgruppen
+Informativ del av dette dokumentet.
+
+=== 9.1 Beskrivelse av arbeidsgruppens oppgave
+
+Arbeidsgruppen fikk i oppgave å utarbeide en spesifikasjon for hvordan kvalitet på datasett skal beskrives i en datakatalog.
+
+=== 9.2 Sammensetning av arbeidsgruppen
+
+Kartverket ved Morten Borrebæk har ledet denne arbeidsgruppen. Følgende etater og personer har ellers vært involvert i arbeidet:
+
+|===
+|*Virksomhet*|*Person*
+
+|Kartverket|Morten Borrebæk (leder av arbeidsgruppen)
+|Arkivverket|Joachim Fugleberg
+|Brønnøysundregistrene|Espen Slotvik
+|Difi|Martin Standley, Jim J. Yang, Øystein Åsnes, Pia Jøsendal
+|Politiet|Arne Dybdahl
+|Skattedirektoratet|Katrine Fredriksen
+|Statens lånekasse|Liv Bergliot Simonsen, Gustav Aagesen
+|Statens vegvesen|Cecilie H. Bratt, Hilde Austlid
+|Statistisk sentralbyrå|Hans Viggo Sæbø
+|_Kopimottakere:_|
+|_Direktoratet for e__-helse_|_Åsmund Ahlmann Nyre_
+|_Statens pensjonskasse_|_Andrea Halvorsen, Margaret McLeod_
+|===
+
+Mot slutten av arbeidet ble det etablert en mindre arbeidsgruppe som fikk i oppgave å foreslå hvordan det foreslåtte faglige innholdet skal kunne representeres ved hjelp av DQV og implementeres i DCAT-AP-NO. Den mindre arbeidsgruppen har bestått av følgende etater/personer:
+
+|===
+|*Virksomhet*|*Person*
+
+|Kartverket|Morten Borrebæk (leder)
+|Brønnøysundregistrene|David Norheim
+|Difi|Martin Standley, Jim J. Yang, Øystein Åsnes
+|Statistisk sentralbyrå|Hans Viggo Sæbø
+|===
+=== 9.3 Arbeid i arbeidsgruppen
+
+Arbeidsgruppen startet sitt arbeid fra 25. januar 2017. Har hatt halvdagsmøter ca. annen hver uke.
+
+I perioden frem til sommeren 2017 har arbeidsgruppen hovedsakelig jobbet med:
+ * Utvekslet erfaringer fra deltagende virksomheter på datakvalitet og måling av datakvalitet
+Sett spesielt på relevante internasjonale standarder/spesifikasjoner, på området datakvalitet og beskrivelse av datakvalitet, deriblant W3C DQV, ISO/IEC 25012, ISO 19157, BLUE-ETS, CoP.
+ * Foreslått en standardisert måte å beskrive kvalitet på datasett (se #heading=h.9auauka2obwd[4 Standardisert metode for å beskrive kvalitet på datasett])
+ * Foreslått noen få hoveddimensjoner og deldimensjoner av datasettkvalitet (se #heading=h.mlfyh2ml9hmk[5 Vedlegg A - Forslag til kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål])
+
+I sommeren 2017, har en mindre arbeidsgruppe jobbet med:
+ * Eksemplifisering av kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål ved å bruke W3C DQV.
+ * Forslag til hvordan dette implementeres i DCAT-AP-NO.
+
+Arbeidet ble avsluttet 13. september 2017.

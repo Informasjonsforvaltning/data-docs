@@ -1,0 +1,18 @@
+= Vedlegg C - URIer/navnerom som er brukt
+
+|===
+|*Prefiks*|*Navnerom*|*Beskrivelse*
+
+|dqv:|https://www.w3.org/TR/vocab-dqv/[https://www.w3.org/TR/vocab-dqv/] |Data Quality Vocabulary
+|dc:|http://dublincore.org/documents/dces/[http://dublincore.org/documents/dces/] |Dublin Core Metadata Element Set
+|dcterms:|http://dublincore.org/documents/dcmi-terms/[http://dublincore.org/documents/dcmi-terms/] |Dublin Core Metadata Terms
+|dcat: |https://www.w3.org/ns/dcat#[https://www.w3.org/ns/dcat#] |Data Catalog Vocabulary (DCAT)
+|duv|https://www.w3.org/TR/vocab-duv/[https://www.w3.org/TR/vocab-duv/] |Dataset Usage Vocabulary (duv)
+|foaf:|http://xmlns.com/foaf/spec/[http://xmlns.com/foaf/spec/] |Friend-of-a-Friend Vocabulary
+|oa:|http://www.w3.org/ns/oa#[http://www.w3.org/ns/oa#]  |The Web Annotation Data Model
+|skos:|http://www.w3.org/2004/02/skos/core#[http://www.w3.org/2004/02/skos/core#] |Simple Knowledge Organization System
+|rdf:|http://www.w3.org/1999/02/22-rdf-syntax-ns#[http://www.w3.org/1999/02/22-rdf-syntax-ns#] |Resource Description Framework (RDF)
+|rdfs:|http://www.w3.org/2000/01/rdf-schema#[http://www.w3.org/2000/01/rdf-schema#] |RDF Schema
+|xsd:|https://www.w3.org/TR/xmlschema11-2/[https://www.w3.org/TR/xmlschema11-2/] |XML Schema Datatypes
+|xxx:||Vokabular som ikke finnes, men som  trengs etablert
+|===

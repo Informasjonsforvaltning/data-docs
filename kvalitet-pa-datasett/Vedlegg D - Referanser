@@ -1,0 +1,9 @@
+= Vedlegg D - Referanser
+Informativ del av dette dokumentet.
+
+I dette vedlegget tas med referanser som er aktuelle, men ikke tatt med som normative referanser i dette dokumentet. Referanser er tatt med i en usortert/uprioritert rekkefølge.
+
+ * ISO/IEC 25012, Software engineering -- Software product Quality Requirements and Evaluation (SQuaRE) -- Data quality model, http://iso25000.com/index.php/en/iso-25000-standards/iso-25012[http://iso25000.com/index.php/en/iso-25000-standards/iso-25012]
+ * ISO 19157:2013, Geographic information -- Data quality, http://www.standard.no/no/Nettbutikk/produktkatalogen/Produktpresentasjon/?ProductID=672821[http://www.standard.no/no/Nettbutikk/produktkatalogen/Produktpresentasjon/?ProductID=672821]
+ * EU, BLUE-ETS footnote:[BLUE-ETS er et prosjekt under EUs program Framework Programme 7: BLUE - Enterprise and Trade Statistics, hvor en bl.a. så på kvalitetskriterier for administrative datasett brukt til produksjon av offisiell statistikk.], https://www.blue-ets.istat.it/fileadmin/deliverables/Deliverable4.1.pdf.
+ * Eurostat, European Statistics Code of Practice (CoP), http://ec.europa.eu/eurostat/web/quality/european-statistics-code-of-practice[http://ec.europa.eu/eurostat/web/quality/european-statistics-code-of-practice]
