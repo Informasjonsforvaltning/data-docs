@@ -1,9 +1,3 @@
-= Spesifikasjon for beskrivelse av kvalitet på datasett
-
-status: under arbeid
-
-Versjon 1.0, 2017-09-13
-
 = 1 Omfang og avgrensning
 
 Dokumentet inneholder en spesifikasjon til hvordan man skal beskrive kvalitet på datasett i en datakatalog.
@@ -14,4 +8,4 @@ I vedleggene til dette dokumentet er det tatt med forslag til hoveddimensjoner, 
 
 Dokumentet inneholder ikke spesifikasjon eller veiledning til hvordan man skal holde god kvalitet på datasett, heller ikke hvordan man skal måle datakvalitet.
 
-Spesifikasjonen er utarbeidet av en arbeidsgruppe (se #heading=h.9zxkevjh3qov[vedlegg]) ledet av Kartverket ved Morten Borrebæk.
+Spesifikasjonen er utarbeidet av en arbeidsgruppe (se <<vedlegg E>>) ledet av Kartverket ved Morten Borrebæk.
