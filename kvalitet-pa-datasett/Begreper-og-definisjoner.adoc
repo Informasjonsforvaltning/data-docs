@@ -62,7 +62,7 @@ Nedenfor er en forenklet UML-modell som viser de viktigste begrepene/klassene og
 
 image::https://github.com/difi/data-docs/blob/master/kvalitet-pa-datasett/images/bilde1_kvalitetsbeskrivelser_dqv.jpg[]
 
-image::../images/bilde1_kvalitetsbeskrivelser_dqv.jpg[]
+image::images/bilde1_kvalitetsbeskrivelser_dqv.jpg[]
 
 _Figur 1__: Kvalitetsbeskrivelser ved å bruke DQV. _
 
