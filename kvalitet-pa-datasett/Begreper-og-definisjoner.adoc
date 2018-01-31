@@ -1,3 +1,4 @@
+
 = Begreper og definisjoner
 
 Med “kvalitet” (f.eks. i ordene “kvalitetsdimensjon” og “kvalitetsmål”) menes det i dette dokumentet “datakvalitet”, “kvalitet på datasett” og lignende, men ikke “kvalitet” generelt.

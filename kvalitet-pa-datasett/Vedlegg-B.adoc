@@ -1,4 +1,5 @@
 [[vedleggB]]
+
 = Vedlegg B - Forslag til Implementering i DCAT-AP-NO
 Informativ del av dette dokumentet.
 

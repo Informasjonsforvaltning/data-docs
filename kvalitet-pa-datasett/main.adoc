@@ -4,7 +4,7 @@ include::../shared/translation.adoc[]
 Direktoratet for forvaltning og IKT
 v1.0
 
-:description:hvordan beskrive kvalitet på datasett i en datakatalog
+:description: hvordan beskrive kvalitet på datasett i en datakatalog
 :doctype: book
 :docinfo:
 :icons: font
