@@ -11,8 +11,7 @@ Navnerom (_namespaces_) som er brukt i eksemplene er ikke kvalitetssikret. Navne
 
 I løsningsforslaget til implementering i DCAT-AP-NO baserer vi oss på  prinsippene for RDFS-modellering. En står derfor fritt til å legge til egenskaper som ikke er omtalt i spesifikasjonen. Størst mulig grad av gjenbruk av eksisterende vokabularer er en selvsagt forutsetning.
 
-::image
-
+image::images/bilde1_kvalitetsbeskrivelser_dqv.jpg[]
 _Gjengivelse av figur 1 Kvalitetsbeskrivelser ved å -bruke DQV._
 
 Jf. figuren ovenfor som er gjengitt fra kapittel <<Begreper og definisjoner>>, foreslår vi følgende:
@@ -60,7 +59,7 @@ Eksempel på brukertilbakemelding:
     dct:language “nb” ;
     dct:format “text/plain” .
 ....
-::image
+image::images/KlasseneIDQV.png[]
 
 _Figur 3: Datamodell som viser de mest relevante klassene i DQV (kilde: _https://www.w3.org/TR/vocab-dqv/DataQuality0.2.9.svg[_W3C DQV]__)._
 
