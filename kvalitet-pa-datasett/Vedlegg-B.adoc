@@ -109,12 +109,12 @@ skos:definition “the degree to which data has attributes that correctly repres
  :coverage +
     a dqv:Dimension ;
     skos:prefLabel “coverage”@en ;
-    skos:prefLabel “dekning”@nb ; +
+    skos:prefLabel “dekning”@nb ;
     skos:altLabel “kompletthet”@nb ;
     skos:definition “i hvilken grad datasettet inneholder forventede opplysninger, for en spesifikk brukskontekst”@nb .
 ....
 
-[[Kvalitetsdeldimensjon Underdekning (undercoverage/omission)]]
+[[Underdekning]]
 ==== Kvalitetsdeldimensjon Underdekning (undercoverage/omission)
 
 
@@ -130,13 +130,15 @@ skos:definition “the degree to which data has attributes that correctly repres
 @prefix xxx: <https://ikke.eksisterer.enda/pre_def_kvalitetsmaal/> ;  +
 skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb .
 
-:undercoverage +
-a dqv:Dimension ; +
-skos:prefLabel “undercoverage”@en ; +
-skos:prefLabel “underdekning”@nb ; +
-skos:altLabel “omission”@en ;
-skos:definition “the degree to which required information is missing in a particular dataset”@en ;
-skos:broader xxx:coverage # antar at “coverage” er definert .
+....
+ :undercoverage +
+    a dqv:Dimension ; +
+    skos:prefLabel “undercoverage”@en ; +
+    skos:prefLabel “underdekning”@nb ; +
+    skos:altLabel “omission”@en ;
+    skos:definition “the degree to which required information is missing in a particular dataset”@en ;
+    skos:broader xxx:coverage # antar at “coverage” er definert.
+....
 
 ===== Kvalitetsmål Manglende elementer (missing items)
 
@@ -156,18 +158,22 @@ skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets
 
 #definisjon av kvalitetsmål +
 
-:missingItemsMetric +
-a dqv:Metric ;
-skos:prefLabel “missing items metric”@en ; +
-skos:prefLabel “hvorvidt det mangler elementer”@nb ;
-skos:definition “whether there are some items missing in a particular dataset”@en ; +
-dqv:expectedDataType xsd:boolean ;
-dqv:inDimension xxx:undercoverage # antar at “undercoverage” er definert . +
-#eksempel på angivelse av måleresultat “true” (ja, det mangler noe) +
-:measurementMissingItems +
-a dqv:QualityMeasurement ; +
-dqv:isMeasurementOf :missingItemsMetric ; +
-dqv:value “true”^^xsd:boolean .
+....
+ :missingItemsMetric +
+    a dqv:Metric ;
+    skos:prefLabel “missing items metric”@en ;
+    skos:prefLabel “hvorvidt det mangler elementer”@nb ;
+    skos:definition “whether there are some items missing in a particular dataset”@en ;
+    dqv:expectedDataType xsd:boolean ;
+    dqv:inDimension xxx:undercoverage # antar at “undercoverage” er definert .
+....
+#eksempel på angivelse av måleresultat “true” (ja, det mangler noe)
+....
+ :measurementMissingItems
+    a dqv:QualityMeasurement ;
+    dqv:isMeasurementOf :missingItemsMetric ;
+    dqv:value “true”^^xsd:boolean .
+....
 
 ===== Kvalitetsmål Antall manglende elementer (number of missing items)
 
@@ -181,20 +187,25 @@ dqv:value “true”^^xsd:boolean .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . +
 @prefix xsd: <https://www.w3.org/TR/xmlschema11-2/> . +
 @prefix xxx: <https://ikke.eksisterer.enda/pre_def_kvalitetsmaal/> ;  +
-skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb . +
-#definisjon av kvalitetsmål +
-:numberOfMissingItemsMetric +
-a dqv:Metric ;
-skos:prefLabel “number of missing items metric”@en ; +
-skos:prefLabel “antall manglende elementer”@nb ;
-skos:definition “number of items that are missing in the dataset”@en ; +
-dqv:expectedDataType xsd:integer ;
-dqv:inDimension xxx:undercoverage # antar at “undercoverage” er definert . +
-#eksempel på angivelse av måleresultat “8” (mangler åtte elementer) +
-:measurementNumerOfMissingItems +
-a dqv:QualityMeasurement ; +
-dqv:isMeasurementOf :numberOfMissingItemsMetric ; +
-dqv:value “8”^^xsd:integer .
+  skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb . +
+
+#definisjon av kvalitetsmål
+....
+ :numberOfMissingItemsMetric
+    a dqv:Metric ;
+    skos:prefLabel “number of missing items metric”@en ;
+    skos:prefLabel “antall manglende elementer”@nb ;
+    skos:definition “number of items that are missing in the dataset”@en ;
+    dqv:expectedDataType xsd:integer ;
+    dqv:inDimension xxx:undercoverage # antar at “undercoverage” er definert .
+....
+#eksempel på angivelse av måleresultat “8” (mangler åtte elementer)
+....
+ :measurementNumerOfMissingItems
+    a dqv:QualityMeasurement ;
+    dqv:isMeasurementOf :numberOfMissingItemsMetric ;
+    dqv:value “8”^^xsd:integer .
+....
 
 ===== Kvalitetsmål Andel manglende elementer (rate of missing items)
 
@@ -208,20 +219,25 @@ dqv:value “8”^^xsd:integer .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . +
 @prefix xsd: <https://www.w3.org/TR/xmlschema11-2/> . +
 @prefix xxx: <https://ikke.eksisterer.enda/pre_def_kvalitetsmaal/> ;  +
-skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb . +
+skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb .
+
 #definisjon av kvalitetsmål +
-:rateOfMissingItemsMetric +
-a dqv:Metric ;
-skos:prefLabel “rate of missing items metric”@en ; +
-skos:prefLabel “andel manglende elementer”@nb ;
-skos:definition “ratio between the number of items that are missing and the number of the items that should be present”@en ; +
-dqv:expectedDataType xsd:decimal ;
-dqv:inDimension xxx:undercoverage # antar at “undercoverage” er definert . +
+....
+ :rateOfMissingItemsMetric
+    a dqv:Metric ;
+    skos:prefLabel “rate of missing items metric”@en ;
+    skos:prefLabel “andel manglende elementer”@nb ;
+    skos:definition “ratio between the number of items that are missing and the number of the items that should be present”@en ;
+    dqv:expectedDataType xsd:decimal ;
+    dqv:inDimension xxx:undercoverage # antar at “undercoverage” er definert .
+....
 #eksempel på angivelse av måleresultat “0.08” (mangler 8%) +
-:measurementRateOfMissingItems +
-a dqv:QualityMeasurement ; +
-dqv:isMeasurementOf :rateOfMissingItemsMetric ; +
-dqv:value “0.08”^^xsd:decimal .
+....
+ :measurementRateOfMissingItems
+    a dqv:QualityMeasurement ;
+    dqv:isMeasurementOf :rateOfMissingItemsMetric ;
+    dqv:value “0.08”^^xsd:decimal .
+....
 
 ==== Kvalitetsdeldimensjon Overdekning (overcoverage/commission)
 
@@ -236,21 +252,23 @@ Overdekning kan defineres på helt tilsvarende måte (men “motsatt vis”) som
 
 *Merknad til definisjonen*:
 
- * Eksklusive #heading=h.swergipjztbt[dubletter] (som er en egen kvalitetsdeldimensjon)
+ * Eksklusive <<dubletter>> (som er en egen kvalitetsdeldimensjon)
 
 *Uttrykt i DQV*:  +
 @prefix dqv: <https://www.w3.org/TR/vocab-dqv/> . +
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . +
 @prefix xxx: <https://ikke.eksisterer.enda/pre_def_kvalitetsmaal/> ;  +
 skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb . +
-:overcoverage +
-a dqv:Dimension ; +
-skos:prefLabel “overcoverage”@en ; +
-skos:prefLabel “overdekning”@nb ; +
-skos:altLabel “commission”@en ;
-skos:definition “the degree to which a particular dataset contains excess items”@en ; +
-skos:note “exclusive duplicate”@en ;
-skos:broader xxx:coverage # antar at “coverage” er definert .
+....
+ :overcoverage
+    a dqv:Dimension ;
+    skos:prefLabel “overcoverage”@en ;
+    skos:prefLabel “overdekning”@nb ;
+    skos:altLabel “commission”@en ;
+    skos:definition “the degree to which a particular dataset contains excess items”@en ;
+    skos:note “exclusive duplicate”@en ;
+    skos:broader xxx:coverage # antar at “coverage” er definert .
+....
 
 ==== Kvalitetsdeldimensjon Selektivitet (selectivity)
 
@@ -264,13 +282,16 @@ skos:broader xxx:coverage # antar at “coverage” er definert .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . +
 @prefix xxx: <https://ikke.eksisterer.enda/pre_def_kvalitetsmaal/> ;  +
 skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb . +
-:selectivity +
-a dqv:Dimension ;
-skos:prefLabel “selectivity”@en ; +
-skos:prefLabel “selektivitet”@nb ; +
-skos:definition “the degree to which a particular dataset represents the statistical population”@en ;
-skos:broader xxx:coverage # antar at “coverage” er definert .
+....
+ :selectivity
+    a dqv:Dimension ;
+    skos:prefLabel “selectivity”@en ;
+    skos:prefLabel “selektivitet”@nb ;
+    skos:definition “the degree to which a particular dataset represents the statistical population”@en ;
+    skos:broader xxx:coverage # antar at “coverage” er definert .
+....
 
+[[dublett,dubletter]]
 ==== Kvalitetsdeldimensjon Dublett (redundancy/duplicate)
 
 
@@ -283,13 +304,15 @@ skos:broader xxx:coverage # antar at “coverage” er definert .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . +
 @prefix xxx: <https://ikke.eksisterer.enda/pre_def_kvalitetsmaal/> ;  +
 skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb . +
-:redundancy +
-a dqv:Dimension ;
-skos:prefLabel “redundancy”@en ; +
-skos:altLabel “duplicate”@en ; +
-skos:prefLabel “dublett”@nb ; +
-skos:definition “the degree to which a particular dataset contains more than one instance of the same information”@en ;
-skos:broader xxx:coverage # antar at “coverage” er definert .
+....
+ :redundancy
+    a dqv:Dimension ;
+    skos:prefLabel “redundancy”@en ;
+    skos:altLabel “duplicate”@en ;
+    skos:prefLabel “dublett”@nb ;
+    skos:definition “the degree to which a particular dataset contains more than one instance of the same information”@en ;
+    skos:broader xxx:coverage # antar at “coverage” er definert .
+....
 
 === Kvalitetsdimensjon Aktualitet (currentness/timeliness)
 
@@ -303,13 +326,14 @@ skos:broader xxx:coverage # antar at “coverage” er definert .
 *Uttrykt i DQV*:  +
 @prefix dqv: <https://www.w3.org/TR/vocab-dqv/> . +
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . +
-:currentness +
-a dqv:Dimension ;
-skos:prefLabel “currentness”@en ; +
-skos:altLabel “timeliness”@en ; +
-skos:prefLabel “aktualitet”@nb ; +
-skos:definition “the degree to which data has attributes that are of the right age in a specific context of use”@en .
-
+....
+ :currentness
+    a dqv:Dimension ;
+    skos:prefLabel “currentness”@en ;
+    skos:altLabel “timeliness”@en ;
+    skos:prefLabel “aktualitet”@nb ;
+    skos:definition “the degree to which data has attributes that are of the right age in a specific context of use”@en .
+....
 === Kvalitetsdimensjon Samsvar (compliance/conformity)
 
 
@@ -322,12 +346,14 @@ skos:definition “the degree to which data has attributes that are of the right
 *Uttrykt i DQV*:  +
 @prefix dqv: <https://www.w3.org/TR/vocab-dqv/> . +
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . +
-:compliance +
-a dqv:Dimension ;
-skos:prefLabel “compliance”@en ; +
-skos:altLabel “conformity”@en ; +
-skos:prefLabel “samsvar”@nb ; +
-skos:definition “the degree to which data has attributes that adhere to standards, conventions or regulations in force and similar rules relating to data quality in a specific context of use”@en .
+....
+ :compliance
+    a dqv:Dimension ;
+    skos:prefLabel “compliance”@en ;
+    skos:altLabel “conformity”@en ;
+    skos:prefLabel “samsvar”@nb ;
+    skos:definition “the degree to which data has attributes that adhere to standards, conventions or regulations in force and similar rules relating to data quality in a specific context of use”@en .
+....
 
 ==== Kvalitetsbeskrivelse I samsvar med (conforms to)
 
@@ -345,18 +371,19 @@ skos:definition “the degree to which data has attributes that adhere to standa
 @prefix xsd: <https://www.w3.org/TR/xmlschema11-2/> . +
 @prefix xxx: <https://ikke.eksisterer.enda/pre_def_kvalitetsmaal/> ;  +
 skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb .
+....
+ :myDataset
+    a dcat:dataset ;
+    dcterms:conformsTo :aQualityStandard .
 
-:myDataset +
-a dcat:dataset ; +
-dcterms:conformsTo :aQualityStandard .
-
-:aQualityStandard +
-a dcterms:Standard ; +
-dcterms:title "Standard for ..."@en ;
-dcterms:comment “The standard defines ...”@en ; +
-dcterms:issued "2017-08-01"^^xsd:date ; +
-foaf:page <https://path.ToThe.Standard/aStandard> ; +
-dqv:inDimension xxx:compliance # antar at “compliance” er definert .
+ :aQualityStandard
+    a dcterms:Standard ;
+    dcterms:title "Standard for ..."@en ;
+    dcterms:comment “The standard defines ...”@en ;
+    dcterms:issued "2017-08-01"^^xsd:date ;
+    foaf:page <https://path.ToThe.Standard/aStandard> ;
+    dqv:inDimension xxx:compliance # antar at “compliance” er definert .
+....
 
 === Kvalitetsdimensjon Tilgjengelighet (availability)
 
@@ -370,11 +397,13 @@ dqv:inDimension xxx:compliance # antar at “compliance” er definert .
 *Uttrykt i DQV*:  +
 @prefix dqv: <https://www.w3.org/TR/vocab-dqv/> . +
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . +
-:availability +
-a dqv:Dimension ;
-skos:prefLabel “availability”@en ; +
-skos:prefLabel “tilgjengelighet”@nb ; +
-skos:definition “the degree to which data has attributes that enable it to be retrieved by users and/or applications in a specific context of use”@en .
+....
+:availability
+    a dqv:Dimension ;
+    skos:prefLabel “availability”@en ;
+    skos:prefLabel “tilgjengelighet”@nb ;
+    skos:definition “the degree to which data has attributes that enable it to be retrieved by users and/or applications in a specific context of use”@en .
+....
 
 === Kvalitetsdimensjon Relevans (relevancy)
 
@@ -388,11 +417,13 @@ skos:definition “the degree to which data has attributes that enable it to be 
 *Uttrykt i DQV*:  +
 @prefix dqv: <https://www.w3.org/TR/vocab-dqv/> . +
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . +
-:relevancy +
-a dqv:Dimension ;
-skos:prefLabel “relevancy”@en ; +
-skos:prefLabel “relevans”@nb ; +
-skos:definition “the provision of information which is in accordance with the task at hand and important to the users”@en .
+....
+ :relevancy
+    a dqv:Dimension ;
+    skos:prefLabel “relevancy”@en ;
+    skos:prefLabel “relevans”@nb ;
+    skos:definition “the provision of information which is in accordance with the task at hand and important to the users”@en .
+....
 
 ==== Ikke-kvantitativ/fritekst beskrivelse Bruksformål (specific usage)
 
@@ -412,24 +443,26 @@ skos:definition “the provision of information which is in accordance with the 
 @prefix xxx: <https://ikke.eksisterer.enda/pre_def_kvalitetsmaal/> ;  +
 skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb .
 
-:myDataset +
-a dcat:dataset ; +
-dqv:hasQualityAnnotation :usageAnnotation .
+....
+ :myDataset
+    a dcat:dataset ;
+    dqv:hasQualityAnnotation :usageAnnotation .
 
-:usageAnnotation +
-a dqv:QualityAnnotation ; +
-skos:prefLabel “usability”@en ; +
-skos:prefLabel “egnethet”@nb ; +
-skos:definition “hva datasettet er opprettet/innsamlet for”@nb ; +
-dqv:inDimension xxx:relevancy # antar at “relevancy” er definert ;  +
-oa:hasBody :usageDescription ; +
-oa:motivatedBy dqv:qualityAssessment .
+ :usageAnnotation
+    a dqv:QualityAnnotation ;
+    skos:prefLabel “usability”@en ;
+    skos:prefLabel “egnethet”@nb ;
+    skos:definition “hva datasettet er opprettet/innsamlet for”@nb ;
+    dqv:inDimension xxx:relevancy # antar at “relevancy” er definert ;
+    oa:hasBody :usageDescription ;
+    oa:motivatedBy dqv:qualityAssessment .
 
-:usageDescription +
-a oa:TextualBody ; +
-rdf:value “datasettet er opprettet for ...” ;
-dc:language “nb” ;
-dc:format “text/plain” .
+ :usageDescription
+    a oa:TextualBody ;
+    rdf:value “datasettet er opprettet for ...” ;
+    dc:language “nb” ;
+    dc:format “text/plain” .
+....
 
 ==== Ikke-kvantitativ/fritekst beskrivelse Egnethet (usability)
 
@@ -449,21 +482,23 @@ dc:format “text/plain” .
 @prefix xxx: <https://ikke.eksisterer.enda/pre_def_kvalitetsmaal/> ;  +
 skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb .
 
-:myDataset +
-a dcat:dataset ; +
-dqv:hasQualityAnnotation :usageAnnotation .
+....
+ :myDataset
+    a dcat:dataset ;
+    dqv:hasQualityAnnotation :usageAnnotation .
 
-:usabilityAnnotation +
-a dqv:QualityAnnotation ; +
-skos:prefLabel “usability”@en ; +
-skos:prefLabel “egnethet”@nb ; +
-skos:definition “hva datasettet er, og ikke er, egnet til”@nb ; +
-dqv:inDimension xxx:relevancy # antar at “relevancy” er definert ; +
-oa:hasBody :usabilityDescription ; +
-oa:motivatedBy dqv:qualityAssessment .
+ :usabilityAnnotation
+    a dqv:QualityAnnotation ;
+    skos:prefLabel “usability”@en ;
+    skos:prefLabel “egnethet”@nb ;
+    skos:definition “hva datasettet er, og ikke er, egnet til”@nb ;
+    dqv:inDimension xxx:relevancy # antar at “relevancy” er definert ;
+    oa:hasBody :usabilityDescription ;
+    oa:motivatedBy dqv:qualityAssessment .
 
-:usabilityDescription +
-a oa:TextualBody ; +
-rdf:value “datasettet er best egnet for å beregne …, men kan by på utfordringer når det også brukes til å analysere ...” ;
-dc:language “nb” ;
-dc:format “text/plain” .
+ :usabilityDescription
+    a oa:TextualBody ;
+    rdf:value “datasettet er best egnet for å beregne …, men kan by på utfordringer når det også brukes til å analysere ...” ;
+    dc:language “nb” ;
+    dc:format “text/plain” .
+....
