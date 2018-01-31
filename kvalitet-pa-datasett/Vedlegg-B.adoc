@@ -3,7 +3,7 @@
 = Vedlegg B - Forslag til Implementering i DCAT-AP-NO
 Informativ del av dette dokumentet.
 
-Dette vedlegget inneholder først forslag til hvordan beskrivelse av kvalitet på datasett skal kunne implementeres i DCAT-AP-NO. Vedlegget inneholder deretter eksempler på hvordan selve beskrivelsene kan uttrykkes ved å bruke DQV. Kapittel <<Kvalitetsdimensjon Kompletthet/Dekning (completeness/coverage)>> med <<Kvalitetsdeldimensjon Underdekning (undercoverage/omission)>> og kvalitetsmålene der under, viser et relativt komplett eksempel på hva som trengs for å beskrive “Dekning” ved å bruke DQV.
+Dette vedlegget inneholder først forslag til hvordan beskrivelse av kvalitet på datasett skal kunne implementeres i DCAT-AP-NO. Vedlegget inneholder deretter eksempler på hvordan selve beskrivelsene kan uttrykkes ved å bruke DQV. Kapittel <<Kompletthet/Dekning>> med <<Underdekning>> og kvalitetsmålene der under, viser et relativt komplett eksempel på hva som trengs for å beskrive “Dekning” ved å bruke DQV.
 
 Navnerom (_namespaces_) som er brukt i eksemplene er ikke kvalitetssikret. Navnerom “xxx” er brukt der vi foreløpig ikke fant relevante etablerte vokabular (og dermed bør det opprettes norske vokabularer før de eventuelt kommer inn i relevante internasjonale vokabularer).
 
@@ -41,24 +41,25 @@ Jf. figuren ovenfor som er gjengitt fra kapittel <<Begreper og definisjoner>>, f
  ** For brukertilbakemeldinger skal det oppgis motivasjon utover dqv:qualityAssessment i tråd med https://www.w3.org/TR/2016/CR-annotation-model-20160705/#motivation-and-purpose[vokabular for motivasjon og formål] definert i  W3Cs Web Annotations Data model. Merk at en her definerer om brukertilbakemeldingen for eksempel er et spørsmål eller et svar (fra andre brukere eller fra utgiver selv).
  ** Vi anbefaler (ev. vurderer å gjøre obligatorisk senere) å oppgi skaper/avsender og dato for brukertilbakemeldinger ved å benytte dct:creator og dct:created
 
-Eksempel på brukertilbakemelding: +
-:myDataset +
-a dcat:dataset ; +
-dqv:hasQualityAnnotation :userFeedback .
+Eksempel på brukertilbakemelding:
+....
+ :myDataset
+    a dcat:dataset ;
+    dqv:hasQualityAnnotation :userFeedback .
 
-:userFeedback +
-a dqv:UserQualityFeedback ; +
-dct:creator "Donald Duck" ; +
-dct:created "2017-09-13"^^xsd:date ; +
-oa:hasBody :usabilityComment ; +
-oa:motivatedBy dqv:qualityAssessment, oa:commenting .
+ :userFeedback
+    a dqv:UserQualityFeedback ;
+    dct:creator "Donald Duck" ;
+    dct:created "2017-09-13"^^xsd:date ;
+    oa:hasBody :usabilityComment ;
+    oa:motivatedBy dqv:qualityAssessment, oa:commenting .
 
-:usabilityComment +
-a oa:TextualBody ; +
-rdf:value “Dette datasettet er uegnet for ...” ; +
-dct:language “nb” ;  +
-dct:format “text/plain” .
-
+ :usabilityComment
+    a oa:TextualBody ;
+    rdf:value “Dette datasettet er uegnet for ...” ;
+    dct:language “nb” ;
+    dct:format “text/plain” .
+....
 ::image
 
 _Figur 3: Datamodell som viser de mest relevante klassene i DQV (kilde: _https://www.w3.org/TR/vocab-dqv/DataQuality0.2.9.svg[_W3C DQV]__)._
@@ -82,12 +83,13 @@ Arbeidsgruppen antar at det vil være behov for å beskrive kvalitet både knytt
 *Uttrykt i DQV*:  +
 @prefix dqv: <https://www.w3.org/TR/vocab-dqv/> . +
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
-:accuracy +
-a dqv:Dimension ;
-skos:prefLabel “accuracy”@en ;
-skos:prefLabel “nøyaktighet”@nb ; +
-skos:definition “the degree to which data has attributes that correctly represent the true value of the intended attribute of a concept or event in a specific context of use”@en .
+....
+ :accuracy
+    a dqv:Dimension ;
+    skos:prefLabel “accuracy”@en ;
+    skos:prefLabel “nøyaktighet”@nb ;
+    skos:definition “the degree to which data has attributes that correctly represent the true value of the intended attribute of a concept or event in a specific context of use”@en .
+....
 
 [[Komplett,Kompletthet/Dekning]]
 === Kvalitetsdimensjon Kompletthet/Dekning (completeness/coverage)
@@ -175,6 +177,7 @@ skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets
     dqv:value “true”^^xsd:boolean .
 ....
 
+[[Antall,Antall manglende elementer]]
 ===== Kvalitetsmål Antall manglende elementer (number of missing items)
 
 
@@ -207,6 +210,7 @@ skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets
     dqv:value “8”^^xsd:integer .
 ....
 
+[[Andel,Andel manglende elementer]]
 ===== Kvalitetsmål Andel manglende elementer (rate of missing items)
 
 
@@ -239,6 +243,7 @@ skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets
     dqv:value “0.08”^^xsd:decimal .
 ....
 
+[[Overdekning]]
 ==== Kvalitetsdeldimensjon Overdekning (overcoverage/commission)
 
 

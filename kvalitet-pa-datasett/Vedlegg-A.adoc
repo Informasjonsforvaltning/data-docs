@@ -1,5 +1,4 @@
-[[vedlegg med forslag til dimensjonene]]
-
+[[dimensjonene,vedlegg med forslag til dimensjonene]]
 = Vedlegg A - Forslag til kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål
 
 Informativ del av dette dokumentet.
