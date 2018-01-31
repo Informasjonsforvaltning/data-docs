@@ -3,7 +3,7 @@
 = Vedlegg B - Forslag til Implementering i DCAT-AP-NO
 Informativ del av dette dokumentet.
 
-Dette vedlegget inneholder først forslag til hvordan beskrivelse av kvalitet på datasett skal kunne implementeres i DCAT-AP-NO. Vedlegget inneholder deretter eksempler på hvordan selve beskrivelsene kan uttrykkes ved å bruke DQV. Kapittel <<6.3 Kvalitetsdimensjon Kompletthet/Dekning (completeness/coverage)>> med <<6.3.1 Kvalitetsdeldimensjon Underdekning (undercoverage/omission)>> og kvalitetsmålene der under, viser et relativt komplett eksempel på hva som trengs for å beskrive “Dekning” ved å bruke DQV.
+Dette vedlegget inneholder først forslag til hvordan beskrivelse av kvalitet på datasett skal kunne implementeres i DCAT-AP-NO. Vedlegget inneholder deretter eksempler på hvordan selve beskrivelsene kan uttrykkes ved å bruke DQV. Kapittel <<Kvalitetsdimensjon Kompletthet/Dekning (completeness/coverage)>> med <<Kvalitetsdeldimensjon Underdekning (undercoverage/omission)>> og kvalitetsmålene der under, viser et relativt komplett eksempel på hva som trengs for å beskrive “Dekning” ved å bruke DQV.
 
 Navnerom (_namespaces_) som er brukt i eksemplene er ikke kvalitetssikret. Navnerom “xxx” er brukt der vi foreløpig ikke fant relevante etablerte vokabular (og dermed bør det opprettes norske vokabularer før de eventuelt kommer inn i relevante internasjonale vokabularer).
 
@@ -15,7 +15,7 @@ I løsningsforslaget til implementering i DCAT-AP-NO baserer vi oss på  prinsip
 
 _Gjengivelse av figur 1 Kvalitetsbeskrivelser ved å -bruke DQV._
 
-Jf. figuren ovenfor som er gjengitt fra kapittel <<3 Begreper og definisjoner>>, foreslår vi følgende:
+Jf. figuren ovenfor som er gjengitt fra kapittel <<Begreper og definisjoner>>, foreslår vi følgende:
 
  * Beskrivelse av kvantiserbar kvalitet implementeres i DCAT-AP-NO på følgende måte:
  ** Det føyes til et nytt felt i DCAT-AP-NO, med:
@@ -87,7 +87,7 @@ skos:prefLabel “accuracy”@en ;
 skos:prefLabel “nøyaktighet”@nb ; +
 skos:definition “the degree to which data has attributes that correctly represent the true value of the intended attribute of a concept or event in a specific context of use”@en .
 
-[Kvalitetsdimensjon Kompletthet/Dekning (completeness/coverage)]
+[[Kvalitetsdimensjon Kompletthet/Dekning (completeness/coverage)]]
 === Kvalitetsdimensjon Kompletthet/Dekning (completeness/coverage)
 
 
@@ -110,6 +110,7 @@ skos:prefLabel “dekning”@nb ; +
 skos:altLabel “kompletthet”@nb ;
 skos:definition “i hvilken grad datasettet inneholder forventede opplysninger, for en spesifikk brukskontekst”@nb .
 
+[[Kvalitetsdeldimensjon Underdekning (undercoverage/omission)]]
 ==== Kvalitetsdeldimensjon Underdekning (undercoverage/omission)
 
 
@@ -191,7 +192,7 @@ a dqv:QualityMeasurement ; +
 dqv:isMeasurementOf :numberOfMissingItemsMetric ; +
 dqv:value “8”^^xsd:integer .
 
-===== Kvalitettsmål Andel manglende elementer (rate of missing items)
+===== Kvalitetsmål Andel manglende elementer (rate of missing items)
 
 
 *Definisjon*:
