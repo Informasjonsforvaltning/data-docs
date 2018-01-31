@@ -105,12 +105,14 @@ skos:definition “the degree to which data has attributes that correctly repres
 @prefix dqv: <https://www.w3.org/TR/vocab-dqv/> . +
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-:coverage +
-a dqv:Dimension ;
-skos:prefLabel “coverage”@en ;
-skos:prefLabel “dekning”@nb ; +
-skos:altLabel “kompletthet”@nb ;
-skos:definition “i hvilken grad datasettet inneholder forventede opplysninger, for en spesifikk brukskontekst”@nb .
+....
+ :coverage +
+    a dqv:Dimension ;
+    skos:prefLabel “coverage”@en ;
+    skos:prefLabel “dekning”@nb ; +
+    skos:altLabel “kompletthet”@nb ;
+    skos:definition “i hvilken grad datasettet inneholder forventede opplysninger, for en spesifikk brukskontekst”@nb .
+....
 
 [[Kvalitetsdeldimensjon Underdekning (undercoverage/omission)]]
 ==== Kvalitetsdeldimensjon Underdekning (undercoverage/omission)
