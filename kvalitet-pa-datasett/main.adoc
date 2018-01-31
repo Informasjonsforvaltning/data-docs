@@ -11,7 +11,7 @@ v1.0
 :toclevels: 3
 :sectanchors:
 :title-logo-image: utils/logo.jpg
-:sectnums:
+// :sectnums:
 :sectnumlevels: 5
 
 {description}

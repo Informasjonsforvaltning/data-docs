@@ -60,7 +60,9 @@ Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet
 
 Nedenfor er en forenklet UML-modell som viser de viktigste begrepene/klassene og relasjoner mellom disse. Tegningen illustrerer også forslag til implementering i DCAT-AP-NO, som er informativt (se <<vedlegg B>> for mer detaljert beskrivelse av forslaget). Det er valgt å bruke norske navn på klassene og rollene, med navn på de vokabularer som skal brukes i implementasjonen i parentes. For å få en full oversikt over modellen må en også se på spesialiseringer og subtyper av andre vokabularer som benyttes i dqv.
 
-::image
+image::https://github.com/difi/data-docs/blob/master/kvalitet-pa-datasett/images/bilde1_kvalitetsbeskrivelser_dqv.jpg[]
+
+image::../images/bilde1_kvalitetsbeskrivelser_dqv.jpg[]
 
 _Figur 1__: Kvalitetsbeskrivelser ved å bruke DQV. _
 
