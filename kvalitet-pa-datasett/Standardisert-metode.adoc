@@ -1,0 +1,22 @@
+= Standardisert metode for å beskrive kvalitet på datasett
+
+Arbeidsgruppen foreslår følgende når det gjelder beskrivelse av kvalitet på datasett i en datakatalog:
+
+ . Det er Anbefalt (= “skal, når det finnes”) å beskrive kvalitet på datasett i en datakatalog.
+ . Bruk https://www.w3.org/TR/vocab-dqv/[W3C DQV] som et standardisert vokabular til å beskrive kvalitet på datasett.
+ . Kvalitet på datasett beskrives langs et fåtalls kvalitetsdimensjoner (se <<vedlegg med forslag til dimensjonene>>) - i listen under betyr parentes valgfritt:
+ .. Kvantiserbar kvalitet beskrives i form av “Kvalitetsdimensjon” -> “Kvalitetsdeldimensjon” -> “Kvalitetsmål” -> “Måleresultat”
+ .. Ikke-kvantiserbar kvalitet beskrives i form av (“Kvalitetsdimensjon” ->) “Kvalitetsnote”
+ .. Kvalitet som er i samsvar med gitt(e) standarder/spesifikasjoner beskrives i form av (“Kvalitetsdimensjon” ->) “Standard/Spesifikasjon”
+ .. Brukertilbakemeldinger knyttet til kvalitet beskrives i form av (“Kvalitetsdimensjon” ->) “Brukerkvalitetstilbakemelding”
+Kvantiserbar kvalitet beskrives dessuten ved å referere footnote:[ For å kunne referere til pre-definerte kvalitetsmål, foreslås det å etablere en “Felles oversikt over definisjoner av kvalitetsmål” (dermed også et kontrollert vokabular). Ved behov kan den enkelte etaten definere nye kvalitetsmål, som så legges inn i felles oversikt, for gjenbruk av andre.] til et pre-definert kvalitetsmål. Definisjonene skal være i henhold til https://www.w3.org/TR/vocab-dqv/[W3C DQV].
+
+Se også datamodellen i kapittelet foran.
+
+Resten av dokumentet inneholder:
+
+ * Et informativt vedlegg med forslag fra arbeidsgruppen til kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål.
+ * Et informativt vedlegg med forslag til implementering av kvalitetsmål i DCAT-AP-NO, med eksempler på beskrivelser/definisjoner uttrykt ved hjelp av DQV.
+ * Et informativt vedlegg med URIer/navnerom som er brukt i dette dokumentet.
+ * Et informativt vedlegg med referanser som ikke er nevnt under normative referanser.
+ * Et informativt vedlegg med informasjon om arbeidsgruppen som har utarbeidet denne spesifikasjonen.

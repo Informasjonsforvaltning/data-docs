@@ -4,7 +4,7 @@ Med “kvalitet” (f.eks. i ordene “kvalitetsdimensjon” og “kvalitetsmål
 
 Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet “måling”/”beregning” (_metric_), men ikke “målsetning”.
 
-[kvalitetsdimensjon]
+[[kvalitetsdimensjon]]
 *Kvalitetsdimensjon*:
 
 * Anbefalt term: kvalitetsdimensjon
@@ -27,7 +27,7 @@ Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet
 * Merknad: Tilsvarer https://www.w3.org/TR/vocab-dqv/#dqv:Dimension[dqv:Dimension]
 * Eksempler: <<Underdekning>> og <<Overdekning>> som kvalitetsdeldimensjoner under kvalitetsdimensjonen <<Kompletthet/Dekning>>.
 
-[kvalitetsmål]
+[[kvalitetsmal]]
 *Kvalitetsmål*:
 
 * Anbefalt term: kvalitetsmål
@@ -57,7 +57,7 @@ Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet
 * Merknad: Arbeidsgruppen foreslår å etablere en felles oversikt over pre-definerte kvalitetsmål.
 * Eksempler: Annex D i ISO 19157:2013 (E) “List of standardized data quality measures” inneholder en rekke pre-definerte kvalitetsmål.
 
-Nedenfor er en forenklet UML-modell som viser de viktigste begrepene/klassene og relasjoner mellom disse. Tegningen illustrerer også forslag til implementering i DCAT-AP-NO, som er informativt (se <<vedlegg B>> for mer detaljert beskrivelse av forslaget). Det er valgt å bruke norske navn på klassene og rollene, med navn på de vokabularer som skal brukes i implementasjonen i parentes. For å få en full oversikt over modellen må en også se på spesialiseringer og subtyper av andre vokabularer som benyttes i dqv.
+Nedenfor er en forenklet UML-modell som viser de viktigste begrepene/klassene og relasjoner mellom disse. Tegningen illustrerer også forslag til implementering i DCAT-AP-NO, som er informativt (se <<vedleggB>> for mer detaljert beskrivelse av forslaget). Det er valgt å bruke norske navn på klassene og rollene, med navn på de vokabularer som skal brukes i implementasjonen i parentes. For å få en full oversikt over modellen må en også se på spesialiseringer og subtyper av andre vokabularer som benyttes i dqv.
 
 ::image
 
