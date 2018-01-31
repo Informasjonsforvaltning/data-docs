@@ -2,6 +2,7 @@ include::../shared/translation.adoc[]
 
 = Spesifikasjon for beskrivelse av formål og hjemmel
 v1.0
+
 :description:
 :doctype: book
 :icons: font
