@@ -21,7 +21,6 @@ include::../shared/download.adoc[]
 // :leveloffset: +1
 
 // Innhold her.
-include::Intro.adoc[]
 include::Omfang-og-avgrensning.adoc[]
 include::Normative-referanser.adoc[]
 include::Begreper-og-definisjoner.adoc[]
