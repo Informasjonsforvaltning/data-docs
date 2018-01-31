@@ -16,7 +16,7 @@ Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet
 * Merknad: Tilsvarer https://www.w3.org/TR/vocab-dqv/#dqv:Dimension[dqv:Dimension]
 * Eksempler: <<Nøyaktighet>>, <<Kompletthet/Dekning>>
 
-*Kvalitetsdeldimensjon*:
+.Kvalitetsdeldimensjon:
 
 * Anbefalt term: kvalitetsdeldimensjon
 * Alternativ term: deldimensjon
@@ -41,7 +41,7 @@ Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet
 ** Engelsk original: An observation (instance of dqv:QualityMeasurement) assigns a value in a given unit to a Metric.
 * Eksempler: <<Andel manglende elementer>> og <<Antall manglende elementer>> som kvalitetsmål langs kvalitetsdeldimensjonen <<Underdekning>>.
 
-*Måleresultat*:
+.Måleresultat:
 
 * Anbefalt term: måleresultat
 * Alternativ term: kvalitetsmåleresultat
@@ -51,7 +51,7 @@ Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet
 * Merknad: Tilsvarer https://www.w3.org/TR/vocab-dqv/#dqv:QualityMeasurement[dqv:QualityMeasurement]
 * Eksempler: Verdi “0,10” som resultat av “Andel manglende elementer”; verdi “10” som resultat av “Antall manglende elementer”.
 
-*Pre-definerte kvalitetsmål*:
+.Pre-definerte kvalitetsmål:
 
 * Anbefalt term: pre-definert kvalitetsmål
 * Definisjon: <<kvalitetsmal>> (dqv:Metric) som finnes tilgjengelig for gjenbruk, og som kan refereres ved en unik identifikator (URI)
