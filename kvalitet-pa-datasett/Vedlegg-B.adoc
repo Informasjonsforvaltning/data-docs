@@ -88,8 +88,9 @@ skos:prefLabel “accuracy”@en ;
 skos:prefLabel “nøyaktighet”@nb ; +
 skos:definition “the degree to which data has attributes that correctly represent the true value of the intended attribute of a concept or event in a specific context of use”@en .
 
-[[Kvalitetsdimensjon Kompletthet/Dekning (completeness/coverage)]]
-=== Kvalitetsdimensjon Kompletthet/Dekning (completeness/coverage)
+[[Kvalitetsdimensjon Kompletthet_Dekning (completeness_coverage)]]
+
+=== Kvalitetsdimensjon Kompletthet_Dekning (completeness_coverage)
 
 
 *Merknad*: Arbeidsgruppen fant ut at dette er en av de kvalitetsdimensjonene som det er mulig å bli enig om noen få felles kvalitetsdeldimensjoner og der under kvalitetsmål.
