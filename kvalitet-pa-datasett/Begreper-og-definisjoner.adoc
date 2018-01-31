@@ -5,8 +5,8 @@ Med “kvalitet” (f.eks. i ordene “kvalitetsdimensjon” og “kvalitetsmål
 
 Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet “måling”/”beregning” (_metric_), men ikke “målsetning”.
 
-[[kvalitetsdimensjon]]
-*Kvalitetsdimensjon*:
+
+.Kvalitetsdimensjon:[[kvalitetsdimensjon]]
 
 * Anbefalt term: kvalitetsdimensjon
 * Alternativ term: dimensjon
@@ -28,8 +28,8 @@ Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet
 * Merknad: Tilsvarer https://www.w3.org/TR/vocab-dqv/#dqv:Dimension[dqv:Dimension]
 * Eksempler: <<Underdekning>> og <<Overdekning>> som kvalitetsdeldimensjoner under kvalitetsdimensjonen <<Kompletthet/Dekning>>.
 
-[[kvalitetsmal]]
-*Kvalitetsmål*:
+
+.Kvalitetsmål:[[kvalitetsmal]]
 
 * Anbefalt term: kvalitetsmål
 * Alternativ term: beregningsmetode for et kvalitetsmål, definisjon av et kvalitetsmål
@@ -45,7 +45,7 @@ Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet
 
 * Anbefalt term: måleresultat
 * Alternativ term: kvalitetsmåleresultat
-* Definisjon: konkret resultat av <<kvalitetsmål>>
+* Definisjon: konkret resultat av <<kvalitetsmal>>
 ** Engelsk original: Represents the evaluation of a given dataset (or dataset distribution) against a specific quality metric.
 *** Kilde til definisjon: https://www.w3.org/TR/vocab-dqv/#dqv:QualityMeasurement[dqv:QualityMeasurement]
 * Merknad: Tilsvarer https://www.w3.org/TR/vocab-dqv/#dqv:QualityMeasurement[dqv:QualityMeasurement]
@@ -54,7 +54,7 @@ Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet
 *Pre-definerte kvalitetsmål*:
 
 * Anbefalt term: pre-definert kvalitetsmål
-* Definisjon: <<kvalitetsmål>> (dqv:Metric) som finnes tilgjengelig for gjenbruk, og som kan refereres ved en unik identifikator (URI)
+* Definisjon: <<kvalitetsmal>> (dqv:Metric) som finnes tilgjengelig for gjenbruk, og som kan refereres ved en unik identifikator (URI)
 * Merknad: Arbeidsgruppen foreslår å etablere en felles oversikt over pre-definerte kvalitetsmål.
 * Eksempler: Annex D i ISO 19157:2013 (E) “List of standardized data quality measures” inneholder en rekke pre-definerte kvalitetsmål.
 
