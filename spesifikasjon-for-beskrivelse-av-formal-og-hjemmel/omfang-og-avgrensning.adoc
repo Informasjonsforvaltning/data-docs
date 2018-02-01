@@ -24,6 +24,7 @@ Arbeidsgruppen “formål og hjemmel” har fått i oppgave å vurdere
  * om et metadatafelt for formål og hjemmel skal kunne inneholde fritekstfelt, lenker til der det finnes eller standardiserte kategorier
  * om behovet for egne beskrivelser/metadatafelter er sannsynliggjort med brukerhistorier
  * om brukerhistoriene dekker de tre primære bruksområdene av data i offentlig sektor til tjeneste- og regelutvikling, myndighetsutøvelse/etterlevelse, og som informasjonsbase for borgeren.
+
 === Arbeidsgruppen
 
 Arbeidsgruppen er ledet av Difi ved Pia Virmalainen Jøsendal. Det er etablert en kjernegruppe bestående av Liv Bergliot Simonsen (Statens lånekasse for utdanning), Thomas Rigvår (Skattedirektoratet), Magne U. Sand Bakken (Statens pensjonskasse) og Jon Barstad (Arkivverket).
