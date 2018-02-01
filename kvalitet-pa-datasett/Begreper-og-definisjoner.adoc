@@ -61,7 +61,6 @@ Med “mål” (f.eks. i ordet “kvalitetsmål”) menes det i dette dokumentet
 
 Nedenfor er en forenklet UML-modell som viser de viktigste begrepene/klassene og relasjoner mellom disse. Tegningen illustrerer også forslag til implementering i DCAT-AP-NO, som er informativt (se <<vedlegg B>> for mer detaljert beskrivelse av forslaget). Det er valgt å bruke norske navn på klassene og rollene, med navn på de vokabularer som skal brukes i implementasjonen i parentes. For å få en full oversikt over modellen må en også se på spesialiseringer og subtyper av andre vokabularer som benyttes i dqv.
 
-image::https://github.com/difi/data-docs/blob/master/kvalitet-pa-datasett/images/bilde1_kvalitetsbeskrivelser_dqv.jpg[]
 
 image::images/bilde1_kvalitetsbeskrivelser_dqv.jpg[]
 
@@ -69,7 +68,7 @@ _Figur 1__: Kvalitetsbeskrivelser ved å bruke DQV. _
 
 Figuren under illustrerer kvalitetsdimensjoner og kvalitetsdeldimensjoner og relasjon mellom disse, som begge er spesialiseringer av dqv:Dimension. Forskjellen er at en kvalitetsdeldimensjon peker til en kvalitetsdimensjon ved hjelp av https://www.w3.org/2009/08/skos-reference/skos.html#broader[skos:broader]. Det gjøres oppmerksom på at de enkelte kvalitetsdimensjoner og kvalitetsdeldimensjoner som er vist i figuren er kun eksempler og ikke normative.
 
-::image
+image::images/Eksempler_kvalitetsdimensjoner.png[]
 
 Figur 2: Eksempler på kvalitetsdimensjoner og kvalitetsdeldimensjoner.
 NB! De enkelte kvalitetsdimensjoner og kvalitetsdeldimensjoner er i dette dokumentet informative eksempler, mens måten å relatere en kvalitetsdeldimensjon til den tilhørende kvalitetsdimensjon er normativ (ved å bruke skos:broader).
