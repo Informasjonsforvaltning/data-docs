@@ -14,7 +14,7 @@ v1.0
 // :sectnums:
 :sectnumlevels: 5
 
-{description}
+// {description}
 
 include::../shared/download.adoc[]
 
