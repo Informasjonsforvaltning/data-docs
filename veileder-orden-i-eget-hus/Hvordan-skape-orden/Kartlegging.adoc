@@ -3,7 +3,7 @@
 
 ==== Hva er et datasett og hvilke datasett skal beskrives?
 
-Et datasett er en organisert samling av data. Hvordan et datasett avgrenses og organiseres vil imidlertid variere mellom ulike virksomheter. Det kan gjøres ulike valg f.eks. mht. hvilke datasett som skal spesifiseres i forbindelse med en saksbehandling eller trekkes ut av en database eller et register (se Brønnøysundregistrenes tanker rundt dette).
+Et datasett er en organisert samling av data. Hvordan et datasett avgrenses og organiseres vil imidlertid variere mellom ulike virksomheter. Det kan gjøres ulike valg f.eks. mht. hvilke datasett som skal spesifiseres i forbindelse med en saksbehandling eller trekkes ut av en database eller et register (se https://www.difi.no/artikkel/2016/06/erfaringer-med-bestemme-hva-et-datasett-er-og-hvilke-datasett-som-skal-beskrives[Brønnøysundregistrenes tanker rundt dette]).
 
 I ordforklaringene til https://doc.difi.no/dcat-ap-no/[“Standard for beskrivelse av datasett og datakataloger (DCAT-AP-NO)”] bruker en den litt mer IT-pregede definisjonen “Et datasett er en samling med data, for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API.”
 
