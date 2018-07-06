@@ -2,7 +2,7 @@ include::../shared/translation.adoc[]
 
 = Veileder for orden i eget hus
 Direktoratet for forvaltning og IKT
-v2.0 06.07.2018
+v2.0, 06.07.2018
 :description:
 :doctype: book
 :docinfo:
