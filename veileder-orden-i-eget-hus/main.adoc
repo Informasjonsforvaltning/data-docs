@@ -11,10 +11,10 @@ v2.0
 :toclevels: 3
 :sectanchors:
 :title-logo-image: utils/logo.jpg
-// :sectnums:
+:sectnums:
 :sectnumlevels: 5
 
-// {description}
+{description}
 
 include::../shared/download.adoc[]
 
@@ -22,19 +22,35 @@ include::../shared/download.adoc[]
 
 // Innhold her.
 == Innledning:
-include::innledning\Malgruppe.adoc[]
-include::innledning\Oppbygging-av-veilederen.adoc[]
-include::innledning\Mener-med-orden-i-eget-hus.adoc[]
-== Hvordan-skape-orden:
-include::hvordan-skape-orden\Mandat-forankring-eierskap.adoc[]
-include::hvordan-skape-orden\Nullpunktsmaaling.adoc[]
-include::hvordan-skape-orden\Kartlegging.adoc[]
-include::hvordan-skape-orden\Prioritering.adoc[]
-include::hvordan-skape-orden\vurdering-tilgangsnivaa.adoc[]
-include::hvordan-skape-orden\Tilgjengeliggjoring.adoc[]
-== Styring-og-forvaltning:
-include::styring-og-forvaltning\Styring-og-forvaltning[]
+include::Innledning\Malgruppe.adoc[]
+include::Innledning\Oppbygging-av-veilederen.adoc[]
+include::Innledning\Mener-med-orden-i-eget-hus.adoc[]
 
+include::Mandat-forankring-eierskap.adoc[]
+
+== Hvordan-skape-orden:
+include::Hvordan-skape-orden\Nullpunktsmaaling.adoc[]
+include::Hvordan-skape-orden\Kartlegging.adoc[]
+include::Hvordan-skape-orden\Prioritering.adoc[]
+include::Hvordan-skape-orden\vurdering-tilgangsnivaa.adoc[]
+include::Hvordan-skape-orden\Tilgjengeliggjoring.adoc[]
+include::Hvordan-skape-orden\Registrering.adoc[]
+include::Hvordan-skape-orden\Synliggjoring-brukerdialog.adoc
+== Styring-og-forvaltning:
+include::Styring-og-forvaltning\Styring-og-forvaltning.adoc[]
+include::Styring-og-forvaltning\overordnet-org-roller-prosesser.adoc[]
+include::Styring-og-forvaltning\organisering-roller-arbeidsprosesser.adoc[]
+== verktoy:
+include::verktoy\begrepskatalog.adoc[]
+include::verktoy\lokal-datakatalog.adoc[]
+== hvorfor-orden:
+include::hvorfor-orden\delekultur.adoc[]
+include::hvorfor-orden\legitimitet.adoc[]
+include::hvorfor-orden\endringsevne.adoc[]
+include::hvorfor-orden\tjenester.adoc[]
+include::hvorfor-orden\innovasjon.adoc[]
+include::hvorfor-orden\infosikkerhet.adoc[]
+include::hvorfor-orden\lovverk.adoc[]
 
 
 include::../shared/stats.adoc[]
