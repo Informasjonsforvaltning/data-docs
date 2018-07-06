@@ -21,15 +21,19 @@ include::../shared/download.adoc[]
 // :leveloffset: +1
 
 // Innhold her.
-include::Malgruppe.adoc[]
-include::Oppbygging-av-veilederen.adoc[]
-include::Mener-med-orden-i-eget-hus.adoc[]
-include::Mandat-forankring-eierskap.adoc[]
-include::Nullpunktsmaaling.adoc[]
-include::Kartlegging.adoc[]
-include::Prioritering.adoc[]
-include::vurdering-tilgangsnivaa.adoc[]
-include::Tilgjengeliggjoring.adoc[]
+== Innledning:
+include::innledning\Malgruppe.adoc[]
+include::innledning\Oppbygging-av-veilederen.adoc[]
+include::innledning\Mener-med-orden-i-eget-hus.adoc[]
+== Hvordan-skape-orden
+include::hvordan-skape-orden\Mandat-forankring-eierskap.adoc[]
+include::hvordan-skape-orden\Nullpunktsmaaling.adoc[]
+include::hvordan-skape-orden\Kartlegging.adoc[]
+include::hvordan-skape-orden\Prioritering.adoc[]
+include::hvordan-skape-orden\vurdering-tilgangsnivaa.adoc[]
+include::hvordan-skape-orden\Tilgjengeliggjoring.adoc[]
+== Styring og forvaltning
+include::Styring og forvaltning\Styring-og-forvaltning[]
 
 
 
