@@ -3,7 +3,7 @@ include::../shared/translation.adoc[]
 = Veileder for orden i eget hus
 Direktoratet for forvaltning og IKT
 v2.0
-:description: Hvordan arbeide med orden i eget hus
+:description:
 :doctype: book
 :docinfo:
 :icons: font
@@ -21,8 +21,8 @@ include::../shared/download.adoc[]
 // :leveloffset: +1
 
 // Innhold her.
-== Innledning:
-include::Innledning\Malgruppe.adoc[]
+//== Innledning:
+include::Malgruppe.adoc[]
 include::Innledning\Oppbygging-av-veilederen.adoc[]
 include::Innledning\Mener-med-orden-i-eget-hus.adoc[]
 
