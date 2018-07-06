@@ -1,4 +1,4 @@
-=== 1.3. Hva mener vi med “orden i eget hus”?
+=== Hva mener vi med “orden i eget hus”?
 
 Med orden i eget hus mener vi at “den enkelte virksomhet skal ha oversikt over hvilke data den håndterer, hva dataene betyr, hva de brukes til, hvilke prosesser de inngår i, og hvem som kan bruke dem (informasjonsforvaltning). Dette innebærer også å ta stilling til hvilke data som kan gjøres tilgjengelig for gjenbruk i offentlig sektor, og viderebruk av privat sektor. Offentlige virksomheter må prioritere utveksling av informasjon som andre virksomheter har krav på" https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2569983/[(Digitaliseringsrundskrivet)].
 
