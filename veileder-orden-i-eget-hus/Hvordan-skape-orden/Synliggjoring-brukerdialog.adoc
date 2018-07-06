@@ -1,3 +1,4 @@
+
 === Synliggjøring og brukerdialog
 
 Regjeringen legger i sine https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer for tilgjengeliggjøring av offentlige data] opp til at offentlige virksomheter aktivt skal oppmuntre til bruk av egne data. Dette omfatter også aktiviteter som bidrar til økt kompetanse hos konsumenter som ønsker å ta i bruk virksomhetens data. Eksempler her er hackatons, workshops, seminarer og brukerforum.

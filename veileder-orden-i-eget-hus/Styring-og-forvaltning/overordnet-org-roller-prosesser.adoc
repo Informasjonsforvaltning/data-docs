@@ -1,3 +1,4 @@
+
 === Overordnet organisering, roller og prosesser
 
 Masterdata og begrepsarbeid henger tett sammen. Styring og håndtering av masterdata (master data management (MDM)) i en virksomhet er kjernen i en vellykket gjennomføring. Det å få kontroll på hvilke registre eller datasett som utgjør kjernevirksomheten kan lett knyttes til interne prosesser som vil bli mer effektive, oversiktlige og kvalitetsmessig bedre. En leder for et område vil kunne ønske å delta i arbeidet med å definere hva det fagområdet betyr fordi konsekvensen av den definisjonen vil få praktiske betydninger, bl.a. for samvirkende systemer. Er kunde udefinert, vil det kunne være krevende å vite nøyaktig hva som kreves for å telle antall kunder. Gjelder en definisjonen for globale kunder som handler i flere land, kundebestillinger per land, eller noe annet?

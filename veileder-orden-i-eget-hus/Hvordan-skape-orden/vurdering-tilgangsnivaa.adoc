@@ -1,3 +1,4 @@
+
 === Vurdering av tilgangsnivå
 
 En enkel klassifisering av datasett i ulike tilgangsnivå er nyttig både for deg som dataforvalter og for brukerne som skal vurdere om dine datasett er egnet til andre formål. Vi anbefaler _trafikklyssystemet___ __- et system som deler informasjon i tre tilgangsnivå: __offentlig (grønn), begrenset offentlighet (gul)__ og __unntatt offentlighet (rød)__. Klassifiseringen gjelder for hele datasett og ikke enkeltvis for opplysningene i et datasett.

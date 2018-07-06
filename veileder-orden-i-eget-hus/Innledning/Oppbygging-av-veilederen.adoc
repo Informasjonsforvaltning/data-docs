@@ -1,3 +1,4 @@
+
 == Oppbygging av veilederen
 
 I Difis rapport https://www.difi.no/sites/difino/files/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf["Informasjonsforvaltning i offentlig sektor"] defineres informasjonsforvaltning slik:

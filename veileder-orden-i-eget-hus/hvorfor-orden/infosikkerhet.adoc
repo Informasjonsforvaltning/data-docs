@@ -1,3 +1,4 @@
+
 === Informasjonssikkerhet og personvern
 
 Flere områder tilknyttet informasjonsbehandling har behov for oversikt over virksomhetens arbeidsoppgaver (prosesser) og hvilke informasjonstyper som behandles i disse. I tillegg til å ha oversikt for å vurdere datadeling og effektivisering, må virksomhetene blant annet ha

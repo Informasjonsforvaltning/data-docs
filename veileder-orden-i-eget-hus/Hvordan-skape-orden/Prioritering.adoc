@@ -1,3 +1,4 @@
+
 === Prioritering
 
 Å lage oversikt over og beskrive datasett vil ta tid, og det anbefales å starte i det små med datasett som en vet eller tror er etterspurt av andre. Viktige spørsmål å stille er: finnes noen kjente brukerbehov? Vet vi hva som er mest etterspurt? Hva har antatt høyest verdi for brukerne? Finnes noen lavthengende frukter? Kostnader vs. antatt nytteverdi?
