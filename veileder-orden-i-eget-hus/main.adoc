@@ -21,7 +21,7 @@ include::../shared/download.adoc[]
 // :leveloffset: +1
 
 // Innhold her.
-//== Innledning:
+== Innledning:
 include::Innledning\Malgruppe.adoc[]
 include::Innledning\Oppbygging-av-veilederen.adoc[]
 include::Innledning\Mener-med-orden-i-eget-hus.adoc[]
