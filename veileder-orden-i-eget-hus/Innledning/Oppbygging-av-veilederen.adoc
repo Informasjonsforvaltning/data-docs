@@ -6,7 +6,7 @@ I Difis rapport https://www.difi.no/sites/difino/files/rapport-informasjonsforva
 “Informasjonsforvaltning betyr eit heilskapleg syn på aktivitetar, verktøy og andre tiltak for å sikre best mogleg kvalitet, utnytting og sikring av informasjon i ei verksemd. Organiseringa av informasjonen skal vere systematisk og henge saman med verksemda sine arbeidsprosessar”.
 
 * Veilederen tar utgangspunkt i “eit heilskapelig syn på aktiviteter” under kapittelet <<Styring og forvaltning>>.
-* Videre behandles temaene “kvalitet, utnytting og sikring” i kapittelet om <<Hvordan skape orden i eget hus.>>
+* Videre behandles temaene “kvalitet, utnytting og sikring” i kapittelet om <<Hvordan skape orden i eget hus?>>
 
 *Veilederen er ikke laget for å leses fra a til å.* Siden målgruppen er variert, vil ulike deler være relevante for ulike brukergrupper.
 
