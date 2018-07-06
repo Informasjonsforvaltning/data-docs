@@ -46,9 +46,9 @@ Ansvar og oppgaver som bør innehas av begrepseieren:
 * Involvere eventuelle interessenter i definisjonsarbeidet
 * Sørge for at begrepene ferdigstilles og blir godkjent
 
-==== 4.2.2. Andre roller som kan inngå i begrepsarbeidet
+==== Andre roller som kan inngå i begrepsarbeidet
 
-===== 4.2.2.1. Interessenter
+===== Interessenter
 
 Interessent er den/de som har en interesse i begreper som defineres i en begrepskatalog, men som de selv ikke har eierskap til i virksomheten. +
 Det er begrepseier sitt ansvar å sørge for at interessenter får mulighet til å komme med innspill til begrepsdefineringen. Involvering av interessenter skal bidra til
