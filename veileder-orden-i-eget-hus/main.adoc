@@ -18,13 +18,13 @@ v2.0
 
 include::../shared/download.adoc[]
 
-:leveloffset: +1
+//:leveloffset: +1
 
 // Innhold her.
 //== Innledning:
 include::Malgruppe.adoc[]
-include::Innledning\Oppbygging-av-veilederen.adoc[]
-include::Innledning\Mener-med-orden-i-eget-hus.adoc[]
+include::Innledning/Oppbygging-av-veilederen.adoc[]
+include::Innledning/Mener-med-orden-i-eget-hus.adoc[]
 
 include::Mandat-forankring-eierskap.adoc[]
 
