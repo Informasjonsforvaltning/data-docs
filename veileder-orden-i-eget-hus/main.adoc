@@ -32,8 +32,8 @@ include::hvordan-skape-orden\Kartlegging.adoc[]
 include::hvordan-skape-orden\Prioritering.adoc[]
 include::hvordan-skape-orden\vurdering-tilgangsnivaa.adoc[]
 include::hvordan-skape-orden\Tilgjengeliggjoring.adoc[]
-== Styring og forvaltning:
-include::Styring og forvaltning\Styring-og-forvaltning[]
+== Styring-og-forvaltning:
+include::styring-og-forvaltning\Styring-og-forvaltning[]
 
 
 
