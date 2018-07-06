@@ -1,0 +1,7 @@
+== Hvordan skape orden i eget hus?
+
+=== Nullpunktsmåling
+
+Vi har utviklet en https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning/modenhetsmodell-orden-i-eget-hus[modenhetsmodell] for at virksomhetene skal kunne vurdere hvor langt de er kommet i arbeidet med orden i eget hus. Også for denne modellen er datadeling målet, og orden i eget hus middelet. Modellen inkluderer flere av punktene fra Difi-rapporten, både punkt 1, 2 og 4 inngår i aksene i modellen.
+
+Modenhetsmodellen er verktøyet virksomhetene skal bruke for å vurdere orden i eget hus, og veilederen skal gi hjelp til å øke egen modenhet langs de ulike aksene.
