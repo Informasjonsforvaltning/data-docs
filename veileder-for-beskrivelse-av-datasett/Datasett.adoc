@@ -91,7 +91,7 @@ En setnings-beskrivelse av formålet til datasettet.
 
  * Det er formålet for opprettelsen eller at datasettet i det hele tatt eksisterer som skal beskrives her
  * Beskrivelsen skal være kortfattet og ikke gjentas i Beskrivelsesfeltet.
- * Dersom datasettet inneholder personopplysninger skal behandlingsformålet for personopplysninger etter Personopplysningsloven beskrives her.
+ * Dersom datasettet inneholder personopplysninger skal dette feltet brukes for å gjengi det formålet i henhold til personopplysningsloven som ligger til grunn for datasettet.
 
 .Eksempler
 * [*] Løsøreregisteret er etablert for å tinglyse heftelser (pant) i løsøre, uten tilknytning til fast eiendom
@@ -111,7 +111,7 @@ Beskrivelsen skal være kortfattet. Hensikten med datasettet bør komme fram. Hv
 En kort og presis beskrivelse av datasettet skal gjøre det lett for andre å se hva det inneholder. Beskrivelse er et obligatorisk felt.
 
  * Beskrivelsen skal være kortfattet slik at lister over datasett forståes ved å lese de første linjene.
- * Hensikten med datasettet bør komme fram (f.eks. “Løsøreregisteret inneholder tinglyste flyttbare eiendeler”). For datasett som er omfattet av Personopplysningsloven, skal behandlingsformålet beskrives.
+ * Hensikten med datasettet bør komme fram (f.eks. “Løsøreregisteret inneholder tinglyste flyttbare eiendeler”).
  * Beskriv hva datasettet inneholder. Hvilke opplysninger som utgjør kjernen i datasettet bør angis.
  * Feltinnhold skal ikke listes, men listes i emneord eller begreper.
  * Beskrivelsen er ikke en gjentakelse av tittel
