@@ -18,7 +18,7 @@ v2.0
 
 include::../shared/download.adoc[]
 
-// :leveloffset: +1
+:leveloffset: +1
 
 // Innhold her.
 //== Innledning:
