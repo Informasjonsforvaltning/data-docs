@@ -1,0 +1,5 @@
+=== Registrering
+
+Registrering kan skje ved å registrere datasettene manuelt i https://registrering-fdk.ppe.brreg.no/loggin[registreringsløsningen til Felles datakatalog] , eller ved å tilgjengeliggjøre en lokal datakatalog (i samsvar med DCAT-AP-NO) som Felles datakatalog høster beskrivelser fra.
+
+Generelt anbefales det å tilgjengeliggjøre omtale av datasett før de er “perfekte”. Oversikter og datasettbeskrivelser kan utdypes og forbedres over tid. Man bør heller ikke vente til “hele huset er i orden” før man begynner å tilgjengeliggjøre informasjon om datasett.
