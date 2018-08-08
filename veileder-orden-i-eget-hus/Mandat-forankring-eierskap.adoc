@@ -3,7 +3,7 @@
 
 Å sikre forankring kan være krevende. Start med å skape forståelse i egen organisasjon for behovet for å få orden i eget hus.
 
-Kontakt ledere og sentrale fagressurser i linjen og i prosjekter, og vis til hva https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/[Digital agenda ]sier om å holde orden i eget hus og hva https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2569983/[Digitaliseringsrundskrivet] sier om tilrettelegging for gjenbruk og viderebruk av informasjon.  Disse kildene omtaler både samfunnsnytte og gevinster man kan oppnå i egen etat som følge av arbeidet.
+Kontakt ledere og sentrale fagressurser i linjen og i prosjekter, og vis til hva https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/[Digital agenda ]sier om å holde orden i eget hus og hva https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2569983/[Digitaliseringsrundskrivet] sier om tilrettelegging for gjenbruk og viderebruk av informasjon.  Disse kildene omtaler både samfunnsnytte og gevinster man kan oppnå i egen virksomhet som følge av arbeidet.
 
 Informasjonsforvaltning kan være et vanskelig tema å formidle. Del derfor gjerne arbeidet med å få orden i eget hus opp i håndterbare og konkrete aktiviteter slik at det blir lettere å forstå og ta eierskap til arbeidet. Man kan for eksempel dele arbeidet opp i begrepsarbeid, informasjonsmodellering, registrering av datasett og etablering av API’er.
 
