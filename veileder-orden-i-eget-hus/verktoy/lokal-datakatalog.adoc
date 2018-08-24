@@ -1,9 +1,9 @@
 
 === Lokal datakatalog
 
-Ettersom DCAT-AP-NO er basert på en internasjonal standard finnes det flere løsninger som kan benyttes til etablering av en lokal datakatalog. Samtidig vil de norske tilleggene medføre at de må tilpasses noe for å støtte norske tillegg. Felles datakatalog, som utvikles og forvaltes av Brønnøysundregistrene, støtter alle de særnorske tilleggene. Kildekoden til Felles datakatalog ligger på https://github.com/Altinn/fdk/blob/master/README.md[GitHub], og Difi anbefaler å implementere denne løsningen lokalt.
+Ettersom DCAT-AP-NO er basert på en internasjonal standard finnes det flere løsninger som kan benyttes til etablering av en lokal datakatalog. Samtidig vil de norske tilleggene medføre at de må tilpasses noe for å støtte norske tillegg. Felles datakatalog, som utvikles og forvaltes av Brønnøysundregistrene, er en lavterskel løsning som støtter alle de særnorske tilleggene. Kildekoden til Felles datakatalog ligger på https://github.com/Altinn/fdk/blob/master/README.md[GitHub], og Difi anbefaler å implementere denne løsningen lokalt.
 
-Eksempler på andre løsninger som kan benyttes til en lokal datakatalog:
+Ved mer komplekse behov finnes andre løsninger som kan benyttes til en lokal datakatalog, f.eks:
 
 https://ckan.org/[CKAN] : en komplett løsning for både beskrivelse og distribusjon av datasett. Støtter eksport til de fleste egenskapene i DCAT-AP om en bruker http://extensions.ckan.org/extension/dcat/[denne utvidelsen]. Statens vegvesen har utviklet https://github.com/vegvesen/ckanext-dcat_ap_no[et programtillegg] som også ivaretar de norske utvidelsene.
 
