@@ -1,21 +1,11 @@
 
-=== Beskrive dataene
+=== Beskrive data
 
-==== Datakatalog - en oversikt over datasett
-
-En datakatalog er en sammenstilling av strukturerte beskrivelser av datasett. I Norge er https://doc.difi.no/dcat-ap-no/[Standard for beskrivelse av datasett og datakataloger] (DCAT-AP-NO) anbefalt for alle offentlige virksomheter. Eksempler på opplysninger i en datasettbeskrivelse er tittel, beskrivelse, utgiver,  kontaktpunkt, gyldighetsperiode og dekningsområde. En gjennomgang av alle de obligatoriske, anbefalte og valgfrie feltene og hvordan disse skal fylles ut finnes i https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/[veilederen for beskrivelse av datasett.]
-
-https://fellesdatakatalog.brreg.no/[Felles datakatalog] er en nasjonal katalog over datasett, og det enkelte datasett er beskrevet i henhold til nevnte standard. Datasett kan enten beskrives og registreres direkte i Felles datakatalog, eller virksomheten kan etablere en lokal datakatalog som Felles datakatalog høster fra.
-
-En lokal datakatalog kan være nyttig for å få en tettere kobling mellom beskrivelsene og selve datasettene. Enkeltopplysninger kan da hentes maskinelt fra kilden, som for eksempel når datasettet sist ble oppdatert (endringsdato).
-
-Videre kan en lokal datakatalog inneholde mer informasjon enn det som vil bli høstet av Felles datakatalog, for eksempel, kontaktinformasjon til interne ressurser med ulike ansvar knyttet til datasettet og omtale av datasett som kun er relevante for virksomheten selv.
-
-===== Standard for beskrivelse av datasett - DCAT-AP-NO
+==== Standard for beskrivelse av datasett - DCAT-AP-NO
 
 I 2015 besluttet Difi at https://doc.difi.no/dcat-ap-no/[“Standard for beskrivelse av datasett og datakataloger”], også kalt DCAT-AP-NO,  skal være anbefalt forvaltningsstandard. Dette er den norske versjonen av EU-standarden DCAT-AP (Data Catalog Vocabulary - Application Profile) og skal sikre at beskrivelser av offentlige data i Norge utføres på en felles, strukturert måte og i en maskinlesbar form. Kontakt informasjonsfovaltning@difi.no ved spørsmål og innspill knyttet til bruk, eller innmelding av uløste behov.
 
-===== Standarder for begrepsarbeid
+==== Standarder for begrepsarbeid
 
 Når det gjelder beskrivelse av begreper knyttet til data, kan det organiseres på ulike måter. Flere virksomheter arbeider med begrepskataloger (bl.a. Brønnøysundregistrene, https://www.difi.no/sites/difino/files/retningslinjer_bk_v1.2.pdf[NAV] og Skatteetaten) der de definerer både begreper som inngår i datasett og andre begreper som er relevante i virksomhetens arbeid. Andre har valgt å konsentrere begrepsarbeidet hovedsakelig om variabler knyttet til identifiserte datasett.
 
