@@ -1,5 +1,5 @@
 
-=== Tilgjengeliggjøring av beskrivelsene
+=== Beskrive dataene
 
 ==== Datakatalog - en oversikt over datasett
 
