@@ -29,7 +29,7 @@ include::Innledning/Mener-med-orden-i-eget-hus.adoc[]
 include::Mandat-forankring-eierskap.adoc[]
 
 //== Hvordan-skape-orden:
-include::Hvordan-skape-orden/Nullpunktsmaaling.adoc[]
+include::Hvordan-skape-orden/Modenhetsmaaling.adoc[]
 include::Hvordan-skape-orden/Kartlegging.adoc[]
 include::Hvordan-skape-orden/Prioritering.adoc[]
 include::Hvordan-skape-orden/vurdering-tilgangsnivaa.adoc[]
