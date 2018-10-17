@@ -1,0 +1,15 @@
+
+=== Tilgjengeliggjøre beskrivelsene
+
+==== Datakatalog - en oversikt over datasett
+En datakatalog er en sammenstilling av strukturerte beskrivelser av datasett. Katalogen inneholder gjerne pekere til hvor datasettene finnes (lenke til distribusjoner), men inneholder altså ikke selve datasettene  I Norge er https://doc.difi.no/dcat-ap-no/[Standard for beskrivelse av datasett og datakataloger] (DCAT-AP-NO) anbefalt for alle offentlige virksomheter. Eksempler på opplysninger i en datasettbeskrivelse er tittel, beskrivelse, utgiver,  kontaktpunkt, gyldighetsperiode og dekningsområde. En gjennomgang av alle de obligatoriske, anbefalte og valgfrie feltene og hvordan disse skal fylles ut finnes i https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/[veilederen for beskrivelse av datasett.]
+
+https://fellesdatakatalog.brreg.no/[Felles datakatalog] er en nasjonal katalog over datasett, og det enkelte datasett er beskrevet i henhold til nevnte standard. Datasett kan enten beskrives og registreres direkte i Felles datakatalog, eller virksomheten kan etablere en lokal datakatalog som Felles datakatalog høster fra.
+
+En lokal datakatalog kan være nyttig for å få en tettere kobling mellom beskrivelsene og selve datasettene. Enkeltopplysninger kan da hentes maskinelt fra kilden, som for eksempel når datasettet sist ble oppdatert (endringsdato).
+
+Videre kan en lokal datakatalog inneholde mer informasjon enn det som vil bli høstet av Felles datakatalog, for eksempel, kontaktinformasjon til interne ressurser med ulike ansvar knyttet til datasettet og omtale av datasett som kun er relevante for virksomheten selv.
+
+Datasettene kan registreres manuelt i https://registrering-fdk.ppe.brreg.no/loggin[registreringsløsningen til Felles datakatalog] , eller ved å tilgjengeliggjøre en lokal datakatalog (i samsvar med DCAT-AP-NO) som Felles datakatalog høster beskrivelser fra.
+
+Generelt anbefales det å tilgjengeliggjøre omtale av datasett før de er “perfekte”. Oversikter og datasettbeskrivelser kan utdypes og forbedres over tid. Man bør heller ikke vente til “hele huset er i orden” før man begynner å tilgjengeliggjøre informasjon om datasett.
