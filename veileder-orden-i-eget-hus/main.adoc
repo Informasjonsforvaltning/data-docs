@@ -33,7 +33,7 @@ include::Hvordan-skape-orden/Modenhetsmaaling.adoc[]
 include::Hvordan-skape-orden/Kartlegging.adoc[]
 include::Hvordan-skape-orden/Prioritering.adoc[]
 include::Hvordan-skape-orden/vurdering-tilgangsnivaa.adoc[]
-include::Hvordan-skape-orden/Tilgjengeliggjoring.adoc[]
+include::Hvordan-skape-orden/Tilgjengeliggjore.adoc[]
 include::Hvordan-skape-orden/Beskrive.adoc[]
 include::Hvordan-skape-orden/Synliggjoring-brukerdialog.adoc[]
 //== Styring-og-forvaltning:
