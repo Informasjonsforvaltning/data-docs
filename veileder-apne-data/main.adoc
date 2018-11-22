@@ -1,0 +1,27 @@
+include::../shared/translation.adoc[]
+
+= Veileder i tilgjengeliggjøring av åpne data
+
+:description:Veileder i tilgjengeliggjøring av åpne data 
+:doctype: book
+:docinfo:under arbeid
+:icons: font
+:toc: left
+:toclevels: 3
+:sectanchors:
+:title-logo-image: utils/logo.jpg
+:sectnums:
+:sectnumlevels: 4
+
+{description}
+
+include::../shared/download.adoc[]
+
+// :leveloffset: +1
+
+// Innhold her.
+include::1-hva.adoc[]
+include::2-lisensiering.adoc[]
+include::3-hvordan.adoc[]
+
+include::../shared/stats.adoc[]
