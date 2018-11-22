@@ -1,10 +1,9 @@
 include::../shared/translation.adoc[]
 
 = Veileder i tilgjengeliggjøring av åpne data
-
 :description:Veileder i tilgjengeliggjøring av åpne data 
 :doctype: book
-:docinfo:under arbeid
+:docinfo:
 :icons: font
 :toc: left
 :toclevels: 3
