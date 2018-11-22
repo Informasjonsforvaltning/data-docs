@@ -1,7 +1,7 @@
 include::../shared/translation.adoc[]
 
 = Veileder i tilgjengeliggjøring av åpne data
-:description:Veileder i tilgjengeliggjøring av åpne data 
+:description: Veileder i tilgjengeliggjøring av åpne data 
 :doctype: book
 :docinfo:
 :icons: font
@@ -12,7 +12,7 @@ include::../shared/translation.adoc[]
 :sectnums:
 :sectnumlevels: 4
 
-{description}
+//{description}
 
 include::../shared/download.adoc[]
 
