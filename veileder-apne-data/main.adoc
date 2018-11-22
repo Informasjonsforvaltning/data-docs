@@ -9,8 +9,10 @@ include::../shared/translation.adoc[]
 :toclevels: 3
 :sectanchors:
 :title-logo-image: utils/logo.jpg
-:sectnums:
-:sectnumlevels: 4
+
+//:sectnums:
+
+//:sectnumlevels: 3
 
 //{description}
 
