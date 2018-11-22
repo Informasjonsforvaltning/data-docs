@@ -1,0 +1,16 @@
+
+== Hvorfor orden i eget hus
+
+=== Delekultur som gir gevinster
+
+https://www.difi.no/sites/difino/files/20150624_sak_10-15_foranalyse_informasjonsforvaltning_og_utveksling_-_vedlegg_1_sluttrapport_ny_versjon.pdf[Foranalysen] som ble gjennomført i regi av Skate, etablerte et målbilde for hele offentlig sektor. Der heter det bl.a.:
+
+Data skal skapes én gang og forvaltes i én kilde for så å kunne gjenbrukes. Gjenbruk er hovedregel ved utvikling av nye digitale offentlige tjenester, og dette gjelder gjenbruk av både tjenester, data og beskrivelser.
+
+https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2569983/[Digitaliseringsrundskrivet ]sier at en bør bruke felles offentlige registre (Det sentrale folkeregisteret, Enhetsregisteret, Kontakt- og reservasjonsregisteret og Matrikkelen). Dette er nasjonale masterdata som inneholder “fasiten” for data på sitt område. Men det finnes mye informasjon av felles nytte utenfor disse felles offentlige registrene, og hvordan skal en få til en delekultur rundt disse? Og hvilke gevinster vil en slik delekultur skape, både internt i en virksomhet og for samfunnet som helhet?
+
+I dag samler flere deler av offentlig sektor inn samme type informasjon, noe som er en dårlig utnyttelse både av offentlig sektors egne, og samfunnets, ressurser. Dersom en har tilstrekkelig “orden i eget hus”, vil oversikter over egen informasjon kunne tilgjengeliggjøres. Dermed vil andre virksomheter se hvilken informasjon som allerede finnes, og vil- dersom de har hjemmel for gjenbruk - kunne redusere kostnader både hos seg selv og hos de som må sende inn informasjonen. Brønnøysundregistrene og Difi har derfor i samarbeid med SKATE-virksomhetene lansert en https://fellesdatakatalog.brreg.no/[felles datakatalog] med oversikt over datasett fra offentlige virksomheter i Norge.
+
+Digitale tjenester i én offentlig virksomhet forutsetter ofte informasjon som forvaltes av andre virksomheter. Lånekassen trenger f.eks. informasjon fra bl.a. Skatteetaten, NAV og UDI i sin saksbehandling. “Orden i eget hus” er viktig for å lage gode og sammenhengende tjenester; for å vite hvilken informasjon som finnes hos andre, men også for å vite hva den betyr. ( “Samboer” er f.eks. ikke nødvendigvis det samme i Skatteetaten og NAV. ) “Orden i eget hus” forenkler arbeidet med å identifisere hva som kan utveksles, og gir basis for eventuell koordinering av begrepsbruk. Den som bruker tjenestene, slipper på sin side å slite med ulik begrepsbruk, og henting og videreformidling av informasjon som det offentlige allerede har.
+
+Arbeidet med å skape “orden i eget hus” er et stort nasjonalt fellesløft, der eget arbeid vil gi gevinst for andre, og vise versa.

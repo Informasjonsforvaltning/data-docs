@@ -1,3 +1,4 @@
+
 = Normative referanser
 
 Difi, DCAT-AP-NO, Standard for beskrivelse av datasett og datakataloger, 11.10.2016, https://doc.difi.no/dcat-ap-no/[https://doc.difi.no/dcat-ap-no/].

@@ -1,0 +1,45 @@
+
+=== Vurdering av tilgangsnivå
+
+En enkel klassifisering av datasett i ulike tilgangsnivå er nyttig både for deg som dataforvalter og for brukerne som skal vurdere om dine datasett er egnet til andre formål. Vi anbefaler _trafikklyssystemet___ __- et system som deler informasjon i tre tilgangsnivå: __offentlig (grønn), begrenset offentlighet (gul)__ og __unntatt offentlighet (rød)__. Klassifiseringen gjelder for hele datasett og ikke enkeltvis for opplysningene i et datasett.
+
+Det er alltid den mest konfidensielle opplysningen i datasettet som er utgangspunkt for klassifiseringen. Dersom ett av feltene eksempelvis er skjermet informasjon, så skal hele datasettet klassifiseres på grunnlag av dette.
+
+==== Offentlig (grønn)
+Et datasett som klassifiseres som offentlig kan gjøres gratis tilgjengelig for alle. Offentleglovas hovedregel gjelder, og ingen unntakshjemler kommer til anvendelse. Kategorien omfatter også løsninger for tilgang som krever brukeregistrering/API-nøkler, så lenge alle kan få tilgang til de fysiske dataene.
+
+Ettersom regjeringen anbefaler offentlige virksomheter å gi fra seg egne eksklusive økonomiske rettigheter ved tilgjengeliggjøring av offentlige data, skal datasett som er omfattet av virksomhetens egen opphavsrett (inkludert databaserettigheter) klassifiseres som grønne. Data fra det offentlige som er klassifisert som offentlig, som har en åpen lisens og som er gjort tilgjengelig gratis for alle i et maskinlesbart format kalles åpne offentlige data.
+
+Informasjon som enhver kan få innsyn i, men som likevel ikke kan publiseres eller gjøres tilgjengelig for allmennheten i tråd med viderebruksbestemmelsene i Offentleglova (for eksempel fordi de inneholder personopplysninger), skal ikke klassifiseres som offentlig.
+
+Formålet med kategorien offentlig er å kunne skille ut datasett som enten alt er gjort tilgjengelig som åpne offentlige data eller som potensielt kan gjøres tilgjengelig som åpne offentlige data, fra øvrige datasett.
+
+==== Begrenset offentlighet (gul)
+
+Et datasett som er klassifisert som begrenset offentlighet kan ikke gjøres åpent tilgjengelig for alle. Datasettet inneholder opplysninger som medfører at det må gjøres en vurdering (saksbehandling) før tilgang eventuelt kan gis. Årsakene til skjerming kan for eksempel være at:
+
+* datasettet inneholder personopplysninger
+* datasettet er omfattet av tredjeparts opphavsrett
+* datasettet er omfattet av taushetsrett
+* datasettet er skapt eller delt under avtaler om å ikke offentliggjøres
+* tilgang til datasettet er begrenset med hjemmel i en av unntaksbestemmelsene i offentleglova
+* datasettet er kun tilgjengelig mot avgift
+* tilgang er ikke vurdert
+
+Kategorien omfatter data med et bredt spekter av årsaker til skjerming. Felles for disse er at data potensielt kan gjøres tilgjengelig på visse vilkår. Eksempler på vilkår som kan gi tilgang:
+
+* brukeren som ønsker tilgang har lovhjemmel for tilgang for et beskrevet formål.
+* dataeier er omfattet av utleveringshjemler som pålegger eller muliggjør deling for visse formål eller til konkrete aktører
+* personene som personopplysningene omhandler har gitt samtykke til partenes bruk av data
+* det inngås avtaler med eventuelle tredjeparter med opphavsrett til informasjonen om tilgang og bruk av datasettet
+* formålet til brukeren samsvarer med formålet for innsamlingen av data
+
+Formålet med kategorien begrenset offentlighet er kunne skille ut datasett som kun kan deles under visse vilkår fra øvrige datasett.
+
+==== Unntatt offentlighet (rød)
+
+Det kreves særskilt rettslig grunnlag for å få tilgang til datasettet. Typiske eksempler er gradert informasjon, sensitive personopplysninger eller forretningshemmeligheter. Aktuelle grunnlag for utlevering kan være samtykke fra den/de som har rett på vern, særhjemler eller partsinnsyn (partenes rett til å gjøre seg kjent med opplysninger i egen sak).
+
+Formålet med kategorien unntatt offentlighet er kunne skille ut data som kun kan deles på særskilt rettslig grunnlag.
+
+Uansett hvordan du klassifiserer datasettet, er det viktig å spesifisere hvilken hjemmel som ligger til grunn for innsamlingen og bruken av datasettet. Vurderingen går også her ut på om deler av et begrenset datasett likevel kan gjøres tilgjengelig som “grønne” data. Det som klassifiseres som rødt, skal likevel beskrives og beskrivelsene tilgjengeliggjøres i Felles datakatalog. footnote:[Registreringsløsning for Felles datakatalog: https://registrering-fdk.ppe.brreg.no/loggin  Publiseringsløsning for Felles datakatalog: https://fellesdatakatalog.brreg.no/] Behovet for å vite hva begrensningene for bruken av et datasett er, er viktig for den som skal vurderer å ta i bruk et datasett. Derfor bør du også henvise til den lovformuleringen med hjemmel og formål som regulerer bruken av datasettet, for eksempel i Lovdata. Se ellers https://doc.difi.no/data/spesifikasjon-for-beskrivelse-av-formal-og-hjemmel/[spesifikasjon for beskrivelse av formål og hjemmel.]

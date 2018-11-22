@@ -1,0 +1,55 @@
+include::../shared/translation.adoc[]
+
+= Veileder for orden i eget hus
+Direktoratet for forvaltning og IKT
+v2.0, 06.07.2018
+:description:
+:doctype: book
+:docinfo:
+:icons: font
+:toc: left
+:toclevels: 3
+:sectanchors:
+:title-logo-image: utils/logo.jpg
+:sectnums:
+:sectnumlevels: 5
+
+{description}
+
+include::../shared/download.adoc[]
+
+//:leveloffset: +1
+
+// Innhold her.
+//== Innledning:
+include::Innledning/Malgruppe.adoc[]
+include::Innledning/Oppbygging-av-veilederen.adoc[]
+include::Innledning/Mener-med-orden-i-eget-hus.adoc[]
+
+include::Mandat-forankring-eierskap.adoc[]
+
+//== Hvordan-skape-orden:
+include::Hvordan-skape-orden/Modenhetsmaaling.adoc[]
+include::Hvordan-skape-orden/Kartlegging.adoc[]
+include::Hvordan-skape-orden/Prioritering.adoc[]
+include::Hvordan-skape-orden/vurdering-tilgangsnivaa.adoc[]
+include::Hvordan-skape-orden/Beskrive.adoc[]
+include::Hvordan-skape-orden/Tilgjengeliggjore.adoc[]
+include::Hvordan-skape-orden/Synliggjoring-brukerdialog.adoc[]
+//== Styring-og-forvaltning:
+include::Styring-og-forvaltning/Styring-og-forvaltning.adoc[]
+include::Styring-og-forvaltning/overordnet-org-roller-prosesser.adoc[]
+include::Styring-og-forvaltning/organisering-roller-arbeidsprosesser.adoc[]
+//== verktoy:
+include::verktoy/begrepskatalog.adoc[]
+include::verktoy/lokal-datakatalog.adoc[]
+//== hvorfor-orden:
+include::hvorfor-orden/delekultur.adoc[]
+include::hvorfor-orden/legitimitet.adoc[]
+include::hvorfor-orden/endringsevne.adoc[]
+include::hvorfor-orden/tjenester.adoc[]
+include::hvorfor-orden/innovasjon.adoc[]
+include::hvorfor-orden/infosikkerhet.adoc[]
+include::hvorfor-orden/lovverk.adoc[]
+
+include::../shared/stats.adoc[]

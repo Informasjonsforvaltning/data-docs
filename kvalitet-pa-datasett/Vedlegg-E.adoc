@@ -1,12 +1,13 @@
-[[vedleggE]]
+
+[[vedleggE,vedlegg E]]
 = Vedlegg E - Arbeidsgruppen
 Informativ del av dette dokumentet.
 
-=== 9.1 Beskrivelse av arbeidsgruppens oppgave
+=== Beskrivelse av arbeidsgruppens oppgave
 
 Arbeidsgruppen fikk i oppgave å utarbeide en spesifikasjon for hvordan kvalitet på datasett skal beskrives i en datakatalog.
 
-=== 9.2 Sammensetning av arbeidsgruppen
+=== Sammensetning av arbeidsgruppen
 
 Kartverket ved Morten Borrebæk har ledet denne arbeidsgruppen. Følgende etater og personer har ellers vært involvert i arbeidet:
 
@@ -37,7 +38,7 @@ Mot slutten av arbeidet ble det etablert en mindre arbeidsgruppe som fikk i oppg
 |Difi|Martin Standley, Jim J. Yang, Øystein Åsnes
 |Statistisk sentralbyrå|Hans Viggo Sæbø
 |===
-=== 9.3 Arbeid i arbeidsgruppen
+=== Arbeid i arbeidsgruppen
 
 Arbeidsgruppen startet sitt arbeid fra 25. januar 2017. Har hatt halvdagsmøter ca. annen hver uke.
 

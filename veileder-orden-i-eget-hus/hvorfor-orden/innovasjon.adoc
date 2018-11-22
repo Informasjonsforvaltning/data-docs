@@ -1,0 +1,12 @@
+
+=== Innovasjon og ny næringsvekst
+
+Innovasjon er en samlebetegnelse for vellykket fornyelse. Når økonomier endrer seg raskt er innovasjon nødvendig for å opprettholde og utvikle vår konkurranseevne og vår velstand.
+
+Data ligger til grunn for hvordan vi løser oppgaver nå og fremover. Det har innvirkning på hvordan offentlige oppgaver organiseres og utformes. For å få til den nødvendige endringen må offentlig sektor ha kontroll på egne data som grunnlag for redesign av virksomheten på alle nivå - folk, prosesser, teknologi og styring.footnote:[Mer om digital transformasjon på Difs sider: https://www.difi.no/fagomrader-og-tjenester/digitalt-forstevalg/hva-er-digitalt-forstevalg/digital-transformasjon]
+
+Innlåsning til en leverandør kan hemme innovasjon, og gi dårligere kostnadseffektivitet enn virksomheten kan oppnå ved hyppigere konkurranseutsetting. https://www.fintprosjektet.no/om-fintprosjektet/[FINT-prosjektet] (Felles Fylkeskommunale INTegrasjone) leverer en informasjonsmodell og et API for kommunikasjon som kan legges som grunnlag for fremtidige kjøp av nye systemer (krav), forbedring av eksisterende tjenester og utvikling av nye tjenester. Ting gjøres en gang og likt hos alle fylkeskommuner og en unngår innlåsing.
+
+Orden i eget hus gjør det enklere å vite hvilke data en kan åpne opp for alle. Åpne data er viktig for samfunnet. Næringslivet får mulighet til å utvikle nye tjenester, produkter og forretningsmodeller basert på tilgang til offentlig informasjon.
+
+Felles datakatalog tilrettelegger for verdiøkning og tjenesteinnovasjon. Enkle tilgangsformer (programmeringsgrensesnitt – API), åpne standarder og gode metadata gjør det enklere å utvikle innovative løsninger basert på oppdaterte data.

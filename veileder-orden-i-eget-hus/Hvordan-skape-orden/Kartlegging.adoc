@@ -1,0 +1,42 @@
+
+=== Kartlegging
+
+==== Hva er et datasett og hvilke datasett skal beskrives?
+
+Et datasett er en organisert samling av data. Hvordan et datasett avgrenses og organiseres vil imidlertid variere mellom ulike virksomheter. Det kan gjøres ulike valg f.eks. mht. hvilke datasett som skal spesifiseres i forbindelse med en saksbehandling eller trekkes ut av en database eller et register (se https://www.difi.no/artikkel/2016/06/erfaringer-med-bestemme-hva-et-datasett-er-og-hvilke-datasett-som-skal-beskrives[Brønnøysundregistrenes tanker rundt dette]).
+
+I ordforklaringene til https://doc.difi.no/dcat-ap-no/[“Standard for beskrivelse av datasett og datakataloger (DCAT-AP-NO)”] bruker en den litt mer IT-pregede definisjonen “Et datasett er en samling med data, for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API.”
+
+Det er i utgangspunktet opp til virksomheten, ut fra gitte formål, å definere hvilke datasett som er relevant å beskrive, og mange vil ha lovverk og retningslinjer som sier noe om dette. Imidlertid fokuserer veilederen på datadeling, dermed kan en grovt sett si at alle datasett som virksomheten kan dele med andre, er relevant å beskrive.
+
+==== Hvor starter jeg?
+
+Det første du må gjøre er å skaffe deg oversikt over hvilke datasett som finnes i virksomheten, og hvem som har ansvaret for disse. Vi anbefaler å utnevne en person som kan opptre som koordinator for dette arbeidet. +
+Begynn gjerne med arkivmedarbeidere, seksjonssjefer, avdelingsdirektører eller andre saksansvarlige, men husk at kjennskap til (og kunnskap om) datasett og registre gjerne finnes på alle nivå i virksomheten.
+
+Det kan være vanskelig å vurdere hva som er samling av data og dermed hvor stor eller liten samlingen skal være. Kriterier for å avgrense et datasett vil kunne variere mellom virksomheter og over tid. Se https://www.difi.no/artikkel/2016/06/erfaringer-med-bestemme-hva-et-datasett-er-og-hvilke-datasett-som-skal-beskrives[Brønnøysundregistrenes tanker rundt dette].
+
+For noen vil det sannsynligvis være hensiktsmessig å ta for seg ulike arbeidsprosesser (f.eks. knyttet til forskjellige typer saksbehandling), og identifisere og beskrive datasett for én og én prosess. Andre måter å avgrense på kan være ut fra hjemmelsgrunnlag, overordnet, tematisk/faglig område, eller også data knyttet til tjenester. Ved utvikling av nye løsninger kartlegges gjerne informasjonsarkitekturen as-is og to-be i ny løsning. Dette er et godt utgangspunkt for å kartlegge datasett og gjøre data fra tjenesten maskinlesbart tilgjengelig. Dersom en har datasett som både brukes internt (av andre deler av virksomheten enn de som forvalter datasettene), og eksternt, bør en prioritere å starte med disse som vil gi gevinst for både egen og andre virksomheter.
+
+Avgrensninger av datasett kan være avhengig av bruksområde. Datasett kan være delmengde av andre datasett og omvendt. I DCAT-AP-NO er det flere felt som kan brukes for å beskrive relasjoner mellom datasett. De to mest åpenbare er: https://doc.difi.no/dcat-ap-no/#datasett-er-del-av[Datasett: er del av] og https://doc.difi.no/dcat-ap-no/#datasett-har-del[Datasett: har del.]
+
+Eksempler på avgrensing av et datasett:
+
+* Enhetsregisteret kan betraktes som ett stort datasett. Brønnøysundregistrene har også datasett som inneholder en avgrenset mengde tema fra Enhetsregisteret. Eksempler på dette er  datasettene Juridisk Person, Virksomhet/Bedrift og Roller. I tillegg kan tilgangsnivå skille Roller i to datasett; ett komplett, og et der sensitive data er fjernet.
+* I Matrikkelen er datasettene Eiendom, Adresse, Bygning. Datasettene distribueres i henhold til ulike applikasjonsskjema (informasjonsmodeller) og på ulike formater.
+* Aa-registeret inneholder datasettet Arbeidsforhold - kilde: A-ordningen, relasjon til Enhetsregisteret og DSF.
+* Det sentrale folkeregisteret (DSF) inneholder Innbyggere, andre personer med tilknytning til riket, bosted, samemantall osv.
+* Uføre (vedtak om uførestatus) fra NAV er en avgrensning av populasjonen og dermed et datasett.
+* Lovlig opphold fra UDI er et datasett
+* Vernepliktige er etter lov om verneplikt en del av Forsvarets verneplikts- og tjenesteregister.
+
+
+Det kan oppstå behov for å definere begrep i kartleggingsfasen og i et utviklingsprosjekt, og vi anbefaler at disse forvaltes i en felles begrepskatalog for virksomheten med tydelige forvaltningsprosesser definert (mer om dette i kapittelet om Styring og forvaltning). Begrepene bør være definert i henhold til angitt https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/standarder/standard-begrepsbeskrivelser[standard]. Målet på sikt er at etatenes begreper har en https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/pekere-til-offentlige-ressurser-pa-nett[unik identifikator] som gjør at begrepet er en felles ressurs som kan pekes til og gjenbrukes på tvers av offentlig forvaltning. F.eks  fra både intern og felles datakatalog og i definerte informasjonsmodeller.
+
+Tar en for seg å beskrive ulike arbeidsprosesser anbefaler https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturbegreper[Difi]  at man benytter Archimate og BPMN som felles modelleringsspråk (notasjon). Archimate (ArchiMate - architecture modeling language)  er en de-facto standard for beskrivelse av arkitektur og representerer en visuell måte å beskrive arkitekturobjekter med relasjoner i form av modeller.  Språket og modellene kan brukes for å kommunisere, designe og vurdere arkitektur.  BPMN (Business Process and Modelling Notation) brukes for prosessbeskrivelser.
+
+==== Hva er forskjellen mellom oversikt og beskrivelse?
+
+I modenhetsmodellen skiller en mellom oversikt over datasett og beskrivelse av datasett. Men hva er forskjellen på disse? Det er kanskje lettest å se forskjellen ved å se på hensikten med oversikten og beskrivelsen. Hensikten med oversikten er at potensielle brukere (også interne) skal kunne sjekke om det finnes datasett som kan være aktuelle for en bestemt oppgave, mens beskrivelsen, som gir mer detaljert og utfyllende informasjon om datasettet, skal hjelpe brukeren å avgjøre om datasettet virkelig er aktuelt for oppgaven. En kan si at oversikten brukes til å identifisere/oppdage relevante kandidat-datasett, mens beskrivelsen skal hjelpe en til å vurdere/evaluere om informasjonen i datasettene er relevant for den aktuelle oppgaven.
+
+Eksempel på brukerhistorie: Jeg er på jakt etter et datasett som sier noe om inntekt for samboere med barn. Jeg søker gjennom felles datakatalog, og ser at både Etat A og Etat B har datasett som ut fra den kortfattede informasjonen (f.eks. tittel) kan være aktuelle. For å vurdere om datasettene virkelig inneholder det jeg ser etter, trenger jeg imidlertid en mer detaljert beskrivelse av informasjonen. I beskrivelsen finner jeg bl.a. definisjoner av begrepene som brukes i datasettet, og ser at Etat B definerer samboer på en annen måte enn en gjør innenfor mitt fagområde. Dette datasettet er derfor ikke aktuelt for min bruk, men Etat A viser seg å ha samme definisjon både på samboer og inntekt som det jeg bruker i mine analyser.

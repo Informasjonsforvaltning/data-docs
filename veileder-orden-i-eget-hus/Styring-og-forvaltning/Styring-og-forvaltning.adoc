@@ -1,0 +1,6 @@
+
+== Styring og forvaltning
+
+Organiseringen av orden i eget hus- arbeidet varierer med type virksomhet og ambisjonsnivå. Mange starter med begrepsarbeid, og vi beskriver under hvordan dette arbeidet foregår i Brønnøysundregistrene og NAV i kapittelet <<Roller i begrepsarbeidet>>
+
+Helt overordnet, er det viktig å se flere ulike områder i sammenheng, slik at styringen forsterker også andre prosesser, og ikke jobber på tvers av dem. Se på eksisterende føringer og retningslinjer, prosesser og andre krav som virksomheten er pålagt å følge. Alt inngår i en styrings- og forvaltningsprosess for data og informasjon, men alle områdene er ikke nødvendigvis underlagt denne nye prosessen. Risikohåndtering, kvalitetskrav, forretningsprosesser / formål, teknologi som er tilgjengelig og nødvendig, kompetanse, ressurser og så videre er alle viktige vurderinger som må sees i en helhet for å lykkes med en god styring og håndtering av data i en virksomhet. Begynn gjerne der modenheten er størst og du har flere å alliere deg med.

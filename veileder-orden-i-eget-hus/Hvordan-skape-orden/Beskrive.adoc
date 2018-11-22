@@ -1,0 +1,48 @@
+
+=== Beskrive data
+
+==== Standard for beskrivelse av datasett - DCAT-AP-NO
+
+I 2015 besluttet Difi at https://doc.difi.no/dcat-ap-no/[“Standard for beskrivelse av datasett og datakataloger”], også kalt DCAT-AP-NO,  skal være anbefalt forvaltningsstandard. Dette er den norske versjonen av EU-standarden DCAT-AP (Data Catalog Vocabulary - Application Profile) og skal sikre at beskrivelser av offentlige data i Norge utføres på en felles, strukturert måte og i en maskinlesbar form. Kontakt informasjonsfovaltning@difi.no ved spørsmål og innspill knyttet til bruk, eller innmelding av uløste behov.
+
+==== Standarder for begrepsarbeid
+
+Når det gjelder beskrivelse av begreper knyttet til data, kan det organiseres på ulike måter. Flere virksomheter arbeider med begrepskataloger (bl.a. Brønnøysundregistrene, https://www.difi.no/sites/difino/files/retningslinjer_bk_v1.2.pdf[NAV] og Skatteetaten) der de definerer både begreper som inngår i datasett og andre begreper som er relevante i virksomhetens arbeid. Andre har valgt å konsentrere begrepsarbeidet hovedsakelig om variabler knyttet til identifiserte datasett.
+
+Det finnes i dag tre anbefalinger vedrørende begrepsarbeid i https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/begrepsanalyse-og-definisjonsarbeid[Referansekatalogen for IT-standarder i offentlig sektor]. Den ene er https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/standarder/standard-begrepsbeskrivelser[Standard for begrepsbeskrivelse 1.0 ]som viser hvilke elementer som skal med når et begrep beskrives. Her inngår bl.a. navn, definisjon, kilde og gyldighetsperiode.
+
+Den andre anbefalte standarden er  https://www.difi.no/sites/difino/files/standard-for-begrepskoordinering-2013-02-13-1-.pdf[Standard for begrepskoordinering 1.0]. Standarden beskriver en prosess for å koordinere begreper mellom to eller flere parter innenfor offentlig sektor, inkludert en anbefaling om ”beste praksis”. Dette vil være særlig aktuelt i prosjekter som involverer deling av data. Selv om hovedbruken av standarden vil være knyttet til samarbeidsprosjekter mellom etater, vil standarden også være nyttig i internt arbeid med begrepskoordinering (i tilfeller der ulike deler av en virksomhet har ulike definisjoner av samme begrep). Noen forskjeller kan f.eks. skyldes at en forholder seg til ulike lovverk, andre at ulike deler av en virksomhet ikke kjenner nok til begrepsbruken hos andre og lager egne definisjoner.
+
+I tillegg anbefales «Termlosen» footnote:[”Termlosen – kort innføring i begrepsanalyse og terminologiarbeid” fås gratis ved henvendelse til til Språkrådet: http://www.sprakradet.no/Vi-og-vart/Publikasjoner/Termlosen/. Termene i Termlosen er igjen basert på den nordiske terminologisammenslutningen Nordterms arbeid.] som veileder i arbeidet med å analysere eksisterende begrepsbruk og komme fram til et koordinert begrepsapparat.
+
+==== Vurdering og beskrivelse av kvalitet på datasett
+
+Kvaliteten på virksomhetens data påvirker hvor egnet de er til andre formål enn de først ble skapt for. Dokumentering av datakvalitet er til stor hjelp i prosessen med å vurdere om virksomhetens datasett er egnet til andre formål, og øker sjansen for gjenbruk. Datakvaliteten bør derfor være dokumentert, og kjente utfordringer knyttet til datakvalitet bør eksplisitt omtales i beskrivelsen.
+
+En veiledende regel kan være at det som er bra nok for eget arbeid, også er bra nok for å dele med omverdenen. En erfaring flere har gjort seg, er at tilgjengeliggjøring fører til bedre kvalitet. Når informasjon gjøres tilgjengelig, er det flere som kan oppdage og gi tilbakemelding om potensielle feil, og eier kan rette opp disse.
+
+WARNING: Det er i tillegg utarbeidet en egen https://doc.difi.no/data/kvalitet-pa-datasett[spesifikasjon for beskrivelse av kvalitet i datasett], men i gjeldende versjon av DCAT-AP-NO er det foreløpig ikke implementert støtte for denne.
+
+==== API-katalog - en oversikt over grensesnitt til data
+
+Det er ønskelig at deling av data i økende grad gjøres i sanntid. For å få dette til må grensesnittene mellom datasettene defineres, publiseres og harmoniseres, både på et semantisk og teknisk nivå. Felles datakatalog og DCAT-AP-NO utvides derfor med beskrivelser av tekniske datatjenester og pekere til hvor du kan finne dem, såkalte applikasjonsgrensesnitt (APIer). Fordeler med denne tilnærmingen er at søk på datasett også gir oversikt over hvilke APIer som kan benyttes for tilgang til dataene, og standardiserte beskrivelser av APIer gjør det gjenkjennelig for utviklerne hvordan de kan benyttes. Med en felles tilnærming til hvordan grensesnittene utformes blir det dermed enklere å sikre riktig bruk og forståelse av tjenester og data.
+
+API-ene må beskrives med en rekke forhold, bl.a. under hvilke tekniske standarder de formidles, hva slags innhold som utveksles (referanse til datasett-beskrivelse), under hvilke avtaler (SLA) de kan formidles osv.
+
+. Alle tjenester som er av felles interesse og nytte er beskrevet på en felles strukturert måte, og beskrivelsene er enkelt tilgjengelige
+. API-ene er beskrevet og gjort tilgjengelig på en slik måte at de lett kan gjenbrukes i nye tjenester.
+. Det er etablert mekanisme for deling av data i sanntid, inkl. direkte oppslag i bl.a. registre som inneholder grunndata. Publisering av grunndata følger felles informasjonsmodeller
+. Felles informasjonsmodeller for sentrale entiteter (f.eks. person, adresse, organisasjon) er etablert og tilgjengeliggjort som gjenbrukbare, standardiserte modeller og tjenestemodeller som gjelder utveksling av grunndata er etablert og tilgjengeliggjort og baseres på felles informasjonsmodeller.
+. En felles lavterskel løsning for å tilgjengeliggjøre kodeverk er vurdert
+
+WARNING: Arbeidet med å videreutvikle standard og løsning for en mer detaljert beskrivelse av API-er er pågående. Kontakt informasjonsforvaltning@difi.no for mer informasjon.
+
+==== Informasjonsmodeller
+
+Ulik forståelse og ulik representasjon av sentral felles informasjon hindrer effektiv informasjonsutveksling og samhandling mellom organisasjoner. Det er vanskelig å gjenbruke dataene når de organiseres og navngis forskjellig fra system til system. Felles objekter som person, adresse og organisasjon representeres ulikt på tvers av tjenester. Dette medfører store kostnader for hver integrasjon, også med store muligheter for feil.
+
+Det er derfor et behov for felles forståelse og lik representasjon av grunnleggende informasjon. Forståelse etableres med et felles begrepsapparat, og ved å etablere standardiserte beskrivelser for data og sammenhengene mellom data-elementene ved hjelp av informasjonsmodeller.
+
+For å etablere informasjonsmodeller som skal være felles for offentlige virksomheter, trenger vi felles grunnleggende designprinsipper samt føringer i form av regler, retningslinjer og metode for informasjonsmodellering. Dette blir et sentralt arbeid fremover.
+
+WARNING: Referanse til informasjonsmodeller er ikke løst i gjeldende versjon av DCAT-AP eller i Felles datakatalog. Det er i dag anbefalt å legge inn referanse til datamodeller i feltet https://doc.difi.no/dcat-ap-no/#datasett-i-samsvar-med[Datasett: i samsvar med] i DCAT-AP-NO. Kontakt informasjonsforvaltning@difi.no for mer informasjon.

@@ -1,0 +1,23 @@
+
+=== Oppbygging av veilederen
+
+I Difis rapport https://www.difi.no/sites/difino/files/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf["Informasjonsforvaltning i offentlig sektor"] defineres informasjonsforvaltning slik:
+
+“Informasjonsforvaltning betyr eit heilskapleg syn på aktivitetar, verktøy og andre tiltak for å sikre best mogleg kvalitet, utnytting og sikring av informasjon i ei verksemd. Organiseringa av informasjonen skal vere systematisk og henge saman med verksemda sine arbeidsprosessar”.
+
+* Veilederen tar utgangspunkt i “eit heilskapelig syn på aktiviteter” under kapittelet <<Styring og forvaltning>>.
+* Videre behandles temaene “kvalitet, utnytting og sikring” i kapittelet om <<Hvordan skape orden i eget hus?>>
+
+*Veilederen er ikke laget for å leses fra a til å.* Siden målgruppen er variert, vil ulike deler være relevante for ulike brukergrupper.
+
+Veilederen er basert på innspill fra en gruppe offentlige virksomheter, og vil være preget av de erfaringer gruppen har. Det vil komme nye versjoner etter hvert som erfaringene med rammeverket for informasjonsforvaltning øker både i bredde og dybde.
+
+Veilederen skal *primært støtte arbeid som er nødvendig for å få til deling av informasjon*. Den vil ikke omhandle hvordan selve delingen skal gjøres i praksis (avtaleverk, utvekslingsformater o.l.). Dens bidrag er å hjelpe virksomhetene med å etablere “orden i eget hus”, en situasjon der oversikten som trengs for å dele informasjon, er på plass. Veilederen vil gå nærmere inn på hva dette innebærer i praksis.
+
+Merk at det også finnes egne og supplerende, detaljerte veiledere, som bør sees i sammenheng med denne veiledningen, blant annet:
+
+* Hvordan beskrive datasett i henhold til felles standard, DCAT-AP-NO: https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/[https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/]
+* Tilgjengeliggjøring av offentlig data:
+https://data.norge.no/document/del-og-skap-verdier-veileder-i-tilgjengeliggj%C3%B8ring-av-offentlige-data[https://data.norge.no/document/del-og-skap-verdier-veileder-i-tilgjengeliggj%C3%B8ring-av-offentlige-data]
+
+* Internkontrollveilederen: https://internkontroll-infosikkerhet.difi.no/[https://internkontroll-infosikkerhet.difi.no/]

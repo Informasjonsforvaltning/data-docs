@@ -1,4 +1,5 @@
-= 1 Omfang og avgrensning
+
+= Omfang og avgrensning
 
 Dokumentet inneholder en spesifikasjon til hvordan man skal beskrive kvalitet på datasett i en datakatalog.
 

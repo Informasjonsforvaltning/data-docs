@@ -1,0 +1,4 @@
+
+=== Bedre digitale tjenester til innbyggere og næringsliv
+
+Brukerorienterte digitale tjenester er avhengige av rett utnyttelse av informasjonen som allerede finnes om innbygger og næringsliv. Dette muliggjør pro-aktive tjenester, persontilpassede tjenester og automatiserte tjenester. Det vil si at offentlig sektor ikke skal spørre om noe den allerede vet (kun en gang-prinsippet), en skal ikke søke om noe en har rett til, en skal få umiddelbart svar hvis det ikke kreves skjønn, og det skal være enkelt å vite hva offentlig sektor vet om deg og hvem som har sett denne informasjonen. I tillegg skal tjenester leveres på tvers av sektorer og forvaltningsnivå i såkalte tjenestekjeder.

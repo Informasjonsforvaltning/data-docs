@@ -1,0 +1,8 @@
+
+== Valg av verktøy
+
+=== Begrepskatalog
+
+Begreper bør defineres og dokumenteres i én felles begrepskatalog og tilgjengeliggjøres til bruk for alle fagområder, både internt i virksomheten og eksternt. Hver virksomhet vil ha ulike behov knyttet til verktøystøtte, men det kan være nyttig å se etter verktøy som tilbyr prosesstøtte og tilgangsstyring for opprettelse, redigering, oppdatering og sletting av begrep.
+
+Virksomheten bør også tilgjengeliggjøre rammeverk og retningslinjer, informasjon om prosess og roller og opplæring på et egnet sted. Det bør også være god støtte for gjenfinning av data, herunder instanser av begreper, med forenklet og avansert søk og filtrering, oppslag og visning, evt også visualisering av begreper. Det bør også tas høyde for at begrepene skal kunne tilgjengeliggjøres maskinelt. Derfor er det lurt å stille krav til eksport/import og støtte for standardformater.

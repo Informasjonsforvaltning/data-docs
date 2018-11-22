@@ -1,0 +1,67 @@
+
+=== Organisering, roller og arbeidsprosesser i begrepsarbeid
+
+En vanlig utfordring er at begrepsarbeid ofte starter i forbindelse med større prosjekter der begrepsarbeid ikke nødvendigvis er hovedsaken, men nødvendig for et godt resultat. Utfordringen vil da ofte være å få dette begrepsarbeidet over i en driftsfase (med inkludering av nye begreper og oppdatering) når det opprinnelige prosjektet avsluttes. Det er viktig at noen får ansvar for å koordinere begrepsarbeidet på tvers i en virksomhet. Dersom en bruker begreper som kommer fra andre, eller hvis en vet at andre jobber innenfor samme fagområde, vil det være lurt å sjekke om andres begrepsbeskrivelser kan brukes.
+
+Begrepenes livssyklus bør defineres gjennom en prosess, se eksempel under. Prosessen bør også ta høyde for endringer og revisjoner (nye versjoner etter godkjenning)footnote:[I dette eksempelet er ikke revisjonsprosess tatt med.].
+
+image::images/Prosess_begrep_Brreg.png[]
+_Figur 2__:Prosess i begrepsarbeid
+
+
+==== Roller i begrepsarbeidet
+
+Informasjonsarkitektens rolle i forbindelse med begreper er å involvere forvaltere av Begrepskatalogen og melde fra om begrepsbehov fra forretning og IT som oppstår i prosjektet. Dersom det oppstår nye begreper som beskriver for eksempel ny funksjonalitet som prosjektet utvikler, er prosjektet midlertidig saksbehandler for begrepet fram til leveransen er ferdig og funksjonaliteten overtas av linjen
+
+For å sikre framdrift på begrepsarbeidet, bør det etableres noen føringer for arbeidet, for eksempel i form av rammeverk og/eller retningslinjer, samt en prosess for å kvalitetssikre arbeidet. Rammeverk og prosess kan forvaltes for eksempel av miljøer på forretningssiden, gjerne hos miljøer som har et særskilt ansvar for informasjonsforvaltningen i virksomheten. Det samme miljøet bør også eie den samlede oversikten over beskrivelser av begrep. For å forvalte begrepene bør man etablere en begrepskatalog.
+
+Den som eier rammeverk, prosess og katalog kan ha en del ansvar knyttet til oppgaven, for eksempel:
+
+* Sørge for tilgjengeliggjøring av begrepskatalogen, opplæring m.m
+* Tilrettelegge for at verktøyene for begrepsarbeid fungerer og støtter arbeidet optimalt
+* Sørge for effektiv formidling av, og nødvendig informasjon om, begrepsarbeidet i virksomheten
+* Sørge for at begrepskoordinator-rollen blir ivaretatt
+* Sørge for dialog og å oppdatere rammeverk i samarbeid med informasjonsforvaltningsmiljøet
+* Passe på at prosessen for utarbeidelse og kvalitetssikring blir fulgt
+* Bidra til harmonisering av innhold
+
+===== Begrepskoordinator
+
+For å sikre at begrepsarbeidet får framdrift og fokus, bør det være en eller flere som har som sitt daglige ansvar å tilrettelegge for dokumentasjon av begrepene på vegne av hele virksomheten. Dette kan være en koordinerende rolle, som typisk kan ha følgende ansvar:
+
+* være prosessdriver for begrepsarbeidet i virksomheten
+* følge med på at begrepene blir utarbeidet etter retningslinjene til rammeverket, og hjelpe begrepseiere (se under) med å følge disse.
+* ha ansvar, i samråd med evt koordinatorer på den enkelte avdeling,footnote:[Det kan være nyttig å vurdere avdelingskoordinatorer som bistår i den enkelte avdeling, og som således er begrepskoordinatorens “utstrakte arm” i organisasjonen.] for plassering av eierskap til begrepene
+* kontrollere at evt. status footnote:[I prosessen kan man benytte statuser for å indikere hvor ferdig begrepsbeskrivelsene er. Eksempel: Utkast, Kandidat for godkjenning, Godkjent.Med statuser kan man også angi at en begrepsbeskrivelse er under revisjon. ] til begrepene er plassert riktig i forhold til hvor langt man har kommet i utarbeidelses- og kvalitetssikringsprosessen
+* ha oversikt over helheten og bidra til harmonisering av innhold
+* drive opplæring knyttet til begrepsfangst og terminologiarbeid, samt begrepsprosess og rammeverk, og oppdatere disse ved behov
+
+===== Begrepseier
+
+Det enkelte fagområdet eier sine begreper og har rollen som begrepseier. Det bør kun være én begrepseier per begrep. Med begrepseier menes her en organisatorisk enhet knyttet til organisasjonskartet i virksomheten. Rammeverket kan legge opp til at eierskap til begreper legges minimum på avdelingsnivå, og at avdelingene selv avgjør om eierskapet plasseres lenger ned i organisasjonen. Det er avgjørende å ha på plass en slik rolle for å sikre at begrepene utarbeides og kvalitetssikres av det miljøet som er nærmest det fagområde et begrep kommer fra. Plassering av eierskap vil variere avhengig av organiseringen i den enkelte virksomhet. For eksempel kan enheter som forvalter et rettsområde eller enkeltlover, forskrifter og enkeltbestemmelser, ha ansvaret for å tolke begrepene som lovgiver har benyttet i det aktuelle regelverket. Det bør være fagansvarlig som beslutter hvilken definisjon som skal gjelde, hvilken term som skal benyttes, da fagansvarlig, i rollen som begrepseier, er ansvarlig for virksomhetens forståelse av begrepet. Dette innebærer for eksempel at Rettsavdelingen er ansvarlig for at begreper i f. eks forvaltningsloven, offentleglova eller egen særlovgivning blir definert, og at IT-avdelingen er ansvarlig for at f.eks. begreper på Informasjonssikkerhetsområdet blir definert.
+
+Ansvar og oppgaver som bør innehas av begrepseieren:
+
+* Sikre at begrepene blir definert i forhold til retningslinjene i rammeverket
+* Involvere eventuelle interessenter i definisjonsarbeidet
+* Sørge for at begrepene ferdigstilles og blir godkjent
+
+==== Andre roller som kan inngå i begrepsarbeidet
+
+===== Interessenter
+
+Interessent er den/de som har en interesse i begreper som defineres i en begrepskatalog, men som de selv ikke har eierskap til i virksomheten. +
+Det er begrepseier sitt ansvar å sørge for at interessenter får mulighet til å komme med innspill til begrepsdefineringen. Involvering av interessenter skal bidra til
+
+* å sikre kvaliteten på begrepene
+* å få en omforent forståelse og forankring av definisjon på et tidlig tidspunkt
+* å sikre helhetlig termforståelse i virksomheten
+Den enkelte avdeling i virksomheten bør selv vurdere om de har interesse i begrepene.
+
+===== Melder av begrepsbehov (innmelder)
+
+Innmelder er den parten som har behov for at et begrep blir definert. For å sikre at begrepsarbeidet er en prioritert aktivitet og at arbeidet skal være tilgjengelig for hele virksomheten, kan det være naturlig at man er liberal med hvem som har mulighet til å melde behov for nye begreper inn i en begrepskatalog. Tilgangen til å melde inn kan for eksempel være slik:
+
+* Linjen kan melde inn begreper. Både linjen med begrepseierskap og fagansvar kan melde inn begreper i begrepskatalogen, men linjen kan også melde inn begreper som man selv ikke har eierskap til.
+* Prosjekter kan melde inn behov for å få avklart begreper. Når prosjektene gjør arbeid som innebærer definisjoner og avgrensninger knyttet til produkt eller løsning bør disse meldes inn i begrepskatalogen.
+* Enkeltpersoner kan melde inn begreper de trenger definert i begrepskatalogen.

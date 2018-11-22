@@ -91,7 +91,7 @@ En setnings-beskrivelse av formålet til datasettet.
 
  * Det er formålet for opprettelsen eller at datasettet i det hele tatt eksisterer som skal beskrives her
  * Beskrivelsen skal være kortfattet og ikke gjentas i Beskrivelsesfeltet.
- * Dersom datasettet inneholder personopplysninger skal behandlingsformålet for personopplysninger etter Personopplysningsloven beskrives her.
+ * Dersom datasettet inneholder personopplysninger skal dette feltet brukes for å gjengi det formålet i henhold til personopplysningsloven som ligger til grunn for datasettet.
 
 .Eksempler
 * [*] Løsøreregisteret er etablert for å tinglyse heftelser (pant) i løsøre, uten tilknytning til fast eiendom
@@ -111,7 +111,7 @@ Beskrivelsen skal være kortfattet. Hensikten med datasettet bør komme fram. Hv
 En kort og presis beskrivelse av datasettet skal gjøre det lett for andre å se hva det inneholder. Beskrivelse er et obligatorisk felt.
 
  * Beskrivelsen skal være kortfattet slik at lister over datasett forståes ved å lese de første linjene.
- * Hensikten med datasettet bør komme fram (f.eks. “Løsøreregisteret inneholder tinglyste flyttbare eiendeler”). For datasett som er omfattet av Personopplysningsloven, skal behandlingsformålet beskrives.
+ * Hensikten med datasettet bør komme fram (f.eks. “Løsøreregisteret inneholder tinglyste flyttbare eiendeler”).
  * Beskriv hva datasettet inneholder. Hvilke opplysninger som utgjør kjernen i datasettet bør angis.
  * Feltinnhold skal ikke listes, men listes i emneord eller begreper.
  * Beskrivelsen er ikke en gjentakelse av tittel
@@ -234,11 +234,11 @@ Dersom datasettet har begrensninger på deling trenger vi å vite hva skjerminge
 Behandlingsgrunnlag knyttes enten til angitt lovhjemmel, samtykke eller nødvendighetsvurdering.
 
 .Anbefalinger
-Etter personopplysningsloven § 8 og 9 skal det foreligge et grunnlag for behandling av personopplysninger.
+Etter personopplysningsloven skal det foreligge et grunnlag for behandling av personopplysninger.
 
  * Dersom et datasett inneholder personopplysninger skal det være et grunnlag for behandlingen.
- * Behandlingsgrunnlag knyttes enten til lovhjemmel, samtykke eller nødvendighetsvurdering. Angi dette i tekst.
- * Dersom behandlingsgrunnlaget er knyttet til lovhjemmel angis en referanse til dette. Helst til lovdata på paragraf-nivå.
+ * Behandlingsgrunnlag knyttes til alternativene som finnes i forordningens artikkel 6, 9 eller 10. Angi dette i tekst.
+ * Dersom behandlingsgrunnlaget forutsetter et supplerende rettslig grunnlag, se artikkel 6(3), skal det angis en referanse til dette rettslige grunnlaget. Helst til lovdata på paragraf-nivå.
 
 .Eksempler
 

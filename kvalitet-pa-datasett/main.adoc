@@ -3,8 +3,7 @@ include::../shared/translation.adoc[]
 = Spesifikasjon for beskrivelse av kvalitet på datasett
 Direktoratet for forvaltning og IKT
 v1.0
-
-:description:hvordan beskrive kvalitet på datasett i en datakatalog
+:description: Hvordan beskrive kvalitet på datasett i en datakatalog
 :doctype: book
 :docinfo:
 :icons: font
@@ -12,10 +11,10 @@ v1.0
 :toclevels: 3
 :sectanchors:
 :title-logo-image: utils/logo.jpg
-:sectnums:
-:sectnumlevels: 4
+// :sectnums:
+:sectnumlevels: 5
 
-{description}
+// {description}
 
 include::../shared/download.adoc[]
 

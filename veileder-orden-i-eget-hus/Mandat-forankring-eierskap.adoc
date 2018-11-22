@@ -1,0 +1,18 @@
+
+== Sikre mandat, forankring og eierskap
+
+Å sikre forankring kan være krevende. Start med å skape forståelse i egen organisasjon for behovet for å få orden i eget hus.
+
+Kontakt ledere og sentrale fagressurser i linjen og i prosjekter, og vis til hva https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/[Digital agenda ]sier om å holde orden i eget hus og hva https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2569983/[Digitaliseringsrundskrivet] sier om tilrettelegging for gjenbruk og viderebruk av informasjon.  Disse kildene omtaler både samfunnsnytte og gevinster man kan oppnå i egen virksomhet som følge av arbeidet.
+
+Informasjonsforvaltning kan være et vanskelig tema å formidle. Del derfor gjerne arbeidet med å få orden i eget hus opp i håndterbare og konkrete aktiviteter slik at det blir lettere å forstå og ta eierskap til arbeidet. Man kan for eksempel dele arbeidet opp i begrepsarbeid, informasjonsmodellering, registrering av datasett og etablering av API’er.
+
+Bruk et enkelt språk og beskriv hva man skal oppnå, hva som skal utføres,  hvem som har ansvar for å få arbeidet gjennomført, hvordan arbeidet skal utføres og organiseres,  når det skal utføres og når det skal være ferdig. Bruk eksempler som illustrerer temaet, for eksempel figur som viser ulike måter å definere https://www.difi.no/files/samboerpptx[samboerbegrepet] på, eller eksempler på begreper i egen organisasjon som kan ha ulik betydning. Definer effektmål og resultatmål slik at det blir tydelig hva man skal oppnå og hvem i organisasjonen det er som er ansvarlig for å oppnå målene. Dette kan danne grunnlaget for et mandat for arbeidet slik at arbeidet blir tydelig og enklere for ledere å ta eierskap til.
+
+Sørg for at sentrale fagressurser blir involvert i beskrivelsen av punktene i forrige avsnitt, samt i den operative utførelsen av arbeidet med å skape orden i eget hus, slik at de føler eierskap til resultatet. Sikre at lederne blir løpende orientert om framdrift i arbeidet.
+
+Ta kontakt med andre etater for å bli kjent med andre sine erfaringer. Etatene som har vært med i SKATE- arbeidet har for eksempel vært villig til å dele informasjon om prosesser, organisering av arbeid, rammeverk og  bruk av verktøy.
+
+Delta på kurs og arrangementer som gir mer informasjon om temaet, og som gir muligheter for å delta på faglige nettverk. Eksempler på kurs finnes på https://www.difi.no/opplaeringstilbud/kommende-arrangementer[Difi sin arrangementsoversikt]. Difi arrangerer også møter i https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning/fagleg-arena-informasjonsforvaltning[faglig arena for informasjonsforvaltning] som det kan være nyttig å delta på for å få innspill til eget arbeid i orden i eget hus.
+
+Ta gjerne kontakt med Difi eller Brønnøysundregistrene footnote:[Brreg: https://www.brreg.no/hvordan-kan-vi-hjelpe-deg/ Difi: informasjonsforvaltning@difi.no] hvis du ønsker noen utenfra til å fortelle om orden i eget hus og datadeling som et nasjonalt løft.

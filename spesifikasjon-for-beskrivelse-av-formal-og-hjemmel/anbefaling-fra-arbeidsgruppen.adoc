@@ -305,10 +305,8 @@ I tillegg, et nytt felt: valgfritt med URI til lovdata.
 
 ==== Veileder
 
-I Difi sin veileder for beskrivelse av datasett (DCAT-AP-NO) er begrensninger i tilgangsrettigheter omtalt slik:
+I Difi sin https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett[veileder for beskrivelse av datasett (DCAT-AP-NO)] er begrensninger i tilgangsrettigheter omtalt slik:
 
-WARNING: Denne peker til eit avsnitt som ikke lenger eksisterer (?)
-//https://docs.google.com/document/d/1_4ictssi_nezkqoIPJBgo76d24_6jQab88aN9h5E-Pk/edit#heading=h.li1t9hkiw9w2[https://docs.google.com/document/d/1_4ictssi_nezkqoIPJBgo76d24_6jQab88aN9h5E-Pk/edit#heading=h.li1t9hkiw9w2]
 
 .Innspill til veileder:
 

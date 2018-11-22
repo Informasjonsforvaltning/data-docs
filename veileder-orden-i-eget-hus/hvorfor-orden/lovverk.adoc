@@ -1,0 +1,23 @@
+
+=== Lovverk
+
+Krav om orden i eget hus følger av regelverk om internkontroll, informasjonssikkerhet, personvern og arkiv, hvor oversikt over egen informasjon er grunnleggende.footnote:[Meld.St. 27 Digital agenda for Norge s. 49]
+
+==== Offentleglova
+
+Retten til innsyn i offentlig informasjon er regulert i Offentleglova. Det er samme rett til tilgang til data som til dokumenter, og i 2017 ble det lagt til krav om å utlevere data på maskinlesbart format.
+
+Da Offentleglova ble vedtatt i 1970 ble det sett på som lite tilfredsstillende å gi folk en rettighet uten også å gi en oversikt over det man kunne be om innsyn i. Derfor fikk vi offentlig postjournal. Idag er det klart at det kun er en brøkdel av forvaltningens informasjon som er opplistet i offentlig postjournal. I forlengelsen av dette kan vi si at en oversikt over virksomhetens data en nødvendig forutsetning for at befolkningen skal kunne nyttiggjøre seg den retten de har gjennom Offentleglova.footnote:[ Då Stortinget vedtok offentleglova i 1970 trossa dei anbefalinga frå regjeringa og slo fast at ein rett til innsyn i saksbehandlinga i forvaltinga ikkje kunne fungere utan at ein samstundes fekk tilgang til ein postjournal som viste kva ein kunne be om innsyn i: «Det synes prinsipielt lite tilfredsstillende å innføre et offentlighetsprinsipp, uten samtidig å gi dem som har rettigheter etter dette, rimelige muligheter til å kunne benytte sin rett til å gjøre seg kjent med forvaltningens saker.» Innst. O. XIV (1969-70) s. 11, sitert etter NOU 2003:30 «Ny offentlighetslov», kap. 8.4.5. Sjå: http://www.regjeringen.no/nb/dep/jd/dok/nouer/2003/nou2003-30/9.html?id=382963]
+
+I samsvar med viderebruksbestemmelsene i Offentleglova skal virksomheten gjøre egnet informasjon tilgjengelig i maskinlesbare formater, fortrinnsvis gjennom API'er og “virksomheter som etablerer nye eller oppgraderer eksisterende fagsystemer eller digitale tjenester, skal legge til rette for at data fra disse tjenestene kan gjøres tilgjengelige i maskinlesbare formater.”
+
+==== Forvaltningsloven og eForvaltningsforskriften
+
+Forvaltningsloven regulerer saksbehandlingen i offentlig forvaltning. Gitt kravet om taushetsplikt og innsynsrett i saksbehandlingen er det avgjørende å ha kontroll på informasjonsflyten i saksbehandlingen.
+
+https://lovdata.no/dokument/SF/forskrift/2004-06-25-988[Forskrift om elektronisk kommunikasjon med og i forvaltningen], kalt eForvaltningsforskriften, har som formål å legge til rette for sikker og effektiv bruk av elektronisk kommunikasjon med og i forvaltningen. Vesentlig i vår sammenheng er kravet til styring og kontroll på informasjonssikkerhetsområdet (§15).
+
+
+==== Anbefalte og obligatoriske standarder
+
+Ved å standardisere utøves et virkemiddel for styring av hvordan vi i felleskap i offentlig sektor arbeider og tilrettelegger for deling og bruk av data. Det finnes flere anbefalte og obligatoriske standarder som bør eller skal tas i bruk av alle forvaltningsorganer. Standarder som vi peker på i denne veilederen er også henvist til fra https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen[Referansekatalogen] som er en oversikt over alle obligatoriske og anbefalte standarder. Vi har laget en samleside med https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning/standarder-informasjonsforvaltning[relevante standarder for informasjonsforvaltning].

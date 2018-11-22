@@ -1,0 +1,8 @@
+
+== Hvordan skape orden i eget hus?
+
+=== Modenhetsmåling
+
+Vi har utviklet en https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning/modenhetsmodell-orden-i-eget-hus[modenhetsmodell] for at virksomhetene skal kunne vurdere hvor langt de er kommet i arbeidet med orden i eget hus. Også for denne modellen er datadeling målet, og orden i eget hus middelet. Modellen inkluderer flere av punktene fra https://www.difi.no/sites/difino/files/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf[Difi-rapporten], både punkt 1 “Datasettene i virksomheten er beskrevet i en oversikt”, 2 “Oversikten fra punkt 1 er publisert” og 4 “Dataelementene er beskrevet” inngår i aksene i modellen.
+
+Modenhetsmodellen er verktøyet virksomhetene skal bruke for å vurdere orden i eget hus, og veilederen skal gi hjelp til å øke egen modenhet langs de ulike aksene.

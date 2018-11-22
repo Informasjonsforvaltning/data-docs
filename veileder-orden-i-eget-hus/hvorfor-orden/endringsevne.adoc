@@ -1,0 +1,12 @@
+
+=== Bedre endringsevne, gjennomføring og kontroll
+
+Gevinsten ved å ha den “orden i eget hus” som delingskulturen forutsetter, vil være at virksomheten internt har oversikt over egen informasjon, forstår hva den betyr og bruker den til å understøtte virksomhetens arbeidsprosesser og oppgaveløsning. I dag er det ikke uvanlig at deler av en virksomhet ikke kjenner til informasjon som forvaltes av en annen del, noe som bidrar til redusert effektivitet i arbeidsprosessene.
+
+Generelt vil det være nyttig at en har oversikt over all relevant informasjon i en virksomhet, og ikke bare uttrekk/deler som er tilpasset et nåtidig behov. Ingen vet hvilken informasjon som trengs for å møte morgendagens krav, men dersom all relevant informasjon er kjent, vil det gjøre endringer enklere, dvs. bedre virksomhetens endringsevne.
+
+I utviklingsprosjekter defineres og dokumenteres gjerne begreper og informasjonsmodeller.Med god felles forvaltning av dette ut over prosjektets levetid legger en blant annet grunnlaget for smidige utviklingsprosesser gjennom gjenbruk. Begreper og informasjonsmodeller er en felles ressurs som aktivt bør røktes i virksomheten.
+
+Orden i eget hus krever økt samspill mellom fag og IT. Når fagsiden tar mer eierskap til data, begrepsbruk og beslutninger gir det økt trygghet og støtte for fagansvarlig. Det fører og til mer effektiv oppgaveløsning og færre henvendelser.
+
+Gode styringsdata er avgjørende for å utvikle virksomheten. Det er enklere å optimalisere virksomheten når en har kontroll på relevante masterdata, i tillegg til at det er enklere å rapportere på måloppnåelse.

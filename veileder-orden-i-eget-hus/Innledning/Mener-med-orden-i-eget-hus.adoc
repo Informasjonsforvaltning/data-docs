@@ -1,0 +1,18 @@
+
+=== Hva mener vi med “orden i eget hus”?
+
+Med orden i eget hus mener vi at “den enkelte virksomhet skal ha oversikt over hvilke data den håndterer, hva dataene betyr, hva de brukes til, hvilke prosesser de inngår i, og hvem som kan bruke dem (informasjonsforvaltning). Dette innebærer også å ta stilling til hvilke data som kan gjøres tilgjengelig for gjenbruk i offentlig sektor, og viderebruk av privat sektor. Offentlige virksomheter må prioritere utveksling av informasjon som andre virksomheter har krav på" https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2569983/[(Digitaliseringsrundskrivet)].
+
+For at offentlig sektor skal kunne dele med, og bruke data fra hverandre, er det viktig at de enkelte virksomheter starter med å ha oversikt over egne data, noe som er et prinsipp for god informasjonsforvaltning. Rapporten https://www.difi.no/sites/difino/files/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf["Informasjonsforvaltning i offentlig sektor"] konkretiserer stegvis måloppnåelse i 5 punkter med økende ambisjonsnivå:
+
+1. Datasettene i virksomheten er beskrevet i en oversikt +
+2. Oversikten fra punkt 1 er publisert  +
+3. Tilgang til data er vurdert og beskrevet +
+4. Dataelementene er beskrevet  +
+5. Beskrivelsene er strukturerte og maskinlesbare
+
+Målet er at det skal finnes gode nok metadata om datasett til at det automatisk kan prosesseres, deles og raskere kan vurderes og tas i bruk. Derfor er beskrivelser vektlagt i dette arbeidet. For at beskrivelsene skal forstås på tvers, må vi standardisere hva vi beskriver om et datasett.
+
+Nåværende utvalg av metadatafelter, som vi heretter velger å kalle beskrivelser, er definert i https://doc.difi.no/dcat-ap-no/[standarden DCAT-AP-NO]. Vesentlig er: ansvarlig for datasettet, kvalitetsvurderinger, hvor ofte de oppdateres, begreper som forklarer innholdet, hvilke hjemler de er tilknyttet, og hvor man kan få tak i dem. I tillegg til at datasettene er beskrevet, skal det være mulig å finne en oversikt over disse beskrivelsene, og en skal ha vurdert hvem som skal ha tilgang til ulike typer data.
+
+Digitaliseringsrundskrivet krever i tillegg at virksomheten skal vite hvilke prosesser dataene brukes i. Prosessene i virksomheten er et bra utgangspunkt for å kartlegge egne data og hvor de oppstår og tas i bruk. Vi kommer innom dette temaet i kapittelet om kartlegging av datasett.
