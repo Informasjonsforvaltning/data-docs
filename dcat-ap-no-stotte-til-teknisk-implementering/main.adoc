@@ -23,7 +23,7 @@ include::../shared/download.adoc[]
 include::innledning.adoc[]
 include::navnerom.adoc[]
 == Katalog:
-include::katalog\utgiver.adoc[]
+include::katalog/utgiver.adoc[]
 include::katalog\datasett.adoc[]
 include::katalog\utgivelsesdato.adoc[]
 include::katalog\endringsdato.adoc[]
