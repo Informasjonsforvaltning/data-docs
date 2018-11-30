@@ -24,45 +24,45 @@ include::innledning.adoc[]
 include::navnerom.adoc[]
 == Katalog:
 include::katalog/utgiver.adoc[]
-include::katalog\datasett.adoc[]
-include::katalog\utgivelsesdato.adoc[]
-include::katalog\endringsdato.adoc[]
+include::katalog/datasett.adoc[]
+include::katalog/utgivelsesdato.adoc[]
+include::katalog/endringsdato.adoc[]
 == Datasett:
-include::datasett\tittel.adoc[]
-include::datasett\beskrivelse.adoc[]
-include::datasett\identifikator.adoc[]
-include::datasett\tema.adoc[]
-include::datasett\utgiver.adoc[]
-include::datasett\kontaktpunkt.adoc[]
-include::datasett\datasettdistribusjon.adoc[]
-include::datasett\emneord.adoc[]
-include::datasett\tilgangsniva.adoc[]
-include::datasett\skjermingshjemmel.adoc[]
-include::datasett\begrep.adoc[]
-include::datasett\i-samsvar-med.adoc[]
-include::datasett\dokumentasjon.adoc[]
-include::datasett\frekvens.adoc[]
+include::datasett/tittel.adoc[]
+include::datasett/beskrivelse.adoc[]
+include::datasett/identifikator.adoc[]
+include::datasett/tema.adoc[]
+include::datasett/utgiver.adoc[]
+include::datasett/kontaktpunkt.adoc[]
+include::datasett/datasettdistribusjon.adoc[]
+include::datasett/emneord.adoc[]
+include::datasett/tilgangsniva.adoc[]
+include::datasett/skjermingshjemmel.adoc[]
+include::datasett/begrep.adoc[]
+include::datasett/i-samsvar-med.adoc[]
+include::datasett/dokumentasjon.adoc[]
+include::datasett/frekvens.adoc[]
 // start dct-relasjoner
 // har versjon
-include::datasett\er-versjon-av.adoc[]
-include::datasett\er-del-av.adoc[]
-include::datasett\er-versjon-av.adoc[]
-include::datasett\erstattet-av.adoc[]
-include::datasett\krever.adoc[]
-include::datasett\relatert.adoc[]
-include::datasett\kilde.adoc[]
-include::datasett\opphav.adoc[]
-include::datasett\landingsside.adoc[]
-include::datasett\sprak.adoc[]
+include::datasett/er-versjon-av.adoc[]
+include::datasett/er-del-av.adoc[]
+include::datasett/er-versjon-av.adoc[]
+include::datasett/erstattet-av.adoc[]
+include::datasett/krever.adoc[]
+include::datasett/relatert.adoc[]
+include::datasett/kilde.adoc[]
+include::datasett/opphav.adoc[]
+include::datasett/landingsside.adoc[]
+include::datasett/sprak.adoc[]
 // (utgivelsesdato)
-include::datasett\testdatasett.adoc[]
-include::datasett\dekningsomrade.adoc[]
-include::datasett\tidsrom.adoc[]
-include::datasett\type.adoc[]
-include::datasett\sist-endret.adoc[]
+include::datasett/testdatasett.adoc[]
+include::datasett/dekningsomrade.adoc[]
+include::datasett/tidsrom.adoc[]
+include::datasett/type.adoc[]
+include::datasett/sist-endret.adoc[]
 // versjon
 // versjonsnote
-include::datasett\skaper.adoc[]
+include::datasett/skaper.adoc[]
 // refererer til
 // er referert av
 // er del av
@@ -72,26 +72,26 @@ include::datasett\skaper.adoc[]
 
 == Distribusjon:
 
-include::distribusjon\tilgangsURL.adoc[]
-include::distribusjon\beskrivelse.adoc[]
-include::distribusjon\format.adoc[]
+include::distribusjon/tilgangsURL.adoc[]
+include::distribusjon/beskrivelse.adoc[]
+include::distribusjon/format.adoc[]
 //lisens
 //filstørrelse
 //sjekksum
-include::distribusjon\dokumentasjon.adoc[]
-include::distribusjon\nedlastningslenke.adoc[]
+include::distribusjon/dokumentasjon.adoc[]
+include::distribusjon/nedlastningslenke.adoc[]
 //sprak
-include::distribusjon\i-samsvar-med.adoc[]
-include::distribusjon\utgivelsesdato.adoc[]
+include::distribusjon/i-samsvar-med.adoc[]
+include::distribusjon/utgivelsesdato.adoc[]
 //rettigheter
 //status
-include::distribusjon\tittel.adoc[]
-include::distribusjon\sist-oppdatert.adoc[]
+include::distribusjon/tittel.adoc[]
+include::distribusjon/sist-oppdatert.adoc[]
 
 == Enhet:
-include::enhet\enhetsnavn.adoc[]
-include::enhet\utgivertype.adoc[]
-include::enhet\organisasjonsnummer.adoc[]
+include::enhet/enhetsnavn.adoc[]
+include::enhet/utgivertype.adoc[]
+include::enhet/organisasjonsnummer.adoc[]
 
 
 include::../shared/stats.adoc[]
