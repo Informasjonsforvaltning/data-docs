@@ -1,3 +1,4 @@
+
 === Hvordan bør jeg tilby data?
 
 Når du skal tilby data, skal du følge regjeringens https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer ved tilgjengeliggjøring av offentlige data]. Disse er gjengitt under, med kommentarer og veiledning. Vi oppdaterer veiledningen fortløpende, så send oss gjerne en epost til mailto:opnedata@difi.no[opnedata@difi.no] om du har spørsmål som ikke besvares her, eller har innspill til rådene vi gir. 
