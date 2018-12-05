@@ -1,3 +1,4 @@
+
 == Hva er åpne data?
 
 Åpne data består av to ting: data og åpenhet. Med “data” mener vi informasjon som er gjort tilgjengelig slik at den kan leses og tolkes av både datamaskiner og mennesker. Med “åpenhet” mener vi at vilkårene åpner opp for så mange bruksområder som mulig. 

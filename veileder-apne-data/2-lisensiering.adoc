@@ -1,3 +1,4 @@
+
 == Lisensiering av data
 
 Hvilke rettigheter har jeg? Hva betyr det å lisensiere data? Hvilken lisens burde jeg bruke? Hvordan kan jeg angi lisensen som datasettet er tilgjengelig under? Hva kjennetegner en _åpen_ lisens? 
