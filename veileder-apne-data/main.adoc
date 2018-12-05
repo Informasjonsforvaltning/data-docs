@@ -24,5 +24,6 @@ include::../shared/download.adoc[]
 include::1-hva.adoc[]
 include::2-lisensiering.adoc[]
 include::3-hvordan.adoc[]
+include::4-videre.adoc[]
 
 include::../shared/stats.adoc[]
