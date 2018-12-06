@@ -113,7 +113,7 @@ I utforming av et API, er det viktig å tenke på hvordan best å gjøre data ti
 
 === 10. Tilby komplett nedlasting
 
-[quote,www.regjeringen.no/id2536870/#punkt_ti] +
+[quote,www.regjeringen.no/id2536870/#punkt_ti]
 Selv om et programmeringsgrensesnitt er en svært fleksibel måte å tilby data på, kan brukerne også ha behov for å laste ned komplette datasett for å etablere lokale kopier. Komplett nedlasting kan tilbys som funksjonalitet i et programmeringsgrensesnitt, eller som en maskinlesbar fil publisert på internett.
 
 [TIP]
