@@ -29,7 +29,8 @@ include::5-EU.adoc[]
 include::6-lisensiering.adoc[]
 include::8-hvordan-komme-i-gang.adoc[]
 include::9-hvordan-tilby.adoc[]
-include::10-videre.adoc[]
 include::11-sjekkliste.adoc[]
+include::10-videre.adoc[]
+
 
 include::../shared/stats.adoc[]
