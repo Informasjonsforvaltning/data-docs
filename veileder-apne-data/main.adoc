@@ -1,12 +1,12 @@
 include::../shared/translation.adoc[]
 
-= Veileder i tilgjengeliggjøring av åpne data (utkast)
+= Veileder i tilgjengeliggjøring av åpne data
 :description: Veileder i tilgjengeliggjøring av åpne data (utkast) 
 :doctype: book
 :docinfo:
 :icons: font
 :toc: left
-:toclevels: 1
+:toclevels: 2
 :sectanchors:
 :title-logo-image: utils/logo.jpg
 
