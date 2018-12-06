@@ -1,3 +1,4 @@
+
 == Videre lesning
 
 https://www.europeandataportal.eu/en/providing-data/goldbook[Open Data Goldbook for Data Managers and Data Holders]
