@@ -15,7 +15,9 @@ https://doc.difi.no/dcat-ap-no/[Standard for beskrivelse av datasett og datakata
 
 https://doc.difi.no/data/kvalitet-pa-datasett/[Spesifikasjon for beskrivelse av kvalitet på datasett] 
 
-https://doc.difi.no/data/dcat-ap-no-stotte-til-teknisk-implementering/[Støtte til teknisk implementering av DCAT-AP-NO] 
+https://doc.difi.no/data/dcat-ap-no-stotte-til-teknisk-implementering/[Støtte til teknisk implementering av DCAT-AP-NO]
+
+https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/pekere-til-offentlige-ressurser-pa-nett[Pekere til offentlige ressurser på nett (URI-er)]
 
 https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md[Open API-specification] 
 
