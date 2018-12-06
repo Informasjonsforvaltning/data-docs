@@ -39,4 +39,5 @@ https://data.norge.no/nlod/no[Norsk lisens for offentlige data]
 
 https://creativecommons.no/[Creative Commons Norge]
 
-
+'''
+*Kontakt:* opnedata@difi.no  
