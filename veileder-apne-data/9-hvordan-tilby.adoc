@@ -47,7 +47,7 @@ Ved frivillig registrering kan brukerne selv vurdere om de vil bli kontaktet, og
 
 === 4. Dokumenter datasettene
 
-[quote,www.regjeringen.no/id2536870/#punkt_fire] +
+[quote,www.regjeringen.no/id2536870/#punkt_fire]
 Virksomhetene bør dokumentere datasettene slik at det blir enkelt å ta datasettene i bruk både for mennesker og maskiner. Med dokumentasjon mener vi beskrivelser som gjør det mulig for andre å oppdage, forstå og bruke dine data.
 
 [TIP]  
@@ -98,7 +98,7 @@ Data skal være tilgjengelig i maskinlesbare formater. I tillegg bør formatene 
 
 [TIP]
 ==== 
-En CSV-fil for nedlasting er en god start når du skal tilby åpne data. Dersom utgangspunktet ditt er et regneark i Excel er konvertering til CSV samtidig en god avsjekk på om strukturen i datasettet er god. Rene rader og kolonner uten formler, mellomtitler og summeringer øker gjerne gjenbruksverdien. Komplekse regneark kan med fordel splittes i flere datasett. +
+En CSV-fil for nedlasting er en god start når du skal tilby åpne data. Dersom utgangspunktet ditt er et regneark i Excel er konvertering til CSV samtidig en god avsjekk på om strukturen i datasettet er god. Rene rader og kolonner uten formler, mellomtitler og summeringer øker gjerne gjenbruksverdien. Komplekse regneark kan med fordel splittes i flere datasett.
 ====
 
 === 9. Tilby data gjennom et programmeringsgrensesnitt
@@ -172,7 +172,6 @@ Difi anbefaler at virksomheten selv bruker den samme datakilden i egne prosesser
 Inviter gjerne brukerne til workshops eller seminarer for å gjøre de bedre kjent med datasettene du tilbyr og for å fange opp hvilke behov de har. Deltakelse på #Hack4no eller tilsvarende arrangementer er også en fin måte å oppmuntre til bruk av egne data på. Det finnes også egne grupper på ulike sosiale plattformer (for eksempel Facebook og Slack) som har åpne data og/eller informasjonsforvaltning som tema.
 
 Statens vegvesen har http://www.vegdata.no/[en egen blogg], der de tar opp ulike tema knyttet til bruk av Nasjonal vegdatabank. Dette er et godt eksempel på hvordan en kan oppmuntre til bruk av åpne data som virksomheten tilbyr.
-
 ====
 
 === 15. Legg til rette for tilbakemeldinger
