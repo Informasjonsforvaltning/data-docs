@@ -8,7 +8,8 @@ Når du skal tilby data, skal du følge regjeringens https://www.regjeringen.no/
 [quote,www.regjeringen.no/id2536870/#punkt_en] 
 Data som tilbys skal ha klare vilkår for hvordan de kan brukes. Vilkårene skal åpne for så mange bruksområder som mulig. Dersom data som tilgjengeliggjøres er beskyttet etter åndsverkloven, bør virksomheten si fra seg sine egne eksklusive økonomiske rettigheter til bruk av datasettet. Dette kan enkelt gjøres ved å bruke åpne standardlisenser som Creative Commons 4.0 eller Norsk lisens for offentlige data (NLOD). Disse standardlisensene sikrer en helhetlig praksis for hvilke rettigheter brukerne har, og fritar samtidig utgiver for juridisk ansvar knyttet til datakvalitet og hva data blir brukt til.
 
-
+[TIP]
+==== 
 I tillegg til NLOD og CC-BY 4.0 kan du som eier og utgiver av data velge å dedikere datasett til det fri ved å bruke Creative Commons Zero (CC0). CC0 er en fullstendig fraskrivelse av dine retter som rettighetshaver, og brukerne kan bruke data fritt uten å oppgi kilde. CC0 er anbefalt av EU-kommisjonen.
 
 Når du registrerer datasett på data.norge.no, Felles datakatalog eller Geonorge.no er angivelse av lisens ivaretatt i registreringsskjemaet. Dersom du har en lokal datakatalog som de nasjonale katalogene skal høste datasettbeskrivelser fra, må lisensen angis i tråd med https://doc.difi.no/dcat-ap-no/[Standard for beskrivelse av datasett og datakataloger]
@@ -18,6 +19,7 @@ Dersom du har en egen nettside som omtaler virksomhetens åpne datasett, bør li
 «Dette datasettet er gjort tilgjengelig under <navn på lisens>. Lisensens fulle tekst er tilgjengelig på <url>.»
 
 Du kan i tillegg legge inn informasjonen om lisensen direkte i datasettet eller i API-et. Dette sikrer at lisensinformasjonen følger med datasettet.
+====
 
 === 2. Tilby data gratis
 
