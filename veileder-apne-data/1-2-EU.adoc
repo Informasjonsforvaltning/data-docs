@@ -1,0 +1,10 @@
+
+== EUs politikk på området
+
+EU-kommisjonens policy for tilgang til offentlige data omfatter all informasjon som offentlige organer produserer, samler inn eller betaler for. Eksempler er geografisk informasjon, statistikk, værdata, data fra offentlig finansierte forskningsprosjekter og digitaliserte bøker fra biblioteker. Policyen følger prinsippet om at offentlige data skal være mest mulig åpent tilgjengelige og gjenbrukbare.
+
+EUs Viderebruksdirektiv  (https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information[PSI-direktivet]) utgjør det lovmessige rammeverket for tilgang til offentlige data i EU og EØS. Direktivet bygger på to av grunnpilarene i EUs indre marked: transparens og rettferdig konkurranse. I tillegg ønsker EU-kommisjonen å sikre en mer effektiv utnyttelse av denne typen innhold over landegrensene. Fra og med 2013 omfatter direktivet også arkiv, bibliotek og museum, samt slår fast retten til å få utlevert data i maskinlesbare formater.
+
+Viderebruksdirektivet er implementert i offentleglova. Direktivet omfatter tekstdokumenter, databaser, lydfiler og filmklipp, men gjelder ikke områdene utdanning, forskning og kringkasting.
+
+EU-kommisjonen finansierer en rekke åpne data-prosjekter, inkludert en europeisk dataportal, gjennom programmet Connecting Europe Facility (CEF). Midler for finansiering av digitaliseringsprosjekter under CEF-programmet lyses ut flere ganger i året. Både offentlige og private virksomheter kan søke om midler. Kontakt gjerne Difi om du ønsker mer informasjon om finansieringsmuligheter i CEF-programmet.

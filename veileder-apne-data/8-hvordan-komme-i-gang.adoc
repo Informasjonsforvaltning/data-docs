@@ -1,0 +1,18 @@
+
+== Hvordan kommer jeg i gang?
+
+Arbeidet med å gjøre virksomhetens data tilgjengelig som åpne data, bør være godt samordnet med øvrig arbeid med informasjonsforvaltning i virksomheten. Prosessen som er beskrevet her er den samme som i Difis veileder “Orden i eget hus”, men tilpasset formålet: Å gjøre virksomhetenes data tilgjengelig som åpne data.
+
+=== Hvilke datasett har jeg?
+
+Vi anbefaler å starte med å lage oversikt over datasett og deretter beskrive de nærmere. For noen kan det være hensiktsmessig å ta for seg ulike arbeidsprosesser (f.eks. knyttet til tjenestene som virksomheten tilbyr), og identifisere og beskrive datasett for én og én prosess. 
+
+Beskriv datasettene på en overordnet måte: tittel, beskrivelse av innholdet, klassifisering (jf. trafikklyssystemet), utgiver/eier, kontaktperson og hvor ofte de oppdateres. Hensikten med oversikten er at potensielle brukere skal kunne oppdage hvilke data du forvalter, og ha mulighet til å påvirke hvilke datasett du bør tilby først.
+
+Ikke glem fremtidige datasett (data som virksomheten planlegger å samle inn) og data som blir samlet inn av virksomhetens leverandører og konsulenter. Dersom dette er data som er egnet som åpne data, bør en vurdere hvordan dette skal avspeiles i avtaler, kontrakter og finansieringsmodeller. Dette er spesielt viktig ved samarbeid og samfinansiering av datainnsamling.
+
+=== Hvilke datasett bør jeg tilby først?
+
+Vi anbefaler å starte i det små med datasett som du vet eller tror er etterspurt av andre. Viktige spørsmål: finnes det noen kjente brukerbehov? Vet vi hva som er mest etterspurt? Hva har antatt høyest verdi for brukerne? Finnes det noen lavthengende frukter? Kostnader vs. antatt nytteverdi?
+
+Det er ikke helt rett frem å vurdere hvilke data som har verdi for andre, ettersom du ikke kan vite hvilke formål de kan brukes til. Dersom du publiserer oversikten over hvilke data du har, gir du brukerne mulighet til å etterspørre data og dermed påvirke dine prioriteringer. Trafikklyssystemet (se over) kommuniserer på en enkel måte om data kan tilbys som åpne data (grønne) eller ikke (gule og røde data).

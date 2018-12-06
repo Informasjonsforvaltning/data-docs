@@ -1,0 +1,12 @@
+
+== Klassifisering av datasett - trafikklyssystemet
+
+Trafikklyssystemet er en enkel klassifisering av datasett som deler informasjon i tre tilgangsnivå: _offentlig_ (grønne data), _begrenset offentlighet_ (gule data) og _unntatt offentlighet_ (røde data). 
+
+*Grønne data* er data som kan gjøres gratis tilgjengelig som åpne data. Offentleglovas hovedregel gjelder, og ingen unntakshjemler kommer til anvendelse. Kategorien omfatter også løsninger for tilgang som krever brukeregistrering og API-nøkler, så lenge alle kan få tilgang til de fysiske dataene.
+
+*Gule data* er datasett som _ikke_ kan gjøres åpent tilgjengelig for alle. Datasettet inneholder opplysninger som medfører at det må gjøres en vurdering (saksbehandling) før tilgang eventuelt kan gis. Årsakene til skjerming kan for eksempel være at datasettet inneholder personopplysninger eller er omfattet av tredjeparts opphavsrett.
+
+*Røde data* er datasett som krever særskilt rettslig grunnlag for tilgang. Typiske eksempler er gradert informasjon, sensitive personopplysninger eller forretningshemmeligheter. Aktuelle grunnlag for utlevering kan være samtykke fra den/de som har rett på vern, hjemmel i lov eller partsinnsyn (partenes rett til å gjøre seg kjent med opplysninger i egen sak).
+
+Se Difis https://doc.difi.no/data/veileder-orden-i-eget-hus/#_vurdering_av_tilgangsniv%C3%A5[Veileder for orden i eget hus] for mer informasjon om trafikklyssystemet.

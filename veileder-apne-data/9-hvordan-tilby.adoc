@@ -1,14 +1,15 @@
+
 == Hvordan bør jeg tilby data?
 
 Når du skal tilby data, skal du følge regjeringens https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer ved tilgjengeliggjøring av offentlige data]. Disse er gjengitt under, med kommentarer og veiledning. Vi oppdaterer veiledningen fortløpende, så send oss gjerne en epost til mailto:opnedata@difi.no[opnedata@difi.no] om du har spørsmål som ikke besvares her, eller har innspill til rådene vi gir. 
 
-=== Bruk åpne standardlisenser
+=== 1. Bruk åpne standardlisenser
 
-[quote,www.regjeringen.no/id2536870/#punkt_en] +
+[quote,www.regjeringen.no/id2536870/#punkt_en] 
 Data som tilbys skal ha klare vilkår for hvordan de kan brukes. Vilkårene skal åpne for så mange bruksområder som mulig. Dersom data som tilgjengeliggjøres er beskyttet etter åndsverkloven, bør virksomheten si fra seg sine egne eksklusive økonomiske rettigheter til bruk av datasettet. Dette kan enkelt gjøres ved å bruke åpne standardlisenser som Creative Commons 4.0 eller Norsk lisens for offentlige data (NLOD). Disse standardlisensene sikrer en helhetlig praksis for hvilke rettigheter brukerne har, og fritar samtidig utgiver for juridisk ansvar knyttet til datakvalitet og hva data blir brukt til.
 
-[TIP]  +
-==== +
+[TIP]
+==== 
 I tillegg til NLOD og CC-BY 4.0 kan du som eier og utgiver av data velge å dedikere datasett til det fri ved å bruke Creative Commons Zero (CC0). CC0 er en fullstendig fraskrivelse av dine retter som rettighetshaver, og brukerne kan bruke data fritt uten å oppgi kilde. CC0 er anbefalt av EU-kommisjonen.
 
 Når du registrerer datasett på data.norge.no, Felles datakatalog eller Geonorge.no er angivelse av lisens ivaretatt i registreringsskjemaet. Dersom du har en lokal datakatalog som de nasjonale katalogene skal høste datasettbeskrivelser fra, må lisensen angis i tråd med https://doc.difi.no/dcat-ap-no/[Standard for beskrivelse av datasett og datakataloger]
@@ -20,113 +21,113 @@ Dersom du har en egen nettside som omtaler virksomhetens åpne datasett, bør li
 Du kan i tillegg legge inn informasjonen om lisensen direkte i datasettet eller i API-et. Dette sikrer at lisensinformasjonen følger med datasettet. +
 ====
 
-=== Tilby data gratis
+=== 2. Tilby data gratis
 
-[quote,www.regjeringen.no/id2536870/#punkt_to] +
-Hovedregelen er at data skal være gratis, og at det ikke er anledning til å ta betalt for kostnader til innsamling og produksjon av data for viderebruk. Det finnes enkelte unntak i offentlighetsloven (§ 8) og -forskriften (§ 4) som gir anledning til å ta betalt for data.
+[quote,www.regjeringen.no/id2536870/#punkt_to] 
+Hovedregelen er at data skal være gratis, og at det ikke er anledning til å ta betalt for kostnader til innsamling og produksjon av data for viderebruk. Det finnes enkelte unntak i offentlighetsloven (§ 8) og -forskriften (§ 4) som gir anledning til å ta betalt for data. + 
+ + 
+Virksomheter som krever betaling for informasjon, skal offentliggjøre betalingssatsene i elektronisk form. Alle opplysninger om grunnlaget for utregning av betalingssatsene skal også publiseres elektronisk, slik at de er lette å finne for potensielle brukere. 
 
-Virksomheter som krever betaling for informasjon, skal offentliggjøre betalingssatsene i elektronisk form. Alle opplysninger om grunnlaget for utregning av betalingssatsene skal også publiseres elektronisk, slik at de er lette å finne for potensielle brukere. +
-****
 
-[TIP]  +
-==== +
-Merk at betalingssatser med opplysninger om hva avgiften dekker skal være offentliggjort og at utgifter til innsamling av data ikke kan dekkes av avgiften. +
+[TIP]
+==== 
+Merk at betalingssatser med opplysninger om hva avgiften dekker skal være offentliggjort og at utgifter til innsamling av data ikke kan dekkes av avgiften. 
 ====
 
-=== Tilby data uten brukerregistrering
+=== 3. Tilby data uten brukerregistrering
 
-[quote,www.regjeringen.no/id2536870/#punkt_tre] +
+[quote,www.regjeringen.no/id2536870/#punkt_tre] 
 Data skal i utgangspunktet gjøres tilgjengelig uten at brukeren må søke om tillatelse eller registrere seg. I tråd med bestemmelsene i offentlighetsloven skal data kunne benyttes hvor som helst, av hvem som helst, og til ethvert formål. Brukere bør samtidig oppmuntres til å oppgi kontaktinformasjon, slik at utgiveren kan varsle brukerne for eksempel ved endringer eller driftsavbrudd.
 
-[TIP]  +
-==== +
+[TIP]  
+==== 
 Ved frivillig registrering kan brukerne selv vurdere om de vil bli kontaktet, og tar selv risikoen ved å ikke gjøre det. http://data.stortinget.no/[De åpne data-tjenestene til Stortinget] er et godt eksempel på bruk av frivillig registrering. Alternativt vil en fast adresse i form av en nettside, RSS-strøm og/eller en Twitter-konto der driftsmeldinger og øvrige meldinger publiseres, være et godt alternativ til å be brukerne oppgi kontaktinformasjon. Her er Statens vegvesens Twitter-konto https://twitter.com/VegvesenData[@VegvesenData] et godt eksempel.
 
 ====
 
-=== Dokumenter datasettene
+=== 4. Dokumenter datasettene
 
 [quote,www.regjeringen.no/id2536870/#punkt_fire] +
 Virksomhetene bør dokumentere datasettene slik at det blir enkelt å ta datasettene i bruk både for mennesker og maskiner. Med dokumentasjon mener vi beskrivelser som gjør det mulig for andre å oppdage, forstå og bruke dine data.
 
-[TIP]  +
-==== +
+[TIP]  
+==== 
 På data.norge.no kan du registrere åpne datasett på en enkel måte. Beskrivelsene blir samtidig gjort tilgjengelig for andre dataportaler som https://www.europeandataportal.eu/[den europeiske datakatalogen]. Dersom du ønsker en lokal datakatalog for din virksomhet må løsningen tilby maskinlesbare datasettbeskrivelser i tråd med “Standard for beskrivelse av datasett og datakataloger”.
 
-For dokumentasjon av API-er anbefaler vi å bruke https://swagger.io/docs/specification/about/[OpenAPI Specification] +
+For dokumentasjon av API-er anbefaler vi å bruke https://swagger.io/docs/specification/about/[OpenAPI Specification]
 ====
 
-=== Tilby informasjon om datakvalitet
+=== 5. Tilby informasjon om datakvalitet
 
-[quote,www.regjeringen.no/id2536870/#punkt_fem] +
+[quote,www.regjeringen.no/id2536870/#punkt_fem] 
 Kvaliteten på virksomhetens data påvirker hvor egnet de er til andre formål enn de først ble skapt for. Dokumentering av datakvalitet er til stor hjelp i prosessen med å vurdere om virksomhetens datasett er egnet til andre formål, og øker sjansen for bruk. Datakvaliteten bør derfor være dokumentert, og kjente utfordringer bør eksplisitt omtales i beskrivelsene.
 
-[TIP]  +
-==== +
-Eksempel på opplysninger om datakvalitet kan være opplysninger om hvor nøyaktige eller komplette de er, når de sist ble oppdatert, kjente feil eller mangler, eller hvordan innsamlingen av data skjer. ... +
+[TIP]
+==== 
+Eksempel på opplysninger om datakvalitet kan være opplysninger om hvor nøyaktige eller komplette de er, når de sist ble oppdatert, kjente feil eller mangler, eller hvordan innsamlingen av data skjer. 
 ====
 
-=== Tilby oppdaterte data
+=== 6. Tilby oppdaterte data
 
-[quote,www.regjeringen.no/id2536870/#punkt_seks] +
+[quote,www.regjeringen.no/id2536870/#punkt_seks] 
 Virksomheten bør tilby oppdaterte data og være tydelig på hvilken oppdateringsfrekvens som gjelder. Tjenesten som leverer data bør ha et tjenestenivå tilpasset brukernes behov.
 
-[TIP]  +
-==== +
-Rent praktisk finnes det flere måter å oppdatere et datasett på: 
+[TIP]
+==== 
+Det finnes flere måter å publisere oppdateringer av datasett på: 
 
 * Dersom du tilbyr en fil for nedlasting, kan du oppdatere den samme filen uten å endre struktur eller selve adressen filen er tilgjengelig på. Opplysninger om når filen sist ble oppdatert er viktig for brukerne.
 * Dersom du tilbyr et periodisk datasett - altså et datasett som oppdateres med faste intervaller (tidsserie), kan det være hensiktsmessig å legge til en ny fil uten å endre den forrige. Dersom du bruker et fast mønster for URL-ene gjør du det enkelt for brukerne å automatisere uthentingen av siste versjon. 
 * Dersom du tilbyr data som oppdateres ofte (eller uregelmessig), er det gjerne mest hensiktmessig for brukerne å hente data fra et API eller eventuelt en RSS-strøm. 
 ====
 
-=== Gjør data synlige
+=== 7. Gjør data synlige
 
 [quote,www.regjeringen.no/id2536870/#punkt_sju] +
 For at potensielle brukere av offentlige data enkelt skal kunne finne data, bør beskrivelser av datasett være tilgjengelig på data.norge.no, som er en katalog med beskrivelser av åpne datasett fra det offentlige. Difi gir anbefalinger om formater for dette formålet i dokumentet Standard for beskrivelser av datasett og datakataloger. Virksomheten bør vurdere å tilby beskrivelser på engelsk i tillegg til norsk.
 
-[TIP]  +
-==== +
-Registreringsskjemane til de nasjonale datakatalogene (data.norge.no, Felles datakatalog og Geonorge.no) støtter alle gjeldende anbefalinger og krav knytter til datakataloger for offentlige virksomheter. Dersom du velger å etablere en egen/lokal datakatalog for din virksomhet, må du sikre at gjeldende standarder støttes, slik at de nasjonale katalogene kan høste datasettbeskrivelser fra din løsning.  +
+[TIP]
+==== 
+Registreringsskjemane til de nasjonale datakatalogene (data.norge.no, Felles datakatalog og Geonorge.no) støtter alle gjeldende anbefalinger og krav knytter til datakataloger for offentlige virksomheter. Dersom du velger å etablere en egen/lokal datakatalog for din virksomhet, må du sikre at gjeldende standarder støttes, slik at de nasjonale katalogene kan høste datasettbeskrivelser fra din løsning.  
 ====
 
-=== Bruk maskinlesbare og standardiserte formater
+=== 8. Bruk maskinlesbare og standardiserte formater
 
 [quote,www.regjeringen.no/id2536870/#punkt_atte] +
 Data skal være tilgjengelig i maskinlesbare formater. I tillegg bør formatene være standardiserte. Dette sikrer god samhandlingsevne med annen informasjon (interoperabilitet) og legger ikke unødvendige begrensninger på hva informasjonen kan brukes til i fremtiden. Eksempler på maskinlesbare og standardiserte formater er CSV, XML, JSON og RDF-serialiseringer som RDF/XML, JSON-LD og Turtle.
 
-[TIP]  +
-====  +
-En CSV-fil for nedlasting er en god start når du skal tilby åpne data. Dersom utgangspunktet ditt er et regneark i Excel er konvertering til CSV samtidig en god avsjekk på om strukturen i datasettet er god. Rene rader og kolonner uten formler, mellomtitler og summeringer øker gjerne gjenbruksverdien. Komplekse regneark kan med fordel splittes i flere datasett.  +
+[TIP]
+==== 
+En CSV-fil for nedlasting er en god start når du skal tilby åpne data. Dersom utgangspunktet ditt er et regneark i Excel er konvertering til CSV samtidig en god avsjekk på om strukturen i datasettet er god. Rene rader og kolonner uten formler, mellomtitler og summeringer øker gjerne gjenbruksverdien. Komplekse regneark kan med fordel splittes i flere datasett. +
 ====
 
-=== Tilby data gjennom et programmeringsgrensesnitt
+=== 9. Tilby data gjennom et programmeringsgrensesnitt
 
-[quote,www.regjeringen.no/id2536870/#punkt_ni] +
+[quote,www.regjeringen.no/id2536870/#punkt_ni]
 Et programmeringsgrensesnitt (API) er en måte å tilby data på som gjør det mulig for annen programvare å gjøre oppslag i hele eller spesifikke deler av virksomhetens data via internett. Det gjør det for eksempel mulig å bruke data i sanntid, filtrere på forespørsel, og å arbeide med data på dataelementnivå uten at brukerne må opprette lokale kopier av datasettene. Et programmeringsgrensesnitt er den beste måten å gjøre data tilgjengelig på dersom datasettene er store, komplekse eller oppdateres ofte. 
 
-[TIP]  +
-==== +
-I utforming av et API, er det viktig å tenke på hvordan best å gjøre data tilgjengelige og lette å anvende. REST-API-er er en svært populært API-stil, og dermed en godt sted å begynne, fremfor eldre stiler som SOAP, som er vanskeligere for brukere å anvende. Vi anbefaler å benytte egenskaper i standarden du følger. For API-er som bruker HTTP-protokollen, kan du for eksempel støtte ETag for at brukere lett kan sjekke om noe er oppdatert, og kompresjon (gzip, brotli) for raskere overføring. Vi anbefaler også å benytte https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md[OpenAPI-Specification] for dokumentasjon og https://semver.org/[Semantic Versioning] (Semver) for versjonering. +
+[TIP]
+==== 
+I utforming av et API, er det viktig å tenke på hvordan best å gjøre data tilgjengelige og lette å anvende. REST-API-er er en svært populært API-stil, og dermed en godt sted å begynne, fremfor eldre stiler som SOAP, som er vanskeligere for brukere å anvende. Vi anbefaler å benytte egenskaper i standarden du følger. For API-er som bruker HTTP-protokollen, kan du for eksempel støtte ETag for at brukere lett kan sjekke om noe er oppdatert, og kompresjon (gzip, brotli) for raskere overføring. Vi anbefaler også å benytte https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md[OpenAPI-Specification] for dokumentasjon og https://semver.org/[Semantic Versioning] (Semver) for versjonering.
 ====
 
-=== Tilby komplett nedlasting
+=== 10. Tilby komplett nedlasting
 
 [quote,www.regjeringen.no/id2536870/#punkt_ti] +
 Selv om et programmeringsgrensesnitt er en svært fleksibel måte å tilby data på, kan brukerne også ha behov for å laste ned komplette datasett for å etablere lokale kopier. Komplett nedlasting kan tilbys som funksjonalitet i et programmeringsgrensesnitt, eller som en maskinlesbar fil publisert på internett.
 
-[TIP]  +
-==== +
- API-er er ikke for alle. Noen brukere har behov for å laste ned data for å kunne  bearbeide, analysere og sammenstille datasett. CSV-filer er praktiske til dette formålet ettersom det lett kan importeres i Excel, databaser eller ulike analyseverktøy. For svært store datasett bør en vurdere å tilby nedlasting av søkeresultater (filter) for å unngå at filene overstiger regnearkprogrammenes maksgrense på (litt over) en million rader. +
+[TIP]
+==== 
+API-er er ikke for alle. Noen brukere har behov for å laste ned data for å kunne  bearbeide, analysere og sammenstille datasett. CSV-filer er praktiske til dette formålet ettersom det lett kan importeres i Excel, databaser eller ulike analyseverktøy. For svært store datasett bør en vurdere å tilby nedlasting av søkeresultater (filter) for å unngå at filene overstiger regnearkprogrammenes maksgrense på (litt over) en million rader. 
 ====
 
-=== Bruk faste adresser og unike identifikatorer
+=== 11. Bruk faste adresser og unike identifikatorer
 
-[quote,www.regjeringen.no/id2536870/#punkt_elleve] +
+[quote,www.regjeringen.no/id2536870/#punkt_elleve] 
 Data bør ha unike, permanente og hensiktsmessige adresser på internett, slik at det er mulig å lenke data sammen. Dette gjelder selve datasettet og versjoner og serier av dette, samt datasettets elementer. Data får økt verdi om de refererer til andres data om samme ting, samme sted, samme hendelse, samme person osv. Det betyr at alle bør bruke samme identifikatorer på tvers av datasett, og legge til rette for at egne identifikatorer kan refereres til av andre.
 
-[TIP]  +
-====  +
+[TIP]
+==== 
 Ettersom de nasjonale datakatalogene ikke innholder selve datasettet (men bare beskrivelser med lenker til datasettet) er det helt avgjørende for brukerne at adressen til datasettet ikke endres.
 
 For periodiske datasett der selve datasettet ikke oppdateres men nye filer legges til for hver nye periode (tidsserier), bør adressene følge et fast mønster slik at det er mulig å forutsi hva adressen til det nye datasettet kommer til å bli. Dette vil for eksempel gjøre det mulig for brukerne å automatisere nedlasting av lokale kopier.
@@ -135,51 +136,51 @@ God bruk av unike identifikatorer for selve dataelementene øker gjenbruksverdie
 
 URLer kan også fungere fint som identifikatorer gitt at de er unike, permanente og hensiktsmessige. URLer som samtidig er identifikatorer for en ressurs (for eksempel et datasett, begrep eller en opplysning) kaller vi URIer (Uniform Resource Identifier).
 
-Se https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/pekere-til-offentlige-ressurser-pa-nett[Referansekatalogen for IT-standarde]r for anbefalinger om hvordan identifikatorer i form av URIer (pekere til offentlige ressurser) bør utformes.  +
+Se https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/pekere-til-offentlige-ressurser-pa-nett[Referansekatalogen for IT-standarde]r for anbefalinger om hvordan identifikatorer i form av URIer (pekere til offentlige ressurser) bør utformes.
 ====
 
-=== Publiser oversikt over virksomhetens data
+=== 12. Publiser oversikt over virksomhetens data
 
-[quote,www.regjeringen.no/id2536870/#punkt_tolv] +
+[quote,www.regjeringen.no/id2536870/#punkt_tolv]
 Hvilke data som tilgjengeliggjøres bør være drevet av brukernes behov. For at brukerne skal kunne finne og bruke dine data, må de vite hvilke data du har. Virksomheten bør derfor vedlikeholde og publisere en oversikt over hvilke data de forvalter. Dette gjelder også beskrivelser av datasett som av forskjellige grunner ikke er tilgjengeliggjort.
 
-[TIP]  +
-==== +
-I https://fellesdatakatalog.brreg.no/[Felles datakatalog] kan du registrere datasett selv om ikke selve datasettet er tilgjengelig ennå. Synliggjøring av beskrivelser i en datakatalog er uansett viktig for at brukerne skal vite at data finnes og hvem som forvalter de. Du kan også publisere oversikten lokalt på virksomhetens egne hjemmesider, men beskrivelsene må samtidig være tilgjengelig i maskinlesbart format i tråd med https://doc.difi.no/dcat-ap-no/[Standard for beskrivelse av datasett og datakataloger] slik at de kan høstes av de nasjonale katalogene. +
+[TIP]
+==== 
+I https://fellesdatakatalog.brreg.no/[Felles datakatalog] kan du registrere datasett selv om ikke selve datasettet er tilgjengelig ennå. Synliggjøring av beskrivelser i en datakatalog er uansett viktig for at brukerne skal vite at data finnes og hvem som forvalter de. Du kan også publisere oversikten lokalt på virksomhetens egne hjemmesider, men beskrivelsene må samtidig være tilgjengelig i maskinlesbart format i tråd med https://doc.difi.no/dcat-ap-no/[Standard for beskrivelse av datasett og datakataloger] slik at de kan høstes av de nasjonale katalogene.
 ====
 
-=== Tilpass data til brukernes behov
+=== 13. Tilpass data til brukernes behov
 
-[quote,www.regjeringen.no/id2536870/#punkt_tretten] +
+[quote,www.regjeringen.no/id2536870/#punkt_tretten]
 Virksomhetene bør tilpasse data slik at brukere enkelt kan ta dem i bruk, for eksempel ved å lage systemer for spørringer som er tilpasset spesifikke formål. Slike tilpasninger bør likevel ikke være til hinder for at datasett også blir gjort tilgjengelig i sin opprinnelige form, dersom dette blir etterspurt. Her er det viktig at virksomhetene er åpne for innspill fra de som ønsker å bruke datasettene.
 
-[TIP]  +
-==== +
+[TIP]
+==== 
 Å tilby data er en offentlig tjeneste på lik linje med å tilby en hvilken som helst annen offentlig tjeneste. Prinsippet om “brukeren i sentrum” står sentralt også her. Brukerne i denne sammenhengen er gjerne aktører som skal bruke data i en tjeneste,  beslutningsprosess eller til forskning. Måten vi tilbyr data på kan være helt avgjørende for en god og effektiv bruk.
 
 Difi anbefaler at virksomheten selv bruker den samme datakilden i egne prosesser som du tilbyr til andre fremfor å ha en datakilde til internt bruk og en for eksterne brukere (gitt at opplysningene er de samme). 
 
 ====
 
-=== Oppmuntre til bruk
+=== 14. Oppmuntre til bruk
 
-[quote,www.regjeringen.no/id2536870/#punkt_fjorten] +
+[quote,www.regjeringen.no/id2536870/#punkt_fjorten] 
 Å gjøre data åpent tilgjengelig er ikke nok for at data skal bli brukt. Utgivere bør samhandle med brukerne og aktivt oppmuntre til bruk av deres data.
 
-[TIP]  +
-==== +
+[TIP]
+==== 
 Inviter gjerne brukerne til workshops eller seminarer for å gjøre de bedre kjent med datasettene du tilbyr og for å fange opp hvilke behov de har. Deltakelse på #Hack4no eller tilsvarende arrangementer er også en fin måte å oppmuntre til bruk av egne data på. Det finnes også egne grupper på ulike sosiale plattformer (for eksempel Facebook og Slack) som har åpne data og/eller informasjonsforvaltning som tema.
 
 Statens vegvesen har http://www.vegdata.no/[en egen blogg], der de tar opp ulike tema knyttet til bruk av Nasjonal vegdatabank. Dette er et godt eksempel på hvordan en kan oppmuntre til bruk av åpne data som virksomheten tilbyr.
 
 ====
 
-=== Legg til rette for tilbakemeldinger
+=== 15. Legg til rette for tilbakemeldinger
 
-[quote,www.regjeringen.no/id2536870/#punkt_femten] +
+[quote,www.regjeringen.no/id2536870/#punkt_femten] 
 Gjennom å tilby brukerne muligheten for å gi tilbakemeldinger, vil virksomheten ha bedre forutsetninger for å forstå behovene til brukerne. Dette vil bidra til å forbedre kvaliteten på publiserte data og til å bygge tillit mellom utgiveren og brukerne.
 
-[TIP]  +
-==== +
-I tillegg til at det skal være mulig å kontakte deg for spørsmål og tilbakemeldinger, bør virksomheten ha rutiner for å følge opp innspill som brukerne kommer med. Innspill fra brukerne vil være nyttige både for å forbedre datakvalitet og som innspill til hvordan du leverer data.  +
+[TIP]
+==== 
+I tillegg til at det skal være mulig å kontakte deg for spørsmål og tilbakemeldinger, bør virksomheten ha rutiner for å følge opp innspill som brukerne kommer med. Innspill fra brukerne vil være nyttige både for å forbedre datakvalitet og som innspill til hvordan du leverer data.
 ====

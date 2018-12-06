@@ -1,19 +1,17 @@
 
 == Hva er åpne data?
 
-Åpne data består av to ting: data og åpenhet. Med “data” mener vi informasjon som er gjort tilgjengelig slik at den kan leses og tolkes av både datamaskiner og mennesker. Med “åpenhet” mener vi at vilkårene åpner opp for så mange bruksområder som mulig. 
+Åpne data består av to ting: data og åpenhet. Med “data” mener vi informasjon som er gjort tilgjengelig slik at den kan leses og tolkes av både maskiner og mennesker. Med “åpenhet” mener vi at vilkårene åpner opp for så mange bruksområder som mulig. 
 
-_Åpne data er informasjon som er gjort tilgjengelig slik at den kan leses og tolkes av både maskiner og mennesker, og som alle kan få tilgang til, bruke og dele._
+WARNING: Åpne data er informasjon som er gjort tilgjengelig slik at den kan leses og tolkes av både maskiner og mennesker, og som alle kan få tilgang til, bruke og dele.
 
-Du kan gjøre data tilgjengelig i form av _datasett. _Et datasett er en organisert samling av data for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API. Hvordan et datasett avgrenses og organiseres vil variere mellom ulike virksomheter.
+Gode åpne data kjennetegnes ved:
 
-Gode åpne datasett kjennetegnes ved:
-
-* at de er godt dokumenterte slik at de er lette å oppdage, vurdere og bruke
-* at kan linkes til slik at de lett kan deles og diskuteres
-* at de er tilgjengelige i et maskinleselig, standardisert og strukturert format slik at de enkelt kan bearbeides
-* at de har garantier for tilgjengelighet og pålitelighet over tid, slik at andre kan stole på de
-* at de er sporbare tilbake til hvor de kommer fra, slik at andre kan vurdere pålitelighet
+* [*] at de er godt dokumenterte slik at de er lette å oppdage, vurdere og bruke
+* [*] at de kan linkes til slik at de lett kan deles og diskuteres
+* [*] at de er tilgjengelige i et maskinleselig, standardisert og strukturert format slik at de enkelt kan bearbeides
+* [*] at de har garantier for tilgjengelighet og pålitelighet over tid, slik at andre kan stole på de
+* [*] at de er sporbare tilbake til hvor de kommer fra, slik at andre kan vurdere pålitelighet
 
 Disse egenskapene gjelder strengt tatt også for øvrige data som offentlig sektor forvalter. Det eneste spesielle ved åpne data er bare at alle kan få tilgang, bruke og dele.
 
@@ -34,31 +32,36 @@ Det er tre hovedgrunner til at tilgang på åpne offentlige data er viktig for s
 
 *Et åpent og demokratisk samfunn:* Tilgang til grunnlaget for beslutninger og prioriteringer i offentlig sektor gir bedre innsyn i hvordan beslutninger følges opp og hva som er effekten av politiske tiltak.  Dette kan være med på å styrke tilliten til det offentlige, og til det politiske systemet.
 
-==== Verdien av åpne data
+=== Verdien av åpne data
 
 Åpne data skaper verdier i både offentlig og privat sektor. https://www.europeandataportal.eu/en/highlights/creating-value-through-open-data[I en rapport publisert av EU i 2015] blir det estimert at den direkte markedsstørrelsen for åpne data i EU vil ligge på over 75 milliarder euro i 2020. I tillegg kommer indirekte effekter på rundt 200 milliarder euro. 
 
-Flere datakilder blir gjerne satt sammen, og åpne offentlige data utgør gjerne en delmengde av de dataene som inngår i en prosess eller tjeneste. Hvor mange tjenester og prosesser åpne data inngår i, og hvilke verdier dette representerer i Norge, vet vi ikke sikkert. Vi skal her nøye oss med noen eksempler som viser hvordan åpne data bidrar til næringsutvikling, innovasjon, åpenhet og effektivisering:
+Flere datakilder blir gjerne satt sammen, og åpne offentlige data utgjør gjerne en delmengde av de dataene som inngår i en prosess eller tjeneste. Hvor mange tjenester og prosesser åpne data inngår i, og hvilke verdier dette representerer i Norge, vet vi ikke sikkert. Vi skal her nøye oss med noen eksempler som viser hvordan åpne data bidrar til næringsutvikling, innovasjon, åpenhet og effektivisering.
 
-**** 
-* Energiselskapet Otovo er et norsk selskap som leverer solcelle-løsninger for vanlige husholdninger. I stedet for synfaring for å vurdere potensiell strømproduksjon for nye kunder, kan prosessen delvis automatiseres ved å kombinere eksisterende kart- og eiendomsdata om bygninger (https://kartkatalog.geonorge.no/metadata/geovekst/fkb-bygning/8b4304ea-4fb0-479c-a24d-fa225e2c6e97[FKB Bygning])  med åpne data om solforhold fra den europeriske databasen http://re.jrc.ec.europa.eu/pvg_download/data_download.html[PV-GIS]. Otovo anslår at de har spart rundt 300 millioner kroner på kunne utnytte eksisterende datakilder.  
-
-* Bergens Tidende har laget en egen varslingstjeneste (bot) som henter data direkte fra ulike kilder og varsler journalistene når bestemte typer hendelser inntreffer i nærheten, for eksempel ved trafikkuhell (åpne data fra Statens vegvesen) eller når en restaurant innenfor et gitt område får anmerkning ved tilsyn (åpne data av Mattilsynet). Tjenesten er til internt bruk, og er et nyttig verktøy for avisens journalister.
-
-* https://www.holderdeord.no/[Holder de ord] er en partipolitisk uavhengig organisasjon som tilbyr en rekke digitale verktøy som gjør det enklere å følge med på norsk politikk. Tjenestene bygger på åpne offentlige data fra blant annet Stortinget.  
-
-* I 2017 ble det formidlet 58 millioner elektroniske fakturaer i Norge i elektronisk handelsformat (EHF). Dette ga en estimert samfunnsgevinst på 4,2 milliarder (https://www.difi.no/sites/difino/files/difi-rapport_2018_1_program_for_digitale_anskaffelser.pdf#page=13[Difi-rapport 2018:1 s.13]). En av suksesskriteriene for dette var at sikkerheten i transaksjoner ble forbedret ved at https://data.norge.no/data/registerenheten-i-br%C3%B8nn%C3%B8ysund/enhetsregisteret[Enhetsregisteret er tilgjengelig som åpne data]. +
+.Eksempler på at åpne data bidrar til næringsutvikling, innovasjon, åpenhet og effektivisering:
 
 ****
 
-Se https://data.norge.no/app[https://data.norge.no/app]  for flere eksempler på bruk av åpne offentlige data.
+* [*] Energiselskapet Otovo er et norsk selskap som leverer solcelle-løsninger for vanlige husholdninger. I stedet for synfaring for å vurdere potensiell strømproduksjon for nye kunder, kan prosessen delvis automatiseres ved å kombinere eksisterende kart- og eiendomsdata om bygninger (https://kartkatalog.geonorge.no/metadata/geovekst/fkb-bygning/8b4304ea-4fb0-479c-a24d-fa225e2c6e97[FKB Bygning])  med åpne data om solforhold fra den europeriske databasen http://re.jrc.ec.europa.eu/pvg_download/data_download.html[PV-GIS]. Otovo anslår at de har spart rundt 300 millioner kroner på utnytte eksisterende datakilder.  
 
+* [*] Framsikt AS leverer styringssystemer for norske kommuner og lager skreddersydd analyseverktøy nesten utelukkende basert på åpne data fra KOSTRA og andre SSB-data for kommunene. Etter hvert er det mange konsulenter som i stor grad bruker SSB-data. F.eks. Ny analyse, Oslo economics, Menon og Prognosesenteret. SSB tilbyr over 5000 tabeller som åpne data gjennom sitt API for Statistikkbanken.
+
+* [*] Bergens Tidende har laget en egen en varslingstjeneste (bot) som henter data direkte fra ulike kilder og varsler journalistene når bestemte typer hendelser inntreffer i nærheten, for eksempel ved trafikkuhell (åpne data fra Statens vegvesen) eller når en restaurant får anmerkning ved tilsyn (åpne data av Mattilsynet). Tjenesten er til internt bruk, og er et nyttig verktøy for avisens journalister.
+
+* [*] https://www.holderdeord.no/[Holder de ord] er en partipolitisk uavhengig organisasjon som tilbyr en rekke digitale verktøy som gjør det enklere å følge med på norsk politikk. Tjenestene bygger på åpne offentlige data fra blant annet Stortinget.  
+
+* [*] I 2017 ble det formidlet 58 millioner elektroniske fakturaer i Norge i elektronisk handelsformat (EHF). Dette ga en estimert samfunnsgevinst på 4,2 milliarder (https://www.difi.no/sites/difino/files/difi-rapport_2018_1_program_for_digitale_anskaffelser.pdf#page=13[Difi-rapport 2018:1 s.13]). En av suksesskriteriene for dette var at sikkerheten i transaksjoner ble forbedret ved at https://data.norge.no/data/registerenheten-i-br%C3%B8nn%C3%B8ysund/enhetsregisteret[Enhetsregisteret er tilgjengelig som åpne data].
+**** 
+
+Se https://data.norge.no/app[https://data.norge.no/app]  for flere eksempler på bruk av åpne offentlige data.
 
 === Hva er et datasett? 
 
 Du kan gjøre data tilgjengelig i form av _datasett_. Helt enkelt kan en si at et datasett er en samling med data, for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et programmeringsgrensesnitt (API).
 
-Eksempel: Mattilsynet tilbyr https://theodi.org/guides/what-open-data[data om tilsyn med serveringssteder i Norge] (smilefjestilsyn) som åpne data. Datasettet er tilgjengelig i flere maskinleselige formater og tilbys under https://data.norge.no/nlod/no[Norsk lisens for offentlige data] (NLOD), som er en åpen standardlisens. 
+Du kan gjøre data tilgjengelig i form av _datasett_. Et datasett er en samling av data for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API. 
+
+Eksempel: Mattilsynet tilbyr https://data.norge.no/data/mattilsynet/smilefjestilsyn-p%C3%A5-serveringssteder[data om tilsyn med serveringssteder i Norge] (smilefjestilsyn) som åpne data. Datasettet er tilgjengelig i flere maskinleselige formater og tilbys under https://data.norge.no/nlod/no[Norsk lisens for offentlige data] (NLOD). 
 
 Hvordan et datasett avgrenses og organiseres vil variere mellom ulike virksomheter. Det er altså du (og din virksomhet) som må vurdere hva som er virksomhetens datasett, og hvilke av disse du skal tilby som åpne data. 
 
@@ -66,7 +69,7 @@ Her er noen eksempler på ulike typer datasett:
 
 *Uttrekk fra et fagsystem eller register.* Ofte kan delmengder av informasjonen som finnes i et fagsystem, hentes ut ved å fremstille rapporter i maskinlesbare formater. Uttrekk kan enten utføres som en manuell oppgave eller være automatisert som en forhåndsdefinert prosess.
 
-*Regneark og tabeller.* Dette er informasjon som er strukturert i tabeller i for eksempel regneark i Excel. Regneark som lagres og deles som CSV-filer kan bearbeides av de aller fleste databaser og regnearkprogram.
+*Regneark og tabeller.* Dette er informasjon som er strukturert i tabeller i for eksempel regneark i programmer som LibreOffice Calc og Microsoft  Excel. Regneark som lagres og deles som CSV-filer kan bearbeides av de aller fleste databaser og regnearkprogram.
 
 *Sensordata.* Offentlig sektor bruker sensorer til mange formål. Eksempler er kontinuerlig overvåkning av vær, trafikk og vannkvalitet. Data kan tilbys som sammenstilte datasett og/eller en kan gi tilgang til datastrømmer fra enkeltsensorer.
 
@@ -78,13 +81,13 @@ Her er noen eksempler på ulike typer datasett:
 
 Datasett kan videre deles inn etter tidsaspektet:
 
-*Historiske datasett*: Dette er data som gjør det mulig å se på historiske trender, men sier ikke nødvendigvis noe om situasjonen i dag. Historiske datasett oppdateres ikke.
+*Historiske datasett*: Dette er data som gjør det mulig å se på historiske trender, men sier ikke nødvendigvis noe om situasjonen i dag. Historiske datasett oppdateres vanligvis ikke.
 
 *Periodiske datasett:* Datasett som oppdateres ved jevne mellomrom kaller vi periodiske data. Oppdaterte data er dermed tilgjengelige ved faste intervaller. For mange formål er periodiske data tilstrekkelig for å kunne gjøre analyser eller lage tjenester.
 
 *Levende data:* Levende data, eller sanntidsdata, er data som til enhver tid er oppdatert. Levende data er nødvendig for en del tjenester. Det har f.eks. ingen hensikt å gi reisende som venter på bussen data fra i går.
 
-I tillegg til de ulike typene med strukturerte data som er nevnt over, kan for eksempel tekst og audiovisuelle data (bilder, lyd og video) og informasjon fra “tingenes internett” (IoT) være verdifulle kilder som kan benyttes til en rekke formål. Vi ser en stor økning i tilgangen til denne typen data, og teknologien for å ta den i bruk er i rask utvikling. 
+I tillegg til de ulike typene med strukturerte data som er nevnt over, kan for eksempel tekst og audiovisuelle data (bilder, lyd og video) og informasjon fra “tingenes internett” (IoT - Internet og things) være verdifulle kilder som kan benyttes til en rekke formål. Vi ser en stor økning i tilgangen til denne typen data, og teknologien for å ta den i bruk er i rask utvikling. 
 
 === Hvilke data kan jeg åpne?
 
@@ -92,11 +95,11 @@ All offentlig informasjon som lovlig kan publiseres på en offentlig nettside, k
 
 Her er noen eksempler på åpne data fra offentlig sektor:
 
-* Værdata fra Meteorologisk institutt
-* Dybdedata fra Statens kartverk
-* Trafikkinformasjon fra Statens vegvesen
-* Ladestasjoner for elbiler fra Enova
-* Matvaretabellen fra Mattilsynet
+* [*] Værdata fra Meteorologisk institutt
+* [*] Dybdedata fra Statens kartverk
+* [*] Trafikkinformasjon fra Statens vegvesen
+* [*] Ladestasjoner for elbiler fra Enova
+* [*] Matvaretabellen fra Mattilsynet
 
 Når et datasett inneholder opplysninger som ikke kan deles som åpne data, kan du trolig likevel fremstille et utsnitt av datasettet der konfidensiell informasjon enten er fjernet eller anonymisert. For eksempel har Kartverket fjernet informasjon som er skjermet etter sikkerhetsloven fra sine åpne dybdedata.
 
@@ -107,89 +110,10 @@ Data som inneholder personopplysninger som er omfattet av personopplysningsloven
 Du kan heller ikke publisere informasjon som har blitt gjort tilgjengelig i strid med lovbestemt taushetsplikt. Det betyr at selv om datasettet alt er (ulovlig) tilgjengelig på internett (eller publisert på andre måter), kan ikke du eller din virksomhet publisere datasettet og påføre det en lisens.
 
 Det er selvsagt også ulovlig å publisere informasjon som i følge norsk lov er unntatt offentlighet, deriblant informasjon som er skjermet etter sikkerhetsloven (gradert informasjon). 
- +
+
 Videre kan du (din virksomhet) kun tilby data som organisasjonen selv eier. Dersom andre organisasjoner, selskaper eller personer har vært delaktig (tredjeparts rettigheter) i fremstillingen av datasettet, må alle parter samtykke i at din virksomhet kan tilby data og påføre datasettet en åpen lisens. 
  
 Dersom du har kommet i skade for feilaktig å ha publisert informasjon som faller inn under disse unntakene, skal du avpublisere datasettet og forsøke å stoppe all bruk så snart som du er blitt oppmerksom på dette.
 
-=== Klassifisering av datasett - trafikklyssystemet
 
-Trafikklyssystemet er en enkel klassifisering av datasett som deler informasjon i tre tilgangsnivå: _offentlig_ (grønne data), _begrenset offentlighet_ (gule data) og _unntatt offentlighet_ (røde data). 
 
-*Grønne data* er data som kan gjøres gratis tilgjengelig som åpne data. Offentleglovas hovedregel gjelder, og ingen unntakshjemler kommer til anvendelse. Kategorien omfatter også løsninger for tilgang som krever brukeregistrering og API-nøkler, så lenge alle kan få tilgang til de fysiske dataene.
-
-*Gule data* er datasett som _ikke_ kan gjøres åpent tilgjengelig for alle. Datasettet inneholder opplysninger som medfører at det må gjøres en vurdering (saksbehandling) før tilgang eventuelt kan gis. Årsakene til skjerming kan for eksempel være at datasettet inneholder personopplysninger eller er omfattet av tredjeparts opphavsrett.
-
-*Røde data* er datasett som krever særskilt rettslig grunnlag for tilgang. Typiske eksempler er gradert informasjon, sensitive personopplysninger eller forretningshemmeligheter. Aktuelle grunnlag for utlevering kan være samtykke fra den/de som har rett på vern, hjemmel i lov eller partsinnsyn (partenes rett til å gjøre seg kjent med opplysninger i egen sak).
-
-Se Difis https://doc.difi.no/data/veileder-orden-i-eget-hus/#_vurdering_av_tilgangsniv%C3%A5[Veileder for orden i eget hus] for mer informasjon om trafikklyssystemet.
-
-=== Usikkerhet rundt åpning av data
-
-Vi forstår at det kan være usikkerhet rundt det å tilby åpne data. Her skal vi forsøke å svare ut det mest brukte motargumentene:
-
-*Våre data etterspørres ikke* +
-Forutsetningen for å etterspørre data er at noen må vite at de eksisterer. Uten en publisert beskrivelser av hvilke data virksomheten forvalter og potensielt kan tilby som åpne data, vil etterspørselen være lav. 
-
-*Vi vet ikke hva dataene våre vil bli brukt til* +
-Det stemmer, men det er også et av hovedpoengene med åpne data. Datasett kan nemlig brukes til nyttige ting som daratilbyder ikke alltid kan forutse. Et eksempel på dette er at åpne værdata brukes i butikkenes innkjøpssystemer for å forutse salg av enkelte produkter.
- 
-*Kvaliteten på dataene våre er ikke god nok* +
-Dersom data er gode nok til å ta beslutninger på i virksomheten, er de også gode nok til å deles. Det er imidlertid viktig at kvaliteten er dokumentert og at kjente utfordringer omtales i beskrivelsen, ettersom kvaliteten påvirker hvor egnet de er til andre formål enn de først ble skapt for. Økt bruk øker sannsynligheten for at feil oppdages og tilgjengeliggjøring som åpne data kan dermed bidra til bedre datakvalitet.
- 
-*Tilgjengeliggjøring av data er utenfor kjerneaktivitetene våre* +
-Dersom du gjør dataene tilgjengelige, får eksterne aktører mulighet til å lage tjenester som kan bidra til å støtte kjerneaktivitetene.
- 
-*Vi har ingen kontroll over hvilke datasett som settes sammen med våre egne* +
-Selv om dette stemmer, er også dette et av hovedpoengene med å åpne dataene. Når ulike datasett kobles, kan nye tjenester utvikles. Du eller din virksomhet står ikke juridisk ansvarlig for det som blir laget dersom du bruker en av de anbefalte lisensene. Vær samtidig bevisst på at sammenstilling av data fra ulike kilder kan medføre identifisering av personer.
- 
-*Tilgjengeliggjøring av data er avslørende* +
-Data kan avsløre at man ikke har oppnådd tilfredsstillende politiske eller administrative resultater, eller på andre måter sette deg eller din virksomhet i et dårlig lys. Forsøk på å unngå slike avsløringer vil imidlertid stå i kontrast til den åpenheten som samfunnet vårt ellers preges av. I enkelte tilfeller kan det også innebære brudd på Offentleglova, som gir innbyggerne rett til både innsyn og bruk.
- 
-*Det er for komplisert* +
-Å publisere åpne data behøver hverken være tidkrevende eller komplisert. Åpne data kan, i sin enkleste form, være et regneark med strukturerte opplysninger publisert på en nettside. Etter hvert kan regnearket utvides til flere regneark, før man gradvis går over til å publisere informasjonen gjennom et API. Poenget er å starte i det små og hele tiden lære av de erfaringer man får av å jobbe med åpne data.
-
-*Vi har ikke oversikt over hvilke data vi har* +
-Det kan være fristende å vente med publisering av åpne data til en har oversikt over hvilke data en forvalter, og beskrivelsene av de er perfekte. Vi anbefaler smidig tilnærming: Start i det små og utvid til flere datasett etterhvert. Forbedre de publiserte datasettene og beskrivelsene av de jevnlig.  
-
-=== Gjeldende lovverk og IKT-politikk for åpne offentlige data
-
-Statens IKT-politikk for tilgjengeliggjøring av offentlige data er beskrevet i https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/[Digital agenda for Norge] som _gjenbruk _og _viderebruk_, der _gjenbruk _er offentlige virksomheters bruk av offentlige data (kapittel 7), mens _viderebruk_ er privat sektors og sivilsamfunnets bruk av offentlige data (kapittel 14). 
-
-Regjeringens mål om økt viderebruk er knyttet til målene om effektivisering og innovasjon, næringsutvikling og et åpent og demokratisk samfunn. Stortingsmeldingen trekker frem fem sektorer som anses som samfunnsøkonomisk verdifulle: kultur, forskning og utdanning, statlige utgifter, transport og samferdsel og kart og eiendom (Geodata). 
-
-Regjeringens føringer for deling av åpne offentlige data er regulert i https://lovdata.no/dokument/NL/lov/2006-05-19-16?q=offentleglova[Offentleglova], https://www.regjeringen.no/id2569983/[Digitaliseringsrundskrivet], og regjeringens https://www.regjeringen.no/no/id2536870[Retningslinjer ved tilgjengeliggjøring av offentlige data]
-
-==== Offentleglova
-
-https://lovdata.no/NL/lov/1814-05-17-nn/§100[Grunnlova § 100] slår fast at “alle har rett til innsyn i dokument til staten og kommunane.” Retten til innsyn er presisert i offentleglova. Hovedregelen i offentleglova § 3 er at alle “saksdokument, journalar og liknande register for organet” er offentlig, det vil si omfattet av innsynsrett. Dokumentbegrepet i offentleglova er definert som “ei logisk avgrensa informasjonsmengd” og omfatter dermed også data som offentlig sektor forvalter. Offentleglova skal blant annet legge til rette for at offentlige sektor er åpen og gjennomsiktig, og legge til rette for viderebruk av offentlig informasjon, jf. https://lovdata.no/NL/lov/2006-05-19-16/§1[offentleglova § 1]
-
-Informasjon som det er gitt tilgang til etter offentleglova kan brukes til ethvert formål, dersom ikke annen lovgivning eller retten til en tredjeperson er til hinder for det. Personopplysningsretten og opphavsretten begrenser muligheten til viderebruk.
-
-Retten til innsyn er ikke ubegrenset. Mange dokumenter _skal_ eller _kan_ unntas fra offentlighet. Lovbestemt taushetsplikt unntar personlige forhold og forretningshemmeligheter fra innsynsretten. Dokumenter som kan lette gjennomføring av straffbare forhold, eller dokumenter som regnes som interne, kan unntas fra innsynsretten.
-
-En oppdatering av Offentleglova i 2017 gir nå brukerne rett til innsyn i alle eksisterende formater og språkversjoner av informasjonen det bes om innsyn i. Denne plikten gjelder også maskinlesbare formater.
-
-Offentleglova gir altså allmennheten innsynsrett, det vil si at informasjon vil bli gjort tilgjengelig på forespørsel. Dette kan beskrives som en _reaktiv åpenhet_ , og innsyn forutsetter at allmennheten har tilstrekkelig kunnskap til å stille relevante innsynskrav. Digitaliseringsrundskrivet legger opp til en mer _proaktiv åpenhet_, der egnet informasjon _skal_ gjøres tilgjengelig i maskinlesbare formater og synliggjøres på https://data.norge.no/[data.norge.no].
-
-==== Digitaliseringsrundskrivet
-
-Digitaliseringsrundskrivet gjelder for departementene, statens ordinære forvaltningsorganer, forvaltningsorganer med særskilte fullmakter og forvaltningsbedrifter.
-
-Rundskrivet slår fast at den enkelte virksomhet skal ha oversikt over hvilke data den håndterer, hva dataene betyr, hva de brukes til, hvilke prosesser de inngår i, og hvem som kan bruke dem. Dette innebærer altså at forvaltningen må ta stilling til hvilke data som kan gjøres tilgjengelig som åpne offentlige data, og ta stilling til hvilke data som skal prioriteres først, for eksempel etterspurte eller samfunnsviktige data andre ikke har.
-
-Rundskrivet (punkt 1.3) slår også fast at virksomheten skal “gjøre egnet informasjon tilgjengelig for viderebruk i maskinlesbare formater, fortrinnsvis gjennom APIer”. Dette gjelder når virksomhetene etablerer nye eller oppgraderer eksisterende fagsystemer. Videre pekes det på at tilgjengeliggjøring av data skal skje i samsvar med regjeringens https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer ved tilgjengeliggjøring av offentlige data] og viderebruksbestemmelsene i offentleglova.
-
-==== Retningslinjer ved tilgjengeliggjøring av offentlige data
-
-Regjeringens https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer ved tilgjengeliggjøring av offentlige data] er en føring som består av 15 punkt og skal sikre best mulig utnyttelse av offentlige data. De mest grunnleggende punktene omhandler fraskrivelse av eventuell opphavsrett ved å bruke åpne standardlisenser, å tilby data gratis og å tilby data i maskinlesbare og standardiserte formater. Se kapitlet _Klargjøring og publisering - hvordan bør du tilby data?_  for mer informasjon om retningslinjene.
-
-=== EUs politikk på området
-
-EU-kommisjonens policy for tilgang til offentlige data omfatter all informasjon som offentlige organer produserer, samler inn eller betaler for. Eksempler er geografisk informasjon, statistikk, værdata, data fra offentlig finansierte forskningsprosjekter og digitaliserte bøker fra biblioteker. Policyen følger prinsippet om at offentlige data skal være mest mulig åpent tilgjengelige og gjenbrukbare.
-
-EUs Viderebruksdirektiv  (https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information[PSI-direktivet]) utgjør det lovmessige rammeverket for tilgang til offentlige data i EU og EØS. Direktivet bygger på to av grunnpilarene i EUs indre marked: transparens og rettferdig konkurranse. I tillegg ønsker EU-kommisjonen å sikre en mer effektiv utnyttelse av denne typen innhold over landegrensene. Fra og med 2013 omfatter direktivet også arkiv, bibliotek og museum, samt slår fast retten til å få utlevert data i maskinlesbare formater.
-
-Viderebruksdirektivet er implementert i offentleglova. Direktivet omfatter tekstdokumenter, databaser, lydfiler og filmklipp, men gjelder ikke områdene utdanning, forskning og kringkasting.
-
-EU-kommisjonen finansierer en rekke åpne data-prosjekter, inkludert en europeisk dataportal, gjennom programmet Connecting Europe Facility (CEF). Midler for finansering av digitaliseringsprosjekter under CEF-programmet lyses ut flere ganger i året. Både offentlige og private virksomheter kan søke om midler.

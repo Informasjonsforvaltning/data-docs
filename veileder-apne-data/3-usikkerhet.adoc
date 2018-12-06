@@ -1,0 +1,29 @@
+
+== Usikkerhet rundt åpning av data
+
+Vi forstår at det kan være usikkerhet rundt det å tilby åpne data. Her er det mest brukte motargumentene:
+
+*Våre data etterspørres ikke* +
+Forutsetningen for å etterspørre data er at noen må vite at de eksisterer. Uten en publisert beskrivelser av hvilke data virksomheten forvalter og potensielt kan tilby som åpne data, vil etterspørselen være lav. 
+
+*Vi vet ikke hva dataene våre vil bli brukt til* +
+Det stemmer, men det er også et av hovedpoengene med åpne data. Datasett kan nemlig brukes til nyttige ting som datatilbyder ikke alltid kan forutse. Et eksempel på dette er at åpne værdata brukes i butikkenes innkjøpssystemer for å forutse salg av enkelte produkter.
+ 
+*Kvaliteten på dataene våre er ikke god nok* +
+Dersom data er gode nok til å ta beslutninger på i virksomheten, er de også gode nok til å deles. Det er imidlertid viktig at kvaliteten er dokumentert og at kjente utfordringer omtales i beskrivelsen, ettersom kvaliteten påvirker hvor egnet de er til andre formål enn de først ble skapt for. Økt bruk øker sannsynligheten for at feil oppdages og tilgjengeliggjøring som åpne data kan dermed bidra til bedre datakvalitet og bedre beslutninger.
+ 
+*Tilgjengeliggjøring av data er utenfor kjerneaktivitetene våre* +
+Dersom du gjør dataene tilgjengelige, får eksterne aktører mulighet til å lage tjenester som kan bidra til å støtte dine kjerneaktivitetene.
+ 
+*Vi har ingen kontroll over hvilke datasett som settes sammen med våre egne* +
+Selv om dette stemmer, er også dette et av hovedpoengene med å åpne dataene. Når ulike datasett kobles, kan nye tjenester utvikles. Du eller din virksomhet står ikke juridisk ansvarlig for det som blir laget dersom du bruker en av de anbefalte lisensene. Vær samtidig bevisst på at sammenstilling av data fra ulike kilder kan medføre identifisering av personer.
+ 
+*Tilgjengeliggjøring av data er avslørende* +
+Data kan avsløre at man ikke har oppnådd tilfredsstillende politiske eller administrative resultater, eller på andre måter sette deg eller din virksomhet i et dårlig lys. Forsøk på å unngå slike avsløringer vil imidlertid stå i kontrast til den åpenheten som samfunnet vårt ellers preges av. I enkelte tilfeller kan det også innebære brudd på Offentleglova, som gir innbyggerne rett til både innsyn og bruk.
+ 
+*Det er for komplisert* +
+Å publisere åpne data behøver hverken være tidkrevende eller komplisert. Åpne data kan, i sin enkleste form, være et regneark med strukturerte opplysninger publisert på en nettside. Etter hvert kan regnearket utvides til flere regneark, før man gradvis går over til å publisere informasjonen gjennom et API. Poenget er å starte i det små og hele tiden lære av de erfaringer man får av å jobbe med åpne data.
+
+*Vi har ikke oversikt over hvilke data vi har* +
+Det kan være fristende å vente med publisering av åpne data til en har oversikt over hvilke data en forvalter, og beskrivelsene av de er perfekte. Vi anbefaler smidig tilnærming: Start i det små og utvid til flere datasett etterhvert. Forbedre de publiserte datasettene og beskrivelsene av de jevnlig.  
+
