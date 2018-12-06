@@ -1,6 +1,6 @@
 
 == Sjekkliste for publisering av åpne data
-
+Følgende huskeliste kan være til hjelp i prosessen med å identifisere, tilrettelegge og tilgjengeliggjøre åpne data i din virksomhet:
 
 .Hvilke datasett samler inn og forvalter min virksomhet?
 
@@ -13,14 +13,14 @@
 .Hvilke data bør jeg vurdere å gjøre tilgjengelig?
 
 * [ ] Data som kan forbedre og strømlinjeforme offentlige tjenester
-* [ ] Data som kan forbedre og strømlinjeforme private tjenester
+* [ ] Data som kan forbedre og strømlinjeforme tjenester som privat sektor tilbyr
 * [ ] Data som har potensiell verdi for samfunnet eller næringslivet
 * [ ] Data som bidrar til økt åpenhet i samfunnet
 
 .Hvilke data bør jeg prioritere?
 
 * [ ] Data som alt er gjort tilgjengelig, men som ikke er synlige eller brukervenlige nok 
-* [ ] Data som har antatt høy verdi for offentlig sektor, næringslivet eller samfunnet som helhet.
+* [ ] Data som har antatt høy verdi for offentlig sektor, næringslivet eller samfunnet som helhet
 * [ ] Data som er etterspurt
 * [ ] Publiser en oversikt over virksomhetens data
 
