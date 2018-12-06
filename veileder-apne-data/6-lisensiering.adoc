@@ -9,7 +9,7 @@ Det er to ulike rettigheter som er nedfelt i åndsverkloven og som automatisk f�
  
 
 * Du får *opphavsrett* til innhold som du lager og som er originale for deg og din virksomhet, som for eksempel tekst du skriver eller bilder du tar.
-* Du får *databaserettigheter *over “_et formular, en katalog, en tabell, et program, en database eller lignende arbeid som sammenstiller et større antall opplysninger, eller som er resultatet av en vesentlig investering_” (https://lovdata.no/dokument/NL/lov/2018-06-15-40/KAPITTEL_3-3#%C2%A743[åndsverksloven §43]). Denne rettigheten er også omtalt som “katalogvern”
+* Du får *databaserettigheter* over “_et formular, en katalog, en tabell, et program, en database eller lignende arbeid som sammenstiller et større antall opplysninger, eller som er resultatet av en vesentlig investering_” (https://lovdata.no/dokument/NL/lov/2018-06-15-40/KAPITTEL_3-3#%C2%A743[åndsverksloven §43]). Denne rettigheten er også omtalt som *katalogvern*
 
 I vår sammenheng er det databaserettighetene som er mest relevante. En database er vernet i 15 år etter at den ble fremstilt, eventuelt 15 år etter den første gang ble offentliggjort. En database som jevnlig oppdateres vil i praksis ha et rullerende vern, ved at det stadig fremstilles nye versjoner av basen.
 
