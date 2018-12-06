@@ -6,7 +6,7 @@ include::../shared/translation.adoc[]
 :docinfo:
 :icons: font
 :toc: left
-:toclevels: 2
+:toclevels: 1
 :sectanchors:
 :title-logo-image: utils/logo.jpg
 
