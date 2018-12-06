@@ -1,0 +1,50 @@
+
+== Sjekkliste for publisering av åpne data
+
+
+.Hvilke datasett samler inn og forvalter min virksomhet?
+
+* [ ] Historiske datasett
+* [ ] Periodiske datasett
+* [ ] Levende data
+* [ ] Fremtidig datainnsamling (nye data)
+* [ ] Data som er samlet inn av våre leverandører og konsulenter
+
+.Hvilke data bør jeg vurdere å gjøre tilgjengelig?
+
+* [ ] Data som kan forbedre og strømlinjeforme offentlige tjenester
+* [ ] Data som kan forbedre og strømlinjeforme private tjenester
+* [ ] Data som har potensiell verdi for samfunnet eller næringslivet
+* [ ] Data som bidrar til økt åpenhet i samfunnet
+
+.Hvilke data bør jeg prioritere?
+
+* [ ] Data som alt er gjort tilgjengelig, men som ikke er synlige eller brukervenlige nok 
+* [ ] Data som har antatt høy verdi for offentlig sektor, næringslivet eller samfunnet som helhet.
+* [ ] Data som er etterspurt
+* [ ] Publiser en oversikt over virksomhetens data
+
+.Kan dataene åpnes?
+
+* [ ] Hensynet til personvern er vurdert
+* [ ] De inneholder ikke graderte opplysninnger
+* [ ] De inneholder ikke forretningshemmeligheter
+* [ ] De innholder ikke informasjon som tredjeparter har rettigheter til
+* [ ] Tilgjengeliggjøring er ikke i strid med lover og forskrifter
+
+.Bearbeide og publisere data:
+
+* [ ] Bruk åpne standardlisenser
+* [ ] Tilby data gratis
+* [ ] Tilby data uten brukerregistering
+* [ ] Dokumenter datasettene
+* [ ] Tilby informasjon om datakvalitet
+* [ ] Tilby oppdaterte data
+* [ ] Gjør data synlige
+* [ ] Bruk maskinlesbare og standardiserte formater
+* [ ] Tilby data gjennom et programmeringsgrensesnitt
+* [ ] Tilby komplett nedlasting
+* [ ] Bruk faste adresser og unike identifikatorer
+* [ ] Tilpass data til brukernes behov
+* [ ] Oppmuntre til bruk
+* [ ] Legg til rette for tilbakemeldinger
