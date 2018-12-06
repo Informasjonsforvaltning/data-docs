@@ -44,7 +44,7 @@ Flere datakilder blir gjerne satt sammen, og åpne offentlige data utgjør gjern
 
 * [*] Energiselskapet Otovo er et norsk selskap som leverer solcelle-løsninger for vanlige husholdninger. I stedet for synfaring for å vurdere potensiell strømproduksjon for nye kunder, kan prosessen delvis automatiseres ved å kombinere eksisterende kart- og eiendomsdata om bygninger (https://kartkatalog.geonorge.no/metadata/geovekst/fkb-bygning/8b4304ea-4fb0-479c-a24d-fa225e2c6e97[FKB Bygning])  med åpne data om solforhold fra den europeriske databasen http://re.jrc.ec.europa.eu/pvg_download/data_download.html[PV-GIS]. Otovo anslår at de har spart rundt 300 millioner kroner på utnytte eksisterende datakilder.  
 
-* [*] Framsikt AS leverer styringssystemer for norske kommuner og lager skreddersydd analyseverktøy nesten utelukkende basert på åpne data fra KOSTRA og andre SSB-data for kommunene. Etter hvert er det mange konsulenter som i stor grad bruker SSB-data. F.eks. Ny analyse, Oslo economics, Menon og Prognosesenteret. SSB tilbyr over 5000 tabeller som åpne data gjennom sitt API for Statistikkbanken.
+* [*] Framsikt AS leverer styringssystemer for norske kommuner og lager skreddersydde analyseverktøy nesten utelukkende basert på åpne data fra KOSTRA og andre SSB-data for kommunene. Etter hvert er det mange konsulenter som i stor grad bruker SSB-data. For eksempel Ny analyse, Oslo economics, Menon og Prognosesenteret. SSB tilbyr over 5000 tabeller som åpne data gjennom sitt API for Statistikkbanken.
 
 * [*] Bergens Tidende har laget en egen en varslingstjeneste (bot) som henter data direkte fra ulike kilder og varsler journalistene når bestemte typer hendelser inntreffer i nærheten, for eksempel ved trafikkuhell (åpne data fra Statens vegvesen) eller når en restaurant får anmerkning ved tilsyn (åpne data av Mattilsynet). Tjenesten er til internt bruk, og er et nyttig verktøy for avisens journalister.
 
@@ -67,25 +67,25 @@ Hvordan et datasett avgrenses og organiseres vil variere mellom ulike virksomhet
 
 Her er noen eksempler på ulike typer datasett:
 
-*Uttrekk fra et fagsystem eller register.* Ofte kan delmengder av informasjonen som finnes i et fagsystem, hentes ut ved å fremstille rapporter i maskinlesbare formater. Uttrekk kan enten utføres som en manuell oppgave eller være automatisert som en forhåndsdefinert prosess.
+Uttrekk fra et fagsystem eller register:: Ofte kan delmengder av informasjonen som finnes i et fagsystem, hentes ut ved å fremstille rapporter i maskinlesbare formater. Uttrekk kan enten utføres som en manuell oppgave eller være automatisert som en forhåndsdefinert prosess.
 
-*Regneark og tabeller.* Dette er informasjon som er strukturert i tabeller i for eksempel regneark i programmer som LibreOffice Calc og Microsoft  Excel. Regneark som lagres og deles som CSV-filer kan bearbeides av de aller fleste databaser og regnearkprogram.
+Regneark og tabeller:: Dette er informasjon som er strukturert i tabeller i for eksempel regneark i programmer som LibreOffice Calc og Microsoft  Excel. Regneark som lagres og deles som CSV-filer kan bearbeides av de aller fleste databaser og regnearkprogram.
 
-*Sensordata.* Offentlig sektor bruker sensorer til mange formål. Eksempler er kontinuerlig overvåkning av vær, trafikk og vannkvalitet. Data kan tilbys som sammenstilte datasett og/eller en kan gi tilgang til datastrømmer fra enkeltsensorer.
+Sensordata:: Offentlig sektor bruker sensorer til mange formål. Eksempler er kontinuerlig overvåkning av vær, trafikk og vannkvalitet. Data kan tilbys som sammenstilte datasett og/eller en kan gi tilgang til datastrømmer fra enkeltsensorer.
 
-*Prosessdata.* Dette kan være data som blir skapt som del av den administrative virksomheten eller hendelser som loggføres manuelt eller automatisk. Eksempler er (anonymiserte) data om henvendelser til brukerstøtte og bruksstatistikk for digitale tjenester.  
+Prosessdata:: Dette kan være data som blir skapt som del av den administrative virksomheten eller hendelser som loggføres manuelt eller automatisk. Eksempler er (anonymiserte) data om henvendelser til brukerstøtte og bruksstatistikk for digitale tjenester.  
 
-*Transaksjonsdata.* Dette er informasjon som samles inn gjennom økonomiske og administrative systemer. Transaksjonsdata kan gi innsyn i overordnede opplysninger om inn- og utgående fakturaer i virksomheten.
+Transaksjonsdata:: Dette er informasjon som samles inn gjennom økonomiske og administrative systemer. Transaksjonsdata kan gi innsyn i overordnede opplysninger om inn- og utgående fakturaer i virksomheten.
 
-*Kodelister.* En kodeliste er en liste med faste verdier som for eksempel postnummer og poststed eller kommuner og landkoder. Kodelister brukes typisk i sammenheng med andre datasett (for å forstå hva verdiene betyr) og i nedtrekkslister i skjema i sluttbrukerløsningen.
+Kodelister:: En kodeliste er en liste med faste verdier som for eksempel postnummer og poststed eller kommuner og landkoder. Kodelister brukes typisk i sammenheng med andre datasett (for å forstå hva verdiene betyr) og i nedtrekkslister i skjema i sluttbrukerløsningen.
 
 Datasett kan videre deles inn etter tidsaspektet:
 
-*Historiske datasett*: Dette er data som gjør det mulig å se på historiske trender, men sier ikke nødvendigvis noe om situasjonen i dag. Historiske datasett oppdateres vanligvis ikke.
+Historiske datasett:: Dette er data som gjør det mulig å se på historiske trender, men sier ikke nødvendigvis noe om situasjonen i dag. Historiske datasett oppdateres vanligvis ikke.
 
-*Periodiske datasett:* Datasett som oppdateres ved jevne mellomrom kaller vi periodiske data. Oppdaterte data er dermed tilgjengelige ved faste intervaller. For mange formål er periodiske data tilstrekkelig for å kunne gjøre analyser eller lage tjenester.
+Periodiske datasett:: Datasett som oppdateres ved jevne mellomrom kaller vi periodiske data. Oppdaterte data er dermed tilgjengelige ved faste intervaller. For mange formål er periodiske data tilstrekkelig for å kunne gjøre analyser eller lage tjenester.
 
-*Levende data:* Levende data, eller sanntidsdata, er data som til enhver tid er oppdatert. Levende data er nødvendig for en del tjenester. Det har f.eks. ingen hensikt å gi reisende som venter på bussen data fra i går.
+Levende data:: Levende data, eller sanntidsdata, er data som til enhver tid er oppdatert. Levende data er nødvendig for en del tjenester. Det har f.eks. ingen hensikt å gi reisende som venter på bussen data fra i går.
 
 I tillegg til de ulike typene med strukturerte data som er nevnt over, kan for eksempel tekst og audiovisuelle data (bilder, lyd og video) og informasjon fra “tingenes internett” (IoT - Internet og things) være verdifulle kilder som kan benyttes til en rekke formål. Vi ser en stor økning i tilgangen til denne typen data, og teknologien for å ta den i bruk er i rask utvikling. 
 
