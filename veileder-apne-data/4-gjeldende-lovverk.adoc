@@ -1,7 +1,7 @@
 
 == Gjeldende lovverk og IKT-politikk for åpne offentlige data
 
-Statens IKT-politikk for tilgjengeliggjøring av offentlige data er beskrevet i https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/[Digital agenda for Norge] som _gjenbruk _og _viderebruk_, der _gjenbruk _er offentlige virksomheters bruk av offentlige data (kapittel 7), mens _viderebruk _er privat sektors og sivilsamfunnets bruk av offentlige data (kapittel 14). 
+Statens IKT-politikk for tilgjengeliggjøring av offentlige data er beskrevet i https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/[Digital agenda for Norge] som _gjenbruk_ og _viderebruk_, der _gjenbruk_ er offentlige virksomheters bruk av offentlige data (kapittel 7), mens _viderebruk_ er privat sektors og sivilsamfunnets bruk av offentlige data (kapittel 14). 
 
 Regjeringens mål om økt viderebruk er knyttet til målene om effektivisering og innovasjon, næringsutvikling og et åpent og demokratisk samfunn. Stortingsmeldingen trekker frem fem sektorer hvor viderebruk anses som samfunnsøkonomisk verdifulle: kultur, forskning og utdanning, statlige utgifter, transport og samferdsel og kart og eiendom (Geodata). 
 
@@ -17,7 +17,7 @@ Retten til innsyn er ikke ubegrenset. Mange dokumenter _skal_ eller _kan_ unntas
 
 En oppdatering av Offentleglova i 2017 gir nå allmennheten rett til innsyn i alle eksisterende formater og språkversjoner av informasjonen det bes om innsyn i. Denne plikten gjelder også maskinlesbare formater.
 
-Offentleglova gir altså allmennheten innsynsrett, det vil si at informasjon vil bli gjort tilgjengelig på forespørsel. Dette kan beskrives som en _reaktiv åpenhet, _og innsyn forutsetter at allmennheten har tilstrekkelig kunnskap til å stille relevante innsynskrav. Digitaliseringsrundskrivet legger opp til en mer _proaktiv åpenhet_,__ __der egnet informasjon _skal _ gjøres tilgjengelig i maskinlesbare formater og synliggjøres på https://data.norge.no/[data.norge.no].
+Offentleglova gir altså allmennheten innsynsrett, det vil si at informasjon vil bli gjort tilgjengelig på forespørsel. Dette kan beskrives som en _reaktiv åpenhet_, og innsyn forutsetter at allmennheten har tilstrekkelig kunnskap til å stille relevante innsynskrav. Digitaliseringsrundskrivet legger opp til en mer _proaktiv åpenhet_, der egnet informasjon _skal_ gjøres tilgjengelig i maskinlesbare formater og synliggjøres på https://data.norge.no/[data.norge.no].
 
 ==== Digitaliseringsrundskrivet
 
@@ -29,4 +29,4 @@ Rundskrivet (punkt 1.3) slår også fast at virksomheten skal “gjøre egnet in
 
 ==== Retningslinjer ved tilgjengeliggjøring av offentlige data
 
-Regjeringens https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer ved tilgjengeliggjøring av offentlige data] er en føring som består av 15 punkt og skal sikre best mulig utnyttelse av offentlige data. De mest grunnleggende punktene omhandler fraskrivelse av eventuell opphavsrett ved å bruke åpne standardlisenser, å tilby data gratis og å tilby data i maskinlesbare og standardiserte formater. Se kapitlet _Klargjøring og publisering - hvordan bør du tilby data?_  for mer informasjon om retningslinjene.
+Regjeringens https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/[Retningslinjer ved tilgjengeliggjøring av offentlige data] er en føring som består av 15 punkt og skal sikre best mulig utnyttelse av offentlige data. De mest grunnleggende punktene omhandler fraskrivelse av eventuell opphavsrett ved å bruke åpne standardlisenser, å tilby data gratis og å tilby data i maskinlesbare og standardiserte formater. Se kapitlet _Hvordan bør jeg tilby data?_ for mer informasjon om retningslinjene.
