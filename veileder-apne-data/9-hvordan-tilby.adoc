@@ -83,7 +83,7 @@ Det finnes flere måter å publisere oppdateringer av datasett på:
 
 === 7. Gjør data synlige
 
-[quote,www.regjeringen.no/id2536870/#punkt_sju] +
+[quote,www.regjeringen.no/id2536870/#punkt_sju]
 For at potensielle brukere av offentlige data enkelt skal kunne finne data, bør beskrivelser av datasett være tilgjengelig på data.norge.no, som er en katalog med beskrivelser av åpne datasett fra det offentlige. Difi gir anbefalinger om formater for dette formålet i dokumentet Standard for beskrivelser av datasett og datakataloger. Virksomheten bør vurdere å tilby beskrivelser på engelsk i tillegg til norsk.
 
 [TIP]
@@ -93,7 +93,7 @@ Registreringsskjemane til de nasjonale datakatalogene (data.norge.no, Felles dat
 
 === 8. Bruk maskinlesbare og standardiserte formater
 
-[quote,www.regjeringen.no/id2536870/#punkt_atte] +
+[quote,www.regjeringen.no/id2536870/#punkt_atte]
 Data skal være tilgjengelig i maskinlesbare formater. I tillegg bør formatene være standardiserte. Dette sikrer god samhandlingsevne med annen informasjon (interoperabilitet) og legger ikke unødvendige begrensninger på hva informasjonen kan brukes til i fremtiden. Eksempler på maskinlesbare og standardiserte formater er CSV, XML, JSON og RDF-serialiseringer som RDF/XML, JSON-LD og Turtle.
 
 [TIP]
