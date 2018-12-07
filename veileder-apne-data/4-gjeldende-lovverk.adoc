@@ -5,7 +5,7 @@ Statens IKT-politikk for tilgjengeliggjøring av offentlige data er beskrevet i 
 
 Regjeringens mål om økt viderebruk er knyttet til målene om effektivisering og innovasjon, næringsutvikling og et åpent og demokratisk samfunn. Stortingsmeldingen trekker frem fem sektorer hvor viderebruk anses som samfunnsøkonomisk verdifulle: kultur, forskning og utdanning, statlige utgifter, transport og samferdsel og kart og eiendom (Geodata). 
 
-Regjeringens føringer for deling av åpne offentlige data er regulert i https://lovdata.no/dokument/NL/lov/2006-05-19-16?q=offentleglova[Lov om rett til innsyn i dokument i offentleg verksemd] (offentleglova),  https://www.regjeringen.no/id2569983/ [Digitaliseringsrundskrivet] og regjeringens https://www.regjeringen.no/no/id2536870[Retningslinjer ved tilgjengeliggjøring av offentlige data]
+Regjeringens føringer for deling av åpne offentlige data er regulert i https://lovdata.no/dokument/NL/lov/2006-05-19-16?q=offentleglova[Lov om rett til innsyn i dokument i offentleg verksemd] (offentleglova),  https://www.regjeringen.no/id2569983/[Digitaliseringsrundskrivet] og regjeringens https://www.regjeringen.no/no/id2536870[Retningslinjer ved tilgjengeliggjøring av offentlige data]
 
 ==== Offentleglova
 
