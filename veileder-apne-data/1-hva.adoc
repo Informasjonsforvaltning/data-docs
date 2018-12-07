@@ -57,8 +57,6 @@ Se https://data.norge.no/app[https://data.norge.no/app]  for flere eksempler på
 
 === Hva er et datasett? 
 
-Du kan gjøre data tilgjengelig i form av _datasett_. Helt enkelt kan en si at et datasett er en samling med data, for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et programmeringsgrensesnitt (API).
-
 Du kan gjøre data tilgjengelig i form av _datasett_. Et datasett er en samling av data for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API. 
 
 Eksempel: Mattilsynet tilbyr https://data.norge.no/data/mattilsynet/smilefjestilsyn-p%C3%A5-serveringssteder[data om tilsyn med serveringssteder i Norge] (smilefjestilsyn) som åpne data. Datasettet er tilgjengelig i flere maskinleselige formater og tilbys under https://data.norge.no/nlod/no[Norsk lisens for offentlige data] (NLOD). 
