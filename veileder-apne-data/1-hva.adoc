@@ -1,9 +1,9 @@
 
 == Hva er åpne data?
 
-Åpne data består av to ting: data og åpenhet. Med “data” mener vi informasjon som er gjort tilgjengelig slik at den kan leses og tolkes av både maskiner og mennesker. Med “åpenhet” mener vi at vilkårene åpner opp for så mange bruksområder som mulig. 
+Åpne data består av to ting: data og åpenhet. Med “data” mener vi informasjon som er gjort tilgjengelig slik at den kan leses og tolkes av både maskiner og mennesker. Med “åpenhet” mener vi at vilkårene åpner opp for så mange bruksområder som mulig.
 
-WARNING: Åpne data er informasjon som er gjort tilgjengelig slik at den kan leses og tolkes av både maskiner og mennesker, og som alle kan få tilgang til, bruke og dele.
+NOTE: Åpne data er informasjon som er gjort tilgjengelig slik at den kan leses og tolkes av både maskiner og mennesker, og som alle kan få tilgang til, bruke og dele.
 
 Gode åpne data kjennetegnes ved:
 
@@ -15,26 +15,26 @@ Gode åpne data kjennetegnes ved:
 
 Disse egenskapene gjelder strengt tatt også for øvrige data som offentlig sektor forvalter. Det eneste spesielle ved åpne data er bare at alle kan få tilgang, bruke og dele.
 
-Når andre skal bruke data fra “din” virksomhet, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Regjeringen anbefaler offentlig sektor å lisensiere åpne data under http://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0] (CC BY 4.0) eller http://data.norge.no/nlod/[Norsk lisens for offentlige data] (NLOD). 
+Når andre skal bruke data fra “din” virksomhet, må de ha en avtale som beskriver hva de har lov til å gjøre. En standardisert avtale som gjelder for alle brukere og formål, kalles en åpen lisens. Regjeringen anbefaler offentlig sektor å lisensiere åpne data under http://creativecommons.org/licenses/by/4.0/deed.no[Creative Commons Navngivelse 4.0] (CC BY 4.0) eller http://data.norge.no/nlod/[Norsk lisens for offentlige data] (NLOD).
 
 Hovedregelen er at data som offentlig sektor tilbyr som åpne data skal være gratis, og at det ikke er anledning til å ta betalt for kostnader til innsamling og produksjon av data. Det finnes enkelte unntak i offentlighetsloven (§ 8) og -forskriften (§ 4) som gir anledning til å ta betalt for data.
 
 === Hvorfor skal du tilby åpne data?
 
 
-Offentlige virksomheter produserer store mengder data i sin saksbehandling og myndighetsutøvelse. Denne informasjonen er en viktig ressurs som kan utnyttes mer enn den gjør i dag.  
+Offentlige virksomheter produserer store mengder data i sin saksbehandling og myndighetsutøvelse. Denne informasjonen er en viktig ressurs som kan utnyttes mer enn den gjør i dag.
 
-Det er tre hovedgrunner til at tilgang på åpne offentlige data er viktig for samfunnet: 
+Det er tre hovedgrunner til at tilgang på åpne offentlige data er viktig for samfunnet:
 
-*Effektivisering og innovasjon:* Å tilby åpne data er en god måte å dele data på tvers av offentlig sektor. Når data blir delt mellom virksomheter får vi bedre samhandling, mer rasjonell tjenesteutvikling og bedre offentlige tjenester. 
+*Effektivisering og innovasjon:* Å tilby åpne data er en god måte å dele data på tvers av offentlig sektor. Når data blir delt mellom virksomheter får vi bedre samhandling, mer rasjonell tjenesteutvikling og bedre offentlige tjenester.
 
-*Næringsutvikling:* Næringslivet får mulighet til å utvikle nye tjenester, produkter og forretningsmodeller basert på tilgang til offentlig informasjon. 
+*Næringsutvikling:* Næringslivet får mulighet til å utvikle nye tjenester, produkter og forretningsmodeller basert på tilgang til offentlig informasjon.
 
 *Et åpent og demokratisk samfunn:* Tilgang til grunnlaget for beslutninger og prioriteringer i offentlig sektor gir bedre innsyn i hvordan beslutninger følges opp og hva som er effekten av politiske tiltak.  Dette kan være med på å styrke tilliten til det offentlige, og til det politiske systemet.
 
 === Verdien av åpne data
 
-Åpne data skaper verdier i både offentlig og privat sektor. https://www.europeandataportal.eu/en/highlights/creating-value-through-open-data[I en rapport publisert av EU i 2015] blir det estimert at den direkte markedsstørrelsen for åpne data i EU vil ligge på over 75 milliarder euro i 2020. I tillegg kommer indirekte effekter på rundt 200 milliarder euro. 
+Åpne data skaper verdier i både offentlig og privat sektor. https://www.europeandataportal.eu/en/highlights/creating-value-through-open-data[I en rapport publisert av EU i 2015] blir det estimert at den direkte markedsstørrelsen for åpne data i EU vil ligge på over 75 milliarder euro i 2020. I tillegg kommer indirekte effekter på rundt 200 milliarder euro.
 
 Flere datakilder blir gjerne satt sammen, og åpne offentlige data utgjør gjerne en delmengde av de dataene som inngår i en prosess eller tjeneste. Hvor mange tjenester og prosesser åpne data inngår i, og hvilke verdier dette representerer i Norge, vet vi ikke sikkert. Vi skal her nøye oss med noen eksempler som viser hvordan åpne data bidrar til næringsutvikling, innovasjon, åpenhet og effektivisering.
 
@@ -42,26 +42,26 @@ Flere datakilder blir gjerne satt sammen, og åpne offentlige data utgjør gjern
 
 ****
 
-* [*] Energiselskapet https://www.otovo.no/[Otovo] er et norsk selskap som leverer solcelle-løsninger for vanlige husholdninger. I stedet for synfaring for å vurdere potensiell strømproduksjon for nye kunder, kan prosessen delvis automatiseres ved å kombinere eksisterende kart- og eiendomsdata om bygninger (https://kartkatalog.geonorge.no/metadata/geovekst/fkb-bygning/8b4304ea-4fb0-479c-a24d-fa225e2c6e97[FKB Bygning])  med åpne data om solforhold fra den europeriske databasen http://re.jrc.ec.europa.eu/pvg_download/data_download.html[PV-GIS]. Otovo anslår at de har spart rundt 300 millioner kroner på utnytte eksisterende datakilder.  
+* [*] Energiselskapet https://www.otovo.no/[Otovo] er et norsk selskap som leverer solcelle-løsninger for vanlige husholdninger. I stedet for synfaring for å vurdere potensiell strømproduksjon for nye kunder, kan prosessen delvis automatiseres ved å kombinere eksisterende kart- og eiendomsdata om bygninger (https://kartkatalog.geonorge.no/metadata/geovekst/fkb-bygning/8b4304ea-4fb0-479c-a24d-fa225e2c6e97[FKB Bygning])  med åpne data om solforhold fra den europeriske databasen http://re.jrc.ec.europa.eu/pvg_download/data_download.html[PV-GIS]. Otovo anslår at de har spart rundt 300 millioner kroner på utnytte eksisterende datakilder.
 
 * [*] http://www.framsikt.no/[Framsikt AS] leverer styringssystemer for norske kommuner og lager skreddersydde analyseverktøy nesten utelukkende basert på åpne data fra KOSTRA og andre SSB-data for kommunene. Etter hvert er det mange konsulenter som i stor grad bruker SSB-data. For eksempel Ny analyse, Oslo economics, Menon og Prognosesenteret. SSB tilbyr over 5000 tabeller som åpne data gjennom sitt API for Statistikkbanken.
 
 * [*] https://www.bt.no/[Bergens Tidende] har laget en egen en varslingstjeneste (bot) som henter data direkte fra ulike kilder og varsler journalistene når bestemte typer hendelser inntreffer i nærheten, for eksempel ved trafikkuhell (åpne data fra Statens vegvesen) eller når en restaurant får anmerkning ved tilsyn (åpne data av Mattilsynet). Tjenesten er til internt bruk, og er et nyttig verktøy for avisens journalister.
 
-* [*] https://www.holderdeord.no/[Holder de ord] er en partipolitisk uavhengig organisasjon som tilbyr en rekke digitale verktøy som gjør det enklere å følge med på norsk politikk. Tjenestene bygger på åpne offentlige data fra blant annet Stortinget.  
+* [*] https://www.holderdeord.no/[Holder de ord] er en partipolitisk uavhengig organisasjon som tilbyr en rekke digitale verktøy som gjør det enklere å følge med på norsk politikk. Tjenestene bygger på åpne offentlige data fra blant annet Stortinget.
 
 * [*] I 2017 ble det formidlet 58 millioner elektroniske fakturaer i Norge i https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/standarder/ehf-elektronisk-handelsformat[elektronisk handelsformat] (EHF). Dette ga en estimert samfunnsgevinst på 4,2 milliarder (https://www.difi.no/sites/difino/files/difi-rapport_2018_1_program_for_digitale_anskaffelser.pdf#page=13[Difi-rapport 2018:1 s.13]). En av suksesskriteriene for dette var at sikkerheten i transaksjoner ble forbedret ved at https://data.norge.no/data/registerenheten-i-br%C3%B8nn%C3%B8ysund/enhetsregisteret[Enhetsregisteret er tilgjengelig som åpne data].
-**** 
+****
 
 Se https://data.norge.no/app[https://data.norge.no/app]  for flere eksempler på bruk av åpne offentlige data.
 
-=== Hva er et datasett? 
+=== Hva er et datasett?
 
-Du kan gjøre data tilgjengelig i form av _datasett_. Et datasett er en samling av data for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API. 
+Du kan gjøre data tilgjengelig i form av _datasett_. Et datasett er en samling av data for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API.
 
-Eksempel: Mattilsynet tilbyr https://data.norge.no/data/mattilsynet/smilefjestilsyn-p%C3%A5-serveringssteder[data om tilsyn med serveringssteder i Norge] (smilefjestilsyn) som åpne data. Datasettet er tilgjengelig i flere maskinleselige formater og tilbys under https://data.norge.no/nlod/no[Norsk lisens for offentlige data] (NLOD). 
+Eksempel: Mattilsynet tilbyr https://data.norge.no/data/mattilsynet/smilefjestilsyn-p%C3%A5-serveringssteder[data om tilsyn med serveringssteder i Norge] (smilefjestilsyn) som åpne data. Datasettet er tilgjengelig i flere maskinleselige formater og tilbys under https://data.norge.no/nlod/no[Norsk lisens for offentlige data] (NLOD).
 
-Hvordan et datasett avgrenses og organiseres vil variere mellom ulike virksomheter. Det er altså du (og din virksomhet) som må vurdere hva som er virksomhetens datasett, og hvilke av disse du skal tilby som åpne data. 
+Hvordan et datasett avgrenses og organiseres vil variere mellom ulike virksomheter. Det er altså du (og din virksomhet) som må vurdere hva som er virksomhetens datasett, og hvilke av disse du skal tilby som åpne data.
 
 Her er noen eksempler på ulike typer datasett:
 
@@ -71,7 +71,7 @@ Regneark og tabeller:: Dette er informasjon som er strukturert i tabeller i for 
 
 Sensordata:: Offentlig sektor bruker sensorer til mange formål. Eksempler er kontinuerlig overvåkning av vær, trafikk og vannkvalitet. Data kan tilbys som sammenstilte datasett og/eller en kan gi tilgang til datastrømmer fra enkeltsensorer.
 
-Prosessdata:: Dette kan være data som blir skapt som del av den administrative virksomheten eller hendelser som loggføres manuelt eller automatisk. Eksempler er (anonymiserte) data om henvendelser til brukerstøtte og bruksstatistikk for digitale tjenester.  
+Prosessdata:: Dette kan være data som blir skapt som del av den administrative virksomheten eller hendelser som loggføres manuelt eller automatisk. Eksempler er (anonymiserte) data om henvendelser til brukerstøtte og bruksstatistikk for digitale tjenester.
 
 Transaksjonsdata:: Dette er informasjon som samles inn gjennom økonomiske og administrative systemer. Transaksjonsdata kan gi innsyn i overordnede opplysninger om inn- og utgående fakturaer i virksomheten.
 
@@ -85,11 +85,11 @@ Periodiske datasett:: Datasett som oppdateres ved jevne mellomrom kaller vi peri
 
 Levende data:: Levende data, eller sanntidsdata, er data som til enhver tid er oppdatert. Levende data er nødvendig for en del tjenester. Det har f.eks. ingen hensikt å gi reisende som venter på bussen data fra i går.
 
-I tillegg til de ulike typene med strukturerte data som er nevnt over, kan for eksempel tekst og audiovisuelle data (bilder, lyd og video) og informasjon fra “tingenes internett” (IoT - Internet og things) være verdifulle kilder som kan benyttes til en rekke formål. Vi ser en stor økning i tilgangen til denne typen data, og teknologien for å ta den i bruk er i rask utvikling. 
+I tillegg til de ulike typene med strukturerte data som er nevnt over, kan for eksempel tekst og audiovisuelle data (bilder, lyd og video) og informasjon fra “tingenes internett” (IoT - Internet og things) være verdifulle kilder som kan benyttes til en rekke formål. Vi ser en stor økning i tilgangen til denne typen data, og teknologien for å ta den i bruk er i rask utvikling.
 
 === Hvilke data kan jeg åpne?
 
-All offentlig informasjon som lovlig kan publiseres på en offentlig nettside, kan i prinsippet også gjøres tilgjengelig som åpne data. 
+All offentlig informasjon som lovlig kan publiseres på en offentlig nettside, kan i prinsippet også gjøres tilgjengelig som åpne data.
 
 Her er noen eksempler på åpne data fra offentlig sektor:
 
@@ -103,15 +103,12 @@ Når et datasett inneholder opplysninger som ikke kan deles som åpne data, kan 
 
 === Hvilke data kan jeg ikke åpne?
 
-Data som inneholder personopplysninger som er omfattet av personopplysningsloven, skal ikke gjøres tilgjengelig for alle og enhver. Unntaket er om du har hentet inn samtykke (lovlig behandlingsgrunnlag) fra de personene opplysningene omhandler. 
+Data som inneholder personopplysninger som er omfattet av personopplysningsloven, skal ikke gjøres tilgjengelig for alle og enhver. Unntaket er om du har hentet inn samtykke (lovlig behandlingsgrunnlag) fra de personene opplysningene omhandler.
 
 Du kan heller ikke publisere informasjon som har blitt gjort tilgjengelig i strid med lovbestemt taushetsplikt. Det betyr at selv om datasettet alt er (ulovlig) tilgjengelig på internett (eller publisert på andre måter), kan ikke du eller din virksomhet publisere datasettet og påføre det en lisens.
 
-Det er selvsagt også ulovlig å publisere informasjon som i følge norsk lov er unntatt offentlighet, deriblant informasjon som er skjermet etter sikkerhetsloven (gradert informasjon). 
+Det er selvsagt også ulovlig å publisere informasjon som i følge norsk lov er unntatt offentlighet, deriblant informasjon som er skjermet etter sikkerhetsloven (gradert informasjon).
 
-Videre kan du (din virksomhet) kun tilby data som organisasjonen selv eier. Dersom andre organisasjoner, selskaper eller personer har vært delaktig (tredjeparts rettigheter) i fremstillingen av datasettet, må alle parter samtykke i at din virksomhet kan tilby data og påføre datasettet en åpen lisens. 
- 
+Videre kan du (din virksomhet) kun tilby data som organisasjonen selv eier. Dersom andre organisasjoner, selskaper eller personer har vært delaktig (tredjeparts rettigheter) i fremstillingen av datasettet, må alle parter samtykke i at din virksomhet kan tilby data og påføre datasettet en åpen lisens.
+
 Dersom du har kommet i skade for feilaktig å ha publisert informasjon som faller inn under disse unntakene, skal du avpublisere datasettet og forsøke å stoppe all bruk så snart som du er blitt oppmerksom på dette.
-
-
-
