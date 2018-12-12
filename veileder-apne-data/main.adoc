@@ -1,7 +1,7 @@
 include::../shared/translation.adoc[]
 
-= Veileder i tilgjengeliggjøring av åpne data
-:description: Veileder i tilgjengeliggjøring av åpne data (utkast) 
+= Veileder for tilgjengeliggjøring av åpne data
+:description: Veileder for tilgjengeliggjøring av åpne data
 :doctype: book
 :docinfo:
 :icons: font
