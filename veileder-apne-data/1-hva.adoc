@@ -21,12 +21,11 @@ Hovedregelen er at data som offentlig sektor tilbyr som åpne data skal være gr
 
 === Hvorfor skal du tilby åpne data?
 
-
 Offentlige virksomheter produserer store mengder data i sin saksbehandling og myndighetsutøvelse. Denne informasjonen er en viktig ressurs som kan utnyttes mer enn den gjør i dag.
 
-Det er tre hovedgrunner til at tilgang på åpne offentlige data er viktig for samfunnet:
+I følge https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/[Digital agenda for Norge] er det tre hovedgrunner til at tilgang på åpne offentlige data er viktig for samfunnet:
 
-*Effektivisering og innovasjon:* Å tilby åpne data er en god måte å dele data på tvers av offentlig sektor. Når data blir delt mellom virksomheter får vi bedre samhandling, mer rasjonell tjenesteutvikling og bedre offentlige tjenester.
+*Effektivisering og innovasjon:* Å dele data på tvers av offentlig sektor kan bidra til effektivisering og innovasjon. Når data blir delt mellom virksomheter får vi bedre samhandling, mer rasjonell tjenesteutvikling og bedre offentlige tjenester.
 
 *Næringsutvikling:* Næringslivet får mulighet til å utvikle nye tjenester, produkter og forretningsmodeller basert på tilgang til offentlig informasjon.
 
