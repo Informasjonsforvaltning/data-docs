@@ -1,0 +1,54 @@
+ 
+.Feltene i standarden
+
+|===
+|*Felt i Forvaltningsstandard for begrepsbeskrivelser*|*PID** til definisjon*|*TBX**-representasjon*|*Datatype (med ev. PID til definisjon)*|*TBX-Nivå*|*Merknad*
+
+|Begrep|‘concept’, http://www.w3.org/2004/02/skos/core#Concept[http://www.w3.org/2004/02/skos/core#Concept] |<conceptEntry>|Se attributtene under Begrep.|conceptEntry|
+|Begrep.identifikator|‘Identifier’, http://www.isocat.org/datcat/DC-3894[http://www.isocat.org/datcat/DC-3894] |<admin type=”identifikator”>|URI|conceptEntry|
+|Begrep.ansvarligVirksomhet|‘responsible organization’, http://www.isocat.org/datcat/DC-452[http://www.isocat.org/datcat/DC-452] |<transac type=”ansvarligVirksomhet”>nnnnnnnnn</transac>|Organisasjonsnummer, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/[https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/]|conceptEntry|I en <transacGrp>
+|Begrep.fagområde.tekst|‘Subject field’, http://www.isocat.org/datcat/DC-489[http://www.isocat.org/datcat/DC-489] |<descrip type=”fagområde”>tekst</descrip>|PCDATA|langSec|
+|Begrep.fagområde.språkMålform|‘language identifier’, http://www.isocat.org/datcat/DC-279[http://www.isocat.org/datcat/DC-279] |<langSec xml:lang=”xx”>|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):|langSec|
+|Begrep.bruksområde.tekst|‘skosno:bruksområde’, https://vokab.norge.no/skosno#bruksområde |<descrip type=”bruksområde”>tekst</descrip>|PCDATA|langSec|
+|Begrep.bruksområde.språkMålform|‘language identifier’, http://www.isocat.org/datcat/DC-279[http://www.isocat.org/datcat/DC-279] |<langSec xml:lang=”xx”>|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):|langSec|
+|Begrep.gyldighetsperiode.gyldigFraOgMed;|Se under Datatype|<transac type=”typeDato”>|PickList:|conceptEntry|I en transacGrp sammen med selve datoen som oppgis som <date>
+|Begrep.kontaktpunkt|‘contactPoint’, https://www.w3.org/TR/vocab-adms/#dcat-contactpoint[https://www.w3.org/TR/vocab-adms/#dcat-contactpoint] |<transacNote type=”kontaktpunkt”>|Vcard|conceptEntry|I samme transacGrp som den aktuelle Begrep.ansvarligVirksomhet
+|Begrep.sistOppdatert|‘last modification date’, http://www.isocat.org/datcat/DC-2526[http://www.isocat.org/datcat/DC-2526] |<transac type=”typeDato”>|PickList:|conceptEntry|I en transacGrp sammen med selve datoen som oppgis som <date>
+|Begrep.anbefaltTerm; |Se under Datatype |<termNote type=”typeTerm”> |PickList:|termSec|I samme termSec som den aktuelle Term.navn.tekst
+|Begrep.definisjon|‘Definition’, http://www.isocat.org/datcat/DC-168[http://www.isocat.org/datcat/DC-168] |<descrip type=”definisjon”>|Se attributtene under Betydningsbeskrivelse|langSec|
+|Begrep.alternativFormulering|‘skosno:alternativFormulering’, https://vokab.norge.no/skosno#alternativFormulering|<descrip type=”alternativFormulering”>|Se attributtene under Betydningsbeskrivelse|langSec|
+|Begrep.assosiativRelasjon;|Se under Datatype|<descrip type=”typeRelasjon”>|PickList:|langSec|I en descripGrp sammen med de andre metadata om den aktuelle relasjonen
+|Begrep.erstatter;|Se under datatype|<xref type=”admRelasjon”>|PickList:|conceptEntry|
+|Term.navn.tekst|‘term’ , http://www.isocat.org/datcat/DC-508[http://www.isocat.org/datcat/DC-508] |<term>tekst</term>|PCDATA|termSec|
+|Term.navn.språkMålform|‘language identifier’, http://www.isocat.org/datcat/DC-279[http://www.isocat.org/datcat/DC-279] |<langSec xml:lang=”xx”>|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):|langSec|
+|Term.sistOppdatert|‘last modification date’, http://www.isocat.org/datcat/DC-2526[http://www.isocat.org/datcat/DC-2526] |<transac type=”typeDato”>|PickList:|termSec|I samme termSec som den aktuelle Term.navn.tekst, dessuten i en transacGrp sammen med selve datoen som oppgis som <date>
+|TillattTerm.målgruppe|‘audience’, http://www.isocat.org/datcat/DC-527[http://www.isocat.org/datcat/DC-527] |<termNote type=”målgruppe”>|PickList:|termSec|I samme termSec som den aktuelle Term.navn.tekst
+|Betydningsbeskrivelse.tekst.tekst|Se Begrep.definsjon hhv. Begrep.alteranativFormulering |<descrip type=”definisjon”>tekst</descript>|PCDATA|langSec|
+|Betydningsbeskrivelse.tekst.språkMålform|‘language identifier’, http://www.isocat.org/datcat/DC-279[http://www.isocat.org/datcat/DC-279] |<langSec xml:lang=”xx”>|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):|langSec|
+|Betydningsbeskrivelse.kildebeskrivelse.forholdTilKilde|‘skosno:forholdTilKilde’, https://vokab.norge.no/skosno#forholdTilKilde|<admin type=”forholdTilKilde”>|PickList:|langSec|I en adminGrp, dessuten i den samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
+|Betydningsbeskrivelse.kildebeskrivelse.kilde.URI|‘source’ http://www.isocat.org/datcat/DC-471[http://www.isocat.org/datcat/DC-471] |<xref type=”kilde”>|URI|langSec|I samme adminGrp som den aktuelle Betydningsbeskrivelse.forholdTilKilde
+|Betydningsbeskrivelse.kildebeskrivelse.kilde.tekst|‘source’ http://www.isocat.org/datcat/DC-471[http://www.isocat.org/datcat/DC-471] |<adminNote type=”kilde”>kilde</adminNote>|PCDATA|langSec|I samme adminGrp som den aktuelle Betydningsbeskrivelse.forholdTilKilde
+|Betydningsbeskrivelse.merknad.tekst|‘explanation’, http://www.isocat.org/datcat/DC-223[http://www.isocat.org/datcat/DC-223] |<descripNote type=”merknad”>tekst</descripNote>|PCDATA|langSec|I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
+|Betydningsbeskrivelse.merknad.språkMålform|‘language identifier’, http://www.isocat.org/datcat/DC-279[http://www.isocat.org/datcat/DC-279] |<langSec xml:lang=”xx”>|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):|langSec|
+|Betydningsbeskrivelse.eksempel.tekst|‘example’, http://www.isocat.org/datcat/DC-222[http://www.isocat.org/datcat/DC-222] |<descrip type=”eksempel”>tekst</descrip>|PCDATA|langSec|
+|Betydningsbeskrivelse.eksempel.sspråkMålform|‘language identifier’, http://www.isocat.org/datcat/DC-279[http://www.isocat.org/datcat/DC-279] |<langSec xml:lang=”xx”>|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):|langSec|
+|Betydningsbeskrivelse.målgruppe|‘audience’, http://www.isocat.org/datcat/DC-527[http://www.isocat.org/datcat/DC-527] |<descripNote type=”målgruppe”>|PickList:|langSec|I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
+|Betydningsbeskrivelse.omfang.URI|‘reference data’, https://www.w3.org/TR/vocab-adms/[https://www.w3.org/TR/vocab-adms/]  |<xref type=”omfang”>|URI|conceptEntry,|I samme descripGrp som den aktuelle Begrep.omfang.URI. 
+|Betydningsbeskrivelse.omfang.tekst|‘reference data’, eira:referenceData, https://www.w3.org/TR/vocab-adms/[https://www.w3.org/TR/vocab-adms/]|<descrip type=”omfang”>tekst</descrip>|PCDATA|conceptEntry,|“tekst” her kan være tom, da må den aktuelle Begrep.omfang.URI i samme descripGrp brukes. 
+|Betydningsbeskrivelse.sistOppdatert|‘last modification date’, http://www.isocat.org/datcat/DC-2526[http://www.isocat.org/datcat/DC-2526] |<transac type=”typeDato”>|PickList:|langSec|I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst, dessuten i en transacGrp sammen med selve datoen som oppgis som <date>
+|AssosiativRelasjon.beskrivelse.tekst|‘description’, http://www.isocat.org/datcat/DC-2520[http://www.isocat.org/datcat/DC-2520] |<descripNote type=”beskrivelse”>tekst</descipNote>|PCDATA|langSec|I samme descripGrp som den aktuelle Begrep.assosiativRelasjon
+|AssosiativRelasjon.beskrivelse.språkMålform|‘language identifier’, http://www.isocat.org/datcat/DC-279[http://www.isocat.org/datcat/DC-279] |<langSec xml:lang=”xx”>|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):|langSec|
+|GeneriskRelasjon.inndelingskriterium.tekst;|‘description’, http://www.isocat.org/datcat/DC-2520[http://www.isocat.org/datcat/DC-2520] |<descripNote type=”inndelingskriterium”>tekst</descipNote>|PCDATA|langSec|I samme descripGrp som den aktuelle Begrep.generiskRelasjon hhv. Begrep.partitivRelasjon
+|GeneriskRelasjon.inndelingskriterium.språkMålform;|‘language identifier’, http://www.isocat.org/datcat/DC-279[http://www.isocat.org/datcat/DC-279] |<langSec xml:lang=”xx”>|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):|langSec|
+|Begrepsrelasjon.sistOppdatert|‘last modification date’, http://www.isocat.org/datcat/DC-2526[http://www.isocat.org/datcat/DC-2526] |<transac type=”typeDato”>|PickList:|langSec|I samme descripGrp som den aktuelle assosiative, generiske eller partitive relasjonen, dessuten i en transacGrp sammen med selve datoen som oppgis som <date>
+|Begrepsrelasjon.overordnetBegrep;|Se under Datatype|<xref type=”typeRelatertBegrep”>|PickList:|langSec|I samme descripGrp som den aktuelle generiske, partitive eller assosiative begrepsrelasjonen
+|Begrepssamling|‘concept collection’, http://www.w3.org/2004/02/skos/core#Collection[http://www.w3.org/2004/02/skos/core#Collection] |<tbxHeader>|Se attributtene under Begrepssamling|tbxHeader|
+|Begrepssamling.navn|‘title’, http://dublincore.org/documents/dcmi-terms/#terms-title[http://dublincore.org/documents/dcmi-terms/#terms-title] |<title>tekst</title>|PCDATA|titleStmt|
+|Begrepssamling.identifikator|‘identifier’, http://www.isocat.org/datcat/DC-3894[http://www.isocat.org/datcat/DC-3894] |<p type=”identifikator”>|URI|sourceDesc|
+|Begrepssamling.ansvarligVirksomhet|‘responsible organization’, http://www.isocat.org/datcat/DC-452[http://www.isocat.org/datcat/DC-452] |<p type=”ansvarligVirksomhet”>|Organisasjonsnummer, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/[https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/]|sourceDesc|
+|Begrepssamling.beskrivelse|‘description’, http://www.isocat.org/datcat/DC-2520[http://www.isocat.org/datcat/DC-2520] |<note>tekst</note>|PCDATA|titleStmt|
+|Begrepssamling.kontaktpunkt|‘contactPoint’, https://www.w3.org/TR/vocab-adms/#dcat-contactpoint[https://www.w3.org/TR/vocab-adms/#dcat-contactpoint] |<p type=”kontaktpunkt”>|Vcard|sourceDesc|
+|Begrepssamling.begrep|‘concept’, http://www.w3.org/2004/02/skos/core#Concept[http://www.w3.org/2004/02/skos/core#Concept] |<conceptEntry>|Se attributtene under Begrep|conceptEntry|Begrep som er i body-delen av den aktuelle TBX-filen
+|===
+
+

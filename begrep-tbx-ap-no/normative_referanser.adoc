@@ -1,0 +1,6 @@
+
+== Normative referanser
+
+Forvaltningsstandard for begrepsbeskrivelser (legg til lenke): Standarden stiller krav til innhold i beskrivelse av begrep og begrepssamling. 
+
+ISO 30042 Management of terminology resources — TermBase eXchange (TBX).footnote:[TBX-standarden er i skrivende stund under revisjon i ISO. Denne norske profil av TBX er basert på ISO/FDIS 30042:2018 (FDIS = Final Draft International Standard) som i skrivende stund er til internasjonal avstemning med frist 31. januar 2019]: Standarden definerer et rammeverk for bl.a. hvordan (samlinger av) begrepsbeskrivelser skal kunne utveksles i maskinlesbare formater.
