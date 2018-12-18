@@ -25,7 +25,7 @@ include::forord.adoc[]
 include::formaal_omfang_avgrensninger.adoc[]
 include::normative_referanser.adoc[]
 include::definisjoner.adoc[]
-include::spesifikasjon[]
+include::spesifikasjon.adoc[]
 include::spesifikasjon-felter.adoc[]
 include::vedlegg-a.adoc[]
 
