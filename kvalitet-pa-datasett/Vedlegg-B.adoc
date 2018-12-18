@@ -107,7 +107,7 @@ Arbeidsgruppen antar at det vil være behov for å beskrive kvalitet både knytt
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 ....
- :coverage +
+ :coverage
     a dqv:Dimension ;
     skos:prefLabel “coverage”@en ;
     skos:prefLabel “dekning”@nb ;
@@ -132,10 +132,10 @@ Arbeidsgruppen antar at det vil være behov for å beskrive kvalitet både knytt
 skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets(del)dimensjoner og kvalitetsmål som kan refereres med en URI”@nb .
 
 ....
- :undercoverage +
-    a dqv:Dimension ; +
-    skos:prefLabel “undercoverage”@en ; +
-    skos:prefLabel “underdekning”@nb ; +
+ :undercoverage
+    a dqv:Dimension ;
+    skos:prefLabel “undercoverage”@en ;
+    skos:prefLabel “underdekning”@nb ;
     skos:altLabel “omission”@en ;
     skos:definition “the degree to which required information is missing in a particular dataset”@en ;
     skos:broader xxx:coverage # antar at “coverage” er definert.
@@ -160,7 +160,7 @@ skos:note “antar at det blir etablert en oversikt over pre-definerte kvalitets
 #definisjon av kvalitetsmål +
 
 ....
- :missingItemsMetric +
+ :missingItemsMetric
     a dqv:Metric ;
     skos:prefLabel “missing items metric”@en ;
     skos:prefLabel “hvorvidt det mangler elementer”@nb ;
