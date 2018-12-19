@@ -1,4 +1,19 @@
  
+ 
+ 
+=== Test: Begrep [[test-begrep]]
+
+[properties]
+PID:: ‘concept’
+PID URI:: http://www.w3.org/2004/02/skos/core#Concept
+TBX-representasjon:: <conceptEntry>
+Datatype:: Se attributtene under Begrep
+TBX-Nivå:: conceptEntry
+Merknad:: 
+
+
+ 
+ 
 .Feltene i standarden
 
 |===
