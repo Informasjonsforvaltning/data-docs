@@ -1,173 +1,237 @@
 
+// Innholdet i dette kaptlet er hentet fra et eget G-docs dokument
 == Felt i standarden
 
 === Begrep
 [properties]
 PID til definisjon:: ‘concept’, http://www.w3.org/2004/02/skos/core#Concept
 TBX-representasjon:: <conceptEntry>
-Datatype:: Se attributtene under Begrep.
-TBX-Niva:: conceptEntry
+Datatype (med ev. PID til definisjon):: Se attributtene under Begrep.
+TBX-Nivå:: conceptEntry
 Merknad:: (ingen)
 
 === Begrep.identifikator
 [properties]
 PID til definisjon:: ‘Identifier’, http://www.isocat.org/datcat/DC-3894
 TBX-representasjon:: <admin type=”identifikator”>
-Datatype:: URI
-TBX-Niva:: conceptEntry
+Datatype (med ev. PID til definisjon):: URI
+TBX-Nivå:: conceptEntry
 Merknad:: (ingen)
 
 === Begrep.ansvarligVirksomhet
 [properties]
 PID til definisjon:: ‘responsible organization’, http://www.isocat.org/datcat/DC-452
 TBX-representasjon:: <transac type=”ansvarligVirksomhet”>nnnnnnnnn</transac>
-Datatype:: Organisasjonsnummer, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/
-TBX-Niva:: conceptEntry
+Datatype (med ev. PID til definisjon):: Organisasjonsnummer, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/
+TBX-Nivå:: conceptEntry
 Merknad:: I en <transacGrp>
 
 === Begrep.fagområde.tekst
 [properties]
 PID til definisjon:: ‘Subject field’, http://www.isocat.org/datcat/DC-489
 TBX-representasjon:: <descrip type=”fagområde”>tekst</descrip>
-Datatype:: PCDATA
-TBX-Niva:: langSec
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
 === Begrep.fagområde.språkMålform
 [properties]
 PID til definisjon:: ‘language identifier’, http://www.isocat.org/datcat/DC-279
 TBX-representasjon:: <langSec xml:lang=”xx”>
-Datatype:: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+Datatype (med ev. PID til definisjon):: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 nb nn ...
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
 === Begrep.bruksområde.tekst
 [properties]
 PID til definisjon:: ‘skosno:bruksområde’, https://vokab.norge.no/skosno#bruksområde
 TBX-representasjon:: <descrip type=”bruksområde”>tekst</descrip>
-Datatype:: PCDATA
-TBX-Niva:: langSec
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
 === Begrep.bruksområde.språkMålform
 [properties]
 PID til definisjon:: ‘language identifier’, http://www.isocat.org/datcat/DC-279
 TBX-representasjon:: <langSec xml:lang=”xx”>
-Datatype:: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+Datatype (med ev. PID til definisjon):: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 nb nn ...
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
-=== Begrep.gyldighetsperiode.gyldigFraOgMed;
-Begrep.gyldighetsperiode.gyldigTilOgMed
+=== Begrep.gyldighetsperiode.gyldigFraOgMed
 [properties]
-PID til definisjon:: Se under Datatype
+PID til definisjon:: ‘startDate’, https://www.w3.org/TR/vocab-adms/#schema-startdate
 TBX-representasjon:: <transac type=”typeDato”>
-Datatype:: PickList:
-gyldigFraOgMed (‘startDate’, https://www.w3.org/TR/vocab-adms/#schema-startdate) gyldigTilOgMed (‘endDate’, https://www.w3.org/TR/vocab-adms/#schema-enddate)
-TBX-Niva:: conceptEntry
+Datatype (med ev. PID til definisjon):: PickList:
+gyldigFraOgMed
+TBX-Nivå:: conceptEntry
+Merknad:: I en transacGrp sammen med selve datoen som oppgis som <date>
+
+=== Begrep.gyldighetsperiode.gyldigTilOgMed
+[properties]
+PID til definisjon:: ‘endDate’, https://www.w3.org/TR/vocab-adms/#schema-enddate
+TBX-representasjon:: <transac type=”typeDato”>
+Datatype (med ev. PID til definisjon):: PickList:
+gyldigTilOgMed
+TBX-Nivå:: conceptEntry
 Merknad:: I en transacGrp sammen med selve datoen som oppgis som <date>
 
 === Begrep.kontaktpunkt
 [properties]
 PID til definisjon:: ‘contactPoint’, https://www.w3.org/TR/vocab-adms/#dcat-contactpoint
 TBX-representasjon:: <transacNote type=”kontaktpunkt”>
-Datatype:: Vcard
-TBX-Niva:: conceptEntry
+Datatype (med ev. PID til definisjon):: Vcard
+TBX-Nivå:: conceptEntry
 Merknad:: I samme transacGrp som den aktuelle Begrep.ansvarligVirksomhet
 
 === Begrep.sistOppdatert
 [properties]
 PID til definisjon:: ‘last modification date’, http://www.isocat.org/datcat/DC-2526
 TBX-representasjon:: <transac type=”typeDato”>
-Datatype:: PickList:
+Datatype (med ev. PID til definisjon):: PickList:
 sistOppdatert (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
-TBX-Niva:: conceptEntry
+TBX-Nivå:: conceptEntry
 Merknad:: I en transacGrp sammen med selve datoen som oppgis som <date>
 
-=== Begrep.anbefaltTerm;
-Begrep.tillattTerm;
-Begrep.frarådetTerm; Begrep.datastrukturterm
+=== Begrep.anbefaltTerm
 [properties]
-PID til definisjon:: Se under Datatype
+PID til definisjon:: ‘preferred’, http://www.isocat.org/datcat/DC-72
 TBX-representasjon:: <termNote type=”typeTerm”>
-Datatype:: PickList:
-anbefaltTerm (‘preferred’, http://www.isocat.org/datcat/DC-72) tillattTerm (‘admitted’, http://www.isocat.org/datcat/DC-73) frarådetTerm (‘not recommended’, http://www.isocat.org/datcat/DC-74) Datastrukturterm (‘ident’, http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-ident.html)
-TBX-Niva:: termSec
-Merknad:: I samme termSec som den aktuelle Term.navn.tekst
+Datatype (med ev. PID til definisjon):: PickList:
+anbefaltTerm (‘preferred’, http://www.isocat.org/datcat/DC-72)
+TBX-Nivå:: termSec
+Merknad:: (ingen)
+
+=== Begrep.tillattTerm
+[properties]
+PID til definisjon:: ‘admitted’, http://www.isocat.org/datcat/DC-73
+TBX-representasjon:: <termNote type=”typeTerm”>
+Datatype (med ev. PID til definisjon):: PickList:
+tillattTerm (‘admitted’, http://www.isocat.org/datcat/DC-73)
+TBX-Nivå:: termSec
+Merknad:: (ingen)
+
+=== Begrep.frarådetTerm
+[properties]
+PID til definisjon:: ‘not recommended’, http://www.isocat.org/datcat/DC-74
+TBX-representasjon:: <termNote type=”typeTerm”>
+Datatype (med ev. PID til definisjon):: PickList:
+frarådetTerm (‘not recommended’, http://www.isocat.org/datcat/DC-74)
+TBX-Nivå:: termSec
+Merknad:: (ingen)
+
+=== Begrep.datastrukturterm
+[properties]
+PID til definisjon:: ‘ident’, http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-ident.html
+TBX-representasjon:: <termNote type=”typeTerm”>
+Datatype (med ev. PID til definisjon):: PickList:
+datastrukturterm (‘ident’, http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-ident.html)
+TBX-Nivå:: termSec
+Merknad:: (ingen)
 
 === Begrep.definisjon
 [properties]
 PID til definisjon:: ‘Definition’, http://www.isocat.org/datcat/DC-168
 TBX-representasjon:: <descrip type=”definisjon”>
-Datatype:: Se attributtene under Betydningsbeskrivelse
-TBX-Niva:: langSec
+Datatype (med ev. PID til definisjon):: Se attributtene under Betydningsbeskrivelse
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
 === Begrep.alternativFormulering
 [properties]
 PID til definisjon:: ‘skosno:alternativFormulering’, https://vokab.norge.no/skosno#alternativFormulering
 TBX-representasjon:: <descrip type=”alternativFormulering”>
-Datatype:: Se attributtene under Betydningsbeskrivelse
-TBX-Niva:: langSec
+Datatype (med ev. PID til definisjon):: Se attributtene under Betydningsbeskrivelse
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
-=== Begrep.assosiativRelasjon;
-Begrep.generiskRelasjon;
-Begrep.partitivRelasjon; Begrep.seOgså
+=== Begrep.assosiativRelasjon
 [properties]
-PID til definisjon:: Se under Datatype
+PID til definisjon:: ‘associative relation’, http://www.isocat.org/datcat/DC-88
 TBX-representasjon:: <descrip type=”typeRelasjon”>
-Datatype:: PickList:
-assosiativRelasjon (‘associative relation’, http://www.isocat.org/datcat/DC-88) generiskRelasjon (‘generic relation’, http://www.isocat.org/datcat/DC-242) partitivRelasjon (‘partitive relation’, http://www.isocat.org/datcat/DC-397) seOgså (‘skosno:seOgså’, https://vokab.norge.no/skosno#seOgså)
-TBX-Niva:: langSec
+Datatype (med ev. PID til definisjon):: PickList:
+assosiativRelasjon (‘associative relation’, http://www.isocat.org/datcat/DC-88)
+TBX-Nivå:: langSec
 Merknad:: I en descripGrp sammen med de andre metadata om den aktuelle relasjonen
 
-=== Begrep.erstatter;
-Begrep.erstattesAv
+=== Begrep.generiskRelasjon
 [properties]
-PID til definisjon:: Se under datatype
-TBX-representasjon:: <xref type=”admRelasjon”>
-Datatype:: PickList:
-erstatter (‘replaces’, http://dublincore.org/documents/dcmi-terms/#terms-replaces) erstattesAv (‘isReplacedBy’, http://dublincore.org/documents/dcmi-terms/#terms-isReplacedBy)
-TBX-Niva:: conceptEntry
+PID til definisjon:: ‘generic relation’, http://www.isocat.org/datcat/DC-242
+TBX-representasjon:: <descrip type=”typeRelasjon”>
+Datatype (med ev. PID til definisjon):: PickList:
+generiskRelasjon (‘generic relation’, http://www.isocat.org/datcat/DC-242)
+TBX-Nivå:: langSec
+Merknad:: I en descripGrp sammen med de andre metadata om den aktuelle relasjonen
+
+=== Begrep.partitivRelasjon
+[properties]
+PID til definisjon:: ‘partitive relation’, http://www.isocat.org/datcat/DC-397
+TBX-representasjon:: <descrip type=”typeRelasjon”>
+Datatype (med ev. PID til definisjon):: PickList:
+partitivRelasjon (‘partitive relation’, http://www.isocat.org/datcat/DC-397)
+TBX-Nivå:: langSec
+Merknad:: I en descripGrp sammen med de andre metadata om den aktuelle relasjonen
+
+=== Begrep.seOgså
+[properties]
+PID til definisjon:: ‘seeAlso’, https://www.w3.org/TR/rdf-schema/#ch_seealso
+TBX-representasjon:: <xref type=”seOgså”>
+Datatype (med ev. PID til definisjon):: URI
+TBX-Nivå:: conceptEntry
+Merknad:: (ingen)
+
+=== Begrep.erstatter
+[properties]
+PID til definisjon:: ‘replaces’, http://dublincore.org/documents/dcmi-terms/#terms-replaces
+TBX-representasjon:: <ref type=”erstatter”
+Datatype (med ev. PID til definisjon):: URI
+TBX-Nivå:: conceptEntry
+Merknad:: (ingen)
+
+=== Begrep.erstattesAv
+[properties]
+PID til definisjon:: ‘isReplacedBy’, http://dublincore.org/documents/dcmi-terms/#terms-isReplacedBy
+TBX-representasjon:: <xref type=”erstattesAv”>
+Datatype (med ev. PID til definisjon):: URI
+TBX-Nivå:: conceptEntry
 Merknad:: (ingen)
 
 === Term.navn.tekst
 [properties]
 PID til definisjon:: ‘term’ , http://www.isocat.org/datcat/DC-508
 TBX-representasjon:: <term>tekst</term>
-Datatype:: PCDATA
-TBX-Niva:: termSec
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: termSec
 Merknad:: (ingen)
 
 === Term.navn.språkMålform
 [properties]
 PID til definisjon:: ‘language identifier’, http://www.isocat.org/datcat/DC-279
 TBX-representasjon:: <langSec xml:lang=”xx”>
-Datatype:: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+Datatype (med ev. PID til definisjon):: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 nb nn ...
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
 === Term.sistOppdatert
 [properties]
 PID til definisjon:: ‘last modification date’, http://www.isocat.org/datcat/DC-2526
 TBX-representasjon:: <transac type=”typeDato”>
-Datatype:: PickList:
+Datatype (med ev. PID til definisjon):: PickList:
 sistOppdatert (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
-TBX-Niva:: termSec
-Merknad:: I samme termSec som den aktuelle Term.navn.tekst, dessuten i en transacGrp sammen med selve datoen som oppgis som <date>
+TBX-Nivå:: termSec
+Merknad:: I en transacGrp sammen med selve datoen som oppgis som <date>
 
 === TillattTerm.målgruppe
 [properties]
 PID til definisjon:: ‘audience’, http://www.isocat.org/datcat/DC-527
 TBX-representasjon:: <termNote type=”målgruppe”>
-Datatype:: PickList:
+Datatype (med ev. PID til definisjon):: PickList:
 allmennheten (‘skosno:allmennheten’, https://vokab.norge.no/skosno#allmennheten) fagspesialist (‘skosno:fagspesialist’, https://vokab.norge.no/skosno#fagspesialist)
-TBX-Niva:: termSec
-Merknad:: I samme termSec som den aktuelle Term.navn.tekst
+TBX-Nivå:: termSec
+Merknad:: (ingen)
 
 === Betydningsbeskrivelse.tekst.tekst
 [properties]
@@ -175,222 +239,248 @@ PID til definisjon:: Se Begrep.definsjon hhv. Begrep.alteranativFormulering
 TBX-representasjon:: <descrip type=”definisjon”>tekst</descript>
 hhv.
 <descrip type=”alternativFormulering”>tekst</descrip>
-Datatype:: PCDATA
-TBX-Niva:: langSec
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
 === Betydningsbeskrivelse.tekst.språkMålform
 [properties]
 PID til definisjon:: ‘language identifier’, http://www.isocat.org/datcat/DC-279
 TBX-representasjon:: <langSec xml:lang=”xx”>
-Datatype:: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+Datatype (med ev. PID til definisjon):: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 nb nn ...
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
 === Betydningsbeskrivelse.kildebeskrivelse.forholdTilKilde
 [properties]
 PID til definisjon:: ‘skosno:forholdTilKilde’, https://vokab.norge.no/skosno#forholdTilKilde
 TBX-representasjon:: <admin type=”forholdTilKilde”>
-Datatype:: PickList:
+Datatype (med ev. PID til definisjon):: PickList:
 sitatFraKilde (‘skosno:sitatFraKilde’, https://vokab.norge.no/skosno#sitatFraKilde) basertPåKilde (‘skosno:basertPåKilde’, https://vokab.norge.no/skosno#basertPåKilde) egendefinert (‘skosno:egendefinert’, https://vokab.norge.no/skosno#egendefinert)
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
 Merknad:: I en adminGrp, dessuten i den samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
 
 === Betydningsbeskrivelse.kildebeskrivelse.kilde.URI
 [properties]
 PID til definisjon:: ‘source’ http://www.isocat.org/datcat/DC-471
 TBX-representasjon:: <xref type=”kilde”>
-Datatype:: URI
-TBX-Niva:: langSec
+Datatype (med ev. PID til definisjon):: URI
+TBX-Nivå:: langSec
 Merknad:: I samme adminGrp som den aktuelle Betydningsbeskrivelse.forholdTilKilde
 
 === Betydningsbeskrivelse.kildebeskrivelse.kilde.tekst
 [properties]
 PID til definisjon:: ‘source’ http://www.isocat.org/datcat/DC-471
 TBX-representasjon:: <adminNote type=”kilde”>kilde</adminNote>
-Datatype:: PCDATA
-TBX-Niva:: langSec
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: langSec
 Merknad:: I samme adminGrp som den aktuelle Betydningsbeskrivelse.forholdTilKilde
 
 === Betydningsbeskrivelse.merknad.tekst
 [properties]
 PID til definisjon:: ‘explanation’, http://www.isocat.org/datcat/DC-223
 TBX-representasjon:: <descripNote type=”merknad”>tekst</descripNote>
-Datatype:: PCDATA
-TBX-Niva:: langSec
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: langSec
 Merknad:: I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
 
 === Betydningsbeskrivelse.merknad.språkMålform
 [properties]
 PID til definisjon:: ‘language identifier’, http://www.isocat.org/datcat/DC-279
 TBX-representasjon:: <langSec xml:lang=”xx”>
-Datatype:: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+Datatype (med ev. PID til definisjon):: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 nb nn ...
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
 === Betydningsbeskrivelse.eksempel.tekst
 [properties]
 PID til definisjon:: ‘example’, http://www.isocat.org/datcat/DC-222
-TBX-representasjon:: <descrip type=”eksempel”>tekst</descrip>
-Datatype:: PCDATA
-TBX-Niva:: langSec
-Merknad:: (ingen)
+TBX-representasjon:: <descripNote type=”eksempel”>tekst</descrip>
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: langSec
+Merknad:: I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
 
 === Betydningsbeskrivelse.eksempel.sspråkMålform
 [properties]
 PID til definisjon:: ‘language identifier’, http://www.isocat.org/datcat/DC-279
 TBX-representasjon:: <langSec xml:lang=”xx”>
-Datatype:: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+Datatype (med ev. PID til definisjon):: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 nb nn ...
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
 === Betydningsbeskrivelse.målgruppe
 [properties]
 PID til definisjon:: ‘audience’, http://www.isocat.org/datcat/DC-527
 TBX-representasjon:: <descripNote type=”målgruppe”>
-Datatype:: PickList:
+Datatype (med ev. PID til definisjon):: PickList:
 allmennheten (‘skosno:allmennheten’, https://vokab.norge.no/skosno#allmennheten) fagspesialist (‘skosno:fagspesialist’, https://vokab.norge.no/skosno#fagspesialist)
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
 Merknad:: I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
 
 === Betydningsbeskrivelse.omfang.URI
 [properties]
-PID til definisjon:: ‘reference data’, https://www.w3.org/TR/vocab-adms/
+PID til definisjon:: ‘reference data’, https://joinup.ec.europa.eu/rdf_entity/http_e_f_fdata_ceuropa_ceu_fw21_ff5a0c940_b24a4_b421d_ba5e5_b1b2c917742b3
 TBX-representasjon:: <xref type=”omfang”>
-Datatype:: URI
-TBX-Niva:: conceptEntry,
-ev. langSec
-Merknad:: I samme descripGrp som den aktuelle Begrep.omfang.URI.
+Datatype (med ev. PID til definisjon):: URI
+TBX-Nivå:: langSec
+Merknad:: I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
 
 === Betydningsbeskrivelse.omfang.tekst
 [properties]
-PID til definisjon:: ‘reference data’, eira:referenceData, https://www.w3.org/TR/vocab-adms/
-TBX-representasjon:: <descrip type=”omfang”>tekst</descrip>
-Datatype:: PCDATA
-TBX-Niva:: conceptEntry,
-ev. langSec
-Merknad:: “tekst” her kan være tom, da må den aktuelle Begrep.omfang.URI i samme descripGrp brukes.
+PID til definisjon:: ‘reference data’, https://joinup.ec.europa.eu/rdf_entity/http_e_f_fdata_ceuropa_ceu_fw21_ff5a0c940_b24a4_b421d_ba5e5_b1b2c917742b3
+TBX-representasjon:: <descripNote type=”omfang”>tekst</descrip>
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: langSec
+Merknad:: I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
 
 === Betydningsbeskrivelse.sistOppdatert
 [properties]
 PID til definisjon:: ‘last modification date’, http://www.isocat.org/datcat/DC-2526
 TBX-representasjon:: <transac type=”typeDato”>
-Datatype:: PickList:
+Datatype (med ev. PID til definisjon):: PickList:
 sistOppdatert (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
 Merknad:: I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst, dessuten i en transacGrp sammen med selve datoen som oppgis som <date>
 
 === AssosiativRelasjon.beskrivelse.tekst
 [properties]
 PID til definisjon:: ‘description’, http://www.isocat.org/datcat/DC-2520
 TBX-representasjon:: <descripNote type=”beskrivelse”>tekst</descipNote>
-Datatype:: PCDATA
-TBX-Niva:: langSec
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: langSec
 Merknad:: I samme descripGrp som den aktuelle Begrep.assosiativRelasjon
 
 === AssosiativRelasjon.beskrivelse.språkMålform
 [properties]
 PID til definisjon:: ‘language identifier’, http://www.isocat.org/datcat/DC-279
 TBX-representasjon:: <langSec xml:lang=”xx”>
-Datatype:: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+Datatype (med ev. PID til definisjon):: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 nb nn ...
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
-=== GeneriskRelasjon.inndelingskriterium.tekst;
-PartitivRelasjon.inndelingskriterium.tekst
+=== GeneriskRelasjon.inndelingskriterium.tekst
 [properties]
 PID til definisjon:: ‘description’, http://www.isocat.org/datcat/DC-2520
 TBX-representasjon:: <descripNote type=”inndelingskriterium”>tekst</descipNote>
-Datatype:: PCDATA
-TBX-Niva:: langSec
-Merknad:: I samme descripGrp som den aktuelle Begrep.generiskRelasjon hhv. Begrep.partitivRelasjon
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: langSec
+Merknad:: I samme descripGrp som den aktuelle Begrep.generiskRelasjon
 
-=== GeneriskRelasjon.inndelingskriterium.språkMålform;
-PartitivRelasjon.inndelingskriterium.språkMålform
+=== GeneriskRelasjon.inndelingskriterium.språkMålform
 [properties]
 PID til definisjon:: ‘language identifier’, http://www.isocat.org/datcat/DC-279
 TBX-representasjon:: <langSec xml:lang=”xx”>
-Datatype:: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+Datatype (med ev. PID til definisjon):: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 nb nn ...
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
+Merknad:: (ingen)
+
+=== PartitivRelasjon.inndelingskriterium.tekst
+[properties]
+PID til definisjon:: ‘description’, http://www.isocat.org/datcat/DC-2520
+TBX-representasjon:: <descripNote type=”inndelingskriterium”>tekst</descipNote>
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: langSec
+Merknad:: I samme descripGrp som den aktuelle Begrep.partitivRelasjon
+
+=== PartitivRelasjon.inndelingskriterium.språkMålform
+[properties]
+PID til definisjon:: ‘language identifier’, http://www.isocat.org/datcat/DC-279
+TBX-representasjon:: <langSec xml:lang=”xx”>
+Datatype (med ev. PID til definisjon):: PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+nb nn ...
+TBX-Nivå:: langSec
 Merknad:: (ingen)
 
 === Begrepsrelasjon.sistOppdatert
 [properties]
 PID til definisjon:: ‘last modification date’, http://www.isocat.org/datcat/DC-2526
 TBX-representasjon:: <transac type=”typeDato”>
-Datatype:: PickList:
+Datatype (med ev. PID til definisjon):: PickList:
 sistOppdatert (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
-TBX-Niva:: langSec
+TBX-Nivå:: langSec
 Merknad:: I samme descripGrp som den aktuelle assosiative, generiske eller partitive relasjonen, dessuten i en transacGrp sammen med selve datoen som oppgis som <date>
 
-=== Begrepsrelasjon.overordnetBegrep;
-Begrepsrelasjon.underordnetBegrep;
-Begrepsrelasjon.assosiertBegrep
+=== Begrepsrelasjon.overordnetBegrep
 [properties]
-PID til definisjon:: Se under Datatype
-TBX-representasjon:: <xref type=”typeRelatertBegrep”>
-Datatype:: PickList:
-overordnetBegrep (‘superordinate concept generic’, http://www.isocat.org/datcat/DC-496; ‘superordinate concept partitive’, http://www.isocat.org/datcat/DC-2915) underordnetBegrep (‘subordinate concept generic’, http://www.isocat.org/datcat/DC-491; ‘subordinate concept partitive’, http://www.isocat.org/datcat/DC-492) assosiertBegrep (‘associated concept’, http://www.isocat.org/datcat/DC-87)
-TBX-Niva:: langSec
-Merknad:: I samme descripGrp som den aktuelle generiske, partitive eller assosiative begrepsrelasjonen
+PID til definisjon:: ‘superordinate concept generic’, http://www.isocat.org/datcat/DC-496
+TBX-representasjon:: <xref type=”overordnetBegrep”>
+Datatype (med ev. PID til definisjon):: URI
+TBX-Nivå:: langSec
+Merknad:: I samme descripGrp som den aktuelle generiske eller partitive begrepsrelasjonen
+
+=== Begrepsrelasjon.underordnetBegrep
+[properties]
+PID til definisjon:: ‘subordinate concept generic’, http://www.isocat.org/datcat/DC-491
+TBX-representasjon:: <xref type=”underordnetBegrep”>
+Datatype (med ev. PID til definisjon):: URI
+TBX-Nivå:: langSec
+Merknad:: I samme descripGrp som den aktuelle generiske eller partitive begrepsrelasjonen
+
+=== Begrepsrelasjon.assosiertBegrep
+[properties]
+PID til definisjon:: ‘associated concept’, http://www.isocat.org/datcat/DC-87
+TBX-representasjon:: <xref type=”assosiertBegrep”>
+Datatype (med ev. PID til definisjon):: URI
+TBX-Nivå:: langSec
+Merknad:: I samme descripGrp som den assosiative begrepsrelasjonen
 
 === Begrepssamling
 [properties]
 PID til definisjon:: ‘concept collection’, http://www.w3.org/2004/02/skos/core#Collection
 TBX-representasjon:: <tbxHeader>
-Datatype:: Se attributtene under Begrepssamling
-TBX-Niva:: tbxHeader
+Datatype (med ev. PID til definisjon):: Se attributtene under Begrepssamling
+TBX-Nivå:: tbxHeader
 Merknad:: (ingen)
 
 === Begrepssamling.navn
 [properties]
 PID til definisjon:: ‘title’, http://dublincore.org/documents/dcmi-terms/#terms-title
 TBX-representasjon:: <title>tekst</title>
-Datatype:: PCDATA
-TBX-Niva:: titleStmt
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: titleStmt
 Merknad:: (ingen)
 
 === Begrepssamling.identifikator
 [properties]
 PID til definisjon:: ‘identifier’, http://www.isocat.org/datcat/DC-3894
 TBX-representasjon:: <p type=”identifikator”>
-Datatype:: URI
-TBX-Niva:: sourceDesc
+Datatype (med ev. PID til definisjon):: URI
+TBX-Nivå:: sourceDesc
 Merknad:: (ingen)
 
 === Begrepssamling.ansvarligVirksomhet
 [properties]
 PID til definisjon:: ‘responsible organization’, http://www.isocat.org/datcat/DC-452
 TBX-representasjon:: <p type=”ansvarligVirksomhet”>
-Datatype:: Organisasjonsnummer, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/
-TBX-Niva:: sourceDesc
+Datatype (med ev. PID til definisjon):: Organisasjonsnummer, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/
+TBX-Nivå:: sourceDesc
 Merknad:: (ingen)
 
 === Begrepssamling.beskrivelse
 [properties]
 PID til definisjon:: ‘description’, http://www.isocat.org/datcat/DC-2520
 TBX-representasjon:: <note>tekst</note>
-Datatype:: PCDATA
-TBX-Niva:: titleStmt
+Datatype (med ev. PID til definisjon):: PCDATA
+TBX-Nivå:: titleStmt
 Merknad:: (ingen)
 
 === Begrepssamling.kontaktpunkt
 [properties]
 PID til definisjon:: ‘contactPoint’, https://www.w3.org/TR/vocab-adms/#dcat-contactpoint
 TBX-representasjon:: <p type=”kontaktpunkt”>
-Datatype:: Vcard
-TBX-Niva:: sourceDesc
+Datatype (med ev. PID til definisjon):: Vcard
+TBX-Nivå:: sourceDesc
 Merknad:: (ingen)
 
 === Begrepssamling.begrep
 [properties]
 PID til definisjon:: ‘concept’, http://www.w3.org/2004/02/skos/core#Concept
 TBX-representasjon:: <conceptEntry>
-Datatype:: Se attributtene under Begrep
-TBX-Niva:: conceptEntry
+Datatype (med ev. PID til definisjon):: Se attributtene under Begrep
+TBX-Nivå:: conceptEntry
 Merknad:: Begrep som er i body-delen av den aktuelle TBX-filen
