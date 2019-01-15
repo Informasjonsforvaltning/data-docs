@@ -1,5 +1,4 @@
 
-// Innholdet i dette kaptlet er hentet fra et eget G-docs dokument
 == Felt i standarden
 
 === Begrep
