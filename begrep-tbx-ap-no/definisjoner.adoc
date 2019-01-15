@@ -1,6 +1,8 @@
 
 == Definisjon av de mest sentrale begreper
 
+[properties]
 Tilgjengeliggjøring:: Publisering eller utveksling.
- 
+
+[properties]
 Maskinell tilgjengeliggjøring:: Tilgjengeliggjøring i maskinlesbart format.
