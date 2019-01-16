@@ -1,0 +1,36 @@
+include::../shared/translation.adoc[]
+
+= Forvaltningsstandard for beskrivelse av begreper
+:description: Forvaltningsstandard for beskrivelse av begreper
+:doctype: book
+:docinfo:
+:icons: font
+:toc: left
+:toclevels: 2
+:sectanchors:
+:title-logo-image: utils/logo.jpg
+
+//:sectnums:
+
+//:sectnumlevels: 3
+
+//{description}
+
+include::../shared/download.adoc[]
+
+// :leveloffset: +1
+
+// Innhold her.
+
+WARNING: Dette dokumentet er under arbeid
+
+include::kap1-2.adoc[]
+include::kap3-definisjoner.adoc[]
+include::kap4-krav-begrep.adoc[]
+include::kap5-krav-samling.adoc[]
+include::spesifikasjon.adoc[]
+include::vedlegg-a.adoc[]
+include::vedlegg-b.adoc[]
+
+
+include::../shared/stats.adoc[]

@@ -1,0 +1,20 @@
+
+== Krav til innhold i beskrivelse av en begrepssamling
+
+Standarden spesifiserer også hva som skal dokumenteres i beskrivelsen av en samling av begreper (i denne standarden kalt ‘begrepssamling’). Det er valgfritt å gruppere begreper i begrepssamling. Når en velger å bruke begrepssamling skal standardens krav følges.
+
+Standarden skiller mellom obligatorisk informasjon som alltid skal tas med i en beskrivelse av en begrepssamling, og valgfri informasjon som kan tas med. Når en valgfri informasjon tas med, skal den følge standarden.
+
+Obligatorisk informasjon:
+
+* *Navn*: En begrepssamling skal alltid ha et navn.
+* *Identifikator*: En begrepssamling skal alltid ha en unik identifikator.
+* *Ansvarlig virksomhet*: En begrepssamling skal alltid ha en ansvarlig virksomhet.
+* *Begrep*: En begrepssamling skal ha minst ett begrep i seg.
+
+Valgfri informasjon:
+
+* Beskrivelse: En begrepssamling kan ha en tekstlig beskrivelse.
+* Kontaktpunkt: En kan oppgi kontaktpunkt i den ansvarlige virksomhet.
+
+Kravene er også beskrevet i form av en http://www.uml.org/[UML]-modell i #heading=h.8pubqe3tge3q[vedlegg A] som er normativt.
