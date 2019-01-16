@@ -13,7 +13,7 @@ Standarden inngår i https://www.difi.no/fagomrader-og-tjenester/digitalisering-
 Se Vedlegg B (*referanse) for de viktigste endringene fra versjon 1 til denne versjonen (versjon 2) av standarden.
 
 
-== 1. Formål, omfang og avgrensinger
+== Formål, omfang og avgrensinger
 
 Det er et uttrykt ønske, både__ __fra regjeringshold og fra offentlig sektor, at ulike deler av forvaltningen skal kunne gjenbruke hverandres informasjon (ofte data) i mye større grad enn i dag. Dette vil bl.a. spare både offentlig sektor og dens brukere for dobbeltarbeid knyttet til innsamling/avgiving av informasjon og vil hjelpe til å oppfylle “kun én gang”-prinsippet, dvs. samme informasjon (f.eks. sivilstand) skal bare samles inn ett sted i forvaltningen og så gjenbrukes av alle andre som har behov for og rettslig grunnlag til å bruke denne informasjonen.
 
@@ -23,7 +23,7 @@ Standarden spesifiserer kun krav til innholdet i en begrepsbeskrivelse, ikke hvo
 
 Denne versjonen av standarden fokuserer på informasjon som er nødvendig for å støtte deling** **av begrepsbeskrivelser. Virksomhetsinterne behov blir derfor ikke prioritert i foreliggende versjon.
 
-== 2. Normative referanser
+== Normative referanser
 
 Følgende referanser er normative og danner grunnlag for denne standarden:
 

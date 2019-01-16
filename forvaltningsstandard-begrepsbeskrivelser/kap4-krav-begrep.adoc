@@ -35,7 +35,7 @@ Ansvarlig virksomhet:: 971 526 920 (med organisasjonsnr, i henhold til standarde
 
 === Valgfri informasjon
 
-.I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbeskrivelse, kan følgende valgfri informasjon også tas med:
+I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbeskrivelse, kan følgende valgfri informasjon også tas med:
 
 [properties]
 Tillatt term:: en eller flere #heading=h.s5rewmgtpqhn[tillatte termer]. Når en tar med en tillatt term, skal språk/målform termen er skrevet i, oppgis.

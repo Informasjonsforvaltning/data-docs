@@ -36,10 +36,8 @@ Merknad:: En anbefalt term er termen som bør brukes med mindre det foreligger s
 Anbefalt term:: tillatt term (nb); tillaten term (nn); admitted term (en)
 Frarådet term:: (ingen)
 Definisjon:: term som blir sett på som egnet for et bestemt begrep, og som blir brukt ved siden av en anbefalt term (nb)
-Kilde:: Sitat fra NS-ISO 1087-1:2000: Terminologiarbeid - Ordliste - Del 1: Teori og anvendelser
+Kilde:: Sitat fra NS-ISO 1087-1:2000: Terminologiarbeid - Ordliste - Del 1: Teori og anvendelser http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=35355
 
-
-http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=35355
 Merknad:: En tillatt term kan brukes i stedet for den anbefalte termen hvis det foreligger spesielle grunner, f.eks. hvis målgruppen er allmennheten og ikke fagspesialister. (nb)
 
 === Frarådet term
