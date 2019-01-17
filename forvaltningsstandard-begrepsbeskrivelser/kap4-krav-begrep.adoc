@@ -17,63 +17,66 @@ Det er utarbeidet en informativ veileder for bruk av denne standarden. Veiledere
 
 Når et begrep beskrives, skal følgende informasjon alltid tas med:
 
-[properties]
-Anbefalt term:: En begrepsbeskrivelse skal alltid inneholde minst én #heading=h.ql181i1qhkc2[anbefalt term], men maksimalt én per språk/målform. Språk/målform som termen er skrevet i, skal alltid oppgis.
-Definisjon:: En begrepsbeskrivelse skal alltid inneholde minst én #heading=h.eskgzbzei5tb[definisjon], men maksimalt én per språk/målform. Språk/målform som definisjonen er skrevet i, skal alltid oppgis.
-Identifikator:: En begrepsbeskrivelse skal alltid inneholde en unik og varig identifikator til det aktuelle begrepet.
-Ansvarlig virksomhet:: En begrepsbeskrivelse skal alltid inneholde opplysninger om den ansvarlige virksomheten.
+
+* [*] *Anbefalt term*: En begrepsbeskrivelse skal alltid inneholde minst én #heading=h.ql181i1qhkc2[anbefalt term], men maksimalt én per språk/målform.
+** Språk/målform som termen er skrevet i, skal alltid oppgis.
+* [*] *Definisjon*: En begrepsbeskrivelse skal alltid inneholde minst én #heading=h.eskgzbzei5tb[definisjon], men maksimalt én per språk/målform.
+** Språk/målform som definisjonen er skrevet i, skal alltid oppgis.
+* [*] *Identifikator*: En begrepsbeskrivelse skal alltid inneholde en unik og varig identifikator til det aktuelle begrepet.
+Ansvarlig virksomhet: En begrepsbeskrivelse skal alltid inneholde opplysninger om den ansvarlige virksomheten.
 
 
-Et informativt eksempel på en beskrivelse av et begrep, ved å bruke kun obligatorisk informasjon, der “(nn)” markerer at teksten er skrevet i nynorsk.
+.Et informativt eksempel på en beskrivelse av et begrep, ved å bruke kun obligatorisk informasjon, der “(nn)” markerer at teksten er skrevet på nynorsk.
 
-[properties]
-Anbefalt term:: jordbruksareal i drift (nn)
-Definisjon:: Jordbruksareal som blir hausta minst ein gong i løpet av eit år, medrekna tilplanta eller tilsådd areal med fleirårige vekstar som enno ikkje gir avling. Open åker kor det ikkje blir tatt avling i løpet av året, men som er tenkt hausta neste år reknast med. (nn)
-Identifikator:: https://www.ssb.no/a/metadata/conceptvariable/vardok/1238/nn[https://www.ssb.no/a/metadata/conceptvariable/vardok/1238/nn]
-Ansvarlig virksomhet:: 971 526 920 (med organisasjonsnr, i henhold til standarden)
-
+|===
+|*Anbefalt term*|jordbruksareal i drift (nn)
+|*Definisjon*|Jordbruksareal som blir hausta minst ein gong i løpet av eit år, medrekna tilplanta eller tilsådd areal med fleirårige vekstar som enno ikkje gir avling. Open åker kor det ikkje blir tatt avling i løpet av året, men som er tenkt hausta neste år reknast med. (nn)
+|*Identifikator*|https://www.ssb.no/a/metadata/conceptvariable/vardok/1238/nn[https://www.ssb.no/a/metadata/conceptvariable/vardok/1238/nn]
+|*Ansvarlig virksomhet*|971 526 920 (med organisasjonsnr, i henhold til standarden)
+|===
 
 === Valgfri informasjon
 
 I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbeskrivelse, kan følgende valgfri informasjon også tas med:
 
-[properties]
-Tillatt term:: en eller flere #heading=h.s5rewmgtpqhn[tillatte termer]. Når en tar med en tillatt term, skal språk/målform termen er skrevet i, oppgis.
-
-Frarådet term:: en eller flere #heading=h.sh9mkffv4mot[frarådede termer]. Når en tar med en frarådet term, skal språk/målform termen er skrevet i, oppgis.
-
-Datastrukturterm:: en eller flere termer som brukes i en datastruktur eller lignende (f.eks. navn for en klasse eller attributt i et UML-diagram, tagnavn i en XML-fil osv.)
-
-Alternativ formulering:: en eller flere #heading=h.v5gsnsqo9ey6[alternative formuleringer] av definisjonen. Når en tar med en alternativ formulering, skal språk/målform den alternative formuleringen er skrevet i, oppgis.
-
-Merknad:: en eller flere utdypende forklaringer til definisjon eller alternativ formulering. Når merknad tas med, skal språk/målform teksten er skrevet i, oppgis.
-
-Eksempel:: et eller flere eksempler som eksemplifiserer begrepet. Når eksempel tas med, skal språk/målform teksten er skrevet i, oppgis.
-
-Omfang:: lovlige kategorier eller verdiområder for et begrep. Eksempel på kategorier: _Standard for sivilstand_ spesifiserer hva som er lovlige kategorier for begrepet ‘sivilstand’, f.eks. ugift, gift og skilt. Eksempel på verdiområde: For begrepet ‘alder’ kan verdiområdet beskrives som “alle positive tall”.
-Fagområde:: fagområde som begrepet har sitt opphav fra. Når fagområde tas med, skal språk/målform teksten er skrevet i, oppgis.
-
-Bruksområde:: et eller flere anvendelsesområder der begrepet brukes i. Når bruksområde tas med, skal språk/målform teksten er skrevet i, oppgis.
-
-Beskrivelse av kilde til definisjon eller alternativ formulering:: Kilde(r) til definisjon eller alternativ formulering kan oppgis når definisjonen eller den alternative formuleringen er hentet fra eller basert på en eller flere kilder. En kan også oppgi om en definisjon eller en alternativ formulering er: ‘sitat fra kilde’, ‘basert på kilde’, eller ‘egendefinert’. Se #heading=h.yn4i4h8i2l8n[Kodeliste Forhold til kilde (ForholdTilKilde)] for forklaring på lovlige verdier for ‘forhold til kilde’.
-
-Målgruppe:: Til en ‘tillatt term’, ‘definisjon’ eller ‘alternativ formulering’, kan en oppgi målgruppen teksten er ment for. Valgmulighetene her er ‘allmennheten’ eller ‘fagspesialist’. Se #heading=h.c01nv5j5lrxc[Kodeliste Målgruppe (Målgruppe)] for forklaring på lovlige verdier til ‘målgruppe’.
-
-Relasjoner til andre begreper::  et begrep kan ha en eller flere relasjoner til andre begreper.
-* Assosiative, generiske eller partitive relasjoner:
-** Til en gitt assosiativ relasjon skal det alltid tas med minst én beskrivelse, men maksimalt én per språk/målform.
+* [*] Tillatt term: en eller flere #heading=h.s5rewmgtpqhn[tillatte termer].
+** Når en tar med en tillatt term, skal språk/målform termen er skrevet i, oppgis.
+* [*] Frarådet term: en eller flere #heading=h.sh9mkffv4mot[frarådede termer].
+** Når en tar med en frarådet term, skal språk/målform termen er skrevet i, oppgis. 
+* Datastrukturterm: en eller flere termer som brukes i en datastruktur eller lignende (f.eks. navn for en klasse eller attributt i et UML-diagram, tagnavn i en XML-fil osv.)
+* Alternativ formulering: en eller flere #heading=h.v5gsnsqo9ey6[alternative formuleringer] av definisjonen.
+** Når en tar med en alternativ formulering, skal språk/målform den alternative formuleringen er skrevet i, oppgis.
+* Merknad: en eller flere utdypende forklaringer til definisjon eller alternativ formulering.
+** Når merknad tas med, skal språk/målform teksten er skrevet i, oppgis.
+* Eksempel: et eller flere eksempler som eksemplifiserer begrepet.
+** Når eksempel tas med, skal språk/målform teksten er skrevet i, oppgis.
+* Omfang: lovlige kategorier eller verdiområder for et begrep.
+** Eksempel på kategorier: _Standard for sivilstand_ spesifiserer hva som er lovlige kategorier for begrepet ‘sivilstand’, f.eks. ugift, gift og skilt.
+** Eksempel på verdiområde: For begrepet ‘alder’__ __kan verdiområdet beskrives som “alle positive tall”.
+* Fagområde: fagområde som begrepet har sitt opphav fra.
+** Når fagområde tas med, skal språk/målform teksten er skrevet i, oppgis.
+* Bruksområde: et eller flere anvendelsesområder der begrepet brukes i.
+** Når bruksområde tas med, skal språk/målform teksten er skrevet i, oppgis.
+* Beskrivelse av kilde til definisjon eller alternativ formulering:
+** Kilde(r) til definisjon eller alternativ formulering kan oppgis når definisjonen eller den alternative formuleringen er hentet fra eller basert på en eller flere kilder.
+** En kan også oppgi om en definisjon eller en alternativ formulering er: ‘sitat fra kilde’, ‘basert på kilde’, eller ‘egendefinert’. Se #heading=h.yn4i4h8i2l8n[Kodeliste Forhold til kilde (ForholdTilKilde)] for forklaring på lovlige verdier for ‘forhold til kilde’.
+* Målgruppe: Til en ‘tillatt term’, ‘definisjon’ eller ‘alternativ formulering’, kan en oppgi målgruppen teksten er ment for. Valgmulighetene her er ‘allmennheten’ eller ‘fagspesialist’. Se #heading=h.c01nv5j5lrxc[Kodeliste Målgruppe (Målgruppe)] for forklaring på lovlige verdier til ‘målgruppe’.
+* Relasjoner til andre begreper: et begrep kan ha en eller flere relasjoner til andre begreper.
+** Assosiative, generiske eller partitive relasjoner:
+*** Til en gitt assosiativ relasjon skal det alltid tas med minst én beskrivelse, men maksimalt én per språk/målform.
 *** Til en generisk eller partitiv relasjon kan man beskrive inndelingskriteriet, maksimalt én beskrivelse per språk/målform.
 ** ‘Se også’-relasjoner: Et gitt begrep kan ha ‘se også’-relasjon til et eller flere andre begreper.
 ** ‘Erstatter’-/‘erstattes av’-relasjoner:
 *** Erstatter: et eller flere andre begreper som det aktuelle begrepet erstatter.
 *** Erstattes av: et eller flere andre begreper som det aktuelle begrepet blir erstattet av.
 *** Merknad: ‘erstatter’ / ‘erstattes av’ skal ikke brukes mellom versjoner av samme begrep (dvs. begrepsbeskrivelse som har samme identifikator).
+* Gyldighetsperiode: Til et begrep kan en ta med tidsperioden beskrivelsen av begrepet er gyldig innenfor, som oppgis som ‘dato gyldig fra og med’ og/eller ‘dato gyldig til og med’.
+* Sist oppdatert: En kan oppgi dato når en gitt beskrivelse er sist oppdatert. Dette gjelder: begrepsbeskrivelse i sin helhet, en ‘anbefalt term’, en ‘tillatt term’, en ‘frarådet term’, en ‘datastrukturterm’, en ‘definisjon’, en ‘alternativ formulering’, en assosiativ/generisk/partitiv relasjon til et annet begrep.
+Kontaktpunkt: En kan oppgi kontaktpunkt i den ansvarlige virksomhet.
 
-Gyldighetsperiode:: Til et begrep kan en ta med tidsperioden beskrivelsen av begrepet er gyldig innenfor, som oppgis som ‘dato gyldig fra og med’ og/eller ‘dato gyldig til og med’.
 
-Sist oppdatert:: En kan oppgi dato når en gitt beskrivelse er sist oppdatert. Dette gjelder: begrepsbeskrivelse i sin helhet, en ‘anbefalt term’, en ‘tillatt term’, en ‘frarådet term’, en ‘datastrukturterm’, en ‘definisjon’, en ‘alternativ formulering’, en assosiativ/generisk/partitiv relasjon til et annet begrep.
 
-Kontaktpunkt:: En kan oppgi kontaktpunkt i den ansvarlige virksomhet.
+
 
 .Et informativt eksempel som illustrerer bruk av flere felter fra standarden, der den obligatoriske informasjonen er *uthevet* og språkkode oppgitt i parentes (“(nb)” for norsk bokmål).
 
