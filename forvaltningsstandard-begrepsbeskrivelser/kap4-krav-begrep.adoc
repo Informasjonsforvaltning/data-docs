@@ -18,11 +18,11 @@ Det er utarbeidet en informativ veileder for bruk av denne standarden. Veiledere
 Når et begrep beskrives, skal følgende informasjon alltid tas med:
 
 
-* [*] *Anbefalt term*: En begrepsbeskrivelse skal alltid inneholde minst én #heading=h.ql181i1qhkc2[anbefalt term], men maksimalt én per språk/målform.
+* *Anbefalt term*: En begrepsbeskrivelse skal alltid inneholde minst én #heading=h.ql181i1qhkc2[anbefalt term], men maksimalt én per språk/målform.
 ** Språk/målform som termen er skrevet i, skal alltid oppgis.
-* [*] *Definisjon*: En begrepsbeskrivelse skal alltid inneholde minst én #heading=h.eskgzbzei5tb[definisjon], men maksimalt én per språk/målform.
+* *Definisjon*: En begrepsbeskrivelse skal alltid inneholde minst én #heading=h.eskgzbzei5tb[definisjon], men maksimalt én per språk/målform.
 ** Språk/målform som definisjonen er skrevet i, skal alltid oppgis.
-* [*] *Identifikator*: En begrepsbeskrivelse skal alltid inneholde en unik og varig identifikator til det aktuelle begrepet.
+* *Identifikator*: En begrepsbeskrivelse skal alltid inneholde en unik og varig identifikator til det aktuelle begrepet.
 Ansvarlig virksomhet: En begrepsbeskrivelse skal alltid inneholde opplysninger om den ansvarlige virksomheten.
 
 
@@ -39,10 +39,10 @@ Ansvarlig virksomhet: En begrepsbeskrivelse skal alltid inneholde opplysninger o
 
 I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbeskrivelse, kan følgende valgfri informasjon også tas med:
 
-* [*] Tillatt term: en eller flere #heading=h.s5rewmgtpqhn[tillatte termer].
+* Tillatt term: en eller flere #heading=h.s5rewmgtpqhn[tillatte termer].
 ** Når en tar med en tillatt term, skal språk/målform termen er skrevet i, oppgis.
-* [*] Frarådet term: en eller flere #heading=h.sh9mkffv4mot[frarådede termer].
-** Når en tar med en frarådet term, skal språk/målform termen er skrevet i, oppgis. 
+* Frarådet term: en eller flere #heading=h.sh9mkffv4mot[frarådede termer].
+** Når en tar med en frarådet term, skal språk/målform termen er skrevet i, oppgis.
 * Datastrukturterm: en eller flere termer som brukes i en datastruktur eller lignende (f.eks. navn for en klasse eller attributt i et UML-diagram, tagnavn i en XML-fil osv.)
 * Alternativ formulering: en eller flere #heading=h.v5gsnsqo9ey6[alternative formuleringer] av definisjonen.
 ** Når en tar med en alternativ formulering, skal språk/målform den alternative formuleringen er skrevet i, oppgis.
@@ -72,14 +72,10 @@ I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbes
 *** Merknad: ‘erstatter’ / ‘erstattes av’ skal ikke brukes mellom versjoner av samme begrep (dvs. begrepsbeskrivelse som har samme identifikator).
 * Gyldighetsperiode: Til et begrep kan en ta med tidsperioden beskrivelsen av begrepet er gyldig innenfor, som oppgis som ‘dato gyldig fra og med’ og/eller ‘dato gyldig til og med’.
 * Sist oppdatert: En kan oppgi dato når en gitt beskrivelse er sist oppdatert. Dette gjelder: begrepsbeskrivelse i sin helhet, en ‘anbefalt term’, en ‘tillatt term’, en ‘frarådet term’, en ‘datastrukturterm’, en ‘definisjon’, en ‘alternativ formulering’, en assosiativ/generisk/partitiv relasjon til et annet begrep.
-Kontaktpunkt: En kan oppgi kontaktpunkt i den ansvarlige virksomhet.
-
-
-
+* Kontaktpunkt: En kan oppgi kontaktpunkt i den ansvarlige virksomhet.
 
 
 .Et informativt eksempel som illustrerer bruk av flere felter fra standarden, der den obligatoriske informasjonen er *uthevet* og språkkode oppgitt i parentes (“(nb)” for norsk bokmål).
-
 |===
 
 |*Anbefalt term*|frilanser (nb)
