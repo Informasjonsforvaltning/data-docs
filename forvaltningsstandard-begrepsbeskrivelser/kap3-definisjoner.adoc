@@ -21,7 +21,7 @@ Frarådet term:: begrep (nb); omgrep (nn); concept (en); konsept (nb); konsept (
 Definisjon:: betegnelse for et allmennbegrep som tilhører et fagområde (nb)
 Kilde:: Sitat fra NS-ISO 1087-1:2000: Terminologiarbeid - Ordliste - Del 1: Teori og anvendelser http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=35329
 Merknad:: En term er navnelappen til et begrep, altså det ordet eller den gruppen av ord vi bruker for å uttrykke et begrep. Definisjonen viser til allmennbegrep, f.eks. organisasjon, severdighet og produkt, for å ekskludere egennavn og individualbegreper, f.eks. Røde kors, Eiffeltårnet og Solidox. (nb)
-
+[[AnbefaltTerm, anbefalt term]]
 === Anbefalt term
 [properties]
 Anbefalt term:: anbefalt term (nb); tilrådd term (nn); preferred term (en)
@@ -29,7 +29,7 @@ Frarådet term:: (ingen)
 Definisjon:: term som blir sett på som den best egnede for et bestemt begrep (nb)
 Kilde:: Sitat fra NS-ISO 1087-1:2000: Terminologiarbeid - Ordliste - Del 1: Teori og anvendelser http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=35329
 Merknad:: En anbefalt term er termen som bør brukes med mindre det foreligger spesielle grunner til å bruke en tillatt term. (nb)
-
+[[TillattTerm, tillatte termer]]
 === Tillatt term
 [properties]
 Anbefalt term:: tillatt term (nb); tillaten term (nn); admitted term (en)
@@ -38,7 +38,7 @@ Definisjon:: term som blir sett på som egnet for et bestemt begrep, og som blir
 Kilde:: Sitat fra NS-ISO 1087-1:2000: Terminologiarbeid - Ordliste - Del 1: Teori og anvendelser http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=35355
 
 Merknad:: En tillatt term kan brukes i stedet for den anbefalte termen hvis det foreligger spesielle grunner, f.eks. hvis målgruppen er allmennheten og ikke fagspesialister. (nb)
-
+[[FrarådetTerm,frarådede termer]]
 === Frarådet term
 [properties]
 Anbefalt term:: frarådet term (nb); frårådd term (nn); deprecated term (en)
@@ -54,7 +54,7 @@ Frarådet term:: term (nb); term (nn); term (en); konsept (nb); konsept (nn); co
 Definisjon:: kunnskapsenhet som er dannet gjennom en unik kombinasjon av kjennetegn (nb)
 Kilde:: Sitat fra NS-ISO 1087-1:2000: Terminologiarbeid - Ordliste - Del 1: Teori og anvendelser http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=36707
 Merknad:: Et begrep er en mental forestilling om et fenomen. Begrepet blir kommunisert ved hjelp av en term og forklart ved hjelp av en definisjon. Definisjonen av ‘begrep’ er under diskusjon/revisjon i den internasjonale standardiseringskomiteen ISO/TC 37. Definisjonen i vår standard vil bli justert dersom den internasjonale definisjonen blir endret, slik at de samsvarer. (nb)
-
+[[definisjon, definisjon]]
 === Definisjon
 [properties]
 Anbefalt term:: definisjon (nb); definisjon (nn); definition (en)
@@ -62,7 +62,7 @@ Frarådet term:: (ingen)
 Definisjon:: beskrivelse som avgrenser begrepet mot beslektede begreper (nb)
 Kilde:: Sitat fra NS-ISO 1087-1:2000: Terminologiarbeid - Ordliste - Del 1: Teori og anvendelser http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=36175
 Merknad:: En definisjon er meningsinnholdet til et begrep. (nb) ISO 1087-1:2000(E) er i skrivende stund under revisjon. I ISO/DIS 1087:2018(E) som har vært til avstemning, står det følgende definisjon av ‘definition’: “representation of a concept [...] by a substitutable expression that conveys its meaning and serves to differentiate it from related concepts”. Vi har foreslått overfor ISO å endre definisjonen til “representation of a concept [...] by a substitutable expression that conveys its meaning and serves to differentiate it from relatedother concepts”, som uoffisielt kan oversettes til følgende på norsk bokmål: “beskrivelse av et begrep som forteller hva det betyr og som avgrenser det mot andre begreper”, som vi mener er en bedre definisjon. (nb)
-
+[[AlternativFormulering, alternative formuleringer]]
 === Alternativ formulering
 [properties]
 Anbefalt term:: alternativ formulering (nb); alternativ formulering (nn)

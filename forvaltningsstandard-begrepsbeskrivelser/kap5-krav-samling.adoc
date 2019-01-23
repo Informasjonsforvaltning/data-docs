@@ -17,4 +17,4 @@ Valgfri informasjon:
 * Beskrivelse: En begrepssamling kan ha en tekstlig beskrivelse.
 * Kontaktpunkt: En kan oppgi kontaktpunkt i den ansvarlige virksomhet.
 
-Kravene er også beskrevet i form av en http://www.uml.org/[UML]-modell i #heading=h.8pubqe3tge3q[vedlegg A] som er normativt.
+Kravene er også beskrevet i form av en http://www.uml.org/[UML]-modell i <<vedlegg A>> som er normativt.

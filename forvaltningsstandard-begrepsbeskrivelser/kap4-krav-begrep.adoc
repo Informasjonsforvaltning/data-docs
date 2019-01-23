@@ -18,9 +18,9 @@ Det er utarbeidet en informativ veileder for bruk av denne standarden. Veiledere
 Når et begrep beskrives, skal følgende informasjon alltid tas med:
 
 
-* *Anbefalt term*: En begrepsbeskrivelse skal alltid inneholde minst én #heading=h.ql181i1qhkc2[anbefalt term], men maksimalt én per språk/målform.
+* *Anbefalt term*: En begrepsbeskrivelse skal alltid inneholde minst én <<anbefalt term>>, men maksimalt én per språk/målform.
 ** Språk/målform som termen er skrevet i, skal alltid oppgis.
-* *Definisjon*: En begrepsbeskrivelse skal alltid inneholde minst én #heading=h.eskgzbzei5tb[definisjon], men maksimalt én per språk/målform.
+* *Definisjon*: En begrepsbeskrivelse skal alltid inneholde minst én <<definisjon>>, men maksimalt én per språk/målform.
 ** Språk/målform som definisjonen er skrevet i, skal alltid oppgis.
 * *Identifikator*: En begrepsbeskrivelse skal alltid inneholde en unik og varig identifikator til det aktuelle begrepet.
 Ansvarlig virksomhet: En begrepsbeskrivelse skal alltid inneholde opplysninger om den ansvarlige virksomheten.
@@ -39,12 +39,12 @@ Ansvarlig virksomhet: En begrepsbeskrivelse skal alltid inneholde opplysninger o
 
 I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbeskrivelse, kan følgende valgfri informasjon også tas med:
 
-* Tillatt term: en eller flere #heading=h.s5rewmgtpqhn[tillatte termer].
+* Tillatt term: en eller flere <<tillatte termer>>.
 ** Når en tar med en tillatt term, skal språk/målform termen er skrevet i, oppgis.
-* Frarådet term: en eller flere #heading=h.sh9mkffv4mot[frarådede termer].
+* Frarådet term: en eller flere<<frarådede termer>>.
 ** Når en tar med en frarådet term, skal språk/målform termen er skrevet i, oppgis.
 * Datastrukturterm: en eller flere termer som brukes i en datastruktur eller lignende (f.eks. navn for en klasse eller attributt i et UML-diagram, tagnavn i en XML-fil osv.)
-* Alternativ formulering: en eller flere #heading=h.v5gsnsqo9ey6[alternative formuleringer] av definisjonen.
+* Alternativ formulering: en eller flere <<alternative formuleringer>> av definisjonen.
 ** Når en tar med en alternativ formulering, skal språk/målform den alternative formuleringen er skrevet i, oppgis.
 * Merknad: en eller flere utdypende forklaringer til definisjon eller alternativ formulering.
 ** Når merknad tas med, skal språk/målform teksten er skrevet i, oppgis.
@@ -59,8 +59,8 @@ I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbes
 ** Når bruksområde tas med, skal språk/målform teksten er skrevet i, oppgis.
 * Beskrivelse av kilde til definisjon eller alternativ formulering:
 ** Kilde(r) til definisjon eller alternativ formulering kan oppgis når definisjonen eller den alternative formuleringen er hentet fra eller basert på en eller flere kilder.
-** En kan også oppgi om en definisjon eller en alternativ formulering er: ‘sitat fra kilde’, ‘basert på kilde’, eller ‘egendefinert’. Se #heading=h.yn4i4h8i2l8n[Kodeliste Forhold til kilde (ForholdTilKilde)] for forklaring på lovlige verdier for ‘forhold til kilde’.
-* Målgruppe: Til en ‘tillatt term’, ‘definisjon’ eller ‘alternativ formulering’, kan en oppgi målgruppen teksten er ment for. Valgmulighetene her er ‘allmennheten’ eller ‘fagspesialist’. Se #heading=h.c01nv5j5lrxc[Kodeliste Målgruppe (Målgruppe)] for forklaring på lovlige verdier til ‘målgruppe’.
+** En kan også oppgi om en definisjon eller en alternativ formulering er: ‘sitat fra kilde’, ‘basert på kilde’, eller ‘egendefinert’. Se <<Kodeliste Forhold til kilde (ForholdTilKilde)>> for forklaring på lovlige verdier for ‘forhold til kilde’.
+* Målgruppe: Til en ‘tillatt term’, ‘definisjon’ eller ‘alternativ formulering’, kan en oppgi målgruppen teksten er ment for. Valgmulighetene her er ‘allmennheten’ eller ‘fagspesialist’. Se <<Kodeliste Målgruppe (Målgruppe)>> for forklaring på lovlige verdier til ‘målgruppe’.
 * Relasjoner til andre begreper: et begrep kan ha en eller flere relasjoner til andre begreper.
 ** Assosiative, generiske eller partitive relasjoner:
 *** Til en gitt assosiativ relasjon skal det alltid tas med minst én beskrivelse, men maksimalt én per språk/målform.

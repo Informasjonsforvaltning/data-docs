@@ -5,7 +5,7 @@ image::images/UML-v2.0.jpg[]
 
 link:images/UML-v2.0.jpg[Last ned .jpg av UML-modell (5MB)].
 
-
+[[uriA, URI]]
 === A.1. Krav til bruk av standardiserte datatyper
 
 Det anbefales å bruke standardiserte formater til å representere enkelttypene som er brukt i UML-modellen, i intern lagring og maskinell tilgjengeliggjøring eksternt:
@@ -15,170 +15,175 @@ Det anbefales å bruke standardiserte formater til å representere enkelttypene 
 * *Organisasjonsnummer*: Se spesifikasjon fra Brønnøysundregistrene, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/[https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/].
 * *VCard:Kind*: Se spesifikasjon fra W3C, _vCard Ontology - for describing People and Organizations_, https://www.w3.org/TR/2014/NOTE-vcard-rdf-20140522/#d4e1819[https://www.w3.org/TR/2014/NOTE-vcard-rdf-20140522/#d4e1819].
 * *Tekst*: Se kravene i bruksområdet “Publisering av tekstdokumenter” i_ Referansekatalogen_, https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/publisering-av-tekstdokumenter[https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/publisering-av-tekstdokumenter].
-
+[[begrepA, Begrep]]
 === A.2. Klasse Begrep (Begrep)
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til et ‘begrep’
 
 *_Assosierte klasser_*:  +
-Inneholder 1..* (maksimalt én per språk/målform) ‘#heading=h.l16uinx6fj23[Anbefalt term]’ ‘med verdi (by value)’  +
-Inneholder 0..* ‘#heading=h.ddcsea3ywdvb[Tillatt term]’ ‘med verdi (by value)’ +
-Inneholder 0..* ‘#heading=h.zbyt51238rxl[Frarådet term]’ ‘med verdi (by value)’ +
-Inneholder 0..* ‘#heading=h.tt7ovjka7kg5[Datastrukturterm]’ ‘med verdi (by value)’ +
-Inneholder 1..* (maksimalt én per språk/målform) ‘#heading=h.sg0xsnl4wpvt[Definisjon]’ ‘med verdi (by value)’  +
-Inneholder 0..* ‘#heading=h.hwkzyt8r3pwm[Alternativ formulering]’ ‘med verdi (by value)’ +
-Inneholder 0..* ‘#heading=h.ffuk5ueepcrq[Assosiativ relasjon]’ ‘med verdi (by value)’ +
-Inneholder 0..* ‘#heading=h.w25hp2v21ct7[Generisk relasjon]’ ‘med verdi (by value)’ +
-Inneholder 0..* ‘#heading=h.srppozq1ttef[Partitiv relasjon]’ ‘med verdi (by value)’ +
-Har “se også”-relasjon til 0..* andre ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)’ +
-Erstatter 0..* ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)’ +
-Erstattes av 0..* ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)’ +
-Inngår i 0..* ‘#heading=h.v0e6jqsbxeqd[Begrepssamling]’ ‘med referanse (by reference)’
+Inneholder 1..* (maksimalt én per språk/målform) ‘<<Anbefalt term>>’ ‘med verdi (by value)’  +
+Inneholder 0..* ‘<<Tillatt term>>’ ‘med verdi (by value)’ +
+Inneholder 0..* ‘<<Frarådet term>>’ ‘med verdi (by value)’ +
+Inneholder 0..* ‘<<Datastrukturterm>>’ ‘med verdi (by value)’ +
+Inneholder 1..* (maksimalt én per språk/målform) ‘<<Definisjon>>’ ‘med verdi (by value)’  +
+Inneholder 0..* ‘<<Alternativ formulering>>’ ‘med verdi (by value)’ +
+Inneholder 0..* ‘<<Assosiativ relasjon>>’ ‘med verdi (by value)’ +
+Inneholder 0..* ‘<<Generisk relasjon>>’ ‘med verdi (by value)’ +
+Inneholder 0..* ‘<<Partitiv relasjon>>’ ‘med verdi (by value)’ +
+Har “se også”-relasjon til 0..* andre ‘<<Begrep>>’ ‘med referanse (by reference)’ +
+Erstatter 0..* ‘<<Begrep>>’ ‘med referanse (by reference)’ +
+Erstattes av 0..* ‘<<Begrep>>’ ‘med referanse (by reference)’ +
+Inngår i 0..* ‘<<Begrepssamling>>’ ‘med referanse (by reference)’
 
 *_Attributter: _*
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|identifikator (identifikator)|1..*|#heading=h.3xrf342reqg[URI]|for å oppgi identifikator(er) til et begrep
-|ansvarlig virksomhet (ansvarligVirksomhet)|1|#heading=h.3xrf342reqg[Organisasjonsnummer]|for å oppgi hvilken virksomhet som har registrert begrepsbeskrivelsen eller registeret den forvaltes i
-|fagområde (fagområde)|0..1|#heading=h.s1pxxx7345s0[Tekst med språkkode]|for å oppgi hvilket fagområde begrepet tilhører og er definert innenfor
-|bruksområde (bruksområde)|0..*|#heading=h.s1pxxx7345s0[Tekst med språkkode]|for å oppgi bruksområde(r) til et begrep
-|gyldighetsperiode (gyldighetsperiode)|0..*|#heading=h.30wgo16xj48[Gyldighetsperiode]|for å oppgi gyldighetsperioden(e) til en gitt beskrivelse av et begrep
-|kontaktpunkt (kontaktpunkt)|0..1|#heading=h.3xrf342reqg[Vcard:Kind]|for å oppgi kontaktpunkt i den ansvarlige virksomheten
-|dato sist oppdatert (sistOppdatert)|0..1|#heading=h.3xrf342reqg[Dato]|for å oppgi dato for siste oppdatering av en begrepsbeskrivelse
+|identifikator (identifikator)|1..*|<<URI>>|for å oppgi identifikator(er) til et begrep
+|ansvarlig virksomhet (ansvarligVirksomhet)|1|<<URI, Organisasjonsnummer>>|for å oppgi hvilken virksomhet som har registrert begrepsbeskrivelsen eller registeret den forvaltes i
+|fagområde (fagområde)|0..1|<<Tekst med språkkode>>|for å oppgi hvilket fagområde begrepet tilhører og er definert innenfor
+|bruksområde (bruksområde)|0..*|<<Tekst med språkkode>>|for å oppgi bruksområde(r) til et begrep
+|gyldighetsperiode (gyldighetsperiode)|0..*|<<Gyldighetsperiode>>|for å oppgi gyldighetsperioden(e) til en gitt beskrivelse av et begrep
+|kontaktpunkt (kontaktpunkt)|0..1|<<URI, Vcard:Kind>>|for å oppgi kontaktpunkt i den ansvarlige virksomheten
+|dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi dato for siste oppdatering av en begrepsbeskrivelse
 |===
-
+[[anbefaltTermA, Anbefalt term]]
 === A.3. Klasse Anbefalt term (AnbefaltTerm)
 
 *_Formål_*: for å oppgi en ‘anbefalt term’ til et ‘begrep’
 
 *_Assosierte klasser_*: +
-Er en del av ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med verdi (by value)’ +
-Er spesialisering av ‘#heading=h.k6nwkyn9bw7[Term]’
-
+Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
+Er spesialisering av ‘<<Term>>’
+[[TillattTermA, Tillatt term]]
 === A.4. Klasse Tillatt term (TillattTerm)
 
 *_Formål_*: for å oppgi en ‘tillatt term’ til et ‘begrep’
 
 *_Assosierte klasser_*: +
-Er en del av ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med verdi (by value)’ +
-Er spesialisering av ‘#heading=h.k6nwkyn9bw7[Term]’
+Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
+Er spesialisering av ‘<<Term>>’
 
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
 |målgruppe (målgruppe)|0..1|Kodet verdi, se #heading=h.c01nv5j5lrxc[kodelisten Målgruppe]|for å oppgi målgruppen som en tillatt term er opprettet/ment for
 |===
-
+[[FrarådetTermA, Frarådet term]]
 === A.5. Klasse Frarådet term (FrarådetTerm)
 
 *_Formål_*: for å oppgi en ‘frarådet term’ til et ‘begrep’
 
 *_Assosierte klasser_*: +
-Er en del av ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med verdi (by value)’ +
-Er spesialisering av ‘#heading=h.k6nwkyn9bw7[Term]’
+Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
+Er spesialisering av ‘<<Term>>’
 
+[[datastrukturtermA, Datastrukturterm]]
 === A.6. Klasse Datastrukturterm (Datastrukturterm)
 
 *_Formål_*: for å oppgi en ‘datastrukturterm’ til et ‘begrep’
 
 *_Assosierte klasser_*: +
-Er en del av ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med verdi (by value)’ +
-Er spesialisering av ‘#heading=h.k6nwkyn9bw7[Term]’
+Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
+Er spesialisering av ‘<<Term>>’
 
+[[termA, Term]]
 === A.7. Abstrakt klasse Term (Term)
 
 *_Formål_*: for å knytte sammen attributtene til en ‘term’
 
 *_Assosierte klasser_*: +
-Er generalisering av konkrete klasser ‘#heading=h.l16uinx6fj23[Anbefalt term]’, ‘#heading=h.ddcsea3ywdvb[Tillatt term]’, ‘#heading=h.zbyt51238rxl[Frarådet term]’, ‘#heading=h.tt7ovjka7kg5[Datastrukturterm]’
+Er generalisering av konkrete klasser ‘<<Anbefalt term>>’, ‘<<Tillatt term>>’, ‘<<Frarådet term>>’, ‘<<Datastrukturterm>>’
 
 *_Attributter:_*
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|navn (navn)|1|#heading=h.s1pxxx7345s0[Tekst med språkkode]|for å oppgi termehttps://docs.google.com/document/d/1oLk57PEZ4pyG5MqN2zBjeeHE4mEEx3JusAoA0Jg-wIk/edit#heading=h.ohsdkwb99ftr[https://docs.google.com/document/d/1oLk57PEZ4pyG5MqN2zBjeeHE4mEEx3JusAoA0Jg-wIk/edit#heading=h.ohsdkwb99ftr[n]] til et begrep
-|dato sist oppdatert (sistOppdatert)|0..1|#heading=h.3xrf342reqg[Dato]|for å oppgi når en term er oppdatert sist
+|navn (navn)|1|<<Tekst med språkkode>>|for å oppgi termehttps://docs.google.com/document/d/1oLk57PEZ4pyG5MqN2zBjeeHE4mEEx3JusAoA0Jg-wIk/edit#heading=h.ohsdkwb99ftr[https://docs.google.com/document/d/1oLk57PEZ4pyG5MqN2zBjeeHE4mEEx3JusAoA0Jg-wIk/edit#heading=h.ohsdkwb99ftr[n]] til et begrep
+|dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi når en term er oppdatert sist
 |===
 
+[[definisjonA, Definisjon]]
 === A.8. Klasse Definisjon (Definisjon)
 
 *_Formål_*: for å oppgi ‘definisjon’ til et ‘begrep’
 
 *_Assosierte klasser_*: +
-Er en del av ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med verdi (by value)’ +
-Er spesialisering av ‘#heading=h.gbtz6t7cbls2[Betydningsbeskrivelse]’
+Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
+Er spesialisering av ‘<<Betydningsbeskrivelse>>’
 
+[[AlternativFormuleringA, Alternativ formulering]]
 === A.9. Klasse Alternativ formulering (AlternativFormulering)
 
 *_Formål_*: for å oppgi en ‘alternativ formulering’ av betydningen til et ‘begrep’
 
 *_Assosierte klasser_*: +
-Er en del av ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med verdi (by value)’ +
-Er spesialisering av ‘#heading=h.gbtz6t7cbls2[Betydningsbeskrivelse]’
+Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
+Er spesialisering av ‘<<Betydningsbeskrivelse>>’
 
+[[BetydningsbeskrivelseA, Betydningsbeskrivelse]]
 === A.10. Abstrakt klasse Betydningsbeskrivelse (Betydningsbeskrivelse)
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Betydningsbeskrivelse’
 
 *_Assosierte klasser_*: +
-Er generalisering av konkrete klasser ‘#heading=h.sg0xsnl4wpvt[Definisjon]’, ’#heading=h.hwkzyt8r3pwm[Alternativ formulering]’
+Er generalisering av konkrete klasser ‘<<Definisjon>>’, ’<<Alternativ formulering>>’
 
 *_Attributter:_*
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|tekst (tekst)|1|#heading=h.s1pxxx7345s0[Tekst med språkkode]|for å oppgi en definisjon eller en alternativ formulering
-|kildebeskrivelse|0..1|#heading=h.gbv4bjti0hh4[Kildebeskrivelse]|for å beskrive kilde(r) til en definisjon eller en alternativ formulering
-|merknad (merknad)|0..*|#heading=h.s1pxxx7345s0[Tekst med språkkode]|for å oppgi merknad(er) til en definisjon eller en alternativ formulering
-|eksempel|0..1|#heading=h.s1pxxx7345s0[Tekst med språkkode]|for å oppgi eksempel/eksempler til et begrep
-|målgruppe (målgruppe)|0..1|Kodet verdi, se #heading=h.c01nv5j5lrxc[kodelisten Målgruppe]|for å oppgi målgruppe som definisjon eller alternativ formulering er laget for
-|omfang|0..1|#heading=h.dryquhdxfqqu[URI og/eller tekst]|for å oppgi omfang til et gitt begrep
-|dato sist oppdatert (sistOppdatert)|0..1|#heading=h.3xrf342reqg[Dato]|for å oppgi dato for siste oppdatering av definisjonen eller den alternative formuleringen av definisjonen
+|tekst (tekst)|1|<<Tekst med språkkode>>|for å oppgi en definisjon eller en alternativ formulering
+|kildebeskrivelse|0..1|<<Kildebeskrivelse>>|for å beskrive kilde(r) til en definisjon eller en alternativ formulering
+|merknad (merknad)|0..*|<<Tekst med språkkode>>|for å oppgi merknad(er) til en definisjon eller en alternativ formulering
+|eksempel|0..1|<<Tekst med språkkode>>|for å oppgi eksempel/eksempler til et begrep
+|målgruppe (målgruppe)|0..1|Kodet verdi, se <<Kodeliste Målgruppe (Målgruppe), kodelisten Målgruppe>>|for å oppgi målgruppe som definisjon eller alternativ formulering er laget for
+|omfang|0..1<<URI, URI og/eller tekst>>|for å oppgi omfang til et gitt begrep
+|dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi dato for siste oppdatering av definisjonen eller den alternative formuleringen av definisjonen
 |===
-
+[[AssosiativRelasjonA, Assosiativ relasjon]]
 === A.11. Klasse Assosiativ relasjon (AssosiativRelasjon)
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Assosiativ relasjon’
 
 *_Assosierte klasser_*: +
-Er en del av ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med verdi (by value)’ +
-Har 1 assosiert ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)’ +
-Er spesialisering av ‘#heading=h.hzpzuxza7znc[Begrepsrelasjon]’
+Er en del av <<Begrep>>’ ‘med verdi (by value)’ +
+Har 1 assosiert ‘<<Begrep>>’ ‘med referanse (by reference)’ +
+Er spesialisering av ‘<<Begrepsrelasjon>>’
 
 *_Attributter:_*
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|beskrivelse (beskrivelse)|1..*|#heading=h.s1pxxx7345s0[Tekst med språkkode]|for å beskrive den aktuelle assosiative relasjonen (maksimalt én beskrivelse per språk/målform)
+|beskrivelse (beskrivelse)|1..*|<<Tekst med språkkode>>|for å beskrive den aktuelle assosiative relasjonen (maksimalt én beskrivelse per språk/målform)
 |===
-
+[[GeneriskRelasjonA, Generisk relasjon]]
 === A.12. Klasse Generisk relasjon (GeneriskRelasjon)
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Generisk relasjon’
 
 *_Assosierte klasser_*: +
-Er en del av ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med verdi (by value)’ +
-Har 0..1 overordnet ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)’ +
-Har 0..1 underordnet ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)’ +
-Er spesialisering av ‘#heading=h.hzpzuxza7znc[Begrepsrelasjon]’
+Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
+Har 0..1 overordnet ‘<<Begrep>>’ ‘med referanse (by reference)’ +
+Har 0..1 underordnet ‘<<Begrep>>’ ‘med referanse (by reference)’ +
+Er spesialisering av ‘<<Begrepsrelasjon>>’
 
 *_Attributter:_*
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|inndelingskriterium (inndelingskriterium)|0..*|#heading=h.s1pxxx7345s0[Tekst med språkkode]|for å beskrive inndelingskriteriet for den aktuelle generiske relasjonen (maksimalt én beskrivelse per språk/målform)
+|inndelingskriterium (inndelingskriterium)|0..*|<<Tekst med språkkode>>|for å beskrive inndelingskriteriet for den aktuelle generiske relasjonen (maksimalt én beskrivelse per språk/målform)
 |===
-
+[[PartitivRelasjonA, Partitiv relasjon]]
 === A.13. Klasse Partitiv relasjon (PartitivRelasjon)
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Partitiv relasjon’
 
 *_Assosierte klasser_*: +
-Er en del av ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med verdi (by value)’ +
-Har 0..1 overordnet ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)’ +
-Har 0..1 underordnet ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)’ +
-Er spesialisering av ‘#heading=h.hzpzuxza7znc[Begrepsrelasjon]’
+Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
+Har 0..1 overordnet ‘<<Begrep>>’ ‘med referanse (by reference)’ +
+Har 0..1 underordnet ‘<<Begrep>>’ ‘med referanse (by reference)’ +
+Er spesialisering av ‘<<Begrepsrelasjon>>’
 
 *_Attributter:_*
 |===
@@ -186,7 +191,7 @@ Er spesialisering av ‘#heading=h.hzpzuxza7znc[Begrepsrelasjon]’
 
 |inndelingskriterium (inndelingskriterium)|0..*|#heading=h.s1pxxx7345s0[Tekst med språkkode]|for å beskrive inndelingskriteriet for den aktuelle partitive relasjonen (maksimalt én beskrivelse per språk/målform)
 |===
-
+[[begrepsrelasjonA, Begrepsrelasjon]]
 === A.14. Abstrakt klasse Begrepsrelasjon (Begrepsrelasjon)
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Begrepsrelasjon’
@@ -218,7 +223,7 @@ Har 1..* ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)�
 |beskrivelse (beskrivelse)|0..1|#heading=h.3xrf342reqg[Tekst]|for å oppgi informasjon om en gitt begrepssamling
 |kontaktpunkt (kontaktpunkt)|0..1|#heading=h.3xrf342reqg[Vcard:Kind]|for å oppgi kontaktpunkt i den ansvarlige virksomheten
 |===
-
+[[gyldighetsperiodeA, Gyldighetsperiode]]
 === A.16. Datatype Gyldighetsperiode (Gyldighetsperiode)
 
 *_Formål_*: for å knytte sammen attributter til en ‘gyldighetsperiode’
@@ -230,7 +235,7 @@ Har 1..* ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)�
 |dato gyldig fra og med (gyldigFraOgMed)|0..1|#heading=h.3xrf342reqg[Dato]|for å oppgi datoen fra og med hvilken en gyldighetsperiode starter
 |dato gyldig til og med (gyldigTilOgMed)|0..1|#heading=h.3xrf342reqg[Dato]|for å oppgi datoen til og med hvilken en gyldighetsperiode varer
 |===
-
+[[kildebeskrivelseA, Kildebeskrivelse]]
 === A.17. Datatype Kildebeskrivelse (Kildebeskrivelse)
 
 *_Formål_*: for å knytte sammen attributter til en ‘kildebeskrivelse’
@@ -242,7 +247,7 @@ Har 1..* ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)�
 |kilde (kilde)|0..*|#heading=h.dryquhdxfqqu[URI og/eller tekst]|for å oppgi kilde(r) til en definisjon eller en alternativ formulering
 |forhold til kilde (forholdTilKilde)|0..1|Kodet verdi, se #heading=h.yn4i4h8i2l8n[kodelisten Forhold til kilde]|for å oppgi sammenheng mellom kilden(e) og definisjonsteksten eller den alternative formuleringen
 |===
-
+[[datatypeTekstMedSpråkkode, Tekst med språkkode]]
 === A.18. Datatype Tekst med språkkode (TekstMedSpråkkode)
 
 *_Formål_*: for å knytte sammen attributter tekst og språkkode
@@ -266,7 +271,7 @@ Har 1..* ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)�
 |URI (URI)|0..1|#heading=h.3xrf342reqg[URI]|for å oppgi URI til spesifikasjon/definisjon av et omfang, hhv. en gitt kilde
 |tekst (tekst)|0..1|#heading=h.3xrf342reqg[Tekst]|for å oppgi informasjon om et gitt omfang, hhv. en gitt kilde.
 |===
-
+[[kodelisteForholdTilKilde, Kodeliste Forhold til kilde (ForholdTilKilde)]]
 === A.20. Kodeliste Forhold til kilde (ForholdTilKilde)
 
 *_Formål_*: for å liste opp lovlige verdier til #heading=h.gbv4bjti0hh4[attributt “Forhold til kilde” i datatype “Kildebeskrivelse”]
@@ -276,6 +281,8 @@ Kodelisten inneholder følgende lovlige verdier:
 * sitat fra kilde (sitatFraKilde): brukes når ‘definisjon’ eller ‘alternativ formulering’ er ordrett sitat fra en gitt kilde
 * basert på kilde (basertPåKilde): brukes når ‘definisjon’ eller ‘alternativ formulering’ ikke er ordrett sitat fra, men basert på, en gitt kilde
 * egendefinert (egendefinert): brukes når ‘definisjon’ eller ‘alternativ formulering’ ikke er hentet fra eller basert på noen kilde, men er egendefinert eksempelvis etablert gjennom et prosjekt.
+
+[[kodelisteMålgruppe, Kodeliste Målgruppe (Målgruppe)]]
 === A.21. Kodeliste Målgruppe (Målgruppe)
 
 *_Formål_*: for å liste opp lovlige verdier til #heading=h.gbtz6t7cbls2[attributt “målgruppe” i klasse “Betydningsbeskrivelse”] hhv. #heading=h.ddcsea3ywdvb[attributt “målgruppe” i klasse “Tillatt term”].
