@@ -9,7 +9,7 @@ Dette kapittelet beskriver hva som skal dokumenteres for at en begrepsbeskrivels
 * beskrive et begrep på flere språk
 * knytte begrepet til en gruppering av begreper (begrepssamling, se #heading=h.mm94ssxtytrp[kapittel 5])
 
-I normativt #heading=h.8pubqe3tge3q[vedlegg A] til dette dokumentet er kravene også beskrevet i form av en http://www.uml.org/[UML]-modell.
+I normativt <<vedlegg A>> til dette dokumentet er kravene også beskrevet i form av en http://www.uml.org/[UML]-modell.
 
 Det er utarbeidet en informativ veileder for bruk av denne standarden. Veilederen inneholder mer utfyllende forklaring og eksempler på bruk av standarden. Se under https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/begrepsanalyse-og-definisjonsarbeid[bruksområdet Begrepsanalyse og definisjonsarbeid] i _Referansekatalogen_.
 
