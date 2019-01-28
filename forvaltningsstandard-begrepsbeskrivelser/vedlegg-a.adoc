@@ -67,7 +67,7 @@ Er spesialisering av ‘<<Term>>’
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|målgruppe (målgruppe)|0..1|Kodet verdi, se #heading=h.c01nv5j5lrxc[kodelisten Målgruppe]|for å oppgi målgruppen som en tillatt term er opprettet/ment for
+|målgruppe (målgruppe)|0..1|Kodet verdi, se <<Kodeliste Målgruppe (Målgruppe), kodelisten Målgruppe>>|for å oppgi målgruppen som en tillatt term er opprettet/ment for
 |===
 [[FrarådetTermA, Frarådet term]]
 === A.5. Klasse Frarådet term (FrarådetTerm)
@@ -189,7 +189,7 @@ Er spesialisering av ‘<<Begrepsrelasjon>>’
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|inndelingskriterium (inndelingskriterium)|0..*|#heading=h.s1pxxx7345s0[Tekst med språkkode]|for å beskrive inndelingskriteriet for den aktuelle partitive relasjonen (maksimalt én beskrivelse per språk/målform)
+|inndelingskriterium (inndelingskriterium)|0..*|<<Tekst med språkkode>>|for å beskrive inndelingskriteriet for den aktuelle partitive relasjonen (maksimalt én beskrivelse per språk/målform)
 |===
 [[begrepsrelasjonA, Begrepsrelasjon]]
 === A.14. Abstrakt klasse Begrepsrelasjon (Begrepsrelasjon)
@@ -197,13 +197,13 @@ Er spesialisering av ‘<<Begrepsrelasjon>>’
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Begrepsrelasjon’
 
 *_Assosierte klasser_*: +
-Er generalisering av konkrete klasser #heading=h.ffuk5ueepcrq[‘Assosiativ relasjon’], ‘#heading=h.w25hp2v21ct7[Generisk relasjon]’, ‘#heading=h.srppozq1ttef[Partitiv relasjon]’
+Er generalisering av konkrete klasser <<Assosiativ relasjon>>, <<Generisk relasjon>>, <<Partitiv relasjon>>
 
 *_Attributter:_*
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|dato sist oppdatert (sistOppdatert)|0..1|#heading=h.3xrf342reqg[Dato]|for å oppgi dato for siste oppdatering av en begrepsrelasjon
+|dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi dato for siste oppdatering av en begrepsrelasjon
 |===
 
 === A.15. Klasse Begrepssamling (Begrepssamling)
@@ -211,17 +211,17 @@ Er generalisering av konkrete klasser #heading=h.ffuk5ueepcrq[‘Assosiativ rela
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Begrepssamling’
 
 *_Assosierte klasser_*: +
-Har 1..* ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)’
+Har 1..* <<Begrep>> ‘med referanse (by reference)’
 
 *_Attributter:_*
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|navn (navn)|1|#heading=h.3xrf342reqg[Tekst]|for å navngi en gitt begrepssamling
-|identifikator (identifikator)|1|#heading=h.3xrf342reqg[URI]|for å oppgi identifikator til en gitt begrepssamling
-|ansvarlig virksomhet (ansvarligVirksomhet)|1|#heading=h.3xrf342reqg[Organisasjonsnummer]|for å oppgi hvilken virksomhet som har ansvar for en gitt begrepssamling
-|beskrivelse (beskrivelse)|0..1|#heading=h.3xrf342reqg[Tekst]|for å oppgi informasjon om en gitt begrepssamling
-|kontaktpunkt (kontaktpunkt)|0..1|#heading=h.3xrf342reqg[Vcard:Kind]|for å oppgi kontaktpunkt i den ansvarlige virksomheten
+|navn (navn)|1|<<URI, Tekst>>|for å navngi en gitt begrepssamling
+|identifikator (identifikator)|1|<<URI>>|for å oppgi identifikator til en gitt begrepssamling
+|ansvarlig virksomhet (ansvarligVirksomhet)|1|<<URI, Organisasjonsnummer>>|for å oppgi hvilken virksomhet som har ansvar for en gitt begrepssamling
+|beskrivelse (beskrivelse)|0..1|<<URI, Tekst>>|for å oppgi informasjon om en gitt begrepssamling
+|kontaktpunkt (kontaktpunkt)|0..1|<<URI, Vcard:Kind>>|for å oppgi kontaktpunkt i den ansvarlige virksomheten
 |===
 [[gyldighetsperiodeA, Gyldighetsperiode]]
 === A.16. Datatype Gyldighetsperiode (Gyldighetsperiode)
@@ -232,8 +232,8 @@ Har 1..* ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)�
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|dato gyldig fra og med (gyldigFraOgMed)|0..1|#heading=h.3xrf342reqg[Dato]|for å oppgi datoen fra og med hvilken en gyldighetsperiode starter
-|dato gyldig til og med (gyldigTilOgMed)|0..1|#heading=h.3xrf342reqg[Dato]|for å oppgi datoen til og med hvilken en gyldighetsperiode varer
+|dato gyldig fra og med (gyldigFraOgMed)|0..1|<<URI, Dato>>|for å oppgi datoen fra og med hvilken en gyldighetsperiode starter
+|dato gyldig til og med (gyldigTilOgMed)|0..1|<<URI, Dato>>|for å oppgi datoen til og med hvilken en gyldighetsperiode varer
 |===
 [[kildebeskrivelseA, Kildebeskrivelse]]
 === A.17. Datatype Kildebeskrivelse (Kildebeskrivelse)
@@ -244,8 +244,8 @@ Har 1..* ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)�
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|kilde (kilde)|0..*|#heading=h.dryquhdxfqqu[URI og/eller tekst]|for å oppgi kilde(r) til en definisjon eller en alternativ formulering
-|forhold til kilde (forholdTilKilde)|0..1|Kodet verdi, se #heading=h.yn4i4h8i2l8n[kodelisten Forhold til kilde]|for å oppgi sammenheng mellom kilden(e) og definisjonsteksten eller den alternative formuleringen
+|kilde (kilde)|0..*|<<URI, URI og/eller tekst>>|for å oppgi kilde(r) til en definisjon eller en alternativ formulering
+|forhold til kilde (forholdTilKilde)|0..1|Kodet verdi, se <<Kodeliste Forhold til kilde (ForholdTilKilde), kodelisten Forhold til kilde>>|for å oppgi sammenheng mellom kilden(e) og definisjonsteksten eller den alternative formuleringen
 |===
 [[datatypeTekstMedSpråkkode, Tekst med språkkode]]
 === A.18. Datatype Tekst med språkkode (TekstMedSpråkkode)
@@ -256,25 +256,25 @@ Har 1..* ‘#heading=h.xy9vi2i2thf2[Begrep]’ ‘med referanse (by reference)�
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|tekst (tekst)|1|#heading=h.3xrf342reqg[Tekst]|for å oppgi en tekst
-|språk/målform (språkMålform)|1|Kodet verdi, se #heading=h.4dne1joyz0bp[kodelisten Språkkode]|for å oppgi språk/målform den aktuelle teksten er skrevet i
+|tekst (tekst)|1|<<URI, Tekst>>|for å oppgi en tekst
+|språk/målform (språkMålform)|1|Kodet verdi, se <<Kodelisten Språkkode>>|for å oppgi språk/målform den aktuelle teksten er skrevet i
 |===
 
 === A.19. Datatype URI og/eller tekst (URITekst)
 
-*_Formål_*: for å knytte sammen attributter URI og Tekst, som brukes av attributt “omfang” hhv. “kilde” i klasse #heading=h.gbtz6t7cbls2[“Betydningsbeskrivelse”]
+*_Formål_*: for å knytte sammen attributter URI og Tekst, som brukes av attributt “omfang” hhv. “kilde” i klasse <<Betydningsbeskrivelse>>
 
 *_Attributter:_*
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|URI (URI)|0..1|#heading=h.3xrf342reqg[URI]|for å oppgi URI til spesifikasjon/definisjon av et omfang, hhv. en gitt kilde
-|tekst (tekst)|0..1|#heading=h.3xrf342reqg[Tekst]|for å oppgi informasjon om et gitt omfang, hhv. en gitt kilde.
+|URI (URI)|0..1|<<URI>>|for å oppgi URI til spesifikasjon/definisjon av et omfang, hhv. en gitt kilde
+|tekst (tekst)|0..1|<<URI, Tekst>>|for å oppgi informasjon om et gitt omfang, hhv. en gitt kilde.
 |===
 [[kodelisteForholdTilKilde, Kodeliste Forhold til kilde (ForholdTilKilde)]]
 === A.20. Kodeliste Forhold til kilde (ForholdTilKilde)
 
-*_Formål_*: for å liste opp lovlige verdier til #heading=h.gbv4bjti0hh4[attributt “Forhold til kilde” i datatype “Kildebeskrivelse”]
+*_Formål_*: for å liste opp lovlige verdier til <<Kildebeskrivelse, attributt “Forhold til kilde” i datatype “Kildebeskrivelse”>>
 
 Kodelisten inneholder følgende lovlige verdier:
 
@@ -285,16 +285,17 @@ Kodelisten inneholder følgende lovlige verdier:
 [[kodelisteMålgruppe, Kodeliste Målgruppe (Målgruppe)]]
 === A.21. Kodeliste Målgruppe (Målgruppe)
 
-*_Formål_*: for å liste opp lovlige verdier til #heading=h.gbtz6t7cbls2[attributt “målgruppe” i klasse “Betydningsbeskrivelse”] hhv. #heading=h.ddcsea3ywdvb[attributt “målgruppe” i klasse “Tillatt term”].
+*_Formål_*: for å liste opp lovlige verdier til <<Betydningsbeskrivelse, attributt “målgruppe” i klasse “Betydningsbeskrivelse”>> hhv. <<Tillatt term, attributt “målgruppe” i klasse “Tillatt term”>>.
 
 Kodelisten inneholder følgende lovlige verdier:
 
 * allmennheten (allmennheten): brukes når det ikke forutsettes noe forkunnskap i det aktuelle fagområdet for begrepet
 * fagspesialist (fagspesialist): brukes når det forutsettes et visst kunnskapsnivå i det aktuelle fagområdet for begrepet
 
+[[kodelisteSpråkkode, Kodelisten Språkkode]]
 === A.22. Kodeliste Språkkode (Språkkode)
 
-*_Formål_*: for å liste opp lovlige verdier til #heading=h.s1pxxx7345s0[attributt “språk/målform” i datatype “Tekst med språkkode”]
+*_Formål_*: for å liste opp lovlige verdier til <<Tekst med språkkode, attributt “språk/målform” i datatype “Tekst med språkkode”>>
 
 Se “Bruk av språkkodar på offentlege nettsider” i Referansekatalogen, https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/bruk-av-sprakkodar-pa-offentlege-nettsider[https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/bruk-av-sprakkodar-pa-offentlege-nettsider]
 
