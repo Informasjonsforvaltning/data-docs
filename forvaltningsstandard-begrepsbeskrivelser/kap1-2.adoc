@@ -10,7 +10,7 @@ Det foreliggende dokumentet er utarbeidet av en arbeidsgruppe ledet av Difi, i h
 
 Standarden inngår i https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/begrepsanalyse-og-definisjonsarbeid[bruksområdet “Begrepsanalyse og definisjonsarbeid”] i _Referansekatalogen_. Denne versjonen skal erstatte den første versjonen fra mai 2012.
 
-Se <<vedlegg B>>  (*referanse) for de viktigste endringene fra versjon 1 til denne versjonen (versjon 2) av standarden.
+Se <<vedlegg B>> for de viktigste endringene fra versjon 1 til denne versjonen (versjon 2) av standarden.
 
 
 == Formål, omfang og avgrensinger
