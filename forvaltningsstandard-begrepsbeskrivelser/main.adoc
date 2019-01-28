@@ -28,7 +28,7 @@ include::kap1-2.adoc[]
 include::kap3-definisjoner.adoc[]
 include::kap4-krav-begrep.adoc[]
 include::kap5-krav-samling.adoc[]
-include::spesifikasjon.adoc[]
+// include::spesifikasjon.adoc[]
 include::vedlegg-a.adoc[]
 include::vedlegg-b.adoc[]
 
