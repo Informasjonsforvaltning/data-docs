@@ -15,6 +15,7 @@ Det anbefales å bruke standardiserte formater til å representere enkelttypene 
 * *Organisasjonsnummer*: Se spesifikasjon fra Brønnøysundregistrene, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/[https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/].
 * *VCard:Kind*: Se spesifikasjon fra W3C, _vCard Ontology - for describing People and Organizations_, https://www.w3.org/TR/2014/NOTE-vcard-rdf-20140522/#d4e1819[https://www.w3.org/TR/2014/NOTE-vcard-rdf-20140522/#d4e1819].
 * *Tekst*: Se kravene i bruksområdet “Publisering av tekstdokumenter” i_ Referansekatalogen_, https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/publisering-av-tekstdokumenter[https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/publisering-av-tekstdokumenter].
+
 [[begrepA, Begrep]]
 === A.2. Klasse Begrep (Begrep)
 
