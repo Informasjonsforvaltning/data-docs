@@ -1,4 +1,4 @@
-
+[[kap5, kapittel 5]]
 == Krav til innhold i beskrivelse av en begrepssamling
 
 Standarden spesifiserer også hva som skal dokumenteres i beskrivelsen av en samling av begreper (i denne standarden kalt ‘begrepssamling’). Det er valgfritt å gruppere begreper i begrepssamling. Når en velger å bruke begrepssamling skal standardens krav følges.

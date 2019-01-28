@@ -7,7 +7,7 @@ Dette kapittelet beskriver hva som skal dokumenteres for at en begrepsbeskrivels
 * dokumentere begrepets definisjon og eventuelle alternative formuleringer av samme definisjon
 * beskrive eventuelle relasjoner begrepet måtte ha til andre begreper
 * beskrive et begrep på flere språk
-* knytte begrepet til en gruppering av begreper (begrepssamling, se #heading=h.mm94ssxtytrp[kapittel 5])
+* knytte begrepet til en gruppering av begreper (begrepssamling, se <<kapittel 5>>)
 
 I normativt <<vedlegg A>> til dette dokumentet er kravene også beskrevet i form av en http://www.uml.org/[UML]-modell.
 
