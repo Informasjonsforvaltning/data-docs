@@ -50,7 +50,7 @@ Merknad:: Når man refererer til et begrep bør man unngå å bruke en frarådet
 === Begrep
 [properties]
 Anbefalt term:: begrep (nb); omgrep (nn); concept (en)
-Frarådet term:: term (nb); term (nn); term (en); konsept (nb); konsept (nn); concept (en)
+Frarådet term:: term (nb); term (nn); term (en); konsept (nb); konsept (nn)
 Definisjon:: kunnskapsenhet som er dannet gjennom en unik kombinasjon av kjennetegn (nb)
 Kilde:: Sitat fra NS-ISO 1087-1:2000: Terminologiarbeid - Ordliste - Del 1: Teori og anvendelser http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=36707
 Merknad:: Et begrep er en mental forestilling om et fenomen. Begrepet blir kommunisert ved hjelp av en term og forklart ved hjelp av en definisjon. Definisjonen av ‘begrep’ er under diskusjon/revisjon i den internasjonale standardiseringskomiteen ISO/TC 37. Definisjonen i vår standard vil bli justert dersom den internasjonale definisjonen blir endret, slik at de samsvarer. (nb)
