@@ -26,12 +26,12 @@ Når et begrep beskrives, skal følgende informasjon alltid tas med:
 Ansvarlig virksomhet: En begrepsbeskrivelse skal alltid inneholde opplysninger om den ansvarlige virksomheten.
 
 
-.Et informativt eksempel på en beskrivelse av et begrep, ved å bruke kun obligatorisk informasjon, der “(nn)” markerer at teksten er skrevet på nynorsk.
+.Et informativt eksempel på en beskrivelse av et begrep, ved å bruke kun obligatorisk informasjon, der “(nb)” markerer at teksten er skrevet på nynorsk.
 
 |===
-|*Anbefalt term*|jordbruksareal i drift (nn)
-|*Definisjon*|Jordbruksareal som blir hausta minst ein gong i løpet av eit år, medrekna tilplanta eller tilsådd areal med fleirårige vekstar som enno ikkje gir avling. Open åker kor det ikkje blir tatt avling i løpet av året, men som er tenkt hausta neste år reknast med. (nn)
-|*Identifikator*|https://www.ssb.no/a/metadata/conceptvariable/vardok/1238/nn[https://www.ssb.no/a/metadata/conceptvariable/vardok/1238/nn]
+|*Anbefalt term*|heltidssysselsatt (nb)
+|*Definisjon*|person som har en avtalt ukentlig arbeidstid på 37 timer og mer, samt personer med annen avtalt arbeidstid som oppgir at dette utgjør heltid. (nb)
+|*Identifikator*|https://www.ssb.no/a/metadata/conceptvariable/vardok/1127/nb[https://www.ssb.no/a/metadata/conceptvariable/vardok/1127/nb]
 |*Ansvarlig virksomhet*|971 526 920 (med organisasjonsnr, i henhold til standarden)
 |===
 
@@ -75,21 +75,14 @@ I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbes
 * Kontaktpunkt: En kan oppgi kontaktpunkt i den ansvarlige virksomhet.
 
 
-.Et informativt eksempel som illustrerer bruk av flere felter fra standarden, der den obligatoriske informasjonen er *uthevet* og språkkode oppgitt i parentes (“(nb)” for norsk bokmål).
+.Et informativt eksempel som illustrerer bruk av flere felter fra standarden, der den obligatoriske informasjonen er *uthevet* og språkkode oppgitt i parentes (“(nn)” for norsk nynorsk).
 |===
 
-|*Anbefalt term*|frilanser (nb)
-|Tillatt term|ikke-ansatt (nb); selvstendig oppdragstaker (nb)
-|Frarådet term|selvstendig næringsdrivende (nb)
-|*Definisjon*|enhver som utfører arbeid eller oppdrag utenfor tjeneste for lønn eller annen godtgjørelse, men uten å være selvstendig næringsdrivende (nb)
-|Kilde |Sitat fra folketrygdloven § 1-9 https://lovdata.no/NL/lov/1997-02-28-19/§1-9
-|*Identifikator*|https://begrepskatalog/BEGREP-1438
-|*Ansvarlig virksomhet*|889 640 782 (med organisasjonsnr, i henhold til standarden)
-|Merknad|Gruppen omfatter mange utøvende kunstnere, journalister og andre som ikke kan anses som ansatt. Videre omfatter gruppen personer som mottar ulike former for lønn, provisjon, honorar, godtgjørelse som medlem i styrer og råd m.m. (nb)
-|Eksempel|journalist, skuespiller, fotograf, musiker (nb)
-|Fagområde|Arbeids- og velferdsforvaltningen (nb)
-|Bruksområde|A-ordningen, Sykepengeområdet (nb)
-|Relasjon|se også ‘selvstendig næringsdrivende’; se også ‘arbeidstaker’
-|Gyldig fra og med|2016-09-09
-|Sist oppdatert|2016-09-09
+|*Anbefalt term*|husdyr (nn)
+|*Definisjon*|dyr av ulike slag (pattedyr, fuglar, bier) som blir halde for nytteformål, til dømes for produksjon av produkt som mjølk, kjøt og ull, for al eller for trekkraft (nn)
+|*Identifikator*|https://www.ssb.no/a/metadata/conceptvariable/vardok/1243/nn[https://www.ssb.no/a/metadata/conceptvariable/vardok/1243/nn]
+|*Ansvarlig virksomhet*|971 526 920  (med organisasjonsnr, i henhold til standarden)
+|Merknad|Kjæledyr blir ikkje rekna som husdyr (nn)
+|Fagområde|jordbruk, jakt, viltstell (nn)
+|Omfang|https://www.ssb.no/klass/klassifikasjoner/29[https://www.ssb.no/klass/klassifikasjoner/29]
 |===
