@@ -1,5 +1,5 @@
 
-[[definisjon-av-sentrale-begreper, Definisjon av de mest sentrale begrepene]]
+
 == Definisjon av de mest sentrale begrepene i denne standarden
 
 Dette kapitlet inneholder definisjoner av de mest sentrale begrepene i standarden. Bortsett fra begrepet ‘alternativ formulering’ som det ikke finnes noen eksisterende internasjonale definisjoner av, er definisjonene av de andre begrepene hentet fra ISO-standarder via http://www.standard.no/termbasen/[termbasen SNORRE] hos Standard Norge.
