@@ -1,3 +1,4 @@
+
 [[vedleggb, vedlegg B]]
 == Vedlegg B (informativt) - Endringer fra versjon 1.0 til versjon 2.0
 
@@ -20,7 +21,7 @@ De viktigste endringene fra versjon 1 til denne versjonen (versjon 2.0) av stand
 *** ‘klassifikasjon’
 ** Begge versjoner krever dokumentasjon av språk/målform.
 * Denne versjonen stiller ikke eksplisitt innholdskrav til ‘referanse til versjoner’ som var i forrige versjon. Vi mener imidlertid at administrative beskrivelser som ‘gyldighetsperiode’ og ‘dato sist oppdatert’ vil danne et godt nok grunnlag for å ha denne type funksjonalitet i et IT-verktøy.
-* Denne versjonen legger til rette for mer eksplisitt beskrivelse av relasjoner mellom begreper (i form av ‘assosiativ’, ‘generisk’, ‘partitiv’, ‘se også’, ‘erstatter’ og ‘erstattes av’-relasjoner), istedenfor ‘relaterte begreper’ i “utvidelse(anbefalt)” i forrige versjon. 
+* Denne versjonen legger til rette for mer eksplisitt beskrivelse av relasjoner mellom begreper (i form av ‘assosiativ’, ‘generisk’, ‘partitiv’, ‘se også’, ‘erstatter’ og ‘erstattes av’-relasjoner), istedenfor ‘relaterte begreper’ i “utvidelse(anbefalt)” i forrige versjon.
 * Denne versjonen har med flere valgfrie felter eksplisitt, hovedsakelig:
 ** ‘tillatt term’ og ‘frarådet term’, som var implisitt tatt med i “ytterligere utvidelser” i forrige versjon.
 ** ‘alternativ formulering’ (bl.a. med hensyn til “klarspråk”), ‘målgruppe’, ‘bruksområde’, ‘eksempel’, ‘datastrukturterm’.
