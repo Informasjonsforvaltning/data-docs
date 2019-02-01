@@ -2,8 +2,9 @@
 == Vedlegg A (normativt) - UML-modell som beskriver krav til innhold i beskrivelse av begreper og begrepssamlinger
 
 image::images/UML-v2.0.jpg[]
-
-link:images/UML-v2.0.jpg[Last ned .jpg av UML-modell (5MB)].
+Last ned modell:
+link:images/UML-v2.0.jpg[jpg] |
+link:files/StandardForBegrepsbeskrivelse.xsd[xsd]
 
 [[uriA, URI]]
 === A.1. Krav til bruk av standardiserte datatyper
