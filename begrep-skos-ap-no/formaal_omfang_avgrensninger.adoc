@@ -1,5 +1,5 @@
 
-== 1. Formål, omfang og avgrensninger
+== Formål, omfang og avgrensninger
 
 Denne standarden skal sikre at begrepsbeskrivelser som forvaltes av offentlig sektor, tilgjengeliggjøres på en standardisert og maskinlesbar måte, slik at virksomheter enklere kan ta i bruk og bygge videre på begrepsarbeid som andre har gjort.
 
