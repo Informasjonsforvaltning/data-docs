@@ -7,7 +7,7 @@ Eksempelfilene er per 2018-06-14 validert korrekt mot SKOS.
 === A.1 Eksempelfil av et begrep
 
 I dette eksemplet benyttes standarden fullt ut. Dette medfører bruk av skos-xl og norske utvidelser.
-
+----
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -137,9 +137,9 @@ dct:replacedBy <>;
 skos:scopeNote ""@nb ;
 
 .
-
+----
 === A.2 Eksempelfil av en begrepssamling
-
+----
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -189,3 +189,4 @@ ____
 ] ;
 
 skos:member <https://jira.brreg.no/browse/BEGREP-246> .
+----
