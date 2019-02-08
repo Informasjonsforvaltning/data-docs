@@ -83,6 +83,6 @@ I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbes
 |*Identifikator*|https://www.ssb.no/a/metadata/conceptvariable/vardok/1243/nn[https://www.ssb.no/a/metadata/conceptvariable/vardok/1243/nn]
 |*Ansvarlig virksomhet*|971 526 920  (med organisasjonsnr, i henhold til standarden)
 |Merknad|Kjæledyr blir ikkje rekna som husdyr (nn)
-|Fagområde|jordbruk, jakt, viltstell (nn)
+|Fagområde|jordbruk, jakt og viltstell (nn)
 |Omfang|https://www.ssb.no/klass/klassifikasjoner/29[https://www.ssb.no/klass/klassifikasjoner/29]
 |===
