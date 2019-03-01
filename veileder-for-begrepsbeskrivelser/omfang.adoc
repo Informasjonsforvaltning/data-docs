@@ -28,7 +28,7 @@ med i selve begrepsbeskrivelsen.
 Det anbefaler ikke å ta med eksempler i selve definisjonen, men i
 eksempel.
 
-Se også under ""<<gyldighetsperiode, gyldighetsperiode m.m.>>”
+Se også under "<<gyldighetsperiode, gyldighetsperiode m.m.>>"
 for anbefalinger ang. gyldighetsperiode for beskrivelse av et begrep og
 gyldighetsperiode for omfang tilknyttet begrepet, f.eks.
 gyldighetsperiode for definisjonen av begrepet ‘kommune’ versus
