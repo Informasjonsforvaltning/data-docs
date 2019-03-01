@@ -1,0 +1,23 @@
+
+== 1. Innledning
+
+=== 1.1. Hensikt
+
+Denne veilederen skal bidra til å gjøre det lettere å forstå og bruke
+https://doc.difi.no/data/forvaltningsstandard-begrepsbeskrivelser/[_[.underline]#Forvaltningsstandard
+for begrepsbeskrivelser#_ [.underline]#_ versjon_# _[.underline]#2.0#_].
+
+=== 1.2. Omfang og avgrensning
+
+Veilederen har ikke som mål å gi veiledning til begrepsarbeid generelt,
+men er utarbeidet med vektlegging på begrepsbeskrivelser og bruk av
+standarden.
+
+=== 1.3. Om dette dokumentet
+
+Denne veilederen er utarbeidet av den samme arbeidsgruppen som
+utarbeidet forslag til _Forvaltningsstandard for begrepsbeskrivelser,
+versjon 2.0_. Veilederen er organisert etter ulike temaer som har vist
+seg å være viktige og til dels vanskelig å ta hensyn til i arbeidet med
+å beskrive begreper. Veilederen gir ikke en detaljert bruksanvisning for
+hvert enkelt felt i standarden.

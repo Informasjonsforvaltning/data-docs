@@ -1,0 +1,19 @@
+
+== 7. Målgruppe
+
+*Hensikt:*
+
+Visse virksomheter kan ha behov for å forklare begrepet på ulike måter
+avhengig av målgruppe. Eksempelvis kan en presis, teknisk definisjon
+være mest hensiktsmessig for fagfolk, mens begrepsbetydningen kan
+formuleres ved hjelp av et enklere og brukerorientert språk for
+allmennheten i en alternativ formulering.
+
+*Anbefaling:*
+
+Virksomheter som ønsker å benytte seg av muligheten for differensierte
+definisjoner og alternative formuleringer, bør utarbeide interne
+retningslinjer for konsekvent bruk av de to målgruppene. Disse
+retningslinjene bør avklare hvilke brukergrupper som regnes som fagfolk
+på forvaltningsområdet og hvilke brukergrupper som regnes som
+representerer allmennheten, gjerne med eksempler.
