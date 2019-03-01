@@ -22,9 +22,9 @@ gruppering.
 
 *Eksempler*:
 
-* https://begrep.difi.no/SikkerDigitalPost/begrep/[[.underline]#https://begrep.difi.no/SikkerDigitalPost/begrep/#]
+* https://begrep.difi.no/SikkerDigitalPost/begrep/[https://begrep.difi.no/SikkerDigitalPost/begrep/]
 er en samling av begreper som er relevante for tjenesten sikker digital
 post.
 
-* http://www.ssb.no/nasjonalregnskap-og-konjunkturer/begreper-i-nasjonalregnskapet[[.underline]#http://www.ssb.no/nasjonalregnskap-og-konjunkturer/begreper-i-nasjonalregnskapet#]
+* http://www.ssb.no/nasjonalregnskap-og-konjunkturer/begreper-i-nasjonalregnskapet[http://www.ssb.no/nasjonalregnskap-og-konjunkturer/begreper-i-nasjonalregnskapet]
 er en samling av begreper i nasjonalregnskapet.

@@ -4,8 +4,8 @@
 === 1.1. Hensikt
 
 Denne veilederen skal bidra til å gjøre det lettere å forstå og bruke
-https://doc.difi.no/data/forvaltningsstandard-begrepsbeskrivelser/[_[.underline]#Forvaltningsstandard
-for begrepsbeskrivelser#_ [.underline]#_ versjon_# _[.underline]#2.0#_].
+https://doc.difi.no/data/forvaltningsstandard-begrepsbeskrivelser/[Forvaltningsstandard
+for begrepsbeskrivelser versjon 2.0.]
 
 === 1.2. Omfang og avgrensning
 

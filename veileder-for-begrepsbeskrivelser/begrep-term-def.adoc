@@ -24,7 +24,7 @@ merkelappen», man fester til begrepet.
 
 .Forholdet mellom begrep, term, definisjon og referent (fra http://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf[[.underline]#Termlosen#], omgrep er nynorsk for _begrep_ på bokmål)
 [caption="Figur 1: "]
-image::begrep.png[]
+image::https://github.com/difi/data-docs/blob/master/veileder-for-begrepsbeskrivelser/begrep.png?raw=true[]
 
 Når vi omtaler et begrep, benytter vi oss av termer (se
 link:#term-anbefalt-tillatt-frarådet-term-datastrukturterm[[.underline]#forklaring

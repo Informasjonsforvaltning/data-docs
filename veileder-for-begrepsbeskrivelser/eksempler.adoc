@@ -50,6 +50,5 @@ sentralbyrå)
 |Fagområde |jordbruk, jakt og viltstell (nn)
 
 |Omfang
-|https://www.ssb.no/klass/klassifikasjoner/29[[.underline]#Standard for
-klassifisering av husdyr#]
+|https://www.ssb.no/klass/klassifikasjoner/29[Standard for klassifisering av husdyr]
 |===
