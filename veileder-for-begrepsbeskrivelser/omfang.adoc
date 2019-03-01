@@ -1,4 +1,5 @@
 
+[[omfang, omfang]]
 == 11. Omfang og eksempel
 
 *Hensikt*:
@@ -27,7 +28,7 @@ med i selve begrepsbeskrivelsen.
 Det anbefaler ikke å ta med eksempler i selve definisjonen, men i
 eksempel.
 
-Se også under “link:#målgruppe[[.underline]#gyldighetsperiode m.m.#]”
+Se også under ""<<gyldighetsperiode, gyldighetsperiode m.m.>>”
 for anbefalinger ang. gyldighetsperiode for beskrivelse av et begrep og
 gyldighetsperiode for omfang tilknyttet begrepet, f.eks.
 gyldighetsperiode for definisjonen av begrepet ‘kommune’ versus
@@ -38,7 +39,7 @@ gyldighetsperioder.
 *Eksempler*:
 
 * _Standard for sivilstand_
-(https://www.ssb.no/klass/klassifikasjoner/19[[.underline]#https://www.ssb.no/klass/klassifikasjoner/19#])
+(https://www.ssb.no/klass/klassifikasjoner/19[https://www.ssb.no/klass/klassifikasjoner/19])
 oppgis som omfang for begrepet ‘sivilstand’.
 
 * Listen over alle norske kommuner kan oppgis som omfang til begrepet

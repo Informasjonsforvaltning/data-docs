@@ -1,10 +1,12 @@
 
+[[term, term]]
 == 5. Term (Anbefalt, Tillatt, Frarådet term, Datastrukturterm)
 
 Dette kapitlet omhandler egenskapene til en term: Om en term er en
 ‘anbefalt term’, en ‘tillatt term’, en ‘frarådet term’, eller en
 ‘datastrukturterm’.
 
+[[anbefalt, anbefalt]]
 === 5.1. Anbefalt term
 
 *Hensikt*:
@@ -50,7 +52,7 @@ begrep.
 
 *Eksempler*:
 
-Se eksemplene under link:#anbefalt-term[[.underline]#anbefalt term#].
+Se eksemplene under <<anbefalt, anbefalt term>>.
 
 === 5.3. Frarådet term
 

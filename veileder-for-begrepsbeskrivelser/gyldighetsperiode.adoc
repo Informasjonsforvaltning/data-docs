@@ -1,4 +1,5 @@
 
+[[gyldighetsperiode, gyldighetsperiode]]
 == 8. Gyldighetsperiode, dato sist oppdatert, erstatter og erstattes av
 
 *Hensikt*:
@@ -74,7 +75,7 @@ Begrepsbeskrivelser som ennå ikke skal tre i kraft, bør tydeliggjøres
 ved å bruke gyldighetsperiode som er frem i tid.
 
 Dersom et begrep har et tilknyttet omfang (se
-link:#omfang-og-eksempel[[.underline]#forklaring på omfang#]), er det
+<<omfang, forklaring på omfang>>), er det
 viktig at gyldighetsperioden for ‘omfang’ ivaretas der ‘omfang’
 forvaltes (f.eks. der URIen skal peke på). Gyldighetsperioden for et
 begrep endrer seg vanligvis ikke selv om gyldighetsperioden for ‘omfang’

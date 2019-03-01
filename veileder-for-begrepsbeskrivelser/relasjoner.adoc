@@ -24,13 +24,13 @@ skal en alltid forklare i en tekst hva denne relasjonen går ut på.
 
 *Eksempler*:
 
-* _*Generisk begrepsrelasjon*_: ‘bartre’ - ‘gran’ (‘gran’ er en
+* *Generisk begrepsrelasjon*: ‘bartre’ - ‘gran’ (‘gran’ er en
 spesifisering/underbegrep av ‘bartre’ - har alle egenskapene til bartre,
 pluss noen i tillegg); innenfor fagområdet ‘Inntekts- og formuesskatt’
 er ‘lønn’, ‘honorar’, ‘feriepenger’ alle spesialiseringer/underbegreper
 av det mere generiske begrepet ‘arbeidsinntekt’.
 
-* _*Partitiv begrepsrelasjon*_: En ‘studiesøknad’ (helheten) kan f.eks. ha
+* *Partitiv begrepsrelasjon*: En ‘studiesøknad’ (helheten) kan f.eks. ha
 delene ‘studieønske’ og ‘vitnemål’.
 
-* _*Assosiativ begrepsrelasjon*_: brann–røykutvikling (årsak–virkning).
+* *Assosiativ begrepsrelasjon*: brann–røykutvikling (årsak–virkning).
