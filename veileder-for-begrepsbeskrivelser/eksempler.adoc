@@ -6,7 +6,7 @@ henhold til _Forvaltningsstandard for begrepsbeskrivelser, versjon 2.0_.
 
 === 2.1. Beskrivelse av et begrep, med kun obligatoriske felter
 
-[cols=",",options="header",]
+[cols=","]
 |===
 
 2+|Et informativt eksempel på en beskrivelse av et begrep, ved å bruke kun
@@ -27,7 +27,7 @@ sentralbyrå)
 
 === 2.2. Beskrivelse av et begrep, også med noen valgfrie felter
 
-[cols=",",options="header",]
+[cols=","]
 |===
 
 2+|Et informativt eksempel som illustrerer bruk av flere felter fra
