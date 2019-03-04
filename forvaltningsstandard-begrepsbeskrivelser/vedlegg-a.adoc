@@ -1,9 +1,9 @@
 [[vedlegga, vedlegg A]]
 == Vedlegg A (normativt) - UML-modell som beskriver krav til innhold i beskrivelse av begreper og begrepssamlinger
 
-image::images/UML-v2.0.jpg[]
+image::images/UML-v2.0.png[]
 Last ned modell:
-link:images/UML-v2.0.jpg[jpg] |
+link:images/UML-v2.0.png[png] |
 link:files/StandardForBegrepsbeskrivelse.xsd[xsd]
 
 [[uriA, URI]]
