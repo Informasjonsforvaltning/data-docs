@@ -1,0 +1,120 @@
+
+[[gyldighetsperiode, gyldighetsperiode]]
+== 8. Gyldighetsperiode, dato sist oppdatert, erstatter og erstattes av
+
+*Hensikt*:
+
+Gyldighetsperiode brukes for å informere om hvilken tidsperiode en gitt
+begrepsbeskrivelse er gyldig for. At en begrepsbeskrivelse er gyldig,
+betyr at det er den gitte anbefalte termen og definisjonen som gjelder i
+(gyldighets)perioden. Dersom en har et begrep A som har én definisjon i
+perioden 2015–2016, og så justerer definisjonen i 2017, vil begrep A ha
+to gyldighetsperioder hvorav den siste er gjeldende. Dersom en i 2017
+skal arbeide med et datasett som dekker 2015, vil en bruke definisjonen
+som gjaldt for gyldighetsperioden 2015–2016.
+
+*Anbefaling*:
+
+Alle egenskaper ved en begrepsbeskrivelse kan endres. Endringene bør
+datostemples ved å bruke egenskapen dato sist oppdatert.
+
+Det er den som er faglig ansvarlig for et begrep, som bestemmer når det
+er nødvendig å definere en ny gyldighetsperiode eller når endringene er
+så store at man ikke vil lage en ny gyldighetsperiode for begrepet, men
+må etablere et nytt begrep.
+
+Det finnes ikke fasitsvar på hva som skal velges, men man bør vurdere
+blant annet følgende når man vurderer om det er behov for å opprette en
+ny gyldighetsperiode eller et nytt begrep:
+
+* Følgende endringer, alene, trenger som regel ikke å medføre oppretting
+av ny gyldighetsperiode:
+
+** retting av skrivefeil eller mindre redaksjonelle justeringer i den
+anbefalte termen og/eller i definisjonen;
+
+** endringer i andre egenskapene enn definisjon, anbefalt term og
+begrepsrelasjoner.
+
+* Ved følgende endringer bør man vurdere å opprette en ny
+gyldighetsperiode, forutsatt at man fremdeles snakker om
+[.underline]#samme begrep#:
+
+** en ny term blir valgt som den anbefalte term;
+
+** større justeringer i definisjonen;
+
+** endring av utvalgskriterier/beregningsmetoder/o.l.;
+
+** endring i begrepsrelasjoner tilknyttet begrepet, spesielt generiske
+og/eller partitive begrepsrelasjoner, som ikke medfører at det egentlig
+er et annet begrep man snakker om.
+
+* Ved følgende endringer bør man vurdere å opprette et nytt begrep:
+
+** større endringer i definisjonen som gjør at man egentlig snakker om et
+annet begrep;
+
+** endring i begrepsrelasjoner tilknyttet begrepet (se også forrige punkt),
+spesielt generiske og/eller partitive begrepsrelasjoner;
+
+** større endringer i regimet for håndtering av data som begrepet
+representerer;
+
+** større endringer i regelverket som regulerer anvendelsen av begrepet.
+
+
+Når man vurderer at endringene er så store at man snakker om et annet
+begrep, skal det opprettes et nytt begrep som dermed får sin egen unike
+identifikator (URI). Relasjonene _erstatter_ og _erstattes av_ kan
+brukes til å relatere det nye til det gamle begrepet. Relasjonene
+_erstatter_ og _erstattes av_ skal ikke brukes mellom gyldighetsperioder
+for samme begrep.
+
+Begrepsbeskrivelser som ennå ikke skal tre i kraft, bør tydeliggjøres
+ved å bruke gyldighetsperiode som er frem i tid.
+
+Dersom et begrep har et tilknyttet omfang (se
+<<omfang, forklaring på omfang>>), er det
+viktig at gyldighetsperioden for ‘omfang’ ivaretas der ‘omfang’
+forvaltes (f.eks. der URIen skal peke på). Gyldighetsperioden for et
+begrep endrer seg vanligvis ikke selv om gyldighetsperioden for ‘omfang’
+endrer seg. Et eksempel er begrepet ‘sivilstand’ som per definisjon er
+“en persons stilling i forhold til ekteskapslovgivningen”. Verken term
+eller definisjon har endret seg på dette begrepet, men omfang har to
+ulike gyldighetsperioder: en som varte frem til 1993, og en ny f.o.m.
+1993 da partnerskap ble inkludert i omfang.
+
+*Eksempler*:
+
+*Eksempel 1*: Det ble opprettet en ny gyldighetsperiode for begrepet
+‘landbakgrunn’ da definisjonen ble justert i 2003.
+
+Fra 1994 til 2003 var ‘landbakgrunn’ definert som “For personer født i
+utlandet, er dette (med noen få unntak) eget fødeland. For personer født
+i Norge er det foreldrenes fødeland. I de tilfeller der foreldrene har
+ulikt fødeland, er det morens fødeland som blir valgt.”
+
+I 2003 ble definisjonen justert til: “For personer født i utlandet, er
+dette (med noen få unntak) eget fødeland. For personer født i Norge er
+det foreldrenes fødeland. I de tilfeller der foreldrene har ulikt
+fødeland, er det morens fødeland som blir valgt. Hvis ikke personen selv
+eller noen av foreldrene er utenlandsfødt, hentes landbakgrunn fra de
+første utenlandsfødte en treffer på i rekkefølgen mormor, morfar, farmor
+eller farfar.”
+
+Fagansvarlig anså at denne justeringen av definisjon ikke var stor nok
+til å etablere et nytt begrep, det var kun presiseringen som endret seg,
+ikke det semantiske innholdet som sådan.
+
+*Eksempel 2*: I forbindelse med ny skatteforvaltningslov innførte
+lovgiver et begrep ‘skattemelding for formues- og inntektsskatt’, som i
+stor grad dekker innholdet i begrepet ‘selvangivelse’ som var det
+gjeldende frem til da. Men i og med at innføringen av ny
+skatteforvaltningslov også medførte innføring av prinsippet for
+egenfastsetting som hovedprinsipp (i motsetning til før, da
+myndighetsfastsetting var hovedprinsippet) samt endrede regimer for
+klageadgang og tilhørende praktiske rutiner, valgte Skatteetaten da å
+anse ‘skattemelding for formues- og inntektsskatt’ som et helt nytt
+begrep og ikke som en ny gyldighetsperiode for det gamle begrepet
+‘selvangivelse’, selv om begrepsomfanget i stor grad var det samme.

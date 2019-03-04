@@ -1,0 +1,66 @@
+
+== 3. Begrep - term - definisjon - referent
+
+*Hensikt*:
+
+Beskrivelsen er tatt med for å hjelpe brukeren til å skille mellom
+begrep, term og definisjon i utarbeiding av termlister og i arbeid med
+begrepsanalyse, begrepsbeskrivelser, begrepskoordinering og
+-harmonisering.
+
+*Anbefaling*:
+
+Man bør bygge arbeidet på de grunnleggende, terminologiske begrepene
+presentert i
+https://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf[[.underline]#Termlosen#],
+og framstilt i en tilpasset og utvidet versjon av den semiotiske
+trekanten fra språkvitenskapen (se figur 1).
+
+Et _begrep_ (_omgrep_ på nynorsk) viser til meningsinnholdet, altså
+betydningen, mens en _term_ viser til selve navnet, «den språklige
+merkelappen», man fester til begrepet.
+
+
+
+.Forholdet mellom begrep, term, definisjon og referent (fra http://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf[[.underline]#Termlosen#], omgrep er nynorsk for _begrep_ på bokmål)
+[caption="Figur 1: "]
+image::https://github.com/difi/data-docs/blob/master/veileder-for-begrepsbeskrivelser/begrep.png?raw=true[]
+
+Når vi omtaler et begrep, benytter vi oss av termer (se <<term, forklaring på term>>). I noen tilfeller benytter vi oss av flere ulike termer for
+samme begrep. De er synonymer. Termer fra ulike språk kan også vise til
+samme begrep, som _tre, tree, arbre_ og _Baum_ i figur 1. De er
+ekvivalente termer.
+
+Ifølge konvensjonene skriver man _termen_ i kursiv og ‘begrepet’ mellom
+enkle anførselstegn når man ønsker å skille mellom dem.
+
+Denne standarden legger til grunn begreper som er allmenne
+(allmennbegreper), dvs. ikke begreper som er knyttet til et produkt, en
+organisasjon eller virksomhet, en person, en publikasjon osv. Derfor
+omfatter standarden heller ikke termer som er egennavn, produktnavn
+eller liknende.
+
+Begrepet trer frem og blir forklart gjennom en definisjon (se <<definisjon ,forklaring på definisjon>>). En definisjon er en beskrivelse av begrepet som forklarer
+hva det betyr. Ifølge terminologisk teori skal denne beskrivelsen
+avgrense begrepet mot beslektede begreper.
+
+Referenten viser til de konkrete tingene ute i verden eller spesifikke
+abstrakte fenomener.
+
+*Eksempler*:
+
+Termene _tre, tree, arbre_ og _Baum_ viser til begrepet ‘tre’ (se figur
+1). Definisjonen lyder “vedplante med meir eller mindre høg og kraftig
+stamme, og greiner som går ut frå denne og ber kvister med blad (nåler),
+blomstrar og frukter” (Kilde:
+https://www.nb.no/items/f9708e6c01cc89e9843cc90db97babc8?page=0&searchText=norsk%20landbruksordbok[Norsk landbruksordbok (1979)]). Denne definisjonen avgrenser ‘tre’ mot andre
+beslektede begreper, f.eks. ‘plante’, ‘bartre’ og ‘løvtre’. Referentene
+er trærne vi ser i skogen, parker etc.
+
+Termene _risikodekning, risikopensjon og risikoforsikring_ viser til
+samme begrep (‘risikodekning’) i
+https://www.finansnorge.no/ordliste/?pageid=42026#p42026[Finans Norges termliste for pensjon]. Anbefalt term er _risikodekning_, mens
+_risikopensjon_ og _risikoforsikring_ er tillatte termer (synonymer).
+Definisjonen lyder “tilleggsforsikring til en alderspensjonsavtale som
+gir utbetaling ved uførhet og/eller død”. Referentene er den konkrete
+risikodekningen som hver og en av oss tegner med et forsikringsselskap.

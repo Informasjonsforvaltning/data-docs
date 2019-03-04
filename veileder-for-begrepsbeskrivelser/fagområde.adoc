@@ -1,0 +1,33 @@
+
+== 10. Fagområde og bruksområde
+
+*Hensikt*:
+
+Standarden går ut ifra at et begrep har sitt opphav i ett gitt
+fagområde, men kan brukes i mange forskjellige sammenhenger. Det vil da
+være det respektive fagområdet, mer presist representanter for dette
+fagområdet, som vil ha definisjonsmakten over hvordan begrepet navngis,
+defineres og beskrives. Derimot kan i prinsipp “hvem som helst” bruke
+begrepet i sine respektive bruksområder, det være seg systemer,
+dokumenter, brukergrensesnitt, lovtekster osv.
+
+For å muliggjøre denne nyanseringen mellom opphav vs. bruksområder for
+et begrep, gir standarden mulighet til å beskrive ‘fagområde’ der man
+spesifiserer hvilket fag eller domene et begrep tilhører, og
+‘bruksområde’ der man kan oppgi hvor begrepet brukes.
+
+*Anbefaling*:
+
+Både fagområde og bruksområde er valgfrie felter. Arbeidsgruppen
+anbefaler likevel at man alltid spesifiserer fagområde, fordi dette gir
+en klar og konkret kontekst for begrepet som gjør det umiddelbart
+enklere for brukerne å få en første idé om hva begrepet kan handle om.
+
+*Eksempler*:
+
+* Begrepet ‘helsetilstand’:
+
+** fagområde = helse
+
+** bruksområder (hos NAV) = hjelpemidler, trygdeytelser,
+arbeidsmarkedstiltak

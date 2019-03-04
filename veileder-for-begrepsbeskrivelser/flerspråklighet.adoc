@@ -1,0 +1,47 @@
+
+== 4. Flerspråklighet
+
+*Hensikt*:
+
+For at man skal kunne kommunisere presist om begrepene på flere enn ett
+språk, gir _Forvaltningsstandard for begrepsbeskrivelser_ mulighet til å
+spesifisere ulike språk på både term, definisjon og alternativ
+formulering:
+
+* For hver forekomst av en term, om det er en ‘anbefalt term’, en ‘tillatt
+term’ eller en ‘frarådet term’, skal man oppgi språket som termen
+gjelder for.
+
+* For hver forekomst av tekst for en ‘definisjon’ eller en ‘alternativ
+formulering’, gjelder det samme: Man skal oppgi språket som teksten
+gjelder for.
+
+På denne måten kan man beskrive et begrep i flere ulike språk.
+Standarden krever imidlertid at maksimalt én ‘anbefalt term’ er tillatt
+for hvert språk, dette for å unngå tvetydighet i kommunikasjonen.
+Tilsvarende krever standarden at maksimalt én ‘definisjon’ er tillatt
+for hvert språk.
+
+*Anbefaling*:
+
+I begrepsarbeid regnes de to målformene bokmål og nynorsk som to ulike
+språk. Det bør oppgis anbefalt term for begge målformene parallelt (selv
+om standarden krever bare én anbefalt term som minimum). Standarden
+krever som minimum én definisjon i tillegg til én anbefalt term, uten å
+si at disse bør være i samme språk/målform eller ikke. Vi anbefaler å
+oppgi som minimum én anbefalt term og én definisjon i samme
+språk/målform. F.eks. anbefalt term og definisjon på nynorsk, dette i
+tillegg til også anbefalt term på bokmål som anbefalt foran (dvs.
+fortrinnsvis ikke bare en anbefalt term på nynorsk og en definisjon på
+bokmål, en mulig kombinasjon som standarden ikke utelukker). Vi
+anbefaler med andre ord følgende for ethvert begrep: definisjon på
+nynorsk [.underline]#eller# bokmål, og anbefalt term på
+[.underline]#både# nynorsk og bokmål.
+
+Det frarådes på det sterkeste å benytte språkkoden _no_ (norsk) siden
+den ikke spesifiserer målform. Benytt heller språkkodene _nb_ (bokmål)
+og _nn_ (nynorsk).
+
+*Eksempler*:
+
+Term: _begrep_ (nb); _omgrep_ (nn); _concept_ (en)

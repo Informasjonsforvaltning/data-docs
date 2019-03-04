@@ -1,0 +1,36 @@
+
+== 9. Relasjoner mellom begreper
+
+*Hensikt*:
+
+Relasjoner brukes for å vise relevante sammenhenger mellom begreper. I
+standarden bruker vi tre ulike typer begrepsrelasjoner: generiske,
+partitive og assosiative, de samme som i
+__Termlosen__footnote:[http://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf[[.underline]#http://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf#]].
+Se
+_https://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf[[.underline]#Termlosen#]_
+for forklaring på disse relasjonstypene.
+
+Standarden sier at den assosiative begrepsrelasjonen skal presiseres i
+en tekst, og man kan oppgi inndelingskriterium for en generisk eller
+partitiv relasjon.
+
+*Anbefaling*:
+
+Det er opp til fagansvarlig å vurdere om det vil være nyttig for
+brukerne å kjenne til relasjonene (dersom disse finnes) mellom et gitt
+begrep og andre begreper. Hvis en benytter assosiativ begrepsrelasjon,
+skal en alltid forklare i en tekst hva denne relasjonen går ut på.
+
+*Eksempler*:
+
+* *Generisk begrepsrelasjon*: ‘bartre’ - ‘gran’ (‘gran’ er en
+spesifisering/underbegrep av ‘bartre’ - har alle egenskapene til bartre,
+pluss noen i tillegg); innenfor fagområdet ‘Inntekts- og formuesskatt’
+er ‘lønn’, ‘honorar’, ‘feriepenger’ alle spesialiseringer/underbegreper
+av det mere generiske begrepet ‘arbeidsinntekt’.
+
+* *Partitiv begrepsrelasjon*: En ‘studiesøknad’ (helheten) kan f.eks. ha
+delene ‘studieønske’ og ‘vitnemål’.
+
+* *Assosiativ begrepsrelasjon*: brann–røykutvikling (årsak–virkning).

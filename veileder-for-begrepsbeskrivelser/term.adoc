@@ -1,0 +1,95 @@
+
+[[term, term]]
+== 5. Term (Anbefalt, Tillatt, Frarådet term, Datastrukturterm)
+
+Dette kapitlet omhandler egenskapene til en term: Om en term er en
+‘anbefalt term’, en ‘tillatt term’, en ‘frarådet term’, eller en
+‘datastrukturterm’.
+
+[[anbefalt, anbefalt]]
+=== 5.1. Anbefalt term
+
+*Hensikt*:
+
+For å få til kommunikasjon på en enklest mulig og mest presis måte bør
+hovedregelen være å føre opp samme anbefalt term for et gitt begrep
+uavhengig av målgruppe (‘allmennheten’ eller ‘fagspesialist’). Dette har
+standarden lagt til rette for, ved at man for et begrep alltid skal
+oppgi minst én anbefalt term, men maksimalt én anbefalt term per
+språk/målform.
+
+*Anbefaling*:
+
+Det er mest ønskelig å ha en felles anbefalt term uavhengig av
+målgruppe. Dersom det ikke er mulig, så skal den faglige termen være den
+anbefalte. Termer egnet for allmennheten skal da føres som tillatte
+termer.
+
+*Eksempler*:
+
+* Anbefalt term: _term_ (faglig uttrykk, for fagspesialister)
+
+* Tillatt term: _navn_ (folkelig uttrykk, for allmennheten)
+
+
+=== 5.2. Tillatt term
+
+*Hensikt*:
+
+“Kjært barn har mange navn”. I tillegg til anbefalt term kan det være
+behov for å knytte flere termer til et gitt begrep når man vet at også
+disse brukes (eller kan brukes) i kommunikasjon om det aktuelle
+begrepet. Typiske eksempler er synonymer eller kortformtermer.
+Standarden legger til rette for dette ved at en term som også kan brukes
+på begrepet (i tillegg til den anbefalte termen), oppgis som tillatt
+term. Det kan knyttes flere tillatte termer til et begrep.
+
+*Anbefaling*:
+
+Listen over tillatte termer vil som regel ikke være uttømmende, men man
+bør oppgi termer som man vet blir brukt i kommunikasjon om et gitt
+begrep.
+
+*Eksempler*:
+
+Se eksemplene under <<anbefalt, anbefalt term>>.
+
+=== 5.3. Frarådet term
+
+*Hensikt*:
+
+For å unngå misforståelse i kommunikasjonen, bør det eksplisitt oppgis
+termer som man vet blir brukt, men ikke ønsker at skal brukes, på et
+gitt begrep. Dette er lagt til rette for i standarden, ved at man kan
+knytte en eller flere frarådde termer til et begrep.
+
+*Anbefaling*:
+
+Foreldede termer som ikke lenger skal brukes, bør oppgis som frarådde
+termer. Det samme gjelder termer som betegner begrep som egentlig betyr
+noe annet.
+
+*Eksempler*:
+
+* Ordene “begrep” og “term” skal ikke brukes om hverandre. Derfor er
+_begrep_ en frarådet term for begrepet ‘term’, og _term_ en frarådet
+term for begrepet ‘begrep’.
+
+* _Biltilsyn_ er en foreldet term (den anbefalte termen nå er
+_trafikkstasjon_), og kan med fordel føres opp som en frarådet term.
+
+=== 5.4. Datastrukturterm
+
+*Hensikt*:
+
+Benyttes for å oppgi navn som brukes i tekniske sammenhenger til eks.
+XSDer og kode, der denne avviker fra anbefalt term
+
+*Anbefaling*:
+
+Datastrukturterm som man vet ofte brukes eller skal kunne brukes i
+kommunikasjonen, bør føres opp.
+
+*Eksempler*:
+
+* assosiativRelasjon, generiskRelasjon, partitivRelasjon

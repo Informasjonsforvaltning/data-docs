@@ -1,0 +1,49 @@
+
+[[omfang, omfang]]
+== 11. Omfang og eksempel
+
+*Hensikt*:
+
+I noen tilfeller ønsker den ansvarlige virksomhet for et gitt begrep å
+regulere bruken av begrepet ved å oppgi verdiene begrepet kan anta.
+Dette er det lagt til rette for i standarden, ved at man kan knytte
+omfang (verdiområde) til et begrep. Eksempler på omfang kan være lovlige
+kodeverdier fra et kodeverk eller øvre og/eller nedre grense, f.eks.
+alle positive tall.
+
+Standarden legger også til rette for å kunne oppgi eksempler på et gitt
+begrep. Det kan benyttes til å nevne eksempler fra ‘omfang’, f.eks.
+Halden og Moss som eksempler fra listen over alle norske kommuner. Det
+kan også benyttes til å nevne eksempler på et begrep som ikke har et
+omfang, f.eks. “organisasjonsnummer”
+
+*Anbefaling*:
+
+Hva som er tillatte verdier for et datafelt kan gi nyttig informasjon
+for brukeren. Det anbefales derfor å oppgi omfang for et begrep når det
+finnes. Dersom omfanget beskrives ved et kodeverk, vil det oftest være
+mest hensiktsmessig å sette inn ei lenke til kodeverket, og ikke ta det
+med i selve begrepsbeskrivelsen.
+
+Det anbefaler ikke å ta med eksempler i selve definisjonen, men i
+eksempel.
+
+Se også under "<<gyldighetsperiode, gyldighetsperiode m.m.>>"
+for anbefalinger ang. gyldighetsperiode for beskrivelse av et begrep og
+gyldighetsperiode for omfang tilknyttet begrepet, f.eks.
+gyldighetsperiode for definisjonen av begrepet ‘kommune’ versus
+gyldighetsperiode for omfanget, dvs. lista over alle kommuner. Siden
+kommunene endrer seg over tid, vil denne lista ha ulike
+gyldighetsperioder.
+
+*Eksempler*:
+
+* _Standard for sivilstand_
+(https://www.ssb.no/klass/klassifikasjoner/19[https://www.ssb.no/klass/klassifikasjoner/19])
+oppgis som omfang for begrepet ‘sivilstand’.
+
+* Listen over alle norske kommuner kan oppgis som omfang til begrepet
+‘kommune’.
+
+* For begrepet “organisasjonsnummer” kan en bruke eksemplene 974 761 076
+(Skatteetaten) og 971 526 920 (Statistisk sentralbyrå)

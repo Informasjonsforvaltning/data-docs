@@ -1,0 +1,30 @@
+
+== 13. Begrepssamling
+
+*Hensikt*:
+
+Det kan av ulike grunner være behov for å samle sammen begreper,
+eksempelvis begreper som tilhører et gitt fagområde, begreper som
+beskriver de ulike delene av et bestemt datasett, begreper som beskriver
+en gitt digital tjeneste, eller begreper som tilhører et gitt
+bruksområde.
+
+Standarden legger til rette for å samle sammen begreper til en
+begrepssamling. Det er ikke stilt krav til at ethvert begrep må tilhøre
+minst en begrepssamling. Et begrep kan inngå i ingen, en eller flere
+begrepssamlinger.
+
+*Anbefaling*:
+
+Bruk gruppering som er hensiktsmessig for din virksomhet. Standarden
+spesifiserer ikke krav til eller kriterier for hva som er hensiktsmessig
+gruppering.
+
+*Eksempler*:
+
+* https://begrep.difi.no/SikkerDigitalPost/begrep/[https://begrep.difi.no/SikkerDigitalPost/begrep/]
+er en samling av begreper som er relevante for tjenesten sikker digital
+post.
+
+* http://www.ssb.no/nasjonalregnskap-og-konjunkturer/begreper-i-nasjonalregnskapet[http://www.ssb.no/nasjonalregnskap-og-konjunkturer/begreper-i-nasjonalregnskapet]
+er en samling av begreper i nasjonalregnskapet.

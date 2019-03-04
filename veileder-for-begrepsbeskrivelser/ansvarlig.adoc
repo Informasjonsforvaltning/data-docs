@@ -1,0 +1,29 @@
+
+== 12. Ansvarlig virksomhet og kontaktpunkt
+
+*Hensikt*:
+
+Standarden har som mål å understøtte deling av begrepsbeskrivelser
+mellom offentlige virksomheter, og dermed økt gjenbruk av hverandres
+begrepsbeskrivelser. Det er derfor viktig å oppgi hvilken virksomhet som
+er eller har vært ansvarlig for en gitt begrepsbeskrivelse. Standarden
+krever derfor at det alltid skal oppgis virksomheten som er ansvarlig
+for beskrivelse av ethvert begrep. I tillegg legger standarden til rette
+for å kunne oppgi kontaktpunkt, som kan bistå f.eks. ved spørsmål
+vedrørende forståelse eller bruk av begrepet.
+
+*Anbefaling*:
+
+Det er den virksomhet som er ansvarlig for å beskrive et gitt begrep,
+som skal oppgis. Standarden krever også at virksomhetens
+organisasjonsnummer skal brukes, hvilket betyr at ikke alle
+organisatoriske underenheter kan oppgis som den ansvarlige. Kontaktpunkt
+kan ved behov brukes til å oppgi en organisatorisk underenhet. Det
+frarådes å bruke kontaktpunkter ned til enkeltpersoner i en virksomhet.
+
+*Eksempler*:
+
+* Ansvarlig virksomhet: 974 760 673 (Brønnøysundregistrene)
+
+* Kontaktpunkt: Enhets-, Foretaks-, Frivillighets-, og Regnskapsregisteret
+ved Brønnøysundregistrene
