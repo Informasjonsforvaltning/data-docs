@@ -1,7 +1,6 @@
 include::../shared/translation.adoc[]
 
 = Forvaltningsstandard for beskrivelse av begreper - Versjon 2.0
-
 :description: Forvaltningsstandard for beskrivelse av begreper versjon 2.0
 :doctype: book
 :docinfo:
