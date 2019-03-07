@@ -37,7 +37,7 @@ Erstatter 0..* ‘<<Begrep>>’ ‘med referanse (by reference)’ +
 Erstattes av 0..* ‘<<Begrep>>’ ‘med referanse (by reference)’ +
 Inngår i 0..* ‘<<Begrepssamling>>’ ‘med referanse (by reference)’
 
-*_Attributter: _*
+*_Attributter_*:
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
