@@ -1,7 +1,8 @@
 include::../shared/translation.adoc[]
 
-= Forvaltningsstandard for beskrivelse av begreper
-:description: Forvaltningsstandard for beskrivelse av begreper
+= Forvaltningsstandard for beskrivelse av begreper - Versjon 2.0
+
+:description: Forvaltningsstandard for beskrivelse av begreper versjon 2.0
 :doctype: book
 :docinfo:
 :icons: font
@@ -22,7 +23,7 @@ include::../shared/download.adoc[]
 
 // Innhold her.
 
-WARNING: Dette dokumentet er under arbeid
+Publisert: 15.03.2019
 
 include::kap1-2.adoc[]
 include::kap3-definisjoner.adoc[]
