@@ -4,7 +4,7 @@
 image::images/UML-v2.0.png[]
 Last ned modell:
 link:images/UML-v2.0.png[png] |
-link:files/StandardForBegrepsbeskrivelse.xsd[xsd]
+link:https://raw.githubusercontent.com/difi/data-docs/master/forvaltningsstandard-begrepsbeskrivelser/files/StandardForBegrepsbeskrivelse.xsd[xsd]
 
 [[uriA, URI]]
 === A.1. Krav til bruk av standardiserte datatyper
