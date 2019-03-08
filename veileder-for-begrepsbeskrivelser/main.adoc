@@ -22,7 +22,7 @@ include::../shared/download.adoc[]
 
 // Innhold her.
 
-WARNING: Dette dokumentet er under arbeid
+Publisert: 15.03.2019
 
 include::innledning.adoc[]
 include::eksempler.adoc[]
