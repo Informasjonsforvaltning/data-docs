@@ -18,10 +18,13 @@ Merknad:: (ingen)
 === Begrep.ansvarligVirksomhet
 [properties]
 URI til definisjon:: dct:publisher
-SKOS (RDF turtle)-representasjon:: <> dct:publisher “974760673”
-Datatype (med ev. URI til definisjon):: Organisasjonsnummer eller URI
+SKOS (RDF turtle)-representasjon:: <> dct:publisher [
+a dct:Agent ;
+dct:identifier "974761076"
+]
+Datatype (med ev. URI til definisjon):: dct:Agent eller IRI
 Merknad:: Kan med fordel referere direkte til IRI for Enhetsregisteret, f.eks.
-<http:// https://data.brreg.no/enhetsregisteret/api/enheter/974760673>.
+dct:publisher <\https://data.brreg.no/enhetsregisteret/api/enheter/974760673>.
 
 === Begrep.fagområde.tekst
 [properties]
@@ -228,11 +231,11 @@ Merknad:: (ingen)
 URI til definisjon:: skosno:betydningsbeskrivelse/skosno:forholdTilKilde
 skosno:betydningsbeskrivelse/skosno:forholdTilKilde
 SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [a skosno:Definisjon [
-skosno:forholdTilKilde <http://.../sitatFraKilde> .
+skosno:forholdTilKilde <\http://.../sitatFraKilde> .
 ];
 ] .
 <> skosno:betydningsbeskrivelse [a skosno:AlternativFormulering [
-skosno:forholdTilKilde <http://.../sitatFraKilde> .
+skosno:forholdTilKilde <\http://.../sitatFraKilde> .
 ];
 ] .
 Datatype (med ev. URI til definisjon):: skos:Concept (kodeliste over forholdTilKilde, med kodeverdier skosno:sitatFraKilde, skosno:basertPåKilde og skosno:egendefinert)
@@ -243,13 +246,13 @@ Merknad:: (ingen)
 URI til definisjon:: skosno:betydningsbeskrivelse/dct:source
 SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [a skosno:Definisjon [
 dct:source [ rdfs:label “”@nb; .
-rdfs:seeAlso <http://.../> ];
+rdfs:seeAlso <\http://.../> ];
 ] .
 <> skosno:betydningsbeskrivelse [a skosno:AlternativFormulering [
 dct:source [ rdfs:label “”@nb; .
-rdfs:seeAlso <http://.../> ];
+rdfs:seeAlso <\http://.../> ];
 ] .
-Datatype (med ev. URI til definisjon):: URI
+Datatype (med ev. URI til definisjon):: Ressurs eller URI
 Merknad:: (ingen)
 
 === Betydningsbeskrivelse.kildebeskrivelse.kilde.tekst
@@ -257,13 +260,13 @@ Merknad:: (ingen)
 URI til definisjon:: skosno:betydningsbeskrivelse/dct:source/rdfs:seeAlso
 SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [a skosno:Definisjon [
 dct:source [ rdfs:label “”@nb; .
-rdfs:seeAlso <http://.../> ];
+rdfs:seeAlso <\http://.../> ];
 ] .
 <> skosno:betydningsbeskrivelse [a skosno:AltearnativFormulering [
 dct:source [ rdfs:label “”@nb; .
-rdfs:seeAlso <http://.../> ];
+rdfs:seeAlso <\http://.../> ];
 ] .
-Datatype (med ev. URI til definisjon):: rdf:Literal
+Datatype (med ev. URI til definisjon):: Ressurs eller URI
 Merknad:: (ingen)
 
 === Betydningsbeskrivelse.merknad.tekst
@@ -469,10 +472,13 @@ Merknad:: (ingen)
 [properties]
 URI til definisjon:: dct:publisher
 SKOS (RDF turtle)-representasjon:: <> a
-skos:Collection ; dct:publisher “974760673” .
+skos:Collection ; dct:publisher [
+a dct:Agent ;
+dct:identifier "974761076"
+]
 Datatype (med ev. URI til definisjon):: Organisasjonsnummer
 Merknad:: Kan med fordel referere direkte til IRI for Enhetsregisteret, f.eks.
-<http:// https://data.brreg.no/enhetsregisteret/enhet/974760673>.
+dct:publisher <\https://data.brreg.no/enhetsregisteret/enhet/974760673>.
 
 === Begrepssamling.beskrivelse
 [properties]
