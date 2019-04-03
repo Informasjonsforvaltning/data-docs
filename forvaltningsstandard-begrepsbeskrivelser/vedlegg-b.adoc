@@ -26,4 +26,4 @@ De viktigste endringene fra versjon 1 til denne versjonen (versjon 2.0) av stand
 ** ‘tillatt term’ og ‘frarådet term’, som var implisitt tatt med i “ytterligere utvidelser” i forrige versjon.
 ** ‘alternativ formulering’ (bl.a. med hensyn til “klarspråk”), ‘målgruppe’, ‘bruksområde’, ‘eksempel’, ‘datastrukturterm’.
 * Noen navn er endret, f.eks. _omfang_ i denne versjonen istedenfor _klassifikasjon_ i forrige, _gyldig fra og med_ hhv. _gyldig til og med_ i denne versjonen istedenfor _gyldig fra_ hhv. _gyldig til_ i forrige.
-Denne versjonen spesifiserer også krav til begrepssamling som er valgfri.
+* Denne versjonen spesifiserer også krav til begrepssamling som er valgfri.
