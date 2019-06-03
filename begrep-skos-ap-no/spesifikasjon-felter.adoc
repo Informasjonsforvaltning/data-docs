@@ -116,7 +116,7 @@ Merknad:: (ingen)
 === Begrep.datastrukturterm
 [properties]
 URI til definisjon:: skosno:datastrukturterm
-SKOS (RDF turtle)-representasjon:: <> skosno:Datastrutkurterm
+SKOS (RDF turtle)-representasjon:: <> skosno:Datastrukturterm
 Datatype (med ev. URI til definisjon):: URI
 Merknad:: (ingen)
 
