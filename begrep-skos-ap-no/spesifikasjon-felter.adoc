@@ -12,7 +12,7 @@ Merknad:: (ingen)
 [properties]
 URI til definisjon:: dct:identifier
 SKOS (RDF turtle)-representasjon:: <> dct:identifier “identifikator”
-Datatype (med ev. URI til definisjon):: rdf:Literal
+Datatype (med ev. URI til definisjon):: URI
 Merknad:: (ingen)
 
 === Begrep.ansvarligVirksomhet
@@ -22,8 +22,8 @@ SKOS (RDF turtle)-representasjon:: <> dct:publisher [
 a dct:Agent ;
 dct:identifier "974761076"
 ]
-Datatype (med ev. URI til definisjon):: dct:Agent eller IRI
-Merknad:: Kan med fordel referere direkte til IRI for Enhetsregisteret, f.eks.
+Datatype (med ev. URI til definisjon):: dct:Agent eller URI
+Merknad:: Kan med fordel referere direkte til URI for Enhetsregisteret, f.eks.
 dct:publisher <\https://data.brreg.no/enhetsregisteret/api/enheter/974760673>.
 
 === Begrep.fagområde.tekst
@@ -49,7 +49,7 @@ Merknad:: Language-tagged string
 
 === Begrep.bruksområde.språkMålform
 [properties]
-URI til definisjon:: skosno:bruksområd
+URI til definisjon:: skosno:bruksområde
 SKOS (RDF turtle)-representasjon:: <> skosno:bruksområde “”@nb .
 Datatype (med ev. URI til definisjon):: (ingen)
 Merknad:: (ingen)
@@ -116,14 +116,14 @@ Merknad:: (ingen)
 === Begrep.datastrukturterm
 [properties]
 URI til definisjon:: skosno:datastrukturterm
-SKOS (RDF turtle)-representasjon:: <> skosno:datastrutkurterm
-Datatype (med ev. URI til definisjon):: rdf:Literal
+SKOS (RDF turtle)-representasjon:: <> skosno:Datastrutkurterm
+Datatype (med ev. URI til definisjon):: URI
 Merknad:: (ingen)
 
 === Begrep.alternativFormulering
 [properties]
-URI til definisjon:: skosno:alternativFormulering
-SKOS (RDF turtle)-representasjon:: <> skosno:alternativFormulering “”@nb .
+URI til definisjon:: skosno:AlternativFormulering
+SKOS (RDF turtle)-representasjon:: <> skosno:AlternativFormulering “”@nb .
 Datatype (med ev. URI til definisjon):: rdf:Literal
 Merknad:: (ingen)
 
@@ -174,6 +174,12 @@ Merknad:: (ingen)
 URI til definisjon:: skosxl:literalForm
 SKOS (RDF turtle)-representasjon:: <> skosxl:prefLabel [a skosxl:Label ;
 skosxl:literalForm “”@nb ; ] .
+<> skosxl:altLabel [a skosxl:Label ;
+skosxl:literalForm “”@nb ; ] .
+<> skosxl:hiddenLabel [a skosxl:Label ;
+skosxl:literalForm “”@nb ; ] .
+<> skosno:Datastrukturterm [a skosxl:Label ;
+skosxl:literalForm “”@nb ; ] .
 Datatype (med ev. URI til definisjon):: rdf:Literal
 Merknad:: (ingen)
 
@@ -182,32 +188,41 @@ Merknad:: (ingen)
 URI til definisjon:: skosxl:literalForm
 SKOS (RDF turtle)-representasjon:: <> skosxl:prefLabel [a skosxl:Label ;
 skosxl:literalForm “”@nb ; ] .
+<> skosxl:altLabel [a skosxl:Label ;
+skosxl:literalForm “”@nb ; ] .
+<> skosxl:hiddenLabel [a skosxl:Label ;
+skosxl:literalForm “”@nb ; ] .
+<> skosno:Datastrukturterm [a skosxl:Label ;
+skosxl:literalForm “”@nb ; ] .
 Datatype (med ev. URI til definisjon):: rdf:Literal
 Merknad:: Language-tagged string
 
 === Term.sistOppdatert
 [properties]
 URI til definisjon:: dct:modified
-SKOS (RDF turtle)-representasjon:: <> skosxl:prefLabel [a skos:Label ; dct:modified “”^^xsd:Date ] .
-Datatype (med ev. URI til definisjon):: xsd:Date
+SKOS (RDF turtle)-representasjon:: <> skosxl:prefLabel [a skosxl:Label ; dct:modified “”^^xsd:date ] . 
+<> skosxl:altLabel [a skosxl:Label ; dct:modified “”^^xsd:date ] . 
+<> skosxl:hiddenLabel [a skosxl:Label ; dct:modified “”^^xsd:date ] . 
+<> skosno:Datastrukturterm [a skosxl:Label ; dct:modified “”^^xsd:date ] . 
+Datatype (med ev. URI til definisjon):: xsd:date
 Merknad:: (ingen)
 
 === TillattTerm.målgruppe
 [properties]
 URI til definisjon:: dct:audience
-SKOS (RDF turtle)-representasjon:: <> skosxl:altLabel [a skos:label ; dct:audience <>
+SKOS (RDF turtle)-representasjon:: <> skosxl:altLabel [a skosxl:Label ; dct:audience <>
 ] .
 Datatype (med ev. URI til definisjon):: skos:Concept (kodeliste over målgruppe, med kodeverdiene skosno:allmennhenten og skosno:fagspesialist)
 Merknad:: (ingen)
 
 === Betydningsbeskrivelse.tekst.tekst
 [properties]
-URI til definisjon:: skosno:betydningsbeskrivelse
-SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [
+URI til definisjon:: skosno:Betydningsbeskrivelse
+SKOS (RDF turtle)-representasjon:: <> skosno:Betydningsbeskrivelse [
 a skosno:Definisjon ;
 rdfs:label ""@nb ;
 ] .
-<> skosno:betydningsbeskrivelse [ a skosno:alternativFormulering ;
+<> skosno:Betydningsbeskrivelse [ a skosno:alternativFormulering ;
 rdfs:label ””@nb;
 ] .
 Datatype (med ev. URI til definisjon):: (ingen)
@@ -216,11 +231,11 @@ skosno:Definisjon skosno:AlternativFormulering
 
 === Betydningsbeskrivelse.tekst.språkMålform
 [properties]
-URI til definisjon:: skosno:betydningsbeskrivelse/rdfs:label
-SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [a skosno:Definisjon ;
+URI til definisjon:: skosno:Betydningsbeskrivelse/rdfs:label
+SKOS (RDF turtle)-representasjon:: <> skosno:Betydningsbeskrivelse [a skosno:Definisjon ;
 rdfs:label ””@nb;
 ] .
-<> skosno:betydningsbeskrivelse [a kosno:AlternativFormulering ;
+<> skosno:Betydningsbeskrivelse [a kosno:AlternativFormulering ;
 rdfs:label ””@nb;
 ] .
 Datatype (med ev. URI til definisjon):: (ingen)
@@ -228,13 +243,12 @@ Merknad:: (ingen)
 
 === Betydningsbeskrivelse.kildebeskrivelse.forholdTilKilde
 [properties]
-URI til definisjon:: skosno:betydningsbeskrivelse/skosno:forholdTilKilde
-skosno:betydningsbeskrivelse/skosno:forholdTilKilde
-SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [a skosno:Definisjon [
+URI til definisjon:: skosno:Betydningsbeskrivelse/skosno:forholdTilKilde
+SKOS (RDF turtle)-representasjon:: <> skosno:Betydningsbeskrivelse [a skosno:Definisjon [
 skosno:forholdTilKilde <\http://.../sitatFraKilde> .
 ];
 ] .
-<> skosno:betydningsbeskrivelse [a skosno:AlternativFormulering [
+<> skosno:Betydningsbeskrivelse [a skosno:AlternativFormulering [
 skosno:forholdTilKilde <\http://.../sitatFraKilde> .
 ];
 ] .
@@ -243,12 +257,12 @@ Merknad:: (ingen)
 
 === Betydningsbeskrivelse.kildebeskrivelse.kilde.URI
 [properties]
-URI til definisjon:: skosno:betydningsbeskrivelse/dct:source
-SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [a skosno:Definisjon [
+URI til definisjon:: skosno:Betydningsbeskrivelse/dct:source
+SKOS (RDF turtle)-representasjon:: <> skosno:Betydningsbeskrivelse [a skosno:Definisjon [
 dct:source [ rdfs:label “”@nb; .
 rdfs:seeAlso <\http://.../> ];
 ] .
-<> skosno:betydningsbeskrivelse [a skosno:AlternativFormulering [
+<> skosno:Betydningsbeskrivelse [a skosno:AlternativFormulering [
 dct:source [ rdfs:label “”@nb; .
 rdfs:seeAlso <\http://.../> ];
 ] .
@@ -257,12 +271,12 @@ Merknad:: (ingen)
 
 === Betydningsbeskrivelse.kildebeskrivelse.kilde.tekst
 [properties]
-URI til definisjon:: skosno:betydningsbeskrivelse/dct:source/rdfs:seeAlso
-SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [a skosno:Definisjon [
+URI til definisjon:: skosno:Betydningsbeskrivelse/dct:source/rdfs:seeAlso
+SKOS (RDF turtle)-representasjon:: <> skosno:Betydningsbeskrivelse [a skosno:Definisjon [
 dct:source [ rdfs:label “”@nb; .
 rdfs:seeAlso <\http://.../> ];
 ] .
-<> skosno:betydningsbeskrivelse [a skosno:AltearnativFormulering [
+<> skosno:Betydningsbeskrivelse [a skosno:AltearnativFormulering [
 dct:source [ rdfs:label “”@nb; .
 rdfs:seeAlso <\http://.../> ];
 ] .
@@ -271,11 +285,11 @@ Merknad:: (ingen)
 
 === Betydningsbeskrivelse.merknad.tekst
 [properties]
-URI til definisjon:: skosno:betydningsbeskrivelse/skos:scopeNote
-SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [a skosno:Definisjon ;
+URI til definisjon:: skosno:Betydningsbeskrivelse/skos:scopeNote
+SKOS (RDF turtle)-representasjon:: <> skosno:Betydningsbeskrivelse [a skosno:Definisjon ;
 skos:skopeNote “”@nb;.
 ] .
-<> skosno:betydningsbeskrivelse [a skosno:AlternativFormulering ;
+<> skosno:Betydningsbeskrivelse [a skosno:AlternativFormulering ;
 skos:skopeNote “”@nb;.
 ] .
 Datatype (med ev. URI til definisjon):: rdf:Literal
@@ -285,11 +299,11 @@ Note that no domain is stated for the SKOS documentation properties. Thus, the e
 
 === Betydningsbeskrivelse.merknad.språkMålform
 [properties]
-URI til definisjon:: skosno:betydningsbeskrivelse/skos:scopeNote
-SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [a skosno:Definisjon ;
+URI til definisjon:: skosno:Betydningsbeskrivelse/skos:scopeNote
+SKOS (RDF turtle)-representasjon:: <> skosno:Betydningsbeskrivelse [a skosno:Definisjon ;
 skos:scopeNote “”@nb;.
 ] .
-<> skosno:betydningsbeskrivelse [a skosno:AlternativFormulering ;
+<> skosno:Betydningsbeskrivelse [a skosno:AlternativFormulering ;
 skos:scopeNote “”@nb;.
 ] .
 Datatype (med ev. URI til definisjon):: rdf:Literal
@@ -313,23 +327,23 @@ Merknad:: (ingen)
 [properties]
 URI til definisjon:: skosno:omfang
 SKOS (RDF turtle)-representasjon:: <> skosno:omfang <> .
-Datatype (med ev. URI til definisjon):: IRI
-Merknad:: RDF Term (Literal or IRI)
+Datatype (med ev. URI til definisjon):: URI
+Merknad:: RDF Term (Literal or URI)
 
 === Betydningsbeskrivelse.omfang.tekst
 [properties]
 URI til definisjon:: skosno:omfang
 SKOS (RDF turtle)-representasjon:: <> skosno:omfang “”@nb .
 Datatype (med ev. URI til definisjon):: rdf:Literal
-Merknad:: RDF Term (Literal or IRI)
+Merknad:: RDF Term (Literal or URI)
 
 === Betydningsbeskrivelse.målgruppe
 [properties]
-URI til definisjon:: skosno:betydningsbeskrivelse/dct:audience
-SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [a skosno:Definisjon ;
+URI til definisjon:: skosno:Betydningsbeskrivelse/dct:audience
+SKOS (RDF turtle)-representasjon:: <> skosno:Betydningsbeskrivelse [a skosno:Definisjon ;
 dct:audience “”@nb;.
 ] .
-<> skosno:betydningsbeskrivelse [a skosno:AlternativFormulering ;
+<> skosno:Betydningsbeskrivelse [a skosno:AlternativFormulering ;
 dct:audience “”@nb;.
 ] .
 Datatype (med ev. URI til definisjon):: skos:Concept (kodeliste over målgruppe, med kodeverdier: skosno:allmennheten og skosno:fagspesialist)
@@ -337,11 +351,11 @@ Merknad:: (ingen)
 
 === Betydningsbeskrivelse.sistOppdatert
 [properties]
-URI til definisjon:: skosno:betydningsbeskrivelse/dct:modified
-SKOS (RDF turtle)-representasjon:: <> skosno:betydningsbeskrivelse [a skosno:Definisjon
+URI til definisjon:: skosno:Betydningsbeskrivelse/dct:modified
+SKOS (RDF turtle)-representasjon:: <> skosno:Betydningsbeskrivelse [a skosno:Definisjon
 dct:modified “”^^xsd:Date;.
 ] .
-<> skosno:betydningsbeskrivelse [a skosno:AlternativFormulering
+<> skosno:Betydningsbeskrivelse [a skosno:AlternativFormulering
 dct:modified “”^^xsd:Date;.
 ] .
 Datatype (med ev. URI til definisjon):: xsd:Date
@@ -403,7 +417,7 @@ Merknad:: (ingen)
 URI til definisjon:: skosno:begrepsrelasjon/dct:description
 SKOS (RDF turtle)-representasjon:: <>
 skosno:begrepsrelasjon [ a skosno:PartitivRelasjon ;
-skosno:inndelingsKkriterium “”@nb;.
+skosno:inndelingskriterium “”@nb;.
 ] .
 Datatype (med ev. URI til definisjon):: rdf:Literal
 Merknad:: (ingen)
@@ -477,7 +491,7 @@ a dct:Agent ;
 dct:identifier "974761076"
 ]
 Datatype (med ev. URI til definisjon):: Organisasjonsnummer
-Merknad:: Kan med fordel referere direkte til IRI for Enhetsregisteret, f.eks.
+Merknad:: Kan med fordel referere direkte til URI for Enhetsregisteret, f.eks.
 dct:publisher <\https://data.brreg.no/enhetsregisteret/enhet/974760673>.
 
 === Begrepssamling.beskrivelse
