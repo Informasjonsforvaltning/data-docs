@@ -1,14 +1,14 @@
 
-= Innledning
+== Innledning
 
-== Formål, omfang og avgrensninger
+=== Formål, omfang og avgrensninger
 
 Formålet med dette dokumentet er å gi veiledning i felles definisjoner på og måleverktøy for kvantifiserbar kvalitet på datasett. Et felles sett med definisjoner og måleverktøy vil skape en unison beskrivelse og forståelse av datakvalitet på tvers av virksomheter. Hensikten er ikke å utelukke andre måter å beskrive datakvalitet på enn disse presentert i dette dokumentet. Man står fritt til å supplere med andre typer kvalitetsmål i kvalitetsbeskrivelsen.
 
 I henhold til https://doc.difi.no/data/kvalitet-pa-datasett/#_standardisert_metode_for_%C3%A5_beskrive_kvalitet_p%C3%A5_datasett[Spesifikasjon for beskrivelse av kvalitet] på datasett er det flere ulike måter å beskrive kvalitet på et datasett på: 
 
 * Kvantifiserbar kvantifiserbar kvalitet
-* Ikkeikke-kvantifiserbar kvalitet
+* Ikke-kvantifiserbar kvalitet
 * Kvalitet kvalitet i samsvar med gitt(e) standard(er)/spesifikasjon(er)
 * Brukertilbakemeldinger brukertilbakemeldinger knyttet til kvalitet
 
@@ -16,14 +16,15 @@ Spesifikasjonen foreslo også å predefinere kvalitetsdimensjoner, kvalitetsdeld
 
 Dette er ikke en veileder for datakvalitetsarbeidet generelt. Veilederen forklarer hvordan datakvalitet beskrives, med fokus på å bruke predefinerte kvantifiserbare kvalitetsmål. Ved behov vil det bli utarbeidet tilsvarende veiledere for de andre måter å beskrive kvalitet på. Disse vil inngå i Rammeverk for informasjonsforvaltning. 
 
-== Målgruppe
+=== Målgruppe
+
 Målgruppen for veilederen er: 
 
 * de som skal beskrive datasett og derunder kvantifiserbar kvalitet på datasett (primær målgruppe)
 * de som leverer løsninger og verktøy for registrering og visning av denne type kvalitetsmål (primær målgruppe)
 * de som skal forstå beskrivelse av kvantifiserbar kvalitet på datasett (sekundær målgruppe). 
 
-== Sammenheng mellom relevante standarder, spesifikasjoner og denne veilederen
+=== Sammenheng mellom relevante standarder, spesifikasjoner og denne veilederen
 
 Veilederen må ses i sammenheng med Spesifikasjon for beskrivelse av kvalitet på datasett. 
 
