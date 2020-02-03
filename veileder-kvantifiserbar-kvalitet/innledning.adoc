@@ -26,17 +26,17 @@ Målgruppen for veilederen er:
 
 === Sammenheng mellom relevante standarder, spesifikasjoner og denne veilederen
 
-Veilederen må ses i sammenheng med Spesifikasjon for beskrivelse av kvalitet på datasett. 
+Veilederen må ses i sammenheng med  https://doc.difi.no/data/kvalitet-pa-datasett/[Spesifikasjon for beskrivelse av kvalitet på datasett]. 
 
 image::images/sammenheng.png[]
  
 Tegningen ovenfor illustrerer sammenhengen mellom ulike standarder og spesifikasjoner:
 
-* DCAT-AP-NO, standard for beskrivelse av datakataloger og datasett: Denne spesifiserer bl.a. hvordan datasett beskrives i en datakatalog, deriblant hvordan en beskrivelse av kvantifiserbar kvalitet knyttes til beskrivelsen av et datasett. 
+* https://doc.difi.no/dcat-ap-no/[DCAT-AP-NO], standard for beskrivelse av datakataloger og datasett: Denne spesifiserer bl.a. hvordan datasett beskrives i en datakatalog, deriblant hvordan en beskrivelse av kvantifiserbar kvalitet knyttes til beskrivelsen av et datasett. 
 
 NOTE: DCAT-AP-NO er i skrivende stund under revisjon, bl.a. for å kunne ta hensyn til beskrivelse av kvalitet.
 
-* Spesifikasjon for beskrivelse av kvalitet på datasett (basert på DQV): Denne spesifiserer hvordan kvalitet på datasett beskrives, bl.a. å knytte kvalitetsbeskrivelse til kvalitetsdimensjon.
+* https://doc.difi.no/data/kvalitet-pa-datasett/[Spesifikasjon for beskrivelse av kvalitet på datasett] (basert på DQV): Denne spesifiserer hvordan kvalitet på datasett beskrives, bl.a. å knytte kvalitetsbeskrivelse til kvalitetsdimensjon.
 
 NOTE: Spesifikasjonen vil bli justert etter revisjon av DCAT-AP-NO. 
 
