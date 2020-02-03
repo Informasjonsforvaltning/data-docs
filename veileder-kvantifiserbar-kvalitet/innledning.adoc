@@ -5,7 +5,7 @@
 
 Formålet med dette dokumentet er å gi veiledning i felles definisjoner på og måleverktøy for kvantifiserbar kvalitet på datasett. Et felles sett med definisjoner og måleverktøy vil skape en unison beskrivelse og forståelse av datakvalitet på tvers av virksomheter. Hensikten er ikke å utelukke andre måter å beskrive datakvalitet på enn disse presentert i dette dokumentet. Man står fritt til å supplere med andre typer kvalitetsmål i kvalitetsbeskrivelsen.
 
-I henhold til https://doc.difi.no/data/kvalitet-pa-datasett/#_standardisert_metode_for_%C3%A5_beskrive_kvalitet_p%C3%A5_datasett[Spesifikasjon for beskrivelse av kvalitet] på datasett er det flere ulike måter å beskrive kvalitet på et datasett på: 
+I henhold til https://doc.difi.no/data/kvalitet-pa-datasett/[Spesifikasjon for beskrivelse av kvalitet på datasett]. er det flere ulike måter å beskrive kvalitet på et datasett på: 
 
 * Kvantifiserbar kvantifiserbar kvalitet
 * Ikke-kvantifiserbar kvalitet
