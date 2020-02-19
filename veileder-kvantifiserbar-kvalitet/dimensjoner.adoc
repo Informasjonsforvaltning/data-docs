@@ -15,7 +15,7 @@ For eksempeldatasettet «Bygninger» vet man at det statistisk sett tar ca. 25 d
 
 == Kvalitetsdimensjonen «konsistens»
 
-Kvalitetsdimensjonen konsistens gjelder konsistens innad i ett og samme datasett, og ikke konsistens mellom datasett. Om datasettet er i samsvar med gitte standarder og krav er ikke definert på nytt som et eget kvalitetsmål ettersom dette er dekket av DCAT-AP-NO https://doc.difi.no/dcat-ap-no/#datasett-i-samsvar-med([Datasett: i samsvar med]). Et eksempel på slik innbyrdes inkonsistens er når bruksareal er større enn bruttoareal for en bygning. 
+Kvalitetsdimensjonen konsistens gjelder konsistens innad i ett og samme datasett, og ikke konsistens mellom datasett. Om datasettet er i samsvar med gitte standarder og krav er ikke definert på nytt som et eget kvalitetsmål ettersom dette er dekket av DCAT-AP-NO https://doc.difi.no/dcat-ap-no/#datasett-i-samsvar-med[(Datasett: i samsvar med)]. Et eksempel på slik innbyrdes inkonsistens er når bruksareal er større enn bruttoareal for en bygning. 
 
 Kvalitetsdimensjonen konsistens kan i mange tilfeller lett forveksles med kvalitetsdimensjonen nøyaktighet. Det som bl.a. skiller nøyaktighet og konsistens er at når det gjelder konsistens _vet man ut fra vurdering av flere egenskaper at det er feil, men ikke hvilken eller hvilke egenskaper som er feil_ i datasettet. I eksemplet over er det ikke mulig å avgjøre om det er bruksareal eller bruttoareal (eller begge) som er feil. Når det gjelder nøyaktighet, _vet man hvilken egenskap som er feil_ (for eksempel feil identifikator). 
 
