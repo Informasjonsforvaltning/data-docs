@@ -253,9 +253,9 @@ Eksempel:: ‘’24 dager’’ (det tar i gjennomsnitt 24 dager fra en bygning 
 === Kvalitetsdimensjon «konsistens»
 [properties]
 Anbefalt term:: konsistens (bokmål), consistency (engelsk) +
-Definisjon (bokmål):: graden av at dataene har egenskaper som ikke er motsigende og som samsvarer med andre egenskaper innbyrdes i datasettet, for en spesifikk brukskontekst. Konsistens kan gjelde én eller flere sammenlignbare enheter i datasettet. +
+Definisjon (bokmål):: graden av at dataene har egenskaper som ikke er motsigende og som samsvarer med andre egenskaper innbyrdes i datasettet, for en spesifikk brukskontekst. Konsistens kan gjelde én eller flere sammenlignbare enheter i datasettet +
 Kilde til definisjon (bokmål):: ISO 25012 +
-Definisjon (engelsk):: the degree to which data has attributes that are free from contradiction and are coherent with other data in a specific context of use. It can be either or both among data regarding one entity and across similar data for comparable entities. +
+Definisjon (engelsk):: the degree to which data has attributes that are free from contradiction and are coherent with other data in a specific context of use. It can be either or both among data regarding one entity and across similar data for comparable entities +
 Kilde til definisjon (engelsk):: ISO 25012
 
 ==== Kvalitetsdeldimensjon «konsistens innad i datasett»
