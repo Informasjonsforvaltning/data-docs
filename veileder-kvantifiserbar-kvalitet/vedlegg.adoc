@@ -2,18 +2,18 @@
 == Definisjoner av kvantifiserbare kvalitetsmål [[definisjoner]]
 
 
-Redaksjonell merknad 1: Definisjonene som denne veilederen er utarbeidet for å gi veiledning for, er samlet sammen i dette vedlegg. Disse definisjonene vil bli publisert uavhengig av veilederen, og også i maskinlesbart format senere. Den endelige versjonen av veilederen vil derfor ikke inneholde definisjonene, men peke til. 
+NOTE: Redaksjonell merknad 1: Definisjonene som denne veilederen er utarbeidet for å gi veiledning for, er samlet sammen i dette vedlegg. Disse definisjonene vil bli publisert uavhengig av veilederen, og også i maskinlesbart format senere. Den endelige versjonen av veilederen vil derfor ikke inneholde definisjonene, men peke til. 
 
-Redaksjonell merknad 2: Gjennom arbeidet med å definere kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål, har man funnet det mer hensiktsmessig å bruke fullstendighet som anbefalt term for kvalitetsdimensjon fullstendighet, enn kompletthet som var foreslått i https://doc.difi.no/data/kvalitet-pa-datasett/[Spesifikasjon for beskrivelse av kvalitet på datasett]. Spesifikasjonen vil bli oppdatert senere (tentativt etter at DCAT-AP-NO er ferdig revidert).
+NOTE: Redaksjonell merknad 2: Gjennom arbeidet med å definere kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål, har man funnet det mer hensiktsmessig å bruke fullstendighet som anbefalt term for kvalitetsdimensjon fullstendighet, enn kompletthet som var foreslått i https://doc.difi.no/data/kvalitet-pa-datasett/[Spesifikasjon for beskrivelse av kvalitet på datasett]. Spesifikasjonen vil bli oppdatert senere (tentativt etter at DCAT-AP-NO er ferdig revidert).
 
-Redaksjonell merknad 3: Fra kommentarrunden på veilederen, fikk vi kommentar på at man ikke bør bruke termen kvalitetsdeldimensjon som arbeidsgruppen i 2017 valgte å bruke. Arbeidsgruppen i denne fasen av arbeidet klarte ikke å finne en bedre term som dekker behovet. Behovet er å ha et nivå mellom kvalitetsdimensjon og kvalitetsmål. Inntil en bedre term kommer på plass, brukes kvalitetsdeldimensjon. 
+NOTE: Redaksjonell merknad 3: Fra kommentarrunden på veilederen, fikk vi kommentar på at man ikke bør bruke termen kvalitetsdeldimensjon som arbeidsgruppen i 2017 valgte å bruke. Arbeidsgruppen i denne fasen av arbeidet klarte ikke å finne en bedre term som dekker behovet. Behovet er å ha et nivå mellom kvalitetsdimensjon og kvalitetsmål. Inntil en bedre term kommer på plass, brukes kvalitetsdeldimensjon. 
 
 === Formål med definisjonene
 https://doc.difi.no/data/kvalitet-pa-datasett/[Spesifikasjon for beskrivelse av kvalitet på datasett] foreslo å etablere en felles oversikt over definisjoner av kvalitetsmål, som et kontrollert vokabular. Dette gjør det mulig å kunne referere til predefinerte kvalitetsmål, istedenfor at alle og enhver definerer disse hver gang, noe som også kan føre til at man definerer ulikt i tillegg til unødvendig dobbeltarbeid. Formålet med foreliggende definisjoner er derfor å skape et felles vokabular og måleverktøy for kvantifiserbar kvalitet på datasett. Dette vil skape en unison beskrivelse og forståelse av datakvalitet på tvers av virksomheter.
 
 I henhold til ovennevnte spesifikasjon, som er basert på https://www.w3.org/TR/vocab-dqv/[DQV fra W3C], skal et gitt kvalitetsmål referere til en kvalitetsdimensjon og kvalitetsdeldimensjon. Det er derfor hensiktsmessig også å predefinere kvalitetsdimensjoner og -deldimensjoner. Dette dokumentet inneholder derfor definisjoner på kvalitetsdimensjoner, tilhørende kvalitetsdeldimensjoner og deres kvalitetsmål. 
 
-Se https://doc.difi.no/data/kvalitet-pa-datasett/[__Spesifikasjon for beskrivelse av kvalitet på datasett__] for definisjon av begrepene kvalitetsdimensjon, kvalitetsdeldimensjon og kvalitetsmål. 
+Se https://doc.difi.no/data/kvalitet-pa-datasett/[Spesifikasjon for beskrivelse av kvalitet på datasett] for definisjon av begrepene kvalitetsdimensjon, kvalitetsdeldimensjon og kvalitetsmål. 
 
 === Avgrensninger
 For å forstå anvendelsesområdet for de foreliggende definisjonene, er det viktig å være klar over følgende avgrensninger:
@@ -25,7 +25,7 @@ For å forstå anvendelsesområdet for de foreliggende definisjonene, er det vik
 ** Eksempler på kvalitetsmål som ikke er inkludert: (manglende) punktlighet osv.
 * Kvalitetsmål som allerede er dekket av etablerte vokabularer defineres ikke på nytt.
 ** Begrunnelse: Som et generelt prinsipp skal denne type definisjonsarbeid baseres på eksisterende, relevante standarder og spesifikasjoner der slike finnes.
-** Eksempler: «oppdateringsfrekvens» som finnes i https://doc.difi.no/dcat-ap-no/#datasett-frekvens[DCAT-AP-NO]/DCAT-AP; «romlig oppløsning» som finnes i http://url[geoDCAT-AP]. 
+** Eksempler: «oppdateringsfrekvens» som finnes i https://doc.difi.no/dcat-ap-no/#datasett-frekvens[DCAT-AP-NO]/DCAT-AP; «romlig oppløsning» som finnes i https://semiceu.github.io/GeoDCAT-AP/drafts/latest/#spatial-resolution-spatial-resolution-of-the-dataset[geoDCAT-AP]. 
 * Sektor-/fagspesifikke kvalitetsmål er ikke inkludert.
 ** Begrunnelse: Det er viktig å ha fokus på definisjoner av sektor-/faguavhengige kvalitetsmål. Det er første steg mot et felles vokabular og måleverktøy for datakvalitet. I tillegg vil arbeidsgruppen ikke ha hatt mulighet til å bli ferdig med sitt arbeid om alle fagområder skulle vært dekket.
 *** Det oppfordres til at sektor-/fagspesifikke kvalitetsmål predefineres (av sektor/fagansvarlige organer) og tilgjengeliggjøres på tilsvarende måte for gjenbruk innenfor samme sektor.
