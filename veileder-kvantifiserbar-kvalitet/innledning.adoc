@@ -7,12 +7,12 @@ Formålet med dette dokumentet er å gi veiledning i felles definisjoner på og 
 
 I henhold til https://doc.difi.no/data/kvalitet-pa-datasett/[Spesifikasjon for beskrivelse av kvalitet på datasett]. er det flere ulike måter å beskrive kvalitet på et datasett på:
 
-* Kvantifiserbar kvantifiserbar kvalitet
-* Ikke-kvantifiserbar kvalitet
-* Kvalitet kvalitet i samsvar med gitt(e) standard(er)/spesifikasjon(er)
-* Brukertilbakemeldinger brukertilbakemeldinger knyttet til kvalitet
+* kvantifiserbar kvalitet
+* ikke-kvantifiserbar kvalitet
+* kvalitet i samsvar med gitt(e) standard(er)/spesifikasjon(er)
+* brukertilbakemeldinger knyttet til kvalitet
 
-Spesifikasjonen foreslo også å predefinere kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål. Se forøvrig predefinisjoner i <<#vedlegg,vedlegget>>.
+Spesifikasjonen foreslo også å predefinere kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål. Se forøvrig predefinisjoner i <<#definisjoner>>.
 
 Dette er ikke en veileder for datakvalitetsarbeidet generelt. Veilederen forklarer hvordan datakvalitet beskrives, med fokus på å bruke predefinerte kvantifiserbare kvalitetsmål. Ved behov vil det bli utarbeidet tilsvarende veiledere for de andre måter å beskrive kvalitet på. Disse vil inngå i Rammeverk for informasjonsforvaltning.
 
@@ -22,7 +22,7 @@ Målgruppen for veilederen er:
 
 * de som skal beskrive datasett og derunder kvantifiserbar kvalitet på datasett (primær målgruppe)
 * de som leverer løsninger og verktøy for registrering og visning av denne type kvalitetsmål (primær målgruppe)
-* de som skal forstå beskrivelse av kvantifiserbar kvalitet på datasett (sekundær målgruppe).
+* de som skal forstå beskrivelse av kvantifiserbar kvalitet på datasett (sekundær målgruppe)
 
 === Sammenheng mellom relevante standarder, spesifikasjoner og denne veilederen
 
