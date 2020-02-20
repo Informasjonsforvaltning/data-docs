@@ -9,7 +9,7 @@ Der det er relevant, finnes det predefinere kvalitetsmål for både enhet- og eg
 
 
 .Eksempeldatasett: Bygninger
-//// - bruker bilde istedenfor tabell inntil videre
+//// 
 [width="100%",options="header,footer"]
 |====================
 | Identifikator| Rex Eiendom |Byggeår | Kommune | Bruksareal | Bruttoareal
