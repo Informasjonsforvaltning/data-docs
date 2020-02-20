@@ -9,6 +9,7 @@ Der det er relevant, finnes det predefinere kvalitetsmål for både enhet- og eg
 
 
 .Eksempeldatasett: Bygninger
+//// - bruker bilde istedenfor tabell inntil videre
 [width="100%",options="header,footer"]
 |====================
 | Identifikator| Rex Eiendom |Byggeår | Kommune | Bruksareal | Bruttoareal
@@ -16,7 +17,8 @@ Der det er relevant, finnes det predefinere kvalitetsmål for både enhet- og eg
 |B00014 | Oslo kommune | 2003 | Oslo | 2300 m2 | 3000 m2
 |B00015 | Eiendomsutvikling AS | 1995 | Bergen |  | 1200 m2
 |====================
-
+////
+image::images/eksempeldatasett.png[]
 
 === Predefinerte kvalitetsmål bruker negativt ladede ord
 
