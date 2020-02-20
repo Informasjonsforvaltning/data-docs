@@ -12,7 +12,7 @@ include::../shared/translation.adoc[]
 
 //:sectnums:
 
-//:sectnumlevels: 3
+//:sectnumlevels: 4
 
 //{description}
 
