@@ -8,7 +8,7 @@ include::../shared/translation.adoc[]
 :toc: left
 :toclevels: 3
 :sectanchors:
-:title-logo-image: utils/logo.jpg
+:title-logo-image: images/digitaliseringsdirektoratet.png
 
 //:sectnums:
 
@@ -22,7 +22,7 @@ include::../shared/download.adoc[]
 
 // Innhold her.
 
-WARNING: Work in progress. Mer innhold kommer...
+Publisert: 2020-02-20
 
 include::innledning.adoc[]
 include::hensyn.adoc[]
