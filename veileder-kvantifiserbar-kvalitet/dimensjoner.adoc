@@ -15,11 +15,11 @@ For eksempeldatasettet «Bygninger» vet man at det statistisk sett tar ca. 25 d
 
 == Kvalitetsdimensjonen «konsistens»
 
-Kvalitetsdimensjonen konsistens gjelder konsistens innad i ett og samme datasett, og ikke konsistens mellom datasett. Om datasettet er i samsvar med gitte standarder og krav er ikke definert på nytt som et eget kvalitetsmål ettersom dette er dekket av DCAT-AP-NO https://doc.difi.no/dcat-ap-no/#datasett-i-samsvar-med[(Datasett: i samsvar med)]. Et eksempel på slik innbyrdes inkonsistens er når bruksareal er større enn bruttoareal for en bygning. 
+Arbeidsgruppen som utarbeidet predefinisjonene har hatt fokus på konsistens innad i et datasett, og ikke mellom datasett. Et eksempel på slik innbyrdes inkonsistens er når bruksareal er større enn bruttoareal for en bygning. Om datasettet er i samsvar med gitte standarder og krav er ikke definert på nytt som et eget kvalitetsmål ettersom dette er dekket av DCAT-AP-NO https://doc.difi.no/dcat-ap-no/#datasett-i-samsvar-med[(Datasett: i samsvar med)]. 
 
 Kvalitetsdimensjonen konsistens kan i mange tilfeller lett forveksles med kvalitetsdimensjonen nøyaktighet. Det som bl.a. skiller nøyaktighet og konsistens er at når det gjelder konsistens _vet man ut fra vurdering av flere egenskaper at det er feil, men ikke hvilken eller hvilke egenskaper som er feil_ i datasettet. I eksemplet over er det ikke mulig å avgjøre om det er bruksareal eller bruttoareal (eller begge) som er feil. Når det gjelder nøyaktighet, _vet man hvilken egenskap som er feil_ (for eksempel feil identifikator). 
 
-Det første kvalitetsmålet i konsistens («Andel enheter med inkonsistente verdier for gitte egenskaper») måles på enhetsnivå. Her måles andel enheter som har en form for inkonsistens knyttet til seg. Det andre kvalitetsmålet («Andel enheter med inkonsistens mellom verdier for gitte egenskaper») går mer i dybden og brukes der man har innsikt i hva inkonsistensen gjelder på egenskapsnivå. Kvalitetsmålene oppgis i prosentandel; fritekstfeltet kan brukes til å forklare for hvilke egenskaper inkonsistensen gjelder. 
+Det første kvalitetsmålet som er predefinert i kvalitetsdeldimensjon «Konsistens innad i datasett» («Andel enheter med inkonsistente verdier for gitte egenskaper») måles på enhetsnivå. Her måles andel enheter som har en form for inkonsistens knyttet til seg. Det andre kvalitetsmålet («Andel enheter med inkonsistens mellom verdier for gitte egenskaper») går mer i dybden og brukes der man har innsikt i hva inkonsistensen gjelder på egenskapsnivå. Kvalitetsmålene oppgis i prosentandel; fritekstfeltet kan brukes til å forklare for hvilke egenskaper inkonsistensen gjelder. 
 
 == Kvalitetsdimensjonen «nøyaktighet»
 
