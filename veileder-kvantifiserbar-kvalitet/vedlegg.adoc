@@ -101,7 +101,7 @@ Kilde til definisjon (bokmål):: ISO 19157 +
 Definisjon (engelsk):: data absent from a data set +
 Kilde til definisjon (engelsk og bokmål):: ISO 19157 +
 
-_Kvalitetsmål «manglende enheter»_ +
+===== Kvalitetsmål «manglende enheter»
 [properties]
 Anbefalt term:: manglende enheter (bokmål), missing objects (engelsk) +
 Definisjon (bokmål):: hvorvidt det mangler enheter i datasettet +
@@ -111,7 +111,7 @@ Kilde til definisjon (engelsk):: basert på ISO 19157 +
 Datatype:: boolsk +
 Eksempel:: Nei (datasettet inneholder alle bygninger)
 
-__Kvalitetsmål «antall manglende enheter»__ +
+===== Kvalitetsmål «antall manglende enheter»
 [properties]
 Anbefalt term:: antall manglende enheter (bokmål), number of missing objects (engelsk) +
 Definisjon (bokmål):: antall enheter som ikke er i datasettet men som forventes å være med +
@@ -121,7 +121,7 @@ Kilde til definisjon (engelsk):: basert på ISO 19157 +
 Datatype:: heltall +
 Eksempel:: 2 (i virkeligheten finnes det 10 bygninger, men datasettet dekker kun 8)
 
-_Kvalitetsmål «andel manglende enheter»_ +
+===== Kvalitetsmål «andel manglende enheter»
 [properties]
 Anbefalt term:: andel manglende enheter (bokmål), rate of missing objects (engelsk) +
 Definisjon (bokmål):: antall enheter som mangler i forhold til antall enheter som skulle være med i datasettet +
@@ -131,7 +131,7 @@ Kilde til definisjon (engelsk):: basert på ISO 19157 +
 Datatype:: prosent +
 Eksempel:: 0.02% (datasettet dekker 0.02% færre bygninger en det som eksisterer i virkeligheten)
 
-_Kvalitetsmål «antall enheter med manglende verdi for en gitt egenskap»_ +
+===== Kvalitetsmål «antall enheter med manglende verdi for en gitt egenskap»
 [properties]
 Anbefalt term:: antall enheter med manglende verdi for en gitt egenskap (bokmål), number of objects with missing value for a given property (engelsk) +
 Definisjon (bokmål):: antall enheter i datasettet som mangler verdi for en gitt egenskap +
@@ -141,7 +141,7 @@ Kilde til definisjon (engelsk):: egendefinert +
 Datatype:: heltall +
 Eksempel:: 2 (to bygninger mangler verdi for «bruksareal»)
 
-_Kvalitetsmål «andel enheter med manglende verdi for en gitt egenskap»_ +
+===== Kvalitetsmål «andel enheter med manglende verdi for en gitt egenskap»
 [properties]
 Anbefalt term:: andel enheter med manglende verdi for en gitt egenskap (bokmål), rate of objects with missing value for av given property (engelsk) +
 Definisjon (bokmål):: antall enheter med manglende verdi for en gitt egenskap i forhold til antall enheter i datasettet
@@ -160,7 +160,7 @@ Kilde til definisjon (bokmål):: ISO 19157 +
 Definisjon (engelsk):: excess data present in a data set +
 Kilde til definisjon (engelsk):: ISO 19157
 
-_Kvalitetsmål «overflødige enheter»_ +
+===== Kvalitetsmål «overflødige enheter»
 [properties]
 Anbefalt term:: overflødige enheter (bokmål), excess objects (engelsk) +
 Tillatt term:: overflødige objekter (bokmål) +
@@ -171,7 +171,7 @@ Kilde til definisjon (engelsk):: basert på ISO 19157 +
 Datatype:: boolsk +
 Eksempel:: Ja (noen bygninger er overflødige) +
 
-_Kvalitetsmål «antall overflødige enheter»_ +
+===== Kvalitetsmål «antall overflødige enheter»
 [properties]
 Anbefalt term:: antall overflødige enheter (bokmål), number of excess objects (engelsk) +
 Tillatt term:: antall overflødige objekter (bokmål) +
@@ -182,7 +182,7 @@ Kilde til definisjon (engelsk):: basert på ISO 19175 +
 Datatype:: heltall +
 Eksempel:: 3 (i virkeligheten finnes det 15 bygninger, men datasettet dekker 18)
 
-_Kvalitetsmål «andel overflødige enheter»_ +
+===== Kvalitetsmål «andel overflødige enheter»
 [properties]
 Anbefalt term:: andel overflødige enheter (bokmål), rate of excess objects (engelsk) +
 Tillatt term:: antall overflødige objekter (bokmål) +
@@ -201,7 +201,7 @@ Kilde til definisjon (bokmål):: Eurostats begrepsdatabase RAMON, Economic Commi
 Definisjon (engelsk):: entering a value for a specific data item where the value is missing or unusable +
 Kilde til definisjon (engelsk):: Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), "Glossary of Terms on Statistical Data Editing"
 
-_Kvalitetsmål «antall enheter med imputert verdi for en gitt egenskap»_ +
+===== Kvalitetsmål «antall enheter med imputert verdi for en gitt egenskap»
 [properties]
 Anbefalt term:: antall enheter med imputert verdi for en gitt egenskap (bokmål), number of objects with imputed value for a given property (engelsk) +
 Tillatt term:: antall objekter med imputert verdi for en gitt egenskap (bokmål) +
@@ -212,7 +212,7 @@ Kilde til definisjon (engelsk):: egendefinert +
 Datatype:: heltall +
 Eksempel:: 4 (fire bygninger har fått antatt verdi for «byggeår»)
 
-_Kvalitetsmål «andel enheter med imputert verdi for en gitt egenskap»_ +
+===== Kvalitetsmål «andel enheter med imputert verdi for en gitt egenskap»
 [properties]
 Anbefalt term:: andel enheter med imputert verdi for en gitt egenskap (bokmål), rate of objects with imputed value for a given property (engelsk) +
 Tillatt term:: andel objekter med imputert verdi for en gitt egenskap (bokmål) +
@@ -239,7 +239,7 @@ Definisjon (bokmål):: ferskhet av data uttrykt som differansen mellom to tidspu
 Kilde til definisjon (bokmål):: egendefinert +
 Definisjon (engelsk):: age of the dataset described as the difference between two points in time
 
-_Kvalitetsmål «samlet tidsdifferanse»_ +
+===== Kvalitetsmål «samlet tidsdifferanse»
 [properties]
 Anbefalt term:: samlet tidsdifferanse (bokmål), overall time difference (engelsk) +
 Definisjon (bokmål):: tid mellom når datasettet kan tas i bruk og den hendelsen eller fenomenet datasettet beskriver inntreffer +
@@ -266,7 +266,7 @@ Kilde til definisjon (bokmål):: egendefinert +
 Definisjon (engelsk):: the degree to which there is consistency between the properties in the dataset +
 Kilde til definisjon (engelsk):: egendefinert
 
-_Kvalitetsmål «andel enheter med inkonsistente egenskaper»_ +
+===== Kvalitetsmål «andel enheter med inkonsistente egenskaper»
 [properties]
 Anbefalt term:: andel enheter med inkonsistente egenskaper (bokmål), rate of objects with inconsistent properties (engelsk) +
 Tillatt term:: andel objekter med inkonsistente egenskaper (bokmål) +
@@ -277,7 +277,7 @@ Kilde til definisjon (engelsk):: egendefinert +
 Datatype:: prosent +
 Eksempel:: 0.03% (av bygningene har inkonsistens innbyrdes mellom noen av egenskapene)
 
-_Kvalitetsmål «andel enheter med inkonsistens mellom gitte egenskaper»_ +
+===== Kvalitetsmål «andel enheter med inkonsistens mellom gitte egenskaper»
 [properties]
 Anbefalt term:: andel enheter med inkonsistens mellom gitte egenskaper (bokmål), rate of objects with inconsistency between given properties (engelsk) +
 Tillatt term:: andel objekter med inkonsistens mellom gitte egenskaper (bokmål) +
@@ -308,7 +308,7 @@ Kilde til definisjon (bokmål):: basert på BLUE-ETS +
 Definisjon (engelsk):: the degree to which the objects in the dataset have the correct identifiers +
 Kilde til definisjon (engelsk):: basert på BLUE-ETS
 
-__Kvalitetsmål «antall enheter med identifikatorfeil»__ +
+===== Kvalitetsmål «antall enheter med identifikatorfeil»
 [properties]
 Anbefalt term:: antall enheter med identifikatorfeil (bokmål), number of objects with incorrect identifiers (engelsk) +
 Tillatt term:: antall objekter med identifikatorfeil (bokmål) +
@@ -319,7 +319,7 @@ Kilde til definisjon (engelsk):: egendefinert +
 Datatype:: heltall +
 Eksempel:: 207 (207 personer uten f-nummer/d-nummer men en utenlandsk id som ikke kvalitetssikres)
 
-__Kvalitetsmål «andel enheter med identifikatorfeil»__ +
+===== Kvalitetsmål «andel enheter med identifikatorfeil»
 [properties]
 Anbefalt term:: andel enheter med identifikatorfeil (bokmål), rate of objects with incorrect identifiers (engelsk) +
 Tillatt term:: andel objekter med identifikatorfeil (bokmål) +
@@ -338,7 +338,7 @@ Kilde til definisjon (bokmål):: basert på Geodatakvalitet +
 Definisjon (engelsk):: comparison of the classes assigned to features or their attributes to a universe of discourse (e.g. ground truth or reference data) +
 Kilde til definisjon (engelsk):: ISO 19157
 
-_Kvalitetsmål «antall feilklassifiserte enheter for en gitt egenskap»_ +
+===== Kvalitetsmål «antall feilklassifiserte enheter for en gitt egenskap»
 [properties]
 Anbefalt term:: antall feilklassifiserte enheter for en gitt egenskap (bokmål), number of incorrectly classified objects for a given property (engelsk) +
 Tillatt term:: antall feilklassifiserte objekter for en gitt egenskap (bokmål) +
@@ -349,7 +349,7 @@ Kilde til definisjon (engelsk):: basert på ISO 19157 +
 Datatype:: heltall +
 Eksempel:: 97 (97 enheter er oppført med feil næringskode i datasettet)
 
-__Kvalitetsmål «andel feilklassifiserte enheter for en gitt egenskap»__ +
+===== Kvalitetsmål «andel feilklassifiserte enheter for en gitt egenskap»
 [properties]
 Anbefalt term:: andel feilklassifiserte enheter for en gitt egenskap (bokmål), rate of incorrectly classified objects for a given property (engelsk) +
 Tillatt term:: andel feilklassifiserte objekter for en gitt egenskap (bokmål), misclassification rate (engelsk) +
