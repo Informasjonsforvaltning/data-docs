@@ -38,10 +38,10 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 === Definisjoner av noen sentrale begreper
 
 [properties]
-==== Imputere
+==== Imputering
 [properties]
-Anbefalt term (bokmål):: *imputere*
-Definisjon (bokmål):: å sette inn verdi for en egenskap hvis den mangler eller er ubrukbar
+Anbefalt term (bokmål):: *imputering*
+Definisjon (bokmål):: det å sette inn verdi for en egenskap hvis den mangler eller er ubrukbar
 Kilde til definisjon (bokmål):: Basert på Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), «Glossary of Terms on Statistical Data Editing» +
 Anbefalt term (engelsk):: *impute*
 Definisjon (engelsk):: entering a value for a specific data item where the response is missing or unusable
@@ -51,7 +51,7 @@ Kilde til definisjon (engelsk):: Basert på Eurostats begrepsdatabase RAMON, Eco
 [properties]
 Anbefalt term (bokmål):: *enhet*
 Tillatte termer (bokmål):: objekt
-Definisjon (bokmål):: avbildning av en forekomst i den virkelige verden
+Definisjon (bokmål):: avbildning av et fenomen i den virkelige verden
 Kilde til definisjon (norsk):: basert på ISO 19157
 Anbefalt term (engelsk):: *object*
 Tillatte termer (engelsk):: feature
@@ -155,7 +155,7 @@ Eksempel:: 0.02% (0.02% av verdiene for egenskapen «bruksareal» mangler i data
 [properties]
 Anbefalt term:: overdekning (bokmål), over-coverage (engelsk) +
 Tillatt term (engelsk):: commission +
-Definisjon (bokmål):: data som ikke skal være i et datasett +
+Definisjon (bokmål):: data som er med men som ikke skulle være med i et datasett +
 Kilde til definisjon (bokmål):: ISO 19157 +
 Definisjon (engelsk):: excess data present in a data set +
 Kilde til definisjon (engelsk):: ISO 19157
@@ -205,7 +205,7 @@ Kilde til definisjon (engelsk):: Eurostats begrepsdatabase RAMON, Economic Commi
 [properties]
 Anbefalt term:: antall enheter med imputert verdi for en gitt egenskap (bokmål), number of objects with imputed value for a given property (engelsk) +
 Tillatt term:: antall objekter med imputert verdi for en gitt egenskap (bokmål) +
-Definisjon (bokmål):: antall enheter med imputert verdi for en gitt egenskap i datasettet +
+Definisjon (bokmål):: antall enheter i datasettet med imputert verdi for en gitt egenskap +
 Kilde til definisjon (bokmål):: egendefinert +
 Definisjon (engelsk):: number of objects in the data set with imputed value for a given property +
 Kilde til definisjon (engelsk):: egendefinert +
@@ -253,7 +253,7 @@ Eksempel:: ‘’24 dager’’ (det tar i gjennomsnitt 24 dager fra en bygning 
 === Kvalitetsdimensjon «konsistens»
 [properties]
 Anbefalt term:: konsistens (bokmål), consistency (engelsk) +
-Definisjon (bokmål):: graden av at dataene har egenskaper som ikke er motsigende og som samsvarer med andre egenskaper innbyrdes i datasettet, for en spesifikk brukskontekst. Konsistens kan gjelde én eller flere sammenlignbare enheter i datasettet. +
+Definisjon (bokmål):: graden av at dataene har egenskaper som ikke er motsigende og som samsvarer med andre egenskaper, for en spesifikk brukskontekst. Konsistens kan gjelde én eller flere sammenlignbare enheter i datasettet. +
 Kilde til definisjon (bokmål):: ISO 25012 +
 Definisjon (engelsk):: the degree to which data has attributes that are free from contradiction and are coherent with other data in a specific context of use. It can be either or both among data regarding one entity and across similar data for comparable entities. +
 Kilde til definisjon (engelsk):: ISO 25012
@@ -270,7 +270,7 @@ Kilde til definisjon (engelsk):: egendefinert
 [properties]
 Anbefalt term:: andel enheter med inkonsistente egenskaper (bokmål), rate of objects with inconsistent properties (engelsk) +
 Tillatt term:: andel objekter med inkonsistente egenskaper (bokmål) +
-Definisjon (bokmål):: antall enheter med inkonsistente egenskaper i forhold til antall enheter +
+Definisjon (bokmål):: antall enheter med inkonsistente egenskaper i forhold til antall enheter i datasettet +
 Kilde til definisjon (bokmål):: egendefinert +
 Definisjon (engelsk):: number of objects with inconsistent properties in relation to the number of objects in the data set +
 Kilde til definisjon (engelsk):: egendefinert +
@@ -281,7 +281,7 @@ Eksempel:: 0.03% (av bygningene har inkonsistens innbyrdes mellom noen av egensk
 [properties]
 Anbefalt term:: andel enheter med inkonsistens mellom gitte egenskaper (bokmål), rate of objects with inconsistency between given properties (engelsk) +
 Tillatt term:: andel objekter med inkonsistens mellom gitte egenskaper (bokmål) +
-Definisjon (bokmål):: antall enheter med inkonsistens mellom gitte egenskaper i forhold til antall enheter +
+Definisjon (bokmål):: antall enheter med inkonsistens mellom gitte egenskaper i forhold til antall enheter i datasettet +
 Kilde til definisjon (bokmål):: egendefinert +
 Definisjon (engelsk):: number of objects with inconsistency between given properties in relation to the number of objects in the data set +
 Kilde til definisjon (engelsk):: egendefinert +
@@ -312,7 +312,7 @@ Kilde til definisjon (engelsk):: basert på BLUE-ETS
 [properties]
 Anbefalt term:: antall enheter med identifikatorfeil (bokmål), number of objects with incorrect identifiers (engelsk) +
 Tillatt term:: antall objekter med identifikatorfeil (bokmål) +
-Definisjon (bokmål):: antall enheter med feil identifikatorer +
+Definisjon (bokmål):: antall enheter i datasettet med feil identifikatorer +
 Kilde til definisjon (bokmål):: egendefinert +
 Definisjon (engelsk):: number of objects in the data set with incorrect identifiers +
 Kilde til definisjon (engelsk):: egendefinert +
@@ -323,7 +323,7 @@ Eksempel:: 207 (207 personer uten f-nummer/d-nummer men en utenlandsk id som ikk
 [properties]
 Anbefalt term:: andel enheter med identifikatorfeil (bokmål), rate of objects with incorrect identifiers (engelsk) +
 Tillatt term:: andel objekter med identifikatorfeil (bokmål) +
-Definisjon (bokmål):: antall enheter med feil identifikatorer i forhold til antall enheter +
+Definisjon (bokmål):: antall enheter med feil identifikatorer i forhold til antall enheter i datasettet +
 Kilde til definisjon (bokmål):: egendefinert +
 Definisjon (engelsk):: number of objects with incorrect identifiers in relation to the number of objects in the data set +
 Kilde til definisjon (engelsk):: egendefinert +
@@ -342,7 +342,7 @@ Kilde til definisjon (engelsk):: ISO 19157
 [properties]
 Anbefalt term:: antall feilklassifiserte enheter for en gitt egenskap (bokmål), number of incorrectly classified objects for a given property (engelsk) +
 Tillatt term:: antall feilklassifiserte objekter for en gitt egenskap (bokmål) +
-Definisjon (bokmål):: antall enheter med feil klassifisering for en gitt egenskap +
+Definisjon (bokmål):: antall enheter i datasettet med feil klassifisering for en gitt egenskap +
 Kilde til definisjon (bokmål):: basert på ISO 19157 +
 Definisjon (engelsk):: number of objects in the dataset that are incorrectly classified for a given property +
 Kilde til definisjon (engelsk):: basert på ISO 19157 +
@@ -353,7 +353,7 @@ Eksempel:: 97 (97 enheter er oppført med feil næringskode i datasettet)
 [properties]
 Anbefalt term:: andel feilklassifiserte enheter for en gitt egenskap (bokmål), rate of incorrectly classified objects for a given property (engelsk) +
 Tillatt term:: andel feilklassifiserte objekter for en gitt egenskap (bokmål), misclassification rate (engelsk) +
-Definisjon (bokmål):: antall feilklassifiserte enheter for en gitt egenskap i forhold til antall enheter +
+Definisjon (bokmål):: antall feilklassifiserte enheter for en gitt egenskap i forhold til antall enheter i datasettet +
 Kilde til definisjon (bokmål):: basert på ISO 19157 +
 Definisjon (engelsk):: number of objects that are incorrectly classified for a given property in relation to the number of objects in the dataset  +
 Kilde til definisjon (engelsk):: basert på ISO 19157 +
