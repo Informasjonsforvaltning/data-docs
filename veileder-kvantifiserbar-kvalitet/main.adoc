@@ -6,7 +6,7 @@ include::../shared/translation.adoc[]
 :docinfo:
 :icons: font
 :toc: left
-:toclevels: 3
+:toclevels: 5
 :sectanchors:
 :title-logo-image:  image:images/digitaliseringsdirektoratet.png[pdfwidth=30vw]
 
