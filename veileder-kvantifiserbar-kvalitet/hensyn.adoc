@@ -33,6 +33,7 @@ For de aller fleste brukstilfeller antok arbeidsgruppen som utarbeidet disse def
 
 
 [width="100%",options="header,footer"]
+[cols="50%","10%","10%","10%","10%","10%"]
 |====================
 | Egenskap |Eier  |Byggeår  |Kommune  |Bruksareal  |Bruttoareal
 | Andel enheter med manglende verdi for en gitt egenskap | 0% |2%|0% |3%  |  0%
