@@ -6,7 +6,7 @@ Denne veilederen forklarer bruk av predefinerte kvalitetsdimensjoner, kvalitetsd
 Tabellen gir en oversikt over de kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvalitetsmål som så langt er predefinerte. 
 
 .Oversikt over vokabularet for kvalitetsdimensjoner, kvalitetsdeldimensjoner og kvantifiserbare kvalitetsmål.
-[col="25%,25%,50%]
+[col="25%,25%,50%"]
 |===
 |*Kvalitetsdimensjon*|*Kvalitetsdeldimensjon*|*Kvalitetsmål*
 .10+|Fullstendighet .5+|Underdekning|Manglende enheter
