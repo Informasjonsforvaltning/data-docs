@@ -1,6 +1,6 @@
 
 == Definisjon av de mest sentrale begreper
 
-Tilgjengeliggjøring:: Publisering eller utveksling.
+Tilgjengeliggjøring:: publisering eller utveksling
 
-Maskinell tilgjengeliggjøring:: Tilgjengeliggjøring i maskinlesbart format.
+Maskinell tilgjengeliggjøring:: tilgjengeliggjøring i maskinlesbart format
