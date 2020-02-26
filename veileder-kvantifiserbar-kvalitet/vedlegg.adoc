@@ -62,9 +62,9 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 [cols="30s,70d"]
 |===
 |Anbefalt term |*egenskap* (bokmål), *property* (engelsk)
+|Tillatt term |variabel (bokmål), attributt (bokmål), kjennemerke (bokmål), variable (engelsk), attribute (engelsk), characteristic (engelsk)
 |Definisjon (bokmål) |navngitt kjennetegn eller karakteristikk av en enhet
 |Kilde til definisjon (bokmål) |Geodatakvalitet
-|Tillatt term |variabel (bokmål), attributt (bokmål), kjennemerke (bokmål), variable (engelsk), attribute (engelsk), characteristic (engelsk)
 |Eksempler (bokmål) |inntekt, alder, vekt, yrke, bransje, sykdom
 |Definisjon (engelsk) |named characteristic of an object
 |Eksempler (engelsk) |income, age, weight, occupation, industry, disease
@@ -87,8 +87,8 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 === Kvalitetsdimensjon «fullstendighet»
 [cols="30s,70d"]
 |===
-|Anbefalt term |fullstendighet (bokmål), completeness (engelsk)
-|Tillatte termer (bokmål) |kompletthet
+|Anbefalt term |*fullstendighet* (bokmål), *completeness* (engelsk)
+|Tillatt term |kompletthet (bokmål)
 |Definisjon (bokmål) |graden av at datasettet inneholder forventede elementer for en spesifikk brukskontekst
 |Kilde til definisjon (bokmål) |basert på ISO 25012
 |Definisjon (engelsk) |the degree to which subject data associated with an entity has values for all expected attributes and related entity instances in a specific context of use
@@ -98,12 +98,12 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 ==== Kvalitetsdeldimensjon «underdekning»
 [cols="30s,70d"]
 |===
-|Anbefalt term|*underdekning* (bokmål), *under-coverage* (engelsk)
-|Tillatt term|omission (engelsk)
+|Anbefalt term |*underdekning* (bokmål), *under-coverage* (engelsk)
+|Tillatt term |omission (engelsk)
 |Definisjon (bokmål)|data som mangler i et datasett
-|Kilde til definisjon (bokmål)|ISO 19157
+|Kilde til definisjon (bokmål) |ISO 19157
 |Definisjon (engelsk)|data absent from a data set
-|Kilde til definisjon (engelsk og bokmål)|ISO 19157
+|Kilde til definisjon (engelsk) |ISO 19157
 |===
 
 ===== Kvalitetsmål «manglende enheter»
@@ -232,9 +232,9 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Anbefalt term |*antall enheter med imputert verdi for en gitt egenskap* (bokmål), *number of objects with imputed value for a given property* (engelsk) 
 |Tillatt term |antall objekter med imputert verdi for en gitt egenskap (bokmål) 
 |Definisjon (bokmål) |antall enheter i datasettet med imputert verdi for en gitt egenskap 
-|Kilde til definisjon (bokmål):: egendefinert 
+|Kilde til definisjon (bokmål) |egendefinert 
 |Definisjon (engelsk) |number of objects in the data set with imputed value for a given property 
-|Kilde til definisjon (engelsk):: egendefinert 
+|Kilde til definisjon (engelsk) |egendefinert 
 |Datatype |heltall 
 |Eksempel |4 (fire bygninger har fått antatt verdi for «byggeår»)
 |===
@@ -247,7 +247,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter med imputert verdi for en gitt egenskap i forhold til antall enheter i datasettet 
 |Kilde til definisjon (bokmål) |egendefinert 
 |Definisjon (engelsk) |number of objects with imputed value for a given property in relation to the number of objects in the dataset 
-|Kilde til definisjon (engelsk):: egendefinert 
+|Kilde til definisjon (engelsk) |egendefinert 
 |Datatype |prosent 
 |Eksempel |0.04% (0.04% av bygningene har fått antatt verdi for «byggeår»)
 |===
@@ -386,7 +386,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Anbefalt term |*klassifikasjonsriktighet* (bokmål), *classification correctness* (engelsk) 
 |Definisjon (bokmål) |riktigheten til klassifiseringen av enheter eller deres egenskaper sammenlignet med sanne verdier 
 |Kilde til definisjon (bokmål) |basert på Geodatakvalitet 
-|Definisjon (engelsk) |comparison of the classes assigned to features or their attributes to a universe of discourse (e.g. ground truth |or reference data) 
+|Definisjon (engelsk) |comparison of the classes assigned to features or their attributes to a universe of discourse (e.g. ground truth or reference data) 
 |Kilde til definisjon (engelsk) |ISO 19157
 |===
 
@@ -406,7 +406,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 ===== Kvalitetsmål «andel feilklassifiserte enheter for en gitt egenskap»
 [cols="30s,70d"]
 |===
-|Anbefalt term |andel feilklassifiserte enheter for en gitt egenskap (bokmål), rate of incorrectly classified objects for a given property (engelsk) 
+|Anbefalt term |*andel feilklassifiserte enheter for en gitt egenskap* (bokmål), *rate of incorrectly classified objects for a given property* (engelsk) 
 |Tillatt term |andel feilklassifiserte objekter for en gitt egenskap (bokmål), misclassification rate (engelsk) 
 |Definisjon (bokmål) |antall feilklassifiserte enheter for en gitt egenskap i forhold til antall enheter i datasettet 
 |Kilde til definisjon (bokmål) |basert på ISO 19157 
