@@ -42,9 +42,9 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |===
 |Anbefalt term|*imputering* (bokmål), *impute* (engelsk)
 |Definisjon (bokmål)|det å sette inn verdi for en egenskap hvis den mangler eller er ubrukbar
-|Kilde til definisjon (bokmål):|Basert på Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), «Glossary of Terms on Statistical Data Editing» 
+|Kilde til definisjon (bokmål)|Basert på Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), «Glossary of Terms on Statistical Data Editing» 
 |Definisjon (engelsk)|entering a value for a specific data item where the response is missing or unusable
-|Kilde til definisjon (engelsk):|Basert på Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), «Glossary of Terms on Statistical Data Editing»
+|Kilde til definisjon (engelsk)|Basert på Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), «Glossary of Terms on Statistical Data Editing»
 |===
 
 ==== Enhet
@@ -53,7 +53,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Anbefalt term|*enhet* (bokmål), *object* (engelsk)
 |Tillatt term|objekt (bokmål), feature (engelsk)
 |Definisjon (bokmål)|avbildning av et fenomen i den virkelige verden
-Kilde til definisjon (norsk):: basert på ISO 19157
+|Kilde til definisjon (norsk)|basert på ISO 19157
 |Definisjon (engelsk)|abstraction of real world phenomena
 |Kilde til definisjon (engelsk)|ISO 19157
 |===
@@ -93,6 +93,7 @@ Kilde til definisjon (norsk):: basert på ISO 19157
 |Kilde til definisjon (bokmål)|basert på ISO 25012
 |Definisjon (engelsk)|the degree to which subject data associated with an entity has values for all expected attributes and related entity instances in a specific context of use
 |Kilde til definisjon (engelsk)|ISO 25012
+|===
 
 ==== Kvalitetsdeldimensjon «underdekning»
 [cols="s30,70", stripes=even]
