@@ -37,119 +37,133 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 
 === Definisjoner av noen sentrale begreper
 
-[properties]
 ==== Imputering
-[properties]
-Anbefalt term (bokmål):: *imputering*
-Definisjon (bokmål):: det å sette inn verdi for en egenskap hvis den mangler eller er ubrukbar
-Kilde til definisjon (bokmål):: Basert på Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), «Glossary of Terms on Statistical Data Editing» +
-Anbefalt term (engelsk):: *impute*
-Definisjon (engelsk):: entering a value for a specific data item where the response is missing or unusable
-Kilde til definisjon (engelsk):: Basert på Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), «Glossary of Terms on Statistical Data Editing»
+[cols="s30,70"]
+|===
+|Anbefalt term|*imputering* (bokmål), *impute* (engelsk)
+|Definisjon (bokmål)|det å sette inn verdi for en egenskap hvis den mangler eller er ubrukbar
+|Kilde til definisjon (bokmål):|Basert på Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), «Glossary of Terms on Statistical Data Editing» 
+|Definisjon (engelsk)|entering a value for a specific data item where the response is missing or unusable
+|Kilde til definisjon (engelsk):|Basert på Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), «Glossary of Terms on Statistical Data Editing»
+|===
 
 ==== Enhet
-[properties]
-Anbefalt term (bokmål):: *enhet*
-Tillatte termer (bokmål):: objekt
-Definisjon (bokmål):: avbildning av et fenomen i den virkelige verden
+[cols="s30,70"]
+|===
+|Anbefalt term|*enhet* (bokmål), *object* (engelsk)
+|Tillatt term|objekt (bokmål), feature (engelsk)
+|Definisjon (bokmål)|avbildning av et fenomen i den virkelige verden
 Kilde til definisjon (norsk):: basert på ISO 19157
-Anbefalt term (engelsk):: *object*
-Tillatte termer (engelsk):: feature
-Definisjon (engelsk):: abstraction of real world phenomena
-Kilde til definisjon (engelsk):: ISO 19157
+|Definisjon (engelsk)|abstraction of real world phenomena
+|Kilde til definisjon (engelsk)|ISO 19157
+|===
 
 ==== Egenskap
-[properties]
-Anbefalt term (bokmål):: *egenskap*
-Definisjon (bokmål):: navngitt kjennetegn eller karakteristikk av en enhet
-Kilde til definisjon (bokmål):: Geodatakvalitet
-Tillatte termer (bokmål):: variabel, attributt, kjennemerke
-Eksempler (bokmål):: inntekt, alder, vekt, yrke, bransje, sykdom
-Anbefalt term (engelsk):: *property*
-Definisjon (engelsk):: named characteristic of an object
-Tillatte termer (engelsk):: variable, attribute, characteristic
-Eksempler (engelsk):: income, age, weight, occupation, industry, disease
-Kilde til definisjon (engelsk):: basert på Geodatakvalitet
+[cols="s30,70"]
+|===
+|Anbefalt term|*egenskap* (bokmål), *property* (engelsk)
+|Definisjon (bokmål)|navngitt kjennetegn eller karakteristikk av en enhet
+|Kilde til definisjon (bokmål)|Geodatakvalitet
+|Tillatt term|variabel (bokmål), attributt (bokmål), kjennemerke (bokmål), variable (engelsk), attribute (engelsk), characteristic (engelsk)
+|Eksempler (bokmål)|inntekt, alder, vekt, yrke, bransje, sykdom
+|Definisjon (engelsk)|named characteristic of an object
+|Eksempler (engelsk)|income, age, weight, occupation, industry, disease
+|Kilde til definisjon (engelsk)|basert på Geodatakvalitet
+|===
 
 ==== Element 
-[properties]
-Anbefalt term (bokmål):: *element* +
-Definisjon (bokmål):: noe som kan beskrives og vurderes separat +
-Kilde til definisjon (bokmål):: ISO 19157 +
-Merknad (bokmål):: et element er en del av et datasett og kan være enhet eller egenskap +
-Anbefalt term (engelsk):: *item* +
-Definisjon (engelsk):: anything that can be described and considered separately +
-Tillatte termer (engelsk):: entity +
-Merknad (engelsk):: an item can be any part of a dataset, such as an object or a property +
-Kilde definisjon (engelsk):: ISO 19157
+[cols="s30,70"]
+|===
+|Anbefalt term|*element* (bokmål), *item* (engelsk)
+|Tillatt term|entity (engelsk) 
+|Definisjon (bokmål)|noe som kan beskrives og vurderes separat 
+|Kilde til definisjon (bokmål)|ISO 19157 
+|Merknad (bokmål)|et element er en del av et datasett og kan være enhet eller egenskap 
+|Definisjon (engelsk)|anything that can be described and considered separately
+|Merknad (engelsk)|an item can be any part of a dataset, such as an object or a property
+|Kilde definisjon (engelsk)|ISO 19157
+|===
 
 === Kvalitetsdimensjon «fullstendighet»
-[properties]
-Anbefalt term:: fullstendighet (bokmål), completeness (engelsk) +
-Tillatte termer (bokmål):: kompletthet +
-Definisjon (bokmål):: graden av at datasettet inneholder forventede elementer for en spesifikk brukskontekst +
-Kilde til definisjon (bokmål):: basert på ISO 25012 +
-Definisjon (engelsk):: the degree to which subject data associated with an entity has values for all expected attributes and related entity instances in a specific context of use +
-Kilde til definisjon (engelsk):: ISO 25012
+[cols="s30,70"]
+|===
+|Anbefalt term|fullstendighet (bokmål), completeness (engelsk)
+|Tillatte termer (bokmål)|kompletthet
+|Definisjon (bokmål)|graden av at datasettet inneholder forventede elementer for en spesifikk brukskontekst
+|Kilde til definisjon (bokmål)|basert på ISO 25012
+|Definisjon (engelsk)|the degree to which subject data associated with an entity has values for all expected attributes and related entity instances in a specific context of use
+|Kilde til definisjon (engelsk)|ISO 25012
 
 ==== Kvalitetsdeldimensjon «underdekning»
-[properties]
-Anbefalt term:: underdekning (bokmål), under-coverage (engelsk) +
-Tillatte termer (engelsk):: omission +
-Definisjon (bokmål):: data som mangler i et datasett +
-Kilde til definisjon (bokmål):: ISO 19157 +
-Definisjon (engelsk):: data absent from a data set +
-Kilde til definisjon (engelsk og bokmål):: ISO 19157 +
+[cols="s30,70"]
+|===
+|Anbefalt term|*underdekning* (bokmål), *under-coverage* (engelsk)
+|Tillatt term|omission (engelsk)
+|Definisjon (bokmål)|data som mangler i et datasett
+|Kilde til definisjon (bokmål)|ISO 19157
+|Definisjon (engelsk)|data absent from a data set
+|Kilde til definisjon (engelsk og bokmål)|ISO 19157
+|===
 
 ===== Kvalitetsmål «manglende enheter»
-[properties]
-Anbefalt term:: manglende enheter (bokmål), missing objects (engelsk) +
-Definisjon (bokmål):: hvorvidt det mangler enheter i datasettet +
-Kilde til definisjon (bokmål):: basert på ISO 19157 +
-Definisjon (engelsk):: whether objects are missing in the dataset +
-Kilde til definisjon (engelsk):: basert på ISO 19157 +
-Datatype:: boolsk +
-Eksempel:: Nei (datasettet inneholder alle bygninger)
+[cols="s30,70"]
+|===
+|Anbefalt term|*manglende enheter* (bokmål), *missing objects* (engelsk)
+|Definisjon (bokmål)|hvorvidt det mangler enheter i datasettet
+|Kilde til definisjon (bokmål)|basert på ISO 19157
+|Definisjon (engelsk)|whether objects are missing in the dataset
+|Kilde til definisjon (engelsk)|basert på ISO 19157
+|Datatype|boolsk
+|Eksempel|Nei (datasettet inneholder alle bygninger)
+|===
 
 ===== Kvalitetsmål «antall manglende enheter»
-[properties]
-Anbefalt term:: antall manglende enheter (bokmål), number of missing objects (engelsk) +
-Definisjon (bokmål):: antall enheter som ikke er i datasettet men som forventes å være med +
-Kilde til definisjon (bokmål):: basert på ISO 19157 +
-Definisjon (engelsk):: number of objects that are not present in the dataset but are expected to be +
-Kilde til definisjon (engelsk):: basert på ISO 19157 +
-Datatype:: heltall +
-Eksempel:: 2 (i virkeligheten finnes det 10 bygninger, men datasettet dekker kun 8)
+[cols="s30,70"]
+|===
+|Anbefalt term|*antall manglende enheter* (bokmål), *number of missing objects* (engelsk)
+|Definisjon (bokmål)|antall enheter som ikke er i datasettet men som forventes å være med
+|Kilde til definisjon (bokmål)|basert på ISO 19157
+|Definisjon (engelsk)|number of objects that are not present in the dataset but are expected to be
+|Kilde til definisjon (engelsk)|basert på ISO 19157
+|Datatype|heltall +
+|Eksempel|2 (i virkeligheten finnes det 10 bygninger, men datasettet dekker kun 8)
+|===
 
 ===== Kvalitetsmål «andel manglende enheter»
-[properties]
-Anbefalt term:: andel manglende enheter (bokmål), rate of missing objects (engelsk) +
-Definisjon (bokmål):: antall enheter som mangler i forhold til antall enheter som skulle være med i datasettet +
-Kilde til definisjon (bokmål):: basert på ISO 19157 +
-Definisjon (engelsk):: number of missing objects in relation to the number of objects that should be present in the dataset +
-Kilde til definisjon (engelsk):: basert på ISO 19157 +
-Datatype:: prosent +
-Eksempel:: 0.02% (datasettet dekker 0.02% færre bygninger en det som eksisterer i virkeligheten)
+[cols="s30,70"]
+|===
+|Anbefalt term|*andel manglende enheter* (bokmål), *rate of missing objects* (engelsk)
+|Definisjon (bokmål)|antall enheter som mangler i forhold til antall enheter som skulle være med i datasettet 
+|Kilde til definisjon (bokmål)|basert på ISO 19157 
+|Definisjon (engelsk)|number of missing objects in relation to the number of objects that should be present in the dataset 
+|Kilde til definisjon (engelsk)|basert på ISO 19157 
+|Datatype|prosent 
+|Eksempel|0.02% (datasettet dekker 0.02% færre bygninger en det som eksisterer i virkeligheten)
+|===
 
 ===== Kvalitetsmål «antall enheter med manglende verdi for en gitt egenskap»
-[properties]
-Anbefalt term:: antall enheter med manglende verdi for en gitt egenskap (bokmål), number of objects with missing value for a given property (engelsk) +
-Definisjon (bokmål):: antall enheter i datasettet som mangler verdi for en gitt egenskap +
-Kilde til definisjon (bokmål):: egendefinert +
-Definisjon (engelsk):: number of objects in the data set with missing value for a given property +
-Kilde til definisjon (engelsk):: egendefinert +
-Datatype:: heltall +
-Eksempel:: 2 (to bygninger mangler verdi for «bruksareal»)
+[cols="s30,70"]
+|===
+|Anbefalt term|*antall enheter med manglende verdi for en gitt egenskap* (bokmål), *number of objects with missing value for a given property* (engelsk) 
+|Definisjon (bokmål)|antall enheter i datasettet som mangler verdi for en gitt egenskap
+|Kilde til definisjon (bokmål)|egendefinert
+|Definisjon (engelsk)|number of objects in the data set with missing value for a given property
+|Kilde til definisjon (engelsk)|egendefinert
+|Datatype|heltall
+|Eksempel|2 (to bygninger mangler verdi for «bruksareal»)
+|===
 
 ===== Kvalitetsmål «andel enheter med manglende verdi for en gitt egenskap»
-[properties]
-Anbefalt term:: andel enheter med manglende verdi for en gitt egenskap (bokmål), rate of objects with missing value for av given property (engelsk) +
-Definisjon (bokmål):: antall enheter med manglende verdi for en gitt egenskap i forhold til antall enheter i datasettet
-Kilde til definisjon (bokmål):: egendefinert +
-Definisjon (engelsk):: number of objects with missing value for a given property in relation to the number of objects in the dataset +
-Kilde til definisjon (engelsk):: egendefinert +
-Datatype:: prosent +
-Eksempel:: 0.02% (0.02% av verdiene for egenskapen «bruksareal» mangler i datasettet)
+[cols="s30,70"]
+|===
+|Anbefalt term|*andel enheter med manglende verdi for en gitt egenskap* (bokmål), *rate of objects with missing value for av given property* (engelsk)
+|Definisjon (bokmål)|antall enheter med manglende verdi for en gitt egenskap i forhold til antall enheter i datasettet
+|Kilde til definisjon (bokmål)|egendefinert
+|Definisjon (engelsk)|number of objects with missing value for a given property in relation to the number of objects in the dataset +
+|Kilde til definisjon (engelsk)|egendefinert
+|Datatype|prosent
+|Eksempel|0.02% (0.02% av verdiene for egenskapen «bruksareal» mangler i datasettet)
+|===
 
 ==== Kvalitetsdeldimensjon «overdekning» +
 [properties]
