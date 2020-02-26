@@ -38,7 +38,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 === Definisjoner av noen sentrale begreper
 
 ==== Imputering
-[cols="s30,70"]
+[cols="30,70", stripes=even]
 |===
 |Anbefalt term|*imputering* (bokmål), *impute* (engelsk)
 |Definisjon (bokmål)|det å sette inn verdi for en egenskap hvis den mangler eller er ubrukbar
@@ -48,7 +48,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |===
 
 ==== Enhet
-[cols="s30,70"]
+[cols="s30,70", stripes=even]
 |===
 |Anbefalt term|*enhet* (bokmål), *object* (engelsk)
 |Tillatt term|objekt (bokmål), feature (engelsk)
@@ -59,7 +59,7 @@ Kilde til definisjon (norsk):: basert på ISO 19157
 |===
 
 ==== Egenskap
-[cols="s30,70"]
+[cols="s30,70", stripes=even]
 |===
 |Anbefalt term|*egenskap* (bokmål), *property* (engelsk)
 |Definisjon (bokmål)|navngitt kjennetegn eller karakteristikk av en enhet
@@ -72,7 +72,7 @@ Kilde til definisjon (norsk):: basert på ISO 19157
 |===
 
 ==== Element 
-[cols="s30,70"]
+[cols="s30,70", stripes=even]
 |===
 |Anbefalt term|*element* (bokmål), *item* (engelsk)
 |Tillatt term|entity (engelsk) 
@@ -85,7 +85,7 @@ Kilde til definisjon (norsk):: basert på ISO 19157
 |===
 
 === Kvalitetsdimensjon «fullstendighet»
-[cols="s30,70"]
+[cols="s30,70", stripes=even]
 |===
 |Anbefalt term|fullstendighet (bokmål), completeness (engelsk)
 |Tillatte termer (bokmål)|kompletthet
@@ -95,7 +95,7 @@ Kilde til definisjon (norsk):: basert på ISO 19157
 |Kilde til definisjon (engelsk)|ISO 25012
 
 ==== Kvalitetsdeldimensjon «underdekning»
-[cols="s30,70"]
+[cols="s30,70", stripes=even]
 |===
 |Anbefalt term|*underdekning* (bokmål), *under-coverage* (engelsk)
 |Tillatt term|omission (engelsk)
@@ -106,7 +106,7 @@ Kilde til definisjon (norsk):: basert på ISO 19157
 |===
 
 ===== Kvalitetsmål «manglende enheter»
-[cols="s30,70"]
+[cols="s30,70", stripes=even]
 |===
 |Anbefalt term|*manglende enheter* (bokmål), *missing objects* (engelsk)
 |Definisjon (bokmål)|hvorvidt det mangler enheter i datasettet
@@ -118,7 +118,7 @@ Kilde til definisjon (norsk):: basert på ISO 19157
 |===
 
 ===== Kvalitetsmål «antall manglende enheter»
-[cols="s30,70"]
+[cols="s30,70", stripes=even]
 |===
 |Anbefalt term|*antall manglende enheter* (bokmål), *number of missing objects* (engelsk)
 |Definisjon (bokmål)|antall enheter som ikke er i datasettet men som forventes å være med
@@ -130,7 +130,7 @@ Kilde til definisjon (norsk):: basert på ISO 19157
 |===
 
 ===== Kvalitetsmål «andel manglende enheter»
-[cols="s30,70"]
+[cols="s30,70", stripes=even]
 |===
 |Anbefalt term|*andel manglende enheter* (bokmål), *rate of missing objects* (engelsk)
 |Definisjon (bokmål)|antall enheter som mangler i forhold til antall enheter som skulle være med i datasettet 
@@ -142,7 +142,7 @@ Kilde til definisjon (norsk):: basert på ISO 19157
 |===
 
 ===== Kvalitetsmål «antall enheter med manglende verdi for en gitt egenskap»
-[cols="s30,70"]
+[cols="s30,70", stripes=even]
 |===
 |Anbefalt term|*antall enheter med manglende verdi for en gitt egenskap* (bokmål), *number of objects with missing value for a given property* (engelsk) 
 |Definisjon (bokmål)|antall enheter i datasettet som mangler verdi for en gitt egenskap
@@ -154,7 +154,7 @@ Kilde til definisjon (norsk):: basert på ISO 19157
 |===
 
 ===== Kvalitetsmål «andel enheter med manglende verdi for en gitt egenskap»
-[cols="s30,70"]
+[cols="s30,70", stripes=even]
 |===
 |Anbefalt term|*andel enheter med manglende verdi for en gitt egenskap* (bokmål), *rate of objects with missing value for av given property* (engelsk)
 |Definisjon (bokmål)|antall enheter med manglende verdi for en gitt egenskap i forhold til antall enheter i datasettet
