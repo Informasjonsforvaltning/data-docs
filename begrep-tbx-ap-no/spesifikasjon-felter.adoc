@@ -46,7 +46,7 @@
 |===
 |PID til definisjon  |‘language identifier’, http://www.isocat.org/datcat/DC-279
 |TBX-representasjon |<langSec xml:lang=”xx”>
-|Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder): + 
+|Datatype (med ev. PID til definisjon) a| PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):  
 * nb 
 * nn 
 * ...
