@@ -508,6 +508,8 @@
 |===
 
 === PartitivRelasjon.inndelingskriterium.tekst
+[cols="35s,65", stripes=odd]
+|===
 |PID til definisjon |‘description’, http://www.isocat.org/datcat/DC-2520
 |TBX-representasjon |<descripNote type=”inndelingskriterium”>tekst</descipNote>
 |Datatype (med ev. PID til definisjon) |PCDATA
