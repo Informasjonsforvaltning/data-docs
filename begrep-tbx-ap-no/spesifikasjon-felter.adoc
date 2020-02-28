@@ -303,9 +303,9 @@
 |Datatype (med ev. PID til definisjon) a|PickList: 
 
 * allmennheten (‘skosno:allmennheten’, https://vokab.norge.no/skosno#allmennheten) 
-* fagspesialist (‘skosno:fagspesialist’, |https://vokab.norge.no/skosno#fagspesialist)
+* fagspesialist (‘skosno:fagspesialist’, https://vokab.norge.no/skosno#fagspesialist)
 |TBX-Nivå |termSec
-|Merknad |(ingen)[cols="35s,65", stripes=odd]
+|Merknad |(ingen)
 |===
 
 === Betydningsbeskrivelse.tekst.tekst
@@ -430,7 +430,7 @@
 === Betydningsbeskrivelse.omfang.URI
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘reference data’, https://joinup.ec.europa.eu/rdf_entity/http_e_f_fdata_ceuropa_ceu_fw21_ff5a0c940_b24a4_b421d_ba5e5_b1b2c917742b3
+|PID til definisjon |‘reference data’, https://joinup.ec.europa.eu/solution/eira/distribution/eirav210overviewpdf 
 |TBX-representasjon |<xref type=”omfang”>
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |langSec
@@ -440,7 +440,7 @@
 === Betydningsbeskrivelse.omfang.tekst
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘reference data’, https://joinup.ec.europa.eu/rdf_entity/http_e_f_fdata_ceuropa_ceu_fw21_ff5a0c940_b24a4_b421d_ba5e5_b1b2c917742b3
+|PID til definisjon |‘reference data’, https://joinup.ec.europa.eu/solution/eira/distribution/eirav210overviewpdf
 |TBX-representasjon |<descripNote type=”omfang”>tekst</descrip>
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
