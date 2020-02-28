@@ -71,6 +71,7 @@
 |PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
 |TBX-representasjon |<langSec xml:lang=”xx”>
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder): 
+
 * nb 
 * nn 
 * ...
@@ -84,6 +85,7 @@
 |PID til definisjon |‘startDate’, https://www.w3.org/TR/vocab-adms/#schema-startdate
 |TBX-representasjon |<transac type=”typeDato”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * gyldigFraOgMed
 |TBX-Nivå |conceptEntry
 |Merknad |I en transacGrp sammen med selve datoen som oppgis som <date>
@@ -95,6 +97,7 @@
 |PID til definisjon |‘endDate’, https://www.w3.org/TR/vocab-adms/#schema-enddate
 |TBX-representasjon |<transac type=”typeDato”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * gyldigTilOgMed
 |TBX-Nivå |conceptEntry
 |Merknad |I en transacGrp sammen med selve datoen som oppgis som <date>
@@ -116,6 +119,7 @@
 |PID til definisjon |‘last modification date’, http://www.isocat.org/datcat/DC-2526
 |TBX-representasjon |<transac type=”typeDato”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * sistOppdatert (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
 |TBX-Nivå |conceptEntry
 |Merknad |I en transacGrp sammen med selve datoen som oppgis som <date>
@@ -127,6 +131,7 @@
 |PID til definisjon |‘preferred’, http://www.isocat.org/datcat/DC-72
 |TBX-representasjon |<termNote type=”typeTerm”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * anbefaltTerm (‘preferred’, http://www.isocat.org/datcat/DC-72)
 |TBX-Nivå |termSec
 |Merknad |(ingen)
@@ -138,6 +143,7 @@
 |PID til definisjon |‘admitted’, http://www.isocat.org/datcat/DC-73
 |TBX-representasjon |<termNote type=”typeTerm”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * tillattTerm (‘admitted’, http://www.isocat.org/datcat/DC-73)
 |TBX-Nivå |termSec
 |Merknad |(ingen)
@@ -149,6 +155,7 @@
 |PID til definisjon |‘not recommended’, http://www.isocat.org/datcat/DC-74
 |TBX-representasjon |<termNote type=”typeTerm”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * frarådetTerm (‘not recommended’, http://www.isocat.org/datcat/DC-74)
 |TBX-Nivå |termSec
 |Merknad |(ingen)
@@ -160,6 +167,7 @@
 |PID til definisjon |‘ident’, http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-ident.html
 |TBX-representasjon |<termNote type=”typeTerm”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * datastrukturterm (‘ident’, http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-ident.html)
 |TBX-Nivå |termSec
 |Merknad |(ingen)
@@ -191,6 +199,7 @@
 |PID til definisjon |‘associative relation’, http://www.isocat.org/datcat/DC-88
 |TBX-representasjon |<descrip type=”typeRelasjon”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * assosiativRelasjon (‘associative relation’, http://www.isocat.org/datcat/DC-88)
 |TBX-Nivå |langSec
 |Merknad |I en descripGrp sammen med de andre metadata om den aktuelle relasjonen
@@ -202,6 +211,7 @@
 |PID til definisjon |‘generic relation’, http://www.isocat.org/datcat/DC-242
 |TBX-representasjon |<descrip type=”typeRelasjon”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * generiskRelasjon (‘generic relation’, http://www.isocat.org/datcat/DC-242)
 |TBX-Nivå |langSec
 |Merknad |I en descripGrp sammen med de andre metadata om den aktuelle relasjonen
@@ -213,6 +223,7 @@
 |PID til definisjon |‘partitive relation’, http://www.isocat.org/datcat/DC-397
 |TBX-representasjon |<descrip type=”typeRelasjon”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * partitivRelasjon (‘partitive relation’, http://www.isocat.org/datcat/DC-397)
 |TBX-Nivå |langSec
 |Merknad |I en descripGrp sammen med de andre metadata om den aktuelle relasjonen
@@ -264,6 +275,7 @@
 |PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
 |TBX-representasjon |<langSec xml:lang=”xx”>
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder): 
+
 * nb 
 * nn 
 * ...
@@ -277,6 +289,7 @@
 |PID til definisjon |‘last modification date’, http://www.isocat.org/datcat/DC-2526
 |TBX-representasjon |<transac type=”typeDato”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * sistOppdatert (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
 |TBX-Nivå |termSec
 |Merknad |I en transacGrp sammen med selve datoen som oppgis som <date>
@@ -288,6 +301,7 @@
 |PID til definisjon |‘audience’, http://www.isocat.org/datcat/DC-527
 |TBX-representasjon |<termNote type=”målgruppe”>
 |Datatype (med ev. PID til definisjon) a|PickList: 
+
 * allmennheten (‘skosno:allmennheten’, https://vokab.norge.no/skosno#allmennheten) 
 * fagspesialist (‘skosno:fagspesialist’, |https://vokab.norge.no/skosno#fagspesialist)
 |TBX-Nivå |termSec
@@ -310,6 +324,7 @@
 |PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
 TBX-representasjon |<langSec xml:lang=”xx”>
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+
 * nb 
 * nn 
 * ...
@@ -323,6 +338,7 @@ TBX-representasjon |<langSec xml:lang=”xx”>
 |PID til definisjon |‘skosno:forholdTilKilde’, https://vokab.norge.no/skosno#forholdTilKilde
 |TBX-representasjon |<admin type=”forholdTilKilde”>
 |Datatype (med ev. PID til definisjon) a|PickList:
+
 * sitatFraKilde (‘skosno:sitatFraKilde’, https://vokab.norge.no/skosno#sitatFraKilde) 
 * basertPåKilde (‘skosno:basertPåKilde’, https://vokab.norge.no/skosno#basertPåKilde) 
 * egendefinert (‘skosno:egendefinert’, https://vokab.norge.no/skosno#egendefinert)
@@ -366,6 +382,7 @@ TBX-representasjon |<langSec xml:lang=”xx”>
 |PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
 |TBX-representasjon |<langSec xml:lang=”xx”>
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+
 * nb 
 * nn 
 * ...
@@ -389,6 +406,7 @@ TBX-representasjon |<langSec xml:lang=”xx”>
 |PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
 |TBX-representasjon |<langSec xml:lang=”xx”>
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+
 * nb 
 * nn 
 * ...
@@ -402,6 +420,7 @@ TBX-representasjon |<langSec xml:lang=”xx”>
 |PID til definisjon |‘audience’, http://www.isocat.org/datcat/DC-527
 |TBX-representasjon |<descripNote type=”målgruppe”>
 |Datatype (med ev. PID til definisjon) a|PickList:
+
 * allmennheten (‘skosno:allmennheten’, https://vokab.norge.no/skosno#allmennheten) 
 * fagspesialist (‘skosno:fagspesialist’, https://vokab.norge.no/skosno#fagspesialist)
 |TBX-Nivå |langSec
@@ -434,6 +453,7 @@ TBX-representasjon |<langSec xml:lang=”xx”>
 |PID til definisjon |‘last modification date’, http://www.isocat.org/datcat/DC-2526
 |TBX-representasjon |<transac type=”typeDato”>
 |Datatype (med ev. PID til definisjon) a|PickList:
+
 * sistOppdatert (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
 |TBX-Nivå |langSec
 |Merknad |I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst, dessuten i en transacGrp sammen med selve datoen som oppgis som <date>
@@ -455,6 +475,7 @@ TBX-representasjon |<langSec xml:lang=”xx”>
 |PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
 |TBX-representasjon |<langSec xml:lang=”xx”>
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+
 * nb 
 * nn
 * ...
@@ -478,6 +499,7 @@ TBX-representasjon |<langSec xml:lang=”xx”>
 |PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
 |TBX-representasjon |<langSec xml:lang=”xx”>
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+
 * nb 
 * nn 
 * ...
@@ -499,6 +521,7 @@ TBX-representasjon |<langSec xml:lang=”xx”>
 |PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
 |TBX-representasjon |<langSec xml:lang=”xx”>
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
+
 * nb 
 * nn 
 * ...
@@ -512,6 +535,7 @@ TBX-representasjon |<langSec xml:lang=”xx”>
 |PID til definisjon |‘last modification date’, http://www.isocat.org/datcat/DC-2526
 |TBX-representasjon |<transac type=”typeDato”>
 |Datatype (med ev. PID til definisjon) a|PickList:
+
 * sistOppdatert (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
 |TBX-Nivå |langSec
 |Merknad |I samme descripGrp som den aktuelle assosiative, generiske eller partitive relasjonen, dessuten i en transacGrp sammen med selve datoen som oppgis som <date>
