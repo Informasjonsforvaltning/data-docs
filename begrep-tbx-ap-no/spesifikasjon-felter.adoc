@@ -2,12 +2,14 @@
 == Felt i standarden
 
 === Begrep
-[properties]
-PID til definisjon:: ‘concept’, http://www.w3.org/2004/02/skos/core#Concept
-TBX-representasjon:: <conceptEntry>
-Datatype (med ev. PID til definisjon):: Se attributtene under Begrep.
-TBX-Nivå:: conceptEntry
-Merknad:: (ingen)
+[cols="40s,60"]
+|===
+|PID til definisjon |‘concept’, http://www.w3.org/2004/02/skos/core#Concept
+|TBX-representasjon |<conceptEntry>
+|Datatype (med ev. PID til definisjon) |Se attributtene under Begrep.
+|TBX-Nivå |conceptEntry
+|Merknad |(ingen)
+|===
 
 === Begrep.identifikator
 [properties]
