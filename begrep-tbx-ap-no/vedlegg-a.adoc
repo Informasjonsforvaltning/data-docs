@@ -5,6 +5,7 @@ Eksempelfilene er per 2018-08-15 validert korrekt mot TBX-Core (https://raw.gith
 
 === A.1 Eksempelfil med minimumsbeskrivelser av et begrep
 
+[source,xml]
 ----
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- VERSION HISTORY
@@ -60,6 +61,7 @@ sist oppdatert: 2018-08-15
 ----
 === A.2 Eksempelfil med alle felter for begrepsbeskrivelser
 
+[source,xml]
 ----
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- VERSION HISTORY
