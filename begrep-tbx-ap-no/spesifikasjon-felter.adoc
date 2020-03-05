@@ -28,7 +28,7 @@
 |TBX-representasjon a|`<transac type=”ansvarligVirksomhet”>nnnnnnnnn</transac>`
 |Datatype (med ev. PID til definisjon) |Organisasjonsnummer, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/
 |TBX-Nivå |conceptEntry
-|Merknad |I en <transacGrp>
+|Merknad |I en `<transacGrp>`
 |===
 
 === Begrep.fagområde.tekst
@@ -88,7 +88,7 @@
 
 * `gyldigFraOgMed`
 |TBX-Nivå |conceptEntry
-|Merknad |I en transacGrp sammen med selve datoen som oppgis som <date>
+|Merknad |I en `<transacGrp>` sammen med selve datoen som oppgis som `<date>`
 |===
 
 === Begrep.gyldighetsperiode.gyldigTilOgMed
@@ -100,7 +100,7 @@
 
 * `gyldigTilOgMed`
 |TBX-Nivå |conceptEntry
-|Merknad |I en transacGrp sammen med selve datoen som oppgis som <date>
+|Merknad |I en `<transacGrp>` sammen med selve datoen som oppgis som `<date>`
 |===
 
 === Begrep.kontaktpunkt
@@ -110,7 +110,7 @@
 |TBX-representasjon a|`<transacNote type=”kontaktpunkt”>`
 |Datatype (med ev. PID til definisjon) |Vcard
 |TBX-Nivå |conceptEntry
-|Merknad |I samme transacGrp som den aktuelle Begrep.ansvarligVirksomhet
+|Merknad |I samme `<transacGrp>` som den aktuelle Begrep.ansvarligVirksomhet
 |===
 
 === Begrep.sistOppdatert
@@ -122,7 +122,7 @@
 
 * `sistOppdatert` (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
 |TBX-Nivå |conceptEntry
-|Merknad |I en transacGrp sammen med selve datoen som oppgis som <date>
+|Merknad |I en `<transacGrp>` sammen med selve datoen som oppgis som `<date>`
 |===
 
 === Begrep.anbefaltTerm
@@ -202,7 +202,7 @@
 
 * `assosiativRelasjon` (‘associative relation’, http://www.isocat.org/datcat/DC-88)
 |TBX-Nivå |langSec
-|Merknad |I en descripGrp sammen med de andre metadata om den aktuelle relasjonen
+|Merknad |I en `<descripGrp>` sammen med de andre metadata om den aktuelle relasjonen
 |===
 
 === Begrep.generiskRelasjon
@@ -214,7 +214,7 @@
 
 * `generiskRelasjon` (‘generic relation’, http://www.isocat.org/datcat/DC-242)
 |TBX-Nivå |langSec
-|Merknad |I en descripGrp sammen med de andre metadata om den aktuelle relasjonen
+|Merknad |I en `<descripGrp>` sammen med de andre metadata om den aktuelle relasjonen
 |===
 
 === Begrep.partitivRelasjon
@@ -226,7 +226,7 @@
 
 * `partitivRelasjon` (‘partitive relation’, http://www.isocat.org/datcat/DC-397)
 |TBX-Nivå |langSec
-|Merknad |I en descripGrp sammen med de andre metadata om den aktuelle relasjonen
+|Merknad |I en `<descripGrp>` sammen med de andre metadata om den aktuelle relasjonen
 |===
 
 === Begrep.seOgså
@@ -292,7 +292,7 @@
 
 * `sistOppdatert` (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
 |TBX-Nivå |termSec
-|Merknad |I en transacGrp sammen med selve datoen som oppgis som <date>
+|Merknad |I en `<transacGrp>` sammen med selve datoen som oppgis som `<date>`
 |===
 
 === TillattTerm.målgruppe
@@ -343,7 +343,7 @@
 * `basertPåKilde` (‘skosno:basertPåKilde’, https://vokab.norge.no/skosno#basertPåKilde) 
 * `egendefinert` (‘skosno:egendefinert’, https://vokab.norge.no/skosno#egendefinert)
 |TBX-Nivå |langSec
-|Merknad |I en adminGrp, dessuten i den samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
+|Merknad |I en `<adminGrp>`, dessuten i den samme `<descripGrp>` som den aktuelle Betydningsbeskrivelse.tekst.tekst
 |===
 
 === Betydningsbeskrivelse.kildebeskrivelse.kilde.URI
@@ -353,7 +353,7 @@
 |TBX-representasjon a|`<xref type=”kilde”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |langSec
-|Merknad |I samme adminGrp som den aktuelle Betydningsbeskrivelse.forholdTilKilde
+|Merknad |I samme `<adminGrp>` som den aktuelle Betydningsbeskrivelse.forholdTilKilde
 |===
 
 === Betydningsbeskrivelse.kildebeskrivelse.kilde.tekst
@@ -363,7 +363,7 @@
 |TBX-representasjon a|`<adminNote type=”kilde”>kilde</adminNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
-|Merknad |I samme adminGrp som den aktuelle Betydningsbeskrivelse.forholdTilKilde
+|Merknad |I samme `<adminGrp>` som den aktuelle Betydningsbeskrivelse.forholdTilKilde
 |===
 
 === Betydningsbeskrivelse.merknad.tekst
@@ -373,7 +373,7 @@
 |TBX-representasjon a|`<descripNote type=”merknad”>tekst</descripNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
+|Merknad |I samme `<descripGrp>` som den aktuelle Betydningsbeskrivelse.tekst.tekst
 |===
 
 === Betydningsbeskrivelse.merknad.språkMålform
@@ -397,7 +397,7 @@
 |TBX-representasjon a|`<descripNote type=”eksempel”>tekst</descrip>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
+|Merknad |I samme `<descripGrp>` som den aktuelle Betydningsbeskrivelse.tekst.tekst
 |===
 
 === Betydningsbeskrivelse.eksempel.sspråkMålform
@@ -424,7 +424,7 @@
 * `allmennheten` (‘skosno:allmennheten’, https://vokab.norge.no/skosno#allmennheten) 
 * `fagspesialist` (‘skosno:fagspesialist’, https://vokab.norge.no/skosno#fagspesialist)
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
+|Merknad |I samme `<descripGrp>` som den aktuelle Betydningsbeskrivelse.tekst.tekst
 |===
 
 === Betydningsbeskrivelse.omfang.URI
@@ -434,7 +434,7 @@
 |TBX-representasjon a|`<xref type=”omfang”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
+|Merknad |I samme `<descripGrp>` som den aktuelle Betydningsbeskrivelse.tekst.tekst
 |===
 
 === Betydningsbeskrivelse.omfang.tekst
@@ -444,7 +444,7 @@
 |TBX-representasjon a|`<descripNote type=”omfang”>tekst</descripNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst
+|Merknad |I samme `<descripGrp>` som den aktuelle Betydningsbeskrivelse.tekst.tekst
 |===
 
 === Betydningsbeskrivelse.sistOppdatert
@@ -456,7 +456,7 @@
 
 * `sistOppdatert` (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle Betydningsbeskrivelse.tekst.tekst, dessuten i en transacGrp sammen med selve datoen som oppgis som <date>
+|Merknad |I samme `<descripGrp>` som den aktuelle Betydningsbeskrivelse.tekst.tekst, dessuten i en `<transacGrp>` sammen med selve datoen som oppgis som `<date>`
 |===
 
 === AssosiativRelasjon.beskrivelse.tekst
@@ -466,7 +466,7 @@
 |TBX-representasjon a|`<descripNote type=”beskrivelse”>tekst</descipNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle Begrep.assosiativRelasjon
+|Merknad |I samme `<descripGrp>` som den aktuelle Begrep.assosiativRelasjon
 |===
 
 === AssosiativRelasjon.beskrivelse.språkMålform
@@ -490,7 +490,7 @@
 |TBX-representasjon a|`<descripNote type=”inndelingskriterium”>tekst</descipNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle Begrep.generiskRelasjon
+|Merknad |I samme `<descripGrp>` som den aktuelle Begrep.generiskRelasjon
 |===
 
 === GeneriskRelasjon.inndelingskriterium.språkMålform
@@ -514,7 +514,7 @@
 |TBX-representasjon a|`<descripNote type=”inndelingskriterium”>tekst</descipNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle Begrep.partitivRelasjon
+|Merknad |I samme `<descripGrp>` som den aktuelle Begrep.partitivRelasjon
 |===
 
 === PartitivRelasjon.inndelingskriterium.språkMålform
@@ -540,7 +540,7 @@
 
 * `sistOppdatert` (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle assosiative, generiske eller partitive relasjonen, dessuten i en transacGrp sammen med selve datoen som oppgis som <date>
+|Merknad |I samme `<descripGrp>` som den aktuelle assosiative, generiske eller partitive relasjonen, dessuten i en `<transacGrp>` sammen med selve datoen som oppgis som `<date>`
 |===
 
 === Begrepsrelasjon.overordnetBegrep
@@ -550,7 +550,7 @@
 |TBX-representasjon a|`<xref type=”overordnetBegrep”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle generiske eller partitive begrepsrelasjonen
+|Merknad |I samme `<descripGrp>` som den aktuelle generiske eller partitive begrepsrelasjonen
 |===
 
 === Begrepsrelasjon.underordnetBegrep
@@ -560,7 +560,7 @@
 |TBX-representasjon a|`<xref type=”underordnetBegrep”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den aktuelle generiske eller partitive begrepsrelasjonen
+|Merknad |I samme `<descripGrp>` som den aktuelle generiske eller partitive begrepsrelasjonen
 |===
 
 === Begrepsrelasjon.assosiertBegrep
@@ -570,7 +570,7 @@
 |TBX-representasjon a|`<xref type=”assosiertBegrep”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |langSec
-|Merknad |I samme descripGrp som den assosiative begrepsrelasjonen
+|Merknad |I samme `<descripGrp>` som den assosiative begrepsrelasjonen
 |===
 
 === Begrepssamling
@@ -640,6 +640,6 @@
 |TBX-representasjon a|`<conceptEntry id="begrep002">`
 |Datatype (med ev. PID til definisjon) |Se attributtene under Begrep
 |TBX-Nivå |conceptEntry
-|Merknad |Begrep som er i body-delen av den aktuelle TBX-filen
+|Merknad |Begrep som er i `<body>`-delen av den aktuelle TBX-filen
 |===
 
