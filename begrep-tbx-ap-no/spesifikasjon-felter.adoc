@@ -86,7 +86,7 @@
 |TBX-representasjon a|`<transac type=”typeDato”>`
 |Datatype (med ev. PID til definisjon) a|PickList: 
 
-* `gyldigFraOgMed`
+* `gyldigFraOgMed` ('gyldig fra og med', skosno:gyldigFraOgMed)
 |TBX-Nivå |conceptEntry
 |Merknad |I en `<transacGrp>` sammen med selve datoen som oppgis som `<date>`
 |===
@@ -98,7 +98,7 @@
 |TBX-representasjon a|`<transac type=”typeDato”>`
 |Datatype (med ev. PID til definisjon) a|PickList: 
 
-* `gyldigTilOgMed`
+* `gyldigTilOgMed` ('gyldig til og med', skosno:gyldigTilOgMed)
 |TBX-Nivå |conceptEntry
 |Merknad |I en `<transacGrp>` sammen med selve datoen som oppgis som `<date>`
 |===
@@ -243,7 +243,7 @@
 [cols="35s,65", stripes=odd]
 |===
 |PID til definisjon |‘replaces’, http://dublincore.org/documents/dcmi-terms/#terms-replaces
-|TBX-representasjon a|`<ref type=”erstatter”>`
+|TBX-representasjon a|`<xref type=”erstatter”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |conceptEntry
 |Merknad |(ingen)
