@@ -16,7 +16,7 @@ include::../shared/translation.adoc[]
 
 //{description}
 
-image::images/digitaliseringsdirektoratet.png[width=50%]
+image::images/digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
 
 Publisert: 2020-03-07
 
