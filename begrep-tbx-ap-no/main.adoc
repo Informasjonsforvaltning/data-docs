@@ -1,6 +1,6 @@
 include::../shared/translation.adoc[]
 
-= Forvaltningsstandard for tilgjengeliggjøring av begrepsbeskrivelser basert på TBX (TBX-AP-NO) - Versjon 1.0
+= Forvaltningsstandard for tilgjengeliggjøring av begrepsbeskrivelser basert på TBX (TBX-AP-NO) - Versjon 1.0.1
 :description: Forvaltningsstandard for tilgjengeliggjøring av begrepsbeskrivelser basert på TBX (TBX-AP-NO)
 :doctype: book
 :docinfo:
@@ -16,15 +16,17 @@ include::../shared/translation.adoc[]
 
 //{description}
 
+image:: image:digitaliseringsdirektoratet.png[pdfwidth=30vw]
+
+Publisert: 2020-03-07
+
 include::../shared/download.adoc[]
+
+// WARNING: Det foretas redaksjonelle endringer av standarden. 
 
 // :leveloffset: +1
 
 // Innhold her.
-
-WARNING: Det foretas redaksjonelle endringer av standarden. 
-
-Publisert: 15.03.2019
 
 include::forord.adoc[]
 include::formaal_omfang_avgrensninger.adoc[]
