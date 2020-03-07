@@ -2,11 +2,11 @@
 // == Felt i standarden
 
 I tabellene under er det brukt følgende prefiks: 
-[cols="35s,65", stripes=odd]
+[cols="15s,85", stripes=odd]
 |===
-|**Prefiks** | **Forklaring med URI**
+|Prefiks | **Forklaring**
 |adms: |Asset Description Metadata Schema (ADMS), https://www.w3.org/TR/vocab-adms/#
-|datcat: | Data Category, \<URI kommer\>
+|datcat: | Data Category, <URI kommer>
 |dct: | Dublin Core) DCMI Metadata Terms, http://purl.org/dc/terms/
 |skos: | SKOS Simple Knowledge Organization System, https://www.w3.org/TR/skos-reference/#
 | skosno: | Norske utvidelser av SKOS, data.norge.no/vacabulary/skosno#
@@ -46,7 +46,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrep.fagområde.tekst
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘Subject field’, datcat:DC-489
+|PID til definisjon |‘subject field’, datcat:DC-489
 |TBX-representasjon a|`<descrip type=”fagområde”>tekst</descrip>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
