@@ -6,8 +6,9 @@ I tabellene under er det brukt følgende prefiks:
 |===
 |Prefiks | **Forklaring**
 |adms: |Asset Description Metadata Schema (ADMS), https://www.w3.org/TR/vocab-adms/#
-|datcat: | Data Category, <URI kommer>
+|datcat: | Terminological Data Categories, http://www.datcatinfo.net/#/
 |dct: | Dublin Core) DCMI Metadata Terms, http://purl.org/dc/terms/
+|rdfs: | RDF Schema, https://www.w3.org/TR/rdf-schema/#
 |skos: | SKOS Simple Knowledge Organization System, https://www.w3.org/TR/skos-reference/#
 | skosno: | Norske utvidelser av SKOS, data.norge.no/vacabulary/skosno#
 | tei: | Text Encoding Initiative, https://tei-c.org/release/doc/tei-p5-doc/en/html/
@@ -118,7 +119,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrep.kontaktpunkt
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘contactPoint’, adms:dcat-contactpoint
+|PID til definisjon |‘contact Point’, adms:dcat-contactpoint
 |TBX-representasjon a|`<transacNote type=”kontaktpunkt”>`
 |Datatype (med ev. PID til definisjon) |Vcard
 |TBX-Nivå |conceptEntry
@@ -244,7 +245,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrep.seOgså
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘seeAlso’, https://www.w3.org/TR/rdf-schema/#ch_seealso
+|PID til definisjon |‘see also’, rdfs:seealso
 |TBX-representasjon a|`<xref type=”seOgså”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |conceptEntry
@@ -254,7 +255,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrep.erstatter
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘replaces’, http://dublincore.org/documents/dcmi-terms/#terms-replaces
+|PID til definisjon |‘replaces’, dct:replaces
 |TBX-representasjon a|`<xref type=”erstatter”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |conceptEntry
@@ -264,7 +265,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrep.erstattesAv
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘isReplacedBy’, http://dublincore.org/documents/dcmi-terms/#terms-isReplacedBy
+|PID til definisjon |‘is replaced by’, dct:isReplacedBy
 |TBX-representasjon a|`<xref type=”erstattesAv”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |conceptEntry
@@ -274,7 +275,7 @@ I tabellene under er det brukt følgende prefiks:
 === Term.navn.tekst
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘term’ , http://www.isocat.org/datcat/DC-508
+|PID til definisjon |‘term’ , datcat:DC-508
 |TBX-representasjon a|`<term>tekst</term>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |termSec
@@ -284,7 +285,7 @@ I tabellene under er det brukt følgende prefiks:
 === Term.navn.språkMålform
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
+|PID til definisjon |‘language identifier’, datcat:DC-279
 |TBX-representasjon a|`<langSec xml:lang=”nb”>`
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder): 
 
@@ -298,11 +299,11 @@ I tabellene under er det brukt følgende prefiks:
 === Term.sistOppdatert
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘last modification date’, http://www.isocat.org/datcat/DC-2526
+|PID til definisjon |‘last modification date’, datcat:DC-2526
 |TBX-representasjon a|`<transac type=”typeDato”>`
 |Datatype (med ev. PID til definisjon) a|PickList: 
 
-* `sistOppdatert` (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
+* `sistOppdatert` (‘last modification date’, datcat:DC-2526)
 |TBX-Nivå |termSec
 |Merknad |I en `<transacGrp>` sammen med selve datoen som oppgis som `<date>`
 |===
@@ -310,12 +311,12 @@ I tabellene under er det brukt følgende prefiks:
 === TillattTerm.målgruppe
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘audience’, http://www.isocat.org/datcat/DC-527
+|PID til definisjon |‘audience’, datcat:DC-527
 |TBX-representasjon a|`<termNote type=”målgruppe”>`
 |Datatype (med ev. PID til definisjon) a|PickList: 
 
-* `allmennheten` (‘skosno:allmennheten’, https://vokab.norge.no/skosno#allmennheten) 
-* `fagspesialist` (‘skosno:fagspesialist’, https://vokab.norge.no/skosno#fagspesialist)
+* `allmennheten` (‘allmennheten’, skosno:allmennheten) 
+* `fagspesialist` (‘fagspesialist’, skosno:fagspesialist)
 |TBX-Nivå |termSec
 |Merknad |(ingen)
 |===
@@ -333,7 +334,7 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.tekst.språkMålform
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
+|PID til definisjon |‘language identifier’, datcat:DC-279
 |TBX-representasjon a|`<langSec xml:lang=”nn”>`
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 
@@ -347,13 +348,13 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.kildebeskrivelse.forholdTilKilde
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘skosno:forholdTilKilde’, https://vokab.norge.no/skosno#forholdTilKilde
+|PID til definisjon |‘ forhold til kilde’, skosno:forholdTilKilde
 |TBX-representasjon a|`<admin type=”forholdTilKilde”>`
 |Datatype (med ev. PID til definisjon) a|PickList:
 
-* `sitatFraKilde` (‘skosno:sitatFraKilde’, https://vokab.norge.no/skosno#sitatFraKilde) 
-* `basertPåKilde` (‘skosno:basertPåKilde’, https://vokab.norge.no/skosno#basertPåKilde) 
-* `egendefinert` (‘skosno:egendefinert’, https://vokab.norge.no/skosno#egendefinert)
+* `sitatFraKilde` (‘sitat fra kilde’, skosno:sitatFraKilde) 
+* `basertPåKilde` (‘basert på kilde’, skosno:basertPåKilde) 
+* `egendefinert` (‘egendefinert’, skosno:egendefinert)
 |TBX-Nivå |langSec
 |Merknad |I en `<adminGrp>`, dessuten i den samme `<descripGrp>` som den aktuelle Betydningsbeskrivelse.tekst.tekst
 |===
@@ -361,7 +362,7 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.kildebeskrivelse.kilde.URI
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘source’ http://www.isocat.org/datcat/DC-471
+|PID til definisjon |‘source’, datcat:DC-471
 |TBX-representasjon a|`<xref type=”kilde”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |langSec
@@ -371,7 +372,7 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.kildebeskrivelse.kilde.tekst
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘source’ http://www.isocat.org/datcat/DC-471
+|PID til definisjon |‘source’, datcat:DC-471
 |TBX-representasjon a|`<adminNote type=”kilde”>kilde</adminNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
@@ -381,7 +382,7 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.merknad.tekst
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘explanation’, http://www.isocat.org/datcat/DC-223
+|PID til definisjon |‘explanation’, datcat:DC-223
 |TBX-representasjon a|`<descripNote type=”merknad”>tekst</descripNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
@@ -391,7 +392,7 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.merknad.språkMålform
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
+|PID til definisjon |‘language identifier’, datcat:DC-279
 |TBX-representasjon a|`<langSec xml:lang=”nb”>`
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 
@@ -405,7 +406,7 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.eksempel.tekst
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘example’, http://www.isocat.org/datcat/DC-222
+|PID til definisjon |‘example’, datcat:DC-222
 |TBX-representasjon a|`<descripNote type=”eksempel”>tekst</descrip>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
@@ -415,7 +416,7 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.eksempel.sspråkMålform
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
+|PID til definisjon |‘language identifier’, datcat:DC-279
 |TBX-representasjon a|`<langSec xml:lang=”nn”>`
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 
@@ -429,12 +430,12 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.målgruppe
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘audience’, http://www.isocat.org/datcat/DC-527
+|PID til definisjon |‘audience’, datcat:DC-527
 |TBX-representasjon a|`<descripNote type=”målgruppe”>`
 |Datatype (med ev. PID til definisjon) a|PickList:
 
-* `allmennheten` (‘skosno:allmennheten’, https://vokab.norge.no/skosno#allmennheten) 
-* `fagspesialist` (‘skosno:fagspesialist’, https://vokab.norge.no/skosno#fagspesialist)
+* `allmennheten` (‘allmennheten’, skosno:allmennheten) 
+* `fagspesialist` (‘fagspesialist’, skosno:fagspesialist)
 |TBX-Nivå |langSec
 |Merknad |I samme `<descripGrp>` som den aktuelle Betydningsbeskrivelse.tekst.tekst
 |===
@@ -442,7 +443,7 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.omfang.URI
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘reference data’, https://joinup.ec.europa.eu/solution/eira/distribution/eirav210overviewpdf 
+|PID til definisjon |‘omfang’, skosno:omfang 
 |TBX-representasjon a|`<xref type=”omfang”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |langSec
@@ -452,7 +453,7 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.omfang.tekst
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘reference data’, https://joinup.ec.europa.eu/solution/eira/distribution/eirav210overviewpdf
+|PID til definisjon |‘omfang’, skosno:omfang
 |TBX-representasjon a|`<descripNote type=”omfang”>tekst</descripNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
@@ -462,11 +463,11 @@ I tabellene under er det brukt følgende prefiks:
 === Betydningsbeskrivelse.sistOppdatert
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘last modification date’, http://www.isocat.org/datcat/DC-2526
+|PID til definisjon |‘last modification date’, datcat:DC-2526
 |TBX-representasjon a|`<transac type=”typeDato”>`
 |Datatype (med ev. PID til definisjon) a|PickList:
 
-* `sistOppdatert` (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
+* `sistOppdatert` (‘last modification date’, datcat:DC-2526)
 |TBX-Nivå |langSec
 |Merknad |I samme `<descripGrp>` som den aktuelle Betydningsbeskrivelse.tekst.tekst, dessuten i en `<transacGrp>` sammen med selve datoen som oppgis som `<date>`
 |===
@@ -474,7 +475,7 @@ I tabellene under er det brukt følgende prefiks:
 === AssosiativRelasjon.beskrivelse.tekst
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘description’, http://www.isocat.org/datcat/DC-2520
+|PID til definisjon |‘description’, datcat:DC-2520
 |TBX-representasjon a|`<descripNote type=”beskrivelse”>tekst</descipNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
@@ -484,7 +485,7 @@ I tabellene under er det brukt følgende prefiks:
 === AssosiativRelasjon.beskrivelse.språkMålform
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
+|PID til definisjon |‘language identifier’, datcat:DC-279
 |TBX-representasjon a|`<langSec xml:lang=”nb”>`
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 
@@ -498,7 +499,7 @@ I tabellene under er det brukt følgende prefiks:
 === GeneriskRelasjon.inndelingskriterium.tekst
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘description’, http://www.isocat.org/datcat/DC-2520
+|PID til definisjon |‘description’, datcat:DC-2520
 |TBX-representasjon a|`<descripNote type=”inndelingskriterium”>tekst</descipNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
@@ -508,7 +509,7 @@ I tabellene under er det brukt følgende prefiks:
 === GeneriskRelasjon.inndelingskriterium.språkMålform
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
+|PID til definisjon |‘language identifier’, datcat:DC-279
 |TBX-representasjon a|`<langSec xml:lang=”nn”>`
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 
@@ -522,7 +523,7 @@ I tabellene under er det brukt følgende prefiks:
 === PartitivRelasjon.inndelingskriterium.tekst
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘description’, http://www.isocat.org/datcat/DC-2520
+|PID til definisjon |‘description’, datcat:DC-2520
 |TBX-representasjon a|`<descripNote type=”inndelingskriterium”>tekst</descipNote>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |langSec
@@ -532,7 +533,7 @@ I tabellene under er det brukt følgende prefiks:
 === PartitivRelasjon.inndelingskriterium.språkMålform
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘language identifier’, http://www.isocat.org/datcat/DC-279
+|PID til definisjon |‘language identifier’, datcat:DC-279
 |TBX-representasjon a|`<langSec xml:lang=”nb”>`
 |Datatype (med ev. PID til definisjon) a|PickList, fra ISO 639-1 (to bokstavers kode), ev. ISO 639-2 og ISO 639-3 (tre bokstavers koder):
 
@@ -546,11 +547,11 @@ I tabellene under er det brukt følgende prefiks:
 === Begrepsrelasjon.sistOppdatert
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘last modification date’, http://www.isocat.org/datcat/DC-2526
+|PID til definisjon |‘last modification date’, datcat:DC-2526
 |TBX-representasjon a|`<transac type=”typeDato”>`
 |Datatype (med ev. PID til definisjon) a|PickList:
 
-* `sistOppdatert` (‘last modification date’, http://www.isocat.org/datcat/DC-2526)
+* `sistOppdatert` (‘last modification date’, datcat:DC-2526)
 |TBX-Nivå |langSec
 |Merknad |I samme `<descripGrp>` som den aktuelle assosiative, generiske eller partitive relasjonen, dessuten i en `<transacGrp>` sammen med selve datoen som oppgis som `<date>`
 |===
@@ -558,7 +559,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrepsrelasjon.overordnetBegrep
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘superordinate concept generic’, http://www.isocat.org/datcat/DC-496
+|PID til definisjon |‘superordinate concept generic’, datcat:DC-496
 |TBX-representasjon a|`<xref type=”overordnetBegrep”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |langSec
@@ -568,7 +569,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrepsrelasjon.underordnetBegrep
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘subordinate concept generic’, http://www.isocat.org/datcat/DC-491
+|PID til definisjon |‘subordinate concept generic’, datcat:DC-491
 |TBX-representasjon a|`<xref type=”underordnetBegrep”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |langSec
@@ -578,7 +579,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrepsrelasjon.assosiertBegrep
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘associated concept’, http://www.isocat.org/datcat/DC-87
+|PID til definisjon |‘associated concept’, datcat:DC-87
 |TBX-representasjon a|`<xref type=”assosiertBegrep”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |langSec
@@ -588,7 +589,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrepssamling
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘concept collection’, http://www.w3.org/2004/02/skos/core#Collection
+|PID til definisjon |‘concept collection’, skos:Collection
 |TBX-representasjon a|`<tbxHeader>`
 |Datatype (med ev. PID til definisjon) |Se attributtene under Begrepssamling
 |TBX-Nivå |tbxHeader
@@ -598,7 +599,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrepssamling.navn
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘title’, http://dublincore.org/documents/dcmi-terms/#terms-title
+|PID til definisjon |‘title’, dct:title
 |TBX-representasjon a|`<title>tekst</title>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |titleStmt
@@ -608,7 +609,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrepssamling.identifikator
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘identifier’, http://www.isocat.org/datcat/DC-3894
+|PID til definisjon |‘identifier’, datcat:DC-3894
 |TBX-representasjon a|`<p type=”identifikator”>`
 |Datatype (med ev. PID til definisjon) |URI
 |TBX-Nivå |sourceDesc
@@ -618,7 +619,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrepssamling.ansvarligVirksomhet
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘responsible organization’, http://www.isocat.org/datcat/DC-452
+|PID til definisjon |‘responsible organization’, datcat:DC-452
 |TBX-representasjon a|`<p type=”ansvarligVirksomhet”>`
 |Datatype (med ev. PID til definisjon) |Organisasjonsnummer, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/
 |TBX-Nivå |sourceDesc
@@ -628,7 +629,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrepssamling.beskrivelse
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘description’, http://www.isocat.org/datcat/DC-2520
+|PID til definisjon |‘description’, datcat:DC-2520
 |TBX-representasjon a|`<note>tekst</note>`
 |Datatype (med ev. PID til definisjon) |PCDATA
 |TBX-Nivå |titleStmt
@@ -638,7 +639,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrepssamling.kontaktpunkt
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘contactPoint’, https://www.w3.org/TR/vocab-adms/#dcat-contactpoint
+|PID til definisjon |‘contact point’, adms:dcat-contactpoint
 |TBX-representasjon a|`<p type=”kontaktpunkt”>`
 |Datatype (med ev. PID til definisjon) |Vcard
 |TBX-Nivå |sourceDesc
@@ -648,7 +649,7 @@ I tabellene under er det brukt følgende prefiks:
 === Begrepssamling.begrep
 [cols="35s,65", stripes=odd]
 |===
-|PID til definisjon |‘concept’, http://www.w3.org/2004/02/skos/core#Concept
+|PID til definisjon |‘concept’, skos:Concept
 |TBX-representasjon a|`<conceptEntry id="begrep002">`
 |Datatype (med ev. PID til definisjon) |Se attributtene under Begrep
 |TBX-Nivå |conceptEntry
