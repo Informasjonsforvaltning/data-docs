@@ -39,7 +39,7 @@ I tabellene under er det brukt følgende prefiks:
 |===
 |PID til definisjon |‘responsible organization’, datcat:DC-452
 |TBX-representasjon a|`<transac type=”ansvarligVirksomhet”>nnnnnnnnn</transac>`
-|Datatype (med ev. PID til definisjon) |Organisasjonsnummer, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/
+|Datatype (med ev. PID til definisjon) |Organisasjonsnummer, https://www.brreg.no/om-oss/oppgavene-vare/alle-registrene-vare/om-enhetsregisteret/organisasjonsnummeret/
 |TBX-Nivå |conceptEntry
 |Merknad |I en `<transacGrp>`
 |===
@@ -621,7 +621,7 @@ I tabellene under er det brukt følgende prefiks:
 |===
 |PID til definisjon |‘responsible organization’, datcat:DC-452
 |TBX-representasjon a|`<p type=”ansvarligVirksomhet”>`
-|Datatype (med ev. PID til definisjon) |Organisasjonsnummer, https://www.brreg.no/om-oss-nn/oppgavene-vare/registera-vare/om-einingsregisteret/organisasjonsnummeret/
+|Datatype (med ev. PID til definisjon) |Organisasjonsnummer, https://www.brreg.no/om-oss/oppgavene-vare/alle-registrene-vare/om-enhetsregisteret/organisasjonsnummeret/
 |TBX-Nivå |sourceDesc
 |Merknad |(ingen)
 |===
