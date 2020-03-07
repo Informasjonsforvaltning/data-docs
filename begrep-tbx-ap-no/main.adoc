@@ -16,11 +16,11 @@ include::../shared/translation.adoc[]
 
 //{description}
 
-image:: image:digitaliseringsdirektoratet.png[pdfwidth=30vw]
+image::images/digitaliseringsdirektoratet.png[pdfwidth=30vw]
 
 Publisert: 2020-03-07
 
-include::../shared/download.adoc[]
+include:: ../shared/download.adoc[]
 
 // WARNING: Det foretas redaksjonelle endringer av standarden. 
 
