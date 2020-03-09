@@ -7,7 +7,7 @@ I tabellene under er det brukt følgende prefiks:
 |Prefiks | **Forklaring**
 |adms: |Asset Description Metadata Schema (ADMS), https://www.w3.org/TR/vocab-adms/#
 |datcat: | Terminological Data Categories, http://www.datcatinfo.net/#/
-|dct: | Dublin Core) DCMI Metadata Terms, http://purl.org/dc/terms/
+|dct: | (Dublin Core) DCMI Metadata Terms, http://purl.org/dc/terms/
 |rdfs: | RDF Schema, https://www.w3.org/TR/rdf-schema/#
 |skos: | SKOS Simple Knowledge Organization System, https://www.w3.org/TR/skos-reference/#
 | skosno: | Norske utvidelser av SKOS, data.norge.no/vacabulary/skosno#
