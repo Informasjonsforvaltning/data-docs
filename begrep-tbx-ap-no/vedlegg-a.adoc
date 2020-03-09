@@ -1,7 +1,7 @@
 
 == Vedlegg A (informativt) - Eksempler
 
-Eksempelfilene er per 2020-03-05 validert korrekt mot TBX-Core (https://raw.githubusercontent.com/LTAC-Global/TBX_Core_RNG/master/TBXcoreStructV03.rng[https://raw.githubusercontent.com/LTAC-Global/TBX_Core_RNG/master/TBXcoreStructV03.rng]).
+Eksempelfilene er per 2020-03-09 validert korrekt mot TBX-Core (https://raw.githubusercontent.com/LTAC-Global/TBX_Core_RNG/master/TBXcoreStructV03.rng[https://raw.githubusercontent.com/LTAC-Global/TBX_Core_RNG/master/TBXcoreStructV03.rng]).
 
 === A.1 Eksempelfil med minimumsbeskrivelser av et begrep
 
@@ -9,11 +9,11 @@ Eksempelfilene er per 2020-03-05 validert korrekt mot TBX-Core (https://raw.gith
 ----
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- VERSION HISTORY
-sist oppdatert: 2020-03-05
+sist oppdatert: 2020-03-09
 -->
 <?xml-model href="TBXcoreStructV03.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="TBX-AP-No_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<tbx xmlns="urn:iso:std:iso:30042:ed-2" style="dca" type="TBX-AP-No" xml:lang="nb">
+<tbx xmlns="urn:iso:std:iso:30042:ed-2" style="dca" type="TBX-AP-NO" xml:lang="nb">
   <!-- xml:lang kan overstyres senere i filen -->
   <tbxHeader>
     <fileDesc>
@@ -65,11 +65,11 @@ sist oppdatert: 2020-03-05
 ----
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- VERSION HISTORY
-sist oppdatert: 2020-03-05
+sist oppdatert: 2020-03-09
 -->
 <?xml-model href="TBXcoreStructV03.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="TBX-AP-No_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<tbx xmlns="urn:iso:std:iso:30042:ed-2" style="dca" type="TBX-AP-No" xml:lang="nb">
+<tbx xmlns="urn:iso:std:iso:30042:ed-2" style="dca" type="TBX-AP-NO" xml:lang="nb">
   <!-- xml:lang kan overstyres senere i filen -->
   <tbxHeader>
     <!-- tilsvarende Begrepssamling -->
