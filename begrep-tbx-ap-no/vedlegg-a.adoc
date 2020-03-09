@@ -138,11 +138,11 @@ sist oppdatert: 2020-03-05
           <!-- Begrep.kontaktpunkt, som VCard -->
         </transacGrp>
         <descripGrp>
-          <!-- Begrep.verdiområde -->
-          <descrip type="verdiområde">"dummy_tekst"</descrip>
-          <!-- Begrep.verdiområde.tekst, i fritekst -->
-          <xref target="https://URI_til_verdiområdet" type="verdiområde">"dummy_tekst"</xref>
-          <!-- Begrep.verdiområde.URI og ev. også .med tekst  -->
+          <!-- Begrep.omfang -->
+          <descrip type="omfang">"dummy_tekst"</descrip>
+          <!-- Begrep.omfang.tekst, i fritekst -->
+          <xref target="https://URI_til_omfang" type="omfang">"dummy_tekst"</xref>
+          <!-- Begrep.omfang.URI og ev. også med tekst  -->
         </descripGrp>
         <descrip type="bruksområde">terminologi</descrip>
         <!-- Begrep.bruksområde, i fritekst -->
