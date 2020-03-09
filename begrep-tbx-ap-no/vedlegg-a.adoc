@@ -65,7 +65,7 @@ sist oppdatert: 2020-03-09
 ----
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- VERSION HISTORY
-sist oppdatert: 2019-01-08
+sist oppdatert: 2020-03-09
 -->
 <?xml-model href="TBXcoreStructV03.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="TBX-AP-No_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
