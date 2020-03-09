@@ -137,15 +137,6 @@ sist oppdatert: 2020-03-09
           </transacNote>
           <!-- Begrep.kontaktpunkt, som VCard -->
         </transacGrp>
-        <descripGrp>
-          <!-- Begrep.omfang -->
-          <descrip type="omfang">"dummy_tekst"</descrip>
-          <!-- Begrep.omfang.tekst, i fritekst -->
-          <xref target="https://URI_til_omfang" type="omfang">"dummy_tekst"</xref>
-          <!-- Begrep.omfang.URI og ev. også med tekst  -->
-        </descripGrp>
-        <descrip type="bruksområde">terminologi</descrip>
-        <!-- Begrep.bruksområde, i fritekst -->
         <transacGrp>
           <!-- Begrep.gyldighetsperiode.gyldigFraOgMed -->
           <transac type="typeDato">gyldigFraOgMed</transac>
@@ -176,12 +167,12 @@ sist oppdatert: 2020-03-09
             <adminGrp>
               <!-- en adminGrp med elementer som omhandler kilde til definisjon -->
               <admin type="forholdTilKilde">sitatFraKilde</admin>
-              <!-- Betydningsbeskrivelse.forholdTilKilde, som enumeration -->
+              <!-- Betydningsbeskrivelse.kildebeskrivelse.forholdTilKilde, som enumeration -->
               <!-- lovlige verdier til "forholdTilKilde": sitatFraKilde, basertPåKilde, egendefinert -->
               <adminNote type="kilde">NS-ISO 1087-1:2000: Terminologiarbeid - Ordliste - Del 1: Teori og anvendelser</adminNote>
-              <!-- Betydningsbeskrivelse.kilde.tekst, i fritekst -->
+              <!-- Betydningsbeskrivelse.kildebeskrivelse.kilde.tekst, i fritekst -->
               <xref type="kilde" target="http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=35355"/>
-              <!-- Betydningsbeskrivelse.kilde.tURI, som URI -->
+              <!-- Betydningsbeskrivelse.kildebeskrivelse.kilde.URI, som URI -->
             </adminGrp>
             <descripNote type="merknad">"dummy_tekst"</descripNote>
             <!-- Betydningsbeskrivelse.merknad.tekst, i fritekst -->
@@ -202,9 +193,18 @@ sist oppdatert: 2020-03-09
             <!-- lovlige verdier til "målgruppe": allmennheten, fagspesialist -->
           </descripGrp>
           <descrip type="eksempel">"dummy_tekst"</descrip>
-          <!-- Begrep.eksempel.tekst, i fritekst -->
+          <!-- Betydningsbeskrivelse.eksempel.tekst, i fritekst -->
+          <descripGrp>
+            <!-- Betydningsbeskrivelse.omfang -->
+            <descrip type="omfang">"dummy_tekst"</descrip>
+            <!-- Betydningsbeskrivelse.omfang.tekst, i fritekst -->
+            <xref target="https://URI_til_omfang" type="omfang">"dummy_tekst"</xref>
+            <!-- Betydningsbeskrivelse.omfang.URI og ev. også med tekst  -->
+          </descripGrp>
           <descrip type="fagområe">terminologi</descrip>
           <!-- Begrep.fagområde.tekst, i fritekst -->
+          <descrip type="bruksområde">terminologi</descrip>
+          <!-- Begrep.bruksområde, i fritekst -->
           <descripGrp>
             <!-- Begrep.GeneriskRelasjon, tilsvarende med partitivRelasjon  -->
             <descrip type="typeRelasjon">generiskRelasjon</descrip>
@@ -255,9 +255,6 @@ sist oppdatert: 2020-03-09
             <!-- om termen er en anbefalt, tillat eller frarådet term -->
             <!-- typeTerm som enumeration -->
             <!-- lovlige verdier til "typeTerm": anbefaltTerm, tillattTerm, frarådetTerm -->
-            <termNote type="termform">vanligTerm</termNote>
-            <!-- Term.termform, som enumeration -->
-            <!-- lovlige verdier for "termform": vanligTerm, kortform, datastrukturnavn -->
             <termNote type="målgruppe">allmennheten</termNote>
             <!-- Term.målgruppe, som enumeration -->
             <!-- lovlige verdier for "målgruppe": allmennheten, fagspesialist -->
