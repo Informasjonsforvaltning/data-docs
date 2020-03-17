@@ -42,9 +42,9 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |===
 |Anbefalt term |*imputering* (bokmål), *imputation* (engelsk)
 |Definisjon (bokmål) |det å sette inn verdi for en egenskap hvis den mangler eller er ubrukbar
-|Kilde til definisjon (bokmål) |Basert på Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), «Glossary of Terms on Statistical Data Editing» 
+|Kilde til definisjon (bokmål) |basert på https://stats.oecd.org/glossary/detail.asp?ID=3462[«Glossary of Terms on Statistical Data Editing», OECD]
 |Definisjon (engelsk) |entering a value for a specific data item where the response is missing or unusable
-|Kilde til definisjon (engelsk) |Basert på Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), «Glossary of Terms on Statistical Data Editing»
+|Kilde til definisjon (engelsk) |based on https://stats.oecd.org/glossary/detail.asp?ID=3462["Glossary of Terms on Statistical Data Editing", OECD]
 |===
 
 ==== Enhet
@@ -68,7 +68,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Eksempler (bokmål) |inntekt, alder, vekt, yrke, bransje, sykdom
 |Definisjon (engelsk) |named characteristic of an object
 |Eksempler (engelsk) |income, age, weight, occupation, industry, disease
-|Kilde til definisjon (engelsk) |basert på Geodatakvalitet
+|Kilde til definisjon (engelsk) |based on Geodatakvalitet
 |===
 
 ==== Element 
@@ -113,7 +113,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål)|hvorvidt det mangler enheter i datasettet
 |Kilde til definisjon (bokmål)|basert på ISO 19157
 |Definisjon (engelsk)|whether objects are missing in the dataset
-|Kilde til definisjon (engelsk)|basert på ISO 19157
+|Kilde til definisjon (engelsk)|based on ISO 19157
 |Datatype|boolsk
 |Eksempel|Nei (datasettet inneholder alle bygninger)
 |===
@@ -125,7 +125,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål)|antall enheter som ikke er i datasettet men som forventes å være med
 |Kilde til definisjon (bokmål)|basert på ISO 19157
 |Definisjon (engelsk)|number of objects that are not present in the dataset but are expected to be
-|Kilde til definisjon (engelsk)|basert på ISO 19157
+|Kilde til definisjon (engelsk)|based on ISO 19157
 |Datatype|heltall 
 |Eksempel|2 (i virkeligheten finnes det 10 bygninger, men datasettet dekker kun 8)
 |===
@@ -137,7 +137,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter som mangler i forhold til antall enheter som skulle være med i datasettet 
 |Kilde til definisjon (bokmål) |basert på ISO 19157 
 |Definisjon (engelsk) |number of missing objects in relation to the number of objects that should be present in the dataset 
-|Kilde til definisjon (engelsk) |basert på ISO 19157 
+|Kilde til definisjon (engelsk) |based on ISO 19157 
 |Datatype |prosent 
 |Eksempel |0.02% (datasettet dekker 0.02% færre bygninger en det som eksisterer i virkeligheten)
 |===
@@ -149,7 +149,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter i datasettet som mangler verdi for en gitt egenskap
 |Kilde til definisjon (bokmål) |egendefinert
 |Definisjon (engelsk) |number of objects in the data set with missing value for a given property
-|Kilde til definisjon (engelsk) |egendefinert
+|Kilde til definisjon (engelsk) |own defintion
 |Datatype |heltall
 |Eksempel |2 (to bygninger mangler verdi for «bruksareal»)
 |===
@@ -161,7 +161,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter med manglende verdi for en gitt egenskap i forhold til antall enheter i datasettet
 |Kilde til definisjon (bokmål) |egendefinert
 |Definisjon (engelsk)|number of objects with missing value for a given property in relation to the number of objects in the dataset 
-|Kilde til definisjon (engelsk) |egendefinert
+|Kilde til definisjon (engelsk) |own definition
 |Datatype |prosent
 |Eksempel |0.02% (0.02% av verdiene for egenskapen «bruksareal» mangler i datasettet)
 |===
@@ -185,7 +185,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |hvorvidt det finnes overflødige enheter i datasettet 
 |Kilde til definisjon (bokmål) |basert på ISO 19157 
 |Definisjon (engelsk) |whether there are objects incorrectly present in the dataset 
-|Kilde til definisjon (engelsk) |basert på ISO 19157 
+|Kilde til definisjon (engelsk) |based on ISO 19157 
 |Datatype |boolsk 
 |Eksempel |Ja (noen bygninger er overflødige) |
 |===
@@ -198,7 +198,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter som er i datasettet, men som ikke forventes å være med 
 |Kilde til definisjon (bokmål) |basert på ISO 19175 
 |Definisjon (engelsk) |number of objects within the data set or sample that should not have been present 
-|Kilde til definisjon (engelsk) |basert på ISO 19175 
+|Kilde til definisjon (engelsk) |based on ISO 19175 
 |Datatype |heltall 
 |Eksempel |3 (i virkeligheten finnes det 15 bygninger, men datasettet dekker 18)
 |===
@@ -211,7 +211,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall overflødige enheter i forhold til antall enheter som skulle være med i datasettet 
 |Kilde til definisjon (bokmål) |basert på ISO 19157 
 |Definisjon (engelsk) |number of excess objects in the data set in relation to the number of objects that should have been present 
-|Kilde til definisjon (engelsk) |basert på ISO 19157 
+|Kilde til definisjon (engelsk) |based on ISO 19157 
 |Datatype |prosent 
 |Eksempel |0,03% (0,03% av bygningene i datasettet burde ikke være representert)
 |===
@@ -221,9 +221,9 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |===
 |Anbefalt term |*imputering* (bokmål), *imputation* (engelsk) 
 |Definisjon (bokmål) |å sette inn verdi for en egenskap hvis den mangler eller er ubrukbar 
-|Kilde til definisjon (bokmål) |Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), "Glossary of Terms on Statistical Data Editing" 
+|Kilde til definisjon (bokmål) |basert på https://stats.oecd.org/glossary/detail.asp?ID=3462[«Glossary of Terms on Statistical Data Editing», OECD] 
 |Definisjon (engelsk) |entering a value for a specific data item where the value is missing or unusable 
-|Kilde til definisjon (engelsk) |Eurostats begrepsdatabase RAMON, Economic Commission for Europe of the United Nations (UNECE), "Glossary of Terms on Statistical Data Editing"
+|Kilde til definisjon (engelsk) |based on https://stats.oecd.org/glossary/detail.asp?ID=3462["Glossary of Terms on Statistical Data Editing", OECD]
 |===
 
 ===== Kvalitetsmål «antall enheter med imputert verdi for en gitt egenskap»
@@ -234,7 +234,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter i datasettet med imputert verdi for en gitt egenskap 
 |Kilde til definisjon (bokmål) |egendefinert 
 |Definisjon (engelsk) |number of objects in the data set with imputed value for a given property 
-|Kilde til definisjon (engelsk) |egendefinert 
+|Kilde til definisjon (engelsk) |own definition 
 |Datatype |heltall 
 |Eksempel |4 (fire bygninger har fått antatt verdi for «byggeår»)
 |===
@@ -247,7 +247,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter med imputert verdi for en gitt egenskap i forhold til antall enheter i datasettet 
 |Kilde til definisjon (bokmål) |egendefinert 
 |Definisjon (engelsk) |number of objects with imputed value for a given property in relation to the number of objects in the dataset 
-|Kilde til definisjon (engelsk) |egendefinert 
+|Kilde til definisjon (engelsk) |own definition
 |Datatype |prosent 
 |Eksempel |0.04% (0.04% av bygningene har fått antatt verdi for «byggeår»)
 |===
@@ -270,6 +270,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |ferskhet av data uttrykt som differansen mellom to tidspunkter 
 |Kilde til definisjon (bokmål) |egendefinert 
 |Definisjon (engelsk) |age of the dataset described as the difference between two points in time
+|Kilde til definisjon (engelsk) |own definition 
 |===
 
 ===== Kvalitetsmål «samlet tidsdifferanse»
@@ -279,7 +280,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |tid mellom når datasettet kan tas i bruk og den hendelsen eller fenomenet datasettet beskriver inntreffer 
 |Kilde til definisjon (bokmål) |Eurostats begrepsdatabase RAMON, European Union, Regulation (EC) No 223/2009 
 |Definisjon (engelsk) |length of time between data availability and the event or phenomenon they describe 
-|Kilde til definisjon (engelsk) |Eurostats begrepsdatabase RAMON, European Union, Regulation (EC) No 223/2009 
+|Kilde til definisjon (engelsk) |Eurostat RAMON, European Union, Regulation (EC) No 223/2009 
 |Datatype |duration  
 |Merknad (bokmål) |Tillatte måleenheter for duration som er hentet fra xsd, er sekunder, minutter, dager, måneder eller år, dvs. ikke uker. 
 |Eksempel |‘’24 dager’’ (det tar i gjennomsnitt 24 dager fra en bygning står ferdig eller er revet til den er innlemmet i eller tatt ut fra datasettet)
@@ -302,7 +303,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |graden av konsistens mellom egenskapene i datasettet  
 |Kilde til definisjon (bokmål) |egendefinert 
 |Definisjon (engelsk) |the degree to which there is consistency between the properties in the dataset 
-|Kilde til definisjon (engelsk) |egendefinert
+|Kilde til definisjon (engelsk) |own definition
 |===
 
 ===== Kvalitetsmål «andel enheter med inkonsistente egenskaper»
@@ -313,7 +314,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter med inkonsistente egenskaper i forhold til antall enheter i datasettet 
 |Kilde til definisjon (bokmål) |egendefinert 
 |Definisjon (engelsk) |number of objects with inconsistent properties in relation to the number of objects in the data set 
-|Kilde til definisjon (engelsk) |egendefinert 
+|Kilde til definisjon (engelsk) |own definition 
 |Datatype |prosent 
 |Eksempel |0.03% (av bygningene har inkonsistens innbyrdes mellom noen av egenskapene)
 |===
@@ -326,7 +327,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter med inkonsistens mellom gitte egenskaper i forhold til antall enheter i datasettet 
 |Kilde til definisjon (bokmål) |egendefinert 
 |Definisjon (engelsk) |number of objects with inconsistency between given properties in relation to the number of objects in the data set 
-|Kilde til definisjon (engelsk) |egendefinert 
+|Kilde til definisjon (engelsk) |own definition 
 |Datatype |prosent 
 |Eksempel a|
 * 0,03% (av bygningene i datasettet står oppført med bruksareal som er høyere enn bruttoareal)
@@ -351,7 +352,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |graden av at enhetene i datasettet har riktige identifikatorer  
 |Kilde til definisjon (bokmål) |basert på BLUE-ETS 
 |Definisjon (engelsk) |the degree to which the objects in the dataset have the correct identifiers 
-|Kilde til definisjon (engelsk) |basert på BLUE-ETS
+|Kilde til definisjon (engelsk) |based on BLUE-ETS
 |===
 
 ===== Kvalitetsmål «antall enheter med identifikatorfeil»
@@ -362,7 +363,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter i datasettet med feil identifikatorer 
 |Kilde til definisjon (bokmål) |egendefinert 
 |Definisjon (engelsk) |number of objects in the data set with incorrect identifiers 
-|Kilde til definisjon (engelsk) |egendefinert 
+|Kilde til definisjon (engelsk) |own definition 
 |Datatype |heltall 
 |Eksempel |207 (207 personer uten f-nummer/d-nummer men en utenlandsk id som ikke kvalitetssikres)
 |===
@@ -375,7 +376,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter med feil identifikatorer i forhold til antall enheter i datasettet 
 |Kilde til definisjon (bokmål) |egendefinert 
 |Definisjon (engelsk) |number of objects with incorrect identifiers in relation to the number of objects in the data set 
-|Kilde til definisjon (engelsk) |egendefinert 
+|Kilde til definisjon (engelsk) |own definition 
 |Datatype |prosent 
 |Eksempel |0,01% (0,01% av personene i datasettet har gått fra midlertidig tilknytning til permanent oppholdstillatelse og står oppført med d-nummer som identifikator istedenfor f-nummer)
 |===
@@ -398,7 +399,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall enheter i datasettet med feil klassifisering for en gitt egenskap 
 |Kilde til definisjon (bokmål) |basert på ISO 19157 
 |Definisjon (engelsk) |number of objects in the dataset that are incorrectly classified for a given property 
-|Kilde til definisjon (engelsk) |basert på ISO 19157 
+|Kilde til definisjon (engelsk) |based on ISO 19157 
 |Datatype |heltall 
 |Eksempel |97 (97 enheter er oppført med feil næringskode i datasettet)
 |===
@@ -411,7 +412,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Definisjon (bokmål) |antall feilklassifiserte enheter for en gitt egenskap i forhold til antall enheter i datasettet 
 |Kilde til definisjon (bokmål) |basert på ISO 19157 
 |Definisjon (engelsk) |number of objects that are incorrectly classified for a given property in relation to the number of objects in the dataset  
-|Kilde til definisjon (engelsk) |basert på ISO 19157 
+|Kilde til definisjon (engelsk) |based on ISO 19157 
 |Datatype |prosent 
 |Eksempel |0,4% (0,4% av enhetene har feil kommunenummer)
 |===
