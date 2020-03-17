@@ -290,10 +290,12 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 [cols="30s,70d"]
 |===
 |Anbefalt term |*konsistens* (bokmål), *consistency* (engelsk) 
-|Definisjon (bokmål) |graden av at dataene har egenskaper som ikke er motsigende og som samsvarer med andre egenskaper, for en spesifikk brukskontekst. Konsistens kan gjelde én eller flere sammenlignbare enheter i datasettet. 
+|Definisjon (bokmål) |graden av at dataene har egenskaper som ikke er motsigende og som samsvarer med andre egenskaper, for en spesifikk brukskontekst  
 |Kilde til definisjon (bokmål) |ISO 25012 
-|Definisjon (engelsk) |the degree to which data has attributes that are free from contradiction and are coherent with other data in a specific context of use. It can be either or both among data regarding one entity and across similar data for comparable entities. 
+|Merknad (bokmål) | Konsistens kan gjelde én eller flere sammenlignbare enheter i datasettet.
+|Definisjon (engelsk) |the degree to which data has attributes that are free from contradiction and are coherent with other data in a specific context of use 
 |Kilde til definisjon (engelsk) |ISO 25012
+|Merknad (engelsk) | It can be either or both among data regarding one entity and across similar data for comparable entities.
 |===
 
 ==== Kvalitetsdeldimensjon «konsistens innad i datasett»
