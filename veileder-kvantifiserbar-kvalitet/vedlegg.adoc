@@ -64,11 +64,11 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |Anbefalt term |*egenskap* (bokmål), *property* (engelsk)
 |Tillatt term |variabel (bokmål), attributt (bokmål), kjennemerke (bokmål), variable (engelsk), attribute (engelsk), characteristic (engelsk)
 |Definisjon (bokmål) |navngitt kjennetegn eller karakteristikk av en enhet
-|Kilde til definisjon (bokmål) |Geodatakvalitet
+|Kilde til definisjon (bokmål) |https://www.kartverket.no/globalassets/standard/bransjestandarder-utover-sosi/geodatakvalitet.pdf[Geodatakvalitet]
 |Eksempler (bokmål) |inntekt, alder, vekt, yrke, bransje, sykdom
 |Definisjon (engelsk) |named characteristic of an object
 |Eksempler (engelsk) |income, age, weight, occupation, industry, disease
-|Kilde til definisjon (engelsk) |based on Geodatakvalitet
+|Kilde til definisjon (engelsk) |based on https://www.kartverket.no/globalassets/standard/bransjestandarder-utover-sosi/geodatakvalitet.pdf[Geodatakvalitet]
 |===
 
 ==== Element 
@@ -386,7 +386,7 @@ Der det er hensiktsmessig kan man også referere til andre definisjoner som ligg
 |===
 |Anbefalt term |*klassifikasjonsriktighet* (bokmål), *classification correctness* (engelsk) 
 |Definisjon (bokmål) |riktigheten til klassifiseringen av enheter eller deres egenskaper sammenlignet med sanne verdier 
-|Kilde til definisjon (bokmål) |basert på Geodatakvalitet 
+|Kilde til definisjon (bokmål) |basert på https://www.kartverket.no/globalassets/standard/bransjestandarder-utover-sosi/geodatakvalitet.pdf[Geodatakvalitet] 
 |Definisjon (engelsk) |comparison of the classes assigned to features or their attributes to a universe of discourse (e.g. ground truth or reference data) 
 |Kilde til definisjon (engelsk) |ISO 19157
 |===
