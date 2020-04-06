@@ -1,0 +1,13 @@
+= Stortingsmelding om datadrevet økonomi og innovasjon. Innspillseminar for aktører i offentlig sektor 31. mars 2020 kl. 9-11.30 - OPPSUMMERING
+Digitaliseringsdirektoratet
+:doctype: book
+:docinfo:
+:icons: font
+:toc: left
+:toc-title: Innholdsfortegnelse
+:toclevels: 4
+:sectlinks:
+:leveloffset:
+
+
+include::oppsummering.adoc[]

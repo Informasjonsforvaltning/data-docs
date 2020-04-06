@@ -1,0 +1,216 @@
+== Stortingsmelding om datadrevet økonomi og innovasjon. Innspillseminar for aktører i offentlig sektor 31. mars 2020 kl. 9-11.30 - OPPSUMMERING
+
+NOTE: Oppsummeringen er basert på arrangørens notater, og er ikke verifisert av innlederne og de som ga innspill til stortingsmeldingen.
+
+=== Del 1 Innledning og program med innlegg
+
+==== Øystein Åsnes, Digitaliseringsdirektoratet
+
+Ønsket velkommen til innspillsmøte om Stortingsmelding om en datadrevet økonomi og innovasjon.
+
+==== Paul Chaffey, Kommunal- og moderniseringsdepartementet
+video::403726520[vimeo]
+
+Innledet og fremhevet at situasjonen for meldingen er annerledes i dag med korona enn den var når arbeidet startet. Han viste til at bruk av data og tilgang til data mv. er sentralt i diskusjonen fremover mht. hvordan vi kan løse koronasituasjonen. Et eksempel er  Folkehelseinstituttets nye app for smittesporing som er under utvikling i samarbeid med Simula.
+
+Digitalisering og bruk av data kommer til å spille en stor rolle fremover, bl.a. på områdene klima, bærekraft, krav til offentlig tjenesteproduksjon og næringslivets konkurranseevne. Han nevnte i denne sammenheng betydningen av ekom (lanseringen av 5G i Norge) og IOT, Digitaliseringsstrategien og KI-strategien, eierskap til data, portabilitet, spilleregler for deling, ansvaret for å forvalte data, personvern og sikkerhetsspørsmål. Han vektla også at _hvordan_ og _hva_ vi deler av data får en stadig viktigere plass.
+
+Data er i utgangspunktet åpne, og hovedsakelig basert på bestemmelsene om innsyn i offentleglova. Det å legge til rette på en riktig måte kan skape enorme verdier i fremtiden. Norge har et godt utgangspunkt med en åpen offentlig sektor der data skal deles innenfor rammene av personvern, sikkerhet etc., men det offentlige må være mer på tilbudssiden for å få til økt deling og bruk for den verdiskapingen som skjer i samfunnet, både i det offentlige og i næringslivet. Det ble vist til gode eksempler som DSOP-samarbeidet der det skapes vinn-vinn situasjoner ved frivillig samarbeid mellom offentlig og privat sektor om deling av data. Chaffey berørte i denne sammenheng kontantstøtteordningene som regjeringen nå innfører for de bedriftene som har mistet omsetningen, og da med fokus på hvordan vi kan bruke infrastrukturen vi har for innrapportering etc. av data.
+
+Det ble pekt på at intensjonen med meldingen særlig var å fokusere på privat sektor og at det er nedsatt en ekspertgruppe ledet av Alexandra Bech Gjørv som skal se nærmere på hvilke utfordringer og behov næringslivet har knyttet til deling av data i egen sektor og mellom bransjer. Ekspertgruppen skal også komme med anbefalinger. Det ble fokusert på at deling må skje på en måte som skaper verdier i virksomhetene og at det er et spørsmål hvilket regime vi bør lage for dette. Er det offentlige konsesjoner eller gjør vi det gjennom eksempelvis bruk av anskaffelsesregelverket og strengere krav om deling mm.? Norge har noen gode erfaringer, bl.a. gjennom DISKOS i olje- og gassektoren og GEO-samarbeidet, men det er mange områder hvor vi ikke har kommet så langt som dette og hvor vi bør ha diskusjoner om hva vi gjør videre.
+
+Han tok også opp at vi ikke må glemme at andre land også har ambisjoner. Vi er en del av EØS-avtalen med betydelig forskningssamarbeid etc. – og EU har oppfordret Norge til å ta en sterkere rolle i utviklingen av dataøkonomien. Selv om Kina og USA nå er mer dominerende, så må vi se på om Europa kan spille en større rolle med de europeiske verdiene som vi baserer oss på med åpenhet, personvern, sikkerhet etc. Det er viktig at offentlig sektor bidrar og beskriver løsninger og retninger.
+
+
+==== Janicke Weum, prosjektleder for stortingsmeldingen, Kommunal- og moderniseringsarbeidet
+
+Orienterte kort om meldingen og prosessen fremover. Stortingsmeldingen skal stå ferdig innen utgangen av 2020 og i tillegg til ekspertgruppa, har vi bestilt en utredning av mulig plikt til å publisere data, fra advokatfirma Kluge. I tillegg har vi etablert en interdepartemental referansegruppe. Det er flere departementer som har eierskap til problemstillingene. Det jobbes parallelt med to andre stortingsmeldinger: stortingsmelding om innovasjon i offentlig sektor som er i sluttfasen og skal være ferdig til sommeren.
+
+Departementet arbeider også med stortingsmelding om den digitale grunnmuren – mobil og bredbånd. Stortingsmeldingen om datadrevet økonomi skal adressere mål og retning for hvordan vi skal jobbe videre og meldingen bygger på Digitaliseringsstrategien, Digital agenda og Digital 21.
+
+Det er viktig å rydde i begreper: dataøkonomi - hva handler det om her i Norge? Store utfordringer knyttet til tallfesting av verdien av data, 4% av BNP - 100 000 arbeidsplasser i 2020, men dette er vanskelig å beregne. Det er enighet om at verdien bare vil øke fremover. Vi må bidra til vekst i næringslivet, data må komme næringslivet til gode. EUs datastrategi, siste revisjon av Viderebruksdirektivet (ODD) jobber vi med å innlemme. Direktivet introduserer begrepet "høyverdige datasett": for eksempel geodata, men også andre områder. Dette innspillsmøtet er for offentlige aktører, fordi offentlige virksomheter spiller en stor rolle i dette arbeidet og er sentrale tilbydere av data.
+
+==== Knut Bjørgaas, Digitaliseringsdirektoratet
+
+Tok opp deling av data og hva Digitaliseringsdirektoratet gjør på dette feltet. I disse dager med korona får den store testen på hvor gode vi er til å digitalisere og jobbe datadrevet.
+
+Digitaliseringsdirektoratet jobber sammen med en stor "klubb" av offentlige og private virksomheter knyttet til deling av data. Han orienterte om arbeidet med opprettelsen av et nasjonalt ressurssenter for deling av data samt en generisk datafordeler som to eksempler på ting det jobbes med.
+
+Ressurssenteret er i pilot i dag og skal være bemannet og oppe og stå fra 1. oktober. Det arbeides med konkrete datadelings “case”, det ses på roller og ansvar i forhold til datadeling samt innspill på ny lovgivning, f.eks. hvordan forvaltningsloven kan gjøres mer digitaliseringsvennlig. Ved oppstart vil fokus være på juridiske problemstillinger, fordi vi får mange henvendelser både knyttet til å forstå lovene og lovhindringer i seg selv. De ser mer konkret på hvilke lover som må endres, men skal også gi råd og veiledning på de lovene som gjelder og reelle hindringer. I arbeidet med digitaliseringsvennlig regelverk samarbeider de med Regelrådet og Juridisk fakultet ved UiO, men senteret skal også samarbeide med aktører både i privat (f.eks. Digital Norway) og i offentlig sektor. +
+Bjørgaas tok også opp arbeidet med en generisk datafordeler som er en "verktøykasse" med løsninger, standarder, referansearkitekturer, roller og ansvar med mer som skal til for  å dele data. Den generiske datafordeleren ble presentert som en prosess som hjelper datatilbyder og konsument å finne løsninger, f.eks. felles datakatalog FIKS-plattformen i kommunene, lisenser, avtaler, etc. Norge har et godt fundament med digitale fellesløsninger. For å utvikle oss videre trenger vi en felles verktøykasse for å få delt data for bl.a. å bygge sammenhengende tjenester. Det ble vist til undersøkelser, bl.a. fra Riksrevisjonen, som viser at det er et uløst potensiale i Norge - kun 1/10 av datasettene er delt i forhold til det som deles i Irland for eksempel.
+
+=== Heather Broomfield, UiO og Digitaliseringsdirektoratet
+Tok opp offentlig sektors rolle i en datadrevet økonomi. Her kom hun inn på transformasjon fra å dele åpne data til å utvikle en datadrevet økonomi. Det skal m.a.o. utvikles et økosystem som ikke er et trinnbasert (trapp) system som vi tidligere har snakket om, men mer et konstant "feed-back" system. Hun viste her til hvordan OECD omtaler dette som en syklus hvor offentlig sektors rolle er å produsere data, forvalte data, legge til rette for bruk, men også bruke data selv i tillegg til å være en policy maker. Hun påpekte at 85 % av dataene handler om ustrukturerte data. For å illustrere viste hun til at Covid-19 er et godt eksempel på viktigheten av at vi er datadrevet - alle modellene som presenteres med R0 og R1 mv., og videre at det pågår 30 000 studier om Covid-19 hvor det brukes datasystemer for analyse mm.
+
+Hun var tydelig på at skal vi få til en datadrevet økonomi så må vi ha en datadrevet offentlig forvaltning. Videre at det offentlige også er en konsument av data. Et annet viktig område er kompetanse: tverrfaglighet er utrolig viktig, samt domenekunnskap med samfunnsvitere og politikere m/flere som skjønner virkningene av en datadrevet økonomi på samfunnet. Vi må også dele med privat sektor selv om vi har noe kontroversiell bruk av data av privat sektor - vi trenger kompetente kunder som forstår utfordringer og muligheter.
+
+==== David Norheim, Brønnøysundregistrene
+
+Tok opp temaet flyt av data mellom offentlig og privat sektor. Hvilke mønstre finnes, og hvor er potensialet for verdiskaping størst? Her kom han inn på deling offentlig-privat (G2B), privat-offentlig (B2G) og privat-privat (B2B). Mønstre for deling inkluderer åpne data, hjemlet salg/gebyr for data, hjemlet deling/tilgang og samtykkebasert deling,  rapportering (pliktig og frivillig) og kontroll/tilsyn/analyse (se foil).
+
+Mht. B2G dreier det seg hovedsakelig om tre måter å avgi data på. Disse er innrapportering, kontroll, tilsyn og analyse, samt åpne data. Når det gjelder innrapportering så skilles det mellom periodiske data og hendelsesrapportering. Periodiske data har et mindre gjenbrukspotensiale siden de kun er riktig en gang i året, mens hendelsesrapportering som er en mer aktiv handling, i større grad kan gjenbrukes av andre. Grunndataregistre våre er såkalt hendelsesstyrte, og er sånn sett alltid oppdatert. Mht. kontroll, tilsyn og analyse så varierer det fra risikobasert tilnærming (bokettersyn) til mer komplett ettersyn og også av tredjeparts datainnsamling.
+
+Mht. åpne data så er det data hvor det ikke foreligger formålsbegrensninger og heller ikke personopplysninger og konkurransemessige- eller børssensitive opplysninger. De største utfordringene knyttet til åpne data er manglende semantisk interoperabilitet og fravær av koblingsnøkler/identifikatorer som fødselsnummer. Åpne datasett er heller ikke godt nok tilrettelagt for maskinbaserte oppslag. Han tok også opp dette med hjemlet salg av/gebyr på data, altså at regelverket gjennom lov eller forskrifter pålegger gebyr ved deling av data som i prinsippet er åpne. At dette får skje sier noe om redsel for å utfordre forretningsmodellene. Betaling og gebyrer for åpne data bidrar også til liten vilje til i næringslivet til å investere i nye tjenester.
+
+Han tok også opp hjemlet deling av/tilgang til data og snakket her om såkalte seriøsitetstjenester – og videre om offentlig-privat samarbeid, f.eks. offentlige anbud (eBevis). Behovet er begrunnet i nødvendigheten av å sammenstille data fra flere virksomheter. Mht. samtykkebasert deling G2B, så gir det store gevinster og brukere settes i stand til gjennom samtykke å dele offentlige data med privat virksomhet, eksempelvis samtykkebasert lånesøknad, eller gjeldsfloka (estimert til 3 mrd. per år før Covid-19) som det arbeides med. Her stilte han spørsmål om offentlig sektor bør kunne ta betalt for utviklingskostnader knyttet til disse tjenestene.
+
+Om tilrettelegging for B2B (kombinert med samtykke B2B) ble det tatt opp at det offentlige har en viktig rolle i tilrettelegge for dette (fasilitere) gjennom å sette standarder, formater, og stille til rådighet infrastruktur, for eksempel Elma som er tatt i bruk i fm elektroniske fakturaer. Digital eiendomshandel ble nevnt, og også Open Accounting som ville hatt en stor treffsikkerhet mht. kompensasjonsordningen/ kontantstøtteordningen for bedrifter om vi hadde hatt den i dagens koronasituasjon. Da kunne man vært presise mht. støtte. Det ble også tatt opp at data kan deles på uventede områder og at det i mye større grad bør tilrettelegges for deling med private. Vi må ikke innrette oss slik at Felles datakatalog kun er åpne data eller offentlig gjenbruk, selv om prosjektet har sin bakgrunn i kun-en-gang-prinsippet. Datakatalogen bør også inneholde B2B data.
+
+Ifølge Norheim vil de største gevinstene komme ved tilrettelegging for B2B og G2B ved samtykke.
+
+==== Hilde Austlid, Statens vegvesen
+
+Tok opp hvilke effekter åpne data fra nasjonal vegdatabank (NVDB) har gitt privat sektor. Vegdatabanken støtter planlegging og drift av alle veger i Norge og gir informasjon om bl.a. hvor det er begrensninger, hva som er fartsgrenser, hvilke utstyr og installasjoner og ting som skjer langs veien, som trafikkmengde, ulykker og skred. Den brukes både internt og eksternt.
+
+I 2013 åpnet de for lesing i databanken ved API og også innsyn i kart. I 2016 åpnet de for skriving.
+
+De har stor bruk og det finnes flere kommersielle løsninger basert på de åpne APIene. Åpningen av NVDB har i hovedsak vært en suksess som bidrar til effektivisering og bedre datakvalitet. Hun fastslo at etableringen av de kommersielle løsningene tok lengre tid enn ventet, og at de heller ikke ble tatt i bruk til å begynne med. Det er sannsynlig at manglende bruk var et resultatet av at det kreves mye kompetanse for å kunne bruke NVDB. Ikke bare veifaglig kompetanse, men også på hvordan dataene er bygget opp. Hun påpekte at de som tok seg tid til å sette seg inn i løsningen i begynnelsen nå har et forsprang.
+
+Et av hennes hovedbudskap var at det er ikke nok å bare gjøre data tilgjengelig gjennom APIer. Å åpne opp er ikke nok. Dialog med brukerne er nødvendig skal de kunne ta i bruk dataene til å lage nye tjenester. De driver støtte på e-post og Twitter, har en blogg hvor de svarer på spørsmål av allmenn interesse, og har også en årlig utviklerkonferanse.
+
+Selv om de har tett dialog med de som ønsker eller bruker dataene, er det likevel en utfordring at de ikke vet noe om de som ikke kontakter dem eller hva markedet vil ha utover det de allerede leverer. Vegvesenet har som utgangspunkt at de leverer det virksomheten mener er viktig og som de selv kan ta i bruk. Om det behov som ikke dekkes så vet de ikke om det. Hun la også til at de vet at webinar er ønsket og at de kanskje også bør skjule en del detaljdata som de bruker internt, men som resten av verden ikke har bruk for. Hun avsluttet med å si at det ikke bare er å lage API og åpne opp, men brukerne må også hjelpes i gang.
+
+==== Gustav Aagesen, Statens lånekasse for utdanning
+
+Tok opp datadrevet myndighetsutøvelse i Lånekassen og stilte spørsmålet om det de holder på med er verdiskaping eller dyrekjøpt erfaring. De holder på med en datadrevet myndighetsutøvelse der potensialet for verdiskaping er i fokus. De driver avansert analyse for å støtte produksjon av innsikt og har sett på muligheter for å bruke dette til å støtte den manuelle saksbehandlingen, noe som bidrar til effektivitet lokalt.
+
+Aagesen ser stort potensiale for verdiskaping og innovasjon som ligger tilknyttet en offentlig virksomhet som Lånekassen, men etterlyser tydelige forventninger og etatsstyring, da den utløsende faktoren for denne verdiskapingen ikke kommer uten friksjon.
+
+Et eksempel på hvordan de driver datadrevet myndighetsutøvelse er på området bokontroll hvor de bruker maskinlæring, noe som har vist seg å levere like gode resultater som tidligere på tross av at halvparten kontrolleres. En positiv bieffekt av dette er at det f. eks. innebærer at færre må skaffe til veie dokumentasjon. Et annet poeng de fremhevet er at brukerne ikke har endret seg som følge av denne kontrollen. Her stiller han spørsmål om Lånekassen (heller) bør bruke opparbeidet kunnskap til å endre prosessen for å sikre ønsket oppførsel.
+
+Han introduserte en tidligere gjennomført "proof of concept" sammen med S’banken som koplet kundens lånesaldo i Lånekassen opp til kundens mobilbank. De arbeider nå med et felles grensesnitt for banknæringen. Løsningen gjør at alle kunder av Lånekassen kan se saldo på studielån i egen nettbank. Når først et slikt grensesnitt er etablert er det naturlig å tenke at det kan utvides med nye tjenester. Det gir også at muligheter for nye aktører til å etablere seg, for eksempel digitale assistenter på vegne kunden?
+
+Han påpekte at det administrative spillerom for myndighetsutøvelse har definerte rammer. Det er mye som kan gjøres innenfor disse rammene i det lokale perspektiv. Ved å gjøre analyser utenfor de definerte rammene er det mulig å gjøre vurderinger om de etablerte strukturene (og dermed rammene) er riktige. Han påpekte også at de trenger tilgang til data som de ikke har tilgang eller ressurser til å forvalte. Erfaringene så langt er at det ikke er en ubetydelig investering og forvaltningskostnad på å levere utenfor rammene og det definerte formål til virksomheten. Det er heller ingen umiddelbar gevinst og det er også slik at krav som ikke er pålagt blir prioritert ned. Han avsluttet med at det trengs en helhetlig systemtankegang for å si noe om det Lånekassen gjør skaper verdi eller ikke. Skal man jobbe datadrevet må en også være forberedt på å ta affære når analysen tilsier at en jobber feil.
+
+Han sier at frem til nå så har det vært eksterne krav til etterrettelighet våre prosesser og data. Kravet til publisering til felles datakatalog er et tellekantskrav som ikke peker på konkrete formål, og som i liten grad sier noe om en virksomhets kapasitet til å jobbe datadrevet.
+
+Han stiller spørsmål om muligheten bør benyttes til å ta «orden i eget hus» ett steg videre for å ikke bare realisere kun en gang, men de nødvendige kapabilitetene for datadrevet innovasjon og verdiskaping.
+
+==== Leendert Wienhoven, Trondheim kommune
+
+Tok opp kommunenes rolle i en datadrevet økonomi. Han mente det er vanskelig å få til mer enn man gjør og stilte spørsmål om hva regjeringen kan bidra med. Han tok til orde for at vi må ha samskaping med våre omgivelser når vi utarbeider tjenester og løsninger og benytte data fra kommunenes prosesser. Det kompliserer at det er veldig mange lovpålagte oppgaver med hver sine systemer og at de har over 100 slike fagsystemer som er laget for en (eller noen få) avgrensede oppgaver. Han påpekte at Trondheim er en stor kommune og at de kan bidra i kravspesifikasjon for andre og mindre kommuner som ikke kan gjøre dette selv siden de ofte har en liten IT-stab som kjøper inn fagsystemer i stedet for å utvikle. Slik systemet er finnes det ikke incentiver for å bestille et system som gir mer. Dette igjen gir lite verdiskaping på tvers.
+
+Det mangler gode datamodeller og noen mener også at dataene i systemene er leverandørenes data. Det er vanskelig å stille krav til leverandører når de ikke vil levere mer enn det som løser oppgaven og ikke det som ligger litt utenfor. Han påpekte at det er mangel på standarder, mangel på metadata, mangel på interoperabilitet, mangel på lovhjemmel til (gjen)bruk i forskjellige kontekster, og at bestillerkompetansen må økes. Kommune-Norge må bli større for å kunne stille krav.
+
+Han avsluttet med noen mulige tiltak, bl.a. å etablere et nasjonalt algoritmeregister (veien fra et lukket fagsystem til åpne data) slik at ikke alle kommuner sløser bort penger ved å utvikle det samme; innføre incentiver for åpne API-er og datamodeller; tilpasse lovverket slik at «kun-en-gang»-prinsippet enkelt kan gjennomføres; etablere felles nasjonale fagsystemer og mht. relevante prosjekter og teknologier, så må vi samåpne på samme måte dersom dataene skal legges til rette for viderebruk (ellers kreves det for mye). Han påpekte her at OASC er en pådriver for standardisering og at RDF kan være en konkret mulighet - sørge for at ting blir mer maskinlesbart, men ikke på bekostning av menneskets lesbarhet.
+
+=== Del 2 Korte innspill til stortingsmeldingen (tre minutter per aktør)
+
+==== Bernt Reitan Jenssen, Ruter AS
+Regelverket rundt bruk av data er knyttet til kjernedataene til det offentlige. Hvordan kan Ruter-dataene brukes til innovasjon? Ruter har varierende erfaringer i forhold til hva man kan få til med utgangspunkt i Ruter-data. Det er en eksplosjon når det gjelder tilgang til data, men dette er en annen type data enn hva andre typiske kjernevirksomheter i det offentlige har. Bare fra en buss får vi nå mer data på en rute enn hva vi fikk fra all virksomhet før. Dette pga. standardisering og krav vi stiller til underleverandører.
+
+Å publisere data som ikke er sentrale for Ruter selv, vil kunne by på utfordringer senere dersom Ruter endrer på dem, hvilket jo vil være dumt for de som har basert seg på disse dataene. Det er viktig å se nærmere på kontrakter og finansiering, men også på hvordan vi kan gjøre dette mer etterspørselsstyrt. Det er viktig med gjensidige forpliktelser. Offentlige data lagt ut på "et fuglebrett" uten mulighet for forpliktende samarbeid og avtaler om hvordan dataene kan brukes, er lite verdt. Vi må se nærmere på hvordan vi kan få offentlige virksomheter til å forplikte seg mer. Det offentlige må i større grad bli en samarbeidspartner for innovasjon i næringslivet.
+
+==== Marianne Braaten, Direktoratet for e-helse
+Direktoratet for e-helse arbeider for bedre løsninger for bruk av data på tvers av ulike datakilder, både til myndighetsbruk, beredskap, vaksineutvikling og overvåking mm. Helsedataprogrammet omfatter data fra hundrevis av helseregistre, der spørsmålet er bl.a. hvordan helseregisterdata også kan sammenkobles med data fra f.eks. SSB. Dette vil gi store gevinster for forskning og næringsutvikling. Ikke minst i disse dager ser man behovet for dette.
+
+For økt verdiskaping er det viktig at data kan sammenstilles og analyseres raskere og i andre kontekster enn det var tenkt i utgangspunktet, og på tvers av ulike infrastrukturer. Det er viktig med harmonisering av variabler, metadatakataloger, retningslinjer, API-er osv. Det er en vesentlig utfordring at gevinsten ofte tas ut et annet sted enn der dataene produseres, og at tilrettelegging for deling ofte blir oppfattet som en ekstrakostnad. I tillegg er det en utfordring at det er vanskelig å dele persondata - samtidig som befolkningen har høyt tillit til det offentlige og ønsker å bidra.
+
+Regjeringens ambisjon bør være å gjøre Norge verdensledende på tverrsektoriell deling og gjenbruk av data og bidra til å styrke initiativ, gode sandkassemuligheter og krav til at alle data som ikke er personopplysninger må eksponeres. Dette må følges opp med finansiering og lovverket må henge med.
+
+==== Gunhild Rui, Direktoratet for samfunnssikkerhet og beredskap
+
+Fortalte om Kunnskapsbanken, som er utviklet med støtte fra Medfinansieringsordningen. De første byggesteinene er lagt, men kunnskapen er spredt på flere steder og det brukes masse menneskelige ressurser og tid for å kunne gi et komplett bilde. Informasjon må settes sammen på nye måter. Metadataene er der, men vanskelig å få tak i. Det er både strukturelle, juridiske, organisatoriske og semantiske utfordringer.
+
+De har valgt å gå videre med data fra naturhendelser. Flere har jobbet sammen og det er skaffet lovhjemmel for innhenting av data. Hovedbrukere er kommuner og fylkesmenn. Nøkkelen til å lykkes var først og fremst å trekke med folk med ulik kompetanse og å tørre å bruke flinke folk til å utvikle i stedet for å saksbehandle. I tillegg må det være rom for å feile dersom man skal innovere. Dette utfordrer særlig de statlige styringsformene.
+
+==== Ann-Kristin Brændvang, Statistisk sentralbyrå
+
+Verdien av data øker ved deling og sammenstilling på tvers, men det er en del ting som må være til stede for å lykkes. Tre nøkkelord er gode metadata, gode tekniske løsninger og god ivaretakelse av personvernet.
+
+I tillegg må det finnes et felles kodeverk som kan brukes på tvers og god oversikt og kvalitet på dataene dersom brukerne skal kunne bruke dem på en effektiv måte. Vi trenger gode løsninger som snakker sammen. Hun viste til Microdata.no, som er en datatjeneste som gir forskere og studenter tilgang til registerdata fra flere registre hos SSB og muligheten til å bearbeide og analysere registervariabler i et anonymisert grensesnitt. Man får m.a.o. rask tilgang til data og kan leke seg med dem samtidig som personvernet ivaretas.
+
+Den største fordelen med deling av data er at data kan samles én gang og gjenbrukes av flere. Dette sikrer konsistent bruk på tvers, og ved at flere bruker de samme dataene, øker verdien av dem. Ulempen er at data kan brukes feil dersom det ikke eksisterer gode rammeverk. Gode metadata gjør at vi kan vite hva vi vil ha nytte av. Det er behov for å rydde i eget hus og få oversikt over hvilke data man har, gode metadata, felles standardisering, tekniske systemer som snakker sammen på tvers samt sikkerhet. Samarbeid på tvers må sikres og det må lages standardiserte systemer og ikke bygges siloer.
+
+==== Reidun Kittelsrud, Kartverket
+
+Målsettingen er å dele åpne data, men vi må spørre oss om det vi gjør i dag er bærekraftig for innovasjon på lengre sikt. Private selskaper samler inn stadig mer data. I samarbeid med privat sektor kan vi utvikle en digital tvilling av samfunnet – som kan brukes til å skape innsikt, nye tjenester og verdier. Data er en fornybar ressurs og vi må sikre data vi kan stole på. Det offentlige må være en tilrettelegger, ikke bare en råvareprodusent. Det offentlige må bidra til verdiskapingen i en bærekraftig datadrevet økonomi og vi må tenke nytt med hensyn til bærekraftige data-økosystemer. Deling av data må gå flere veier, også privat-offentlig for gjenbruk. Næringslivet vil være tjent med at det offentlige legger til rette for gode løsninger for datadeling. Kartverket har god erfaring med sam- og brukerfinansiering, og ønsker dialog om nye forretningsmodeller. Konkurransen om statlige midler blir tøffere, og målet må være at alle parter får tilbake en andel av verdiskapingen for å drive god forvaltning og videreutvikling.
+
+Kartverket har prøvd mange innovasjonsarenaer, både hackatons, gründerbedrifter og tett samarbeid med private, men det er krevende å ta nye ideer ut. Dagens anskaffelsesregelverk, kravet om gevinstrealisering, og vanskelighetene ved å beregne gevinster er hemmende. Det må derfor legges til rette for enklere samarbeidsmodeller og finansieringsmuligheter i tidligfase for å bygge kompetanse mellom offentlig-privat, og for å vise potensialet i bruk av data.
+
+==== Morten Irgens, OsloMet
+
+Regionalt entreprenørskap fokuserer på start ups, scale-ups og risikofinansiører og ser på datadrevet entreprenørskap. De har sett på brukerreisen i møtet med dataene, og om dataene kommer fra det offentlige eller fra private aktører. Møtene med dataentreprenører har vist to hovedinnstillinger det er interessant å se på: For det første bør det være et eget kapittel i meldingen om entreprenørens rolle og behov. Dette er viktig fordi vi i Norge er spesielt dårlige på å få nye bedrifter til å vokse. Det er et stort vekstpotensial for disruptive entreprenører.
+
+For det andre viser entreprenørene veldig tydelig at det er et behov for regionale tjenestetilbydere som kan koble sammen tilbudssiden med tjenestesiden og som kan hjelpe entreprenører til å anvende dataene.
+
+==== Gunnar Crawford, Stavanger kommune
+
+Representerer her også smart by-nettverket. Mange kommuner har gått sammen om å dele data. Det er etablert et nasjonalt veikart hvor det å ta i bruk åpne data er et viktig prinsipp. Vi jobber med å dele, men det er ikke gitt at folk tar det i bruk. Ukentlig blir det delt ganske mye - mye har høy verdi, noe har dårlig kvalitet, noe er sære data, noe er viktig for næringslivet. Det er mange gode grunner for å dele. Smartbyene har stort fokus på næringsutvikling, økt demokratisering, effektivisering og økt innovasjonstakt og får bedre tjenester ved å legge ut data eksternt blant annet gjennom forslag til nye løsninger.
+
+Vi trenger mer data fritt tilgjengelig. Det må ikke bare oppfordres, noen må få det til å skje. Det må incentiver til for deling koster penger. Næringslivet må også begynne å dele, ikke bare konsumere. Det offentlige bør ikke ta betaling der det ikke er nødvendig slik at flere kommer på banen. Betaling vil favorisere de store aktørene. Vi trenger standardiserte datasett på kommunalt nivå, data som kan tydes på samme vis for eksempel i flere kommuner. Dataene må være lett å gjenbruke.
+
+Vi må også få klart definerte høyverdige datasett. Danmark har for eksempel definert 10 høyverdige datasett som alle skal dele. På nordisk nivå er det stor villighet til å se på dette sammen. Det offentlige må bidra til at dataene kan blir brukt. Vi må være med på testprosessen til næringslivet og hjelpe aktørene å finne hverandre. Vi må også be om innspill til hva som bør gjøres tilgjengelig.
+
+==== Tor Ivar Grina, Skatteetaten
+
+Skatteetaten legger til rette for deling og skal gjøre mer, men innhentingen av dataene må også koordineres. Det er behov for en strategi og en helhetlig plan. Det må fordeles ansvar for dataene som hentes inn.
+
+Data som er innhentet for å dekke flere behov har mye større gjenbruksverdi. Skatteetaten har gode erfaringer fra A-ordningen, som er et samarbeid mellom NAV, SSB og Skatteetaten. Samfunnsgevinsten har blitt mangedoblet i forhold til hva som var anslått og særlig for næringslivet. Spesielt i dagens situasjon har det en ekstra verdi å ha oppdatert informasjon om lønns- og arbeidsforhold. Det bør skapes flere slike fellesordninger. Sammen med Brønnøysundregistrene skal Skatteetaten se på helhetlig og forenklet innrapportering av aksjeopplysninger. Det er også flere områder å se på, men det trengs en samordnings- og utviklingsplan slik at man rigger seg for utvikling og nye behov fremover.
+
+==== Eva Camerer, Innovasjon Norge
+
+Ønsker stortingsmeldingen velkommen. Innovasjon Norge har fokus på oppstarts- og innovative vekstbedrifter. Prinsippet må være at det er en plikt for det offentlige til å dele i størst mulig grad. Private virksomheter må også dele seg imellom. Dette setter store krav til infrastruktur. Det offentlige må komme tidligere i dialog med bedrifter og sørge for en større grad av samarbeid. Det bør også sørges for kobling av tilbud og etterspørsel, etableres offentlig - privat partnerskap, testbeds osv.
+
+Meldingen bør ha en egen omtale om fremtiden til vekstbedrifter, som er i en noe annen situasjon enn de store selskapene.
+
+==== Heidi Beate Vang, Kystverket/ BarentsWatch
+
+Viste til BarentsWatch-programmet som er et tverretatlig digitaliseringsprogram hvor 10 departementer og 29 offentlige etater og forskningsinstitusjoner har samarbeidet siden 2012. Det omfatter informasjon om kyst- og havområder og brukes både av offentlig og privat sektor. Informasjonen er basert på offentlige data og tjenestene utvikles basert på brukerbehov. Det er ikke hensiktsmessig å dele hvis ikke kvaliteten på dataene er god nok.
+
+Det er mangel på både kompetanse og vilje til å dele data i det offentlige. Dette skyldes både manglende kapasitet og utfordringer pga. de statlige budsjettprosessene. Økt deling vil gi økt innovasjon, økt effektivisering og mer tverrsektorielt samarbeid. Det må stilles strengere krav til dataeierne mht. kvalitet og til tilgjengelighet via API-er, noe som burde vært en selvfølge. Strategiene som legges frem er ikke gode nok incitamenter for det offentlige til å dele. Digitaliseringsprosjekter passer ikke inn i de statlige styringsmodellene. Offentlige digitaliseringsprosjekter må gis mer autonomi, ledere, og departementer må vite mer om hvordan prosjektene skjer. Dette er viktig for budsjetteringen.
+
+==== Bjørn Erik Thon, Datatilsynet
+
+I disse dager ser vi en vekst i viljen til å dele data. Interessen for Folkehelseinstituttets app for smittesporing viser tydelig dette. Det er mye innovasjon som handler om å fremme personvern, men også innovasjon som innebærer å bruke persondata - og særlig i den krisen vi står oppe i nå. Personvernlovgivningen gjelder og må tas hensyn til, men det er også behov for et sted å teste ut bruk av data og regulatoriske sandkasser er et slikt sted.
+
+I regjeringens strategi for kunstig intelligens var ett av tiltakene å opprette en regulatorisk sandkasse i Datatilsynet. Datatilsynet er klare til å starte raskt dersom finansieringen kommer på plass. Behovet for regulatoriske sandkasser bør også nevnes i stortingsmeldingen og være ett av tiltakene som foreslås der. Det finnes gode eksempler på løsninger som kan testes ut fra andre land, og nevnte spesielt det britiske datatilsynets samarbeid med næringslivet.
+
+==== Gyrid Anne Mangersnes, Asker kommune
+
+Tommel opp for det Stavanger og Trondheim sa i sine innlegg. Implementering av FNs bærekraftsmål og KPIer bør være en overordnet ramme også for dette arbeidet, jf. også Heather Broomfield som refererte til dette som "framing the problems". Lånekassen snakket om felles ambisjoner, noe bærekraftsmålene nettopp er. Det finnes både positive og negative synergier mellom bærekraftsmålene og vi trenger kunnskap om dette for å sikre bærekraft i alt vi gjør. Det nasjonale Bærekraftsløftet, som er et samarbeid mellom norske kommuner og fylkeskommuner, KS, Innovasjon Norge, Doga, SSB, KMD, støttet av FNs U4SSC Implementation programme, legger et rammeverk for samfunnsomstilling til grunn i sitt arbeid. Rammeverket viser sammenheng mellom data/ åpne data og verdiskapning og kan gi verdifull innsikt i sammenheng mellom ulike typer omstillingsprosesser, aktørbilder og behov for kompetanse i offentlig og privat sektor, akademia og i sivilsamfunnet for øvrig.
+
+11 norske kommuner har foretatt U4SSC-KPI-undersøkelsen om smart og bærekraftig utvikling i kommunene og fått erfaring mht. innhenting av data fra ulike kilder på tvers av kommuner og fylkeskommuner og hva som kreves mht. forvaltning av dataene. Dette vil også spilles inn som en erfaring og ressurs til stortingsmeldingen. Vi trenger en utfordringsdrevet innovasjon. Deling og bruk av data er kjempeviktig inn i dette. Samarbeid på tvers er essensielt, ikke minst på tvers av forvaltningsnivåene.
+
+==== Pia Virmalainen Jøsendal, Asker kommune
+
+Det å bare dele data gir ikke nok insentiv for kommunene til å jobbe med det, akkurat slik Stavanger også påpeker. Kommunene må kjenne behovene som skal løses eller målene som skal nås, bærekraft er et godt sted å begynne med høy politisk forankring og viktig for beslutningstagerne og lederne i kommunen. Datadeling må kobles til kommunenes behov, for at det skal skje. Blir nedprioritert hvis ikke. Samtidig trengs det koordinering og oppbygging av felles tilnærming. Det er viktig at alle aktørene har en viss evne til å delta, men å bygge opp kapasitet og evne i hver kommune kan ikke være frivillig eller overlatt til hvert enkelt kommune å finne ut av. Noen form for krav til å prioritere dette arbeidet i kommunene må til. Deling av data prioriteres av få kommuner, kompetanse er helt vesentlig. De fleste kommuner er prisgitt et marked som i stor grad har solide forretningsmodeller basert på at håndteringen av data i fagsystemene koster ekstra.
+
+Det etterlyses standardisering og felles kravstilling i anskaffelser av fagsystemer ifbm tilgangen til data i fagsystemene, slik at kommunene i større grad vet at nasjonale registeropplysninger benyttes, at data kan hentes ut og brukes til analyse uten at enorme ekstrakostnader påløper etc. Det er heller ikke hensiktsmessig at hver kommune skal bygge opp sin tekniske plattform for å kunne ta imot, forstå, gjenbruke, analysere eller dele data fra statlige eller private aktører.
+
+==== Knut Andreas Hernes, kommunaldirektør for teknisk avdeling, Bodø kommune
+
+Se på Facebook, Amazon og Google, så skjønner man verdien av data. Det er mye gode data som er godt gjemt i kommunale arkiver, men gjerne i PDF, som det er vanskelig å få noe ut av. Strukturering og kvalitetssikring koster penger, så spørsmålet er hvem som skal betale. Det er store mengder byggdata som er kommersielt interessant. Det er etablert et partnerskap i Bodø med Innovasjon Norge, med å hente ut godt gjemte data.
+
+Med en anstrengt kommuneøkonomi er det vanskelig å prioritere dette hvis det bare genererer kostnader. Det har vært gjort en test på tilgjengeliggjøring av byggdata til meglere (meglerpakken). Dette er nesten helautomatisert og interessant å videreutvikle. Det er imidlertid ikke urimelig at næringslivet betaler dersom de gjør business på offentlige data slik at kommunene også kan ta del i verdiskapingen. Det er viktig at vi får på plass et lovverk som også ser på forretningsmodeller. Kanskje dette kan bli den nye eiendomsskatten for kommunene.
+
+==== Cathrine Pihl Lyngstad, Arbeids- og velferdsdirektoratet (NAV)
+
+Begrepet deling av data tolkes ofte snevert, mange tenker kun på å realisere kun-en-gang-prinsippet. Det er også viktig med analyse/innsikt, algoritmeutvikling og - anvendelse for bl.a. personalisert veiledning og helhetlige brukerreiser. Dette krever også historikk. Datadrevet innovasjon og produktutvikling som fordrer analyser og algoritmeutvikling på data som inneholder personopplysninger er vanskelig og nesten umulig. Det er behov for hjemler og å plassere eierskap. Når det gjelder satsing på sentrale registre og andre nøkkeldata er det viktig å huske på at vi også trenger mennesker som forstår dataene og domenet. Det trengs tilgang til menneskene og det må stilles krav til de som forvalter registrene, og det må følge med finansiering.
+
+NAV utøver personalisert veiledning og trenger å vite hva som har skjedd med folk som har vært hos dem tidligere og hva som skjer videre, et sentralt register med nøkkelinformasjon for eksempel - om en person har vært under utdanning på et tidspunkt for eksempel. Vi trenger å endre kultur og rammer, jobbe tverretatlig og tverrsektorielt - ikke minst med livshendelsene hvor det er brukeren som skal være i sentrum. Det er store hindringer i dag når man jobber en og en etat etter gamle styringslinjer.
+
+==== Jesper Werdelin Simonsen, Forskningsrådet (erstatter for John Arne Røttingen)
+
+Glad for meldingen: Økt deling av data vil kunne utløse store forskningsmessige gjennombrudd og innovasjon for å sikre fremtidens__ __verdiskaping. Men det er 6 forutsetninger som må på plass.
+
+1.   *Det må skapes data av høy kvalitet som kan brukes* – Dette kan ikke gjøres bare gjennom å pålegge deling av data av høy kvalitet. Det må være en robust finansiering av innsamling og strukturering av data. I en datadrevet økonomi, kan dette ikke bare være avhengig av finansiering fra statsbudsjettet (jfr.pkt.6)
+
+2.   *Vi må dele data effektivt* – Data innsamlet for ett formål gir stor verdi for andre anvendelser, for eksempel er data innsamlet for forvaltning, veldig nyttig for forskning. Men det krever at man teknologisk legger til rette for ulik bruk, og at man gjennom lovgiving og insentiver får til sekundærbruk. Oftest er forskning den mest krevende bruken av data (krav til detaljrikdom og koblingsmuligheter). Derfor bør det bygges inn i arkitekturen, som så kan anvendes til andre formål også. Dette er prinsippet for helseanalyseplattformen, som Direktoratet for e-helse og Forskningsrådet investerer store penger i.
+
+3.   *Vi må utvikle gode plattformer for sikker deling* – Delingsplattformene må sikre personvern og it-sikkerhet. Den teknologiske utvikling gjør det mulig. Men det må etableres gode lovreguleringer
+4.   *Vi må etablere regnekraft og utnytte kunstig intelligens* – det investeres tungt på dette området i mange land. Norge må gjøre det samme.
+5.   *Det må skapes nye verdier; tjenester, produkter, prosesser osv*. – næringslivet og offentlige aktører må ha tilgang til analyseplattformer og algoritmer basert på data i sitt innovasjonsarbeid.
+6.   *Det må utvikles forretningsmodeller for å fordele verdiene som skapes på grunnlag av data* – dette handler ikke bare om rettferdig fordeling (mellom nasjoner og etater/personer), men også om at man må utvide datainnsamling og bedre datakvalitet, noe som krever finansiering og markedssignaler.
+
+Uten forretningsmodeller som sikrer dette vil selve grunnlaget for den datadrevne økonomien, gode og strukturerte data, tørke ut. Et viktig hensyn i slike forretningsmodeller er at man ikke etablerer betalings-barrierer som hindre bruk av data til samfunnsnyttig virksomhet som ikke resulterer i betalingsevne (Forskning har ofte andre formål, og de økonomiske gevinstene av innovasjon er ikke kjent i forkant). Det finns mange modeller for deling av verdier langs verdikjeden. Det bør settes i gang et arbeid for å utvikle gode forretningsmodeller.
+
+==== Per Hovde, Unit
+
+Har pekt ut tre hovedområder
+
+1. *Behov for en tverrsektoriell infrastruktur* for deling av data og hvordan en felles infrastruktur skal forvaltes. Vi er like avhengig av en god datainfrastruktur som gode veier
+
+2. *Regelverket må legge til rette* for stadig videreutvikling og gjenbruk og vi må ha kjøreregler og trygghet i hele verdikjeden. Nødvendig tilgang til data må sikres. For å sikre innovasjon må lovverket tilpasses og det bør gjøres bruk av regulatoriske sandkasser. Det er vedtatt en datadelingsforskrift for UH-sektoren
+
+3.	*Dataeierskap:* de store globale aktørene samler inn masse data om enkeltindividers handlinger og bevegelser. Råderetten over disse dataene kan ha stor samfunnsmessig virkning - for eksempel i en situasjon lik den vi er i nå.
