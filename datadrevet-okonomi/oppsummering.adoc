@@ -9,7 +9,7 @@ NOTE: Oppsummeringen er basert på arrangørens notater, og er ikke verifisert a
 Ønsket velkommen til innspillsmøte om Stortingsmelding om en datadrevet økonomi og innovasjon.
 
 ==== Paul Chaffey, Kommunal- og moderniseringsdepartementet
-video::403726520[vimeo]
+video::403726520[vimeo, with=640]
 
 Innledet og fremhevet at situasjonen for meldingen er annerledes i dag med korona enn den var når arbeidet startet. Han viste til at bruk av data og tilgang til data mv. er sentralt i diskusjonen fremover mht. hvordan vi kan løse koronasituasjonen. Et eksempel er  Folkehelseinstituttets nye app for smittesporing som er under utvikling i samarbeid med Simula.
 
