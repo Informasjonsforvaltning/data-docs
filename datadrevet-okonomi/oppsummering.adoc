@@ -112,7 +112,7 @@ Han avsluttet med noen mulige tiltak, bl.a. å etablere et nasjonalt algoritmere
 
 === Bernt Reitan Jenssen, Ruter AS
 
-video::403682155[vimeo, width=640, height=360]
+video::403724003[vimeo, width=640, height=360]
 
 Regelverket rundt bruk av data er knyttet til kjernedataene til det offentlige. Hvordan kan Ruter-dataene brukes til innovasjon? Ruter har varierende erfaringer i forhold til hva man kan få til med utgangspunkt i Ruter-data. Det er en eksplosjon når det gjelder tilgang til data, men dette er en annen type data enn hva andre typiske kjernevirksomheter i det offentlige har. Bare fra en buss får vi nå mer data på en rute enn hva vi fikk fra all virksomhet før. Dette pga. standardisering og krav vi stiller til underleverandører.
 
