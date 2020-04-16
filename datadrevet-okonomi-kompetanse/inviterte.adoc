@@ -73,7 +73,7 @@ Sist oppdatert: 16.04.2020
 |  TietoEvry | Geir Remman
 |  UiA | Morten Brekke, postmottak
 |  UiB | Oddrun Samdal, postmottak
-|  UiO | Morten Dæhlen, postmottak
+|  UiO | Morten Dæhlen, postmottak, prorektor
 |  UiS | Astrid B. Eggen, postmottak
 |  UiT | Wenche Jajobsen, postmottak
 |  Unit | Roar Olsen, Ingrid Melve, postmottak
