@@ -1,82 +1,86 @@
 Sist oppdatert: 16.04.2020
 
-|  **Institusjon - virksomhet** | **Invitasjon sendt til:** |
-| --- | --- |
-|  Abelia | Øistein Søreide, Mads D. Blybakken |
-|  Akademikerne | Kari Sollien, postmottak |
-|  Aker BP | Per Harald Kongelf |
-|  Arkivverket | Inga Bolstad, Øyvind Akerhaugen |
-|  Atea | Steinar Sønsteby |
-|  Brønnøysundregistrene | Lars Peder Brekk, Arnt Kristiansen |
-|  Datatilsynet | Bjørn Erik Thon, postmottak |
-|  Digital Norway | Liv Dingsør |
-|  Digitaliseringsdirektoratet | Steffen Sutorius, Knut Bjørgaas |
-|  Diku - direktoratet for utdanningskvalitet | Harald Nybølet, postmottak |
-|  Direktoratet for e-helse | Christine Bergland, Norunn Saure, postmottak |
-|  DNB | Even Westerveld |
-|  Equinor | Astri Okstad |
-|  Fagstrategisk enhet UHR-MNT | Mette Jacobsen Mo, postmottak |
-|  Finans Norge | Elin Mathiesen |
-|  Folkehelseinstituttet | postmottak |
-|  GCE Blue Maritime Cluster | Frank Støyva Emblem |
-|  GCE NODE | Jan Helge Viste |
-|  HiØ | Jo Ese, postmottak |
-|  HVL Høgskulen på Vestlandet | Bjørg K. Selvik, postmottak |
-|  Høyskolen Kristiania | Christen Krogh, postmottak |
-|  IBM | postmottak |
-|  ICE | Reynir Johannesson |
-|  IKT-Norge | Fredrik Syversen , Ingeborg Frøysnes |
-|  InFuture | Camilla Tepfers |
-|  Innovasjon Norge | Håkon Haugli |
-|  Kartverket | Johnny Welle, Olav Petter Aarrestad |
-|  Kompetanse Norge | Margrete Svensrud |
-|  KS | Kristin Weidemann Wieland, Asbjørn Finstad, postmottak |
-|  LO | postmottak |
-|  Lånekassen | Nina Schanke Funnemark, Ingunn Cowan |
-|  Microsoft | Kristine Beitland |
-|  Nasjonalt fagorgan for IKT | Mads Nygård |
-|  Nasjonalt fagskoleråd | postmottak |
-|  NAV | Sigrun Vågeng, Håkon Tverrli |
-|  NCE Kongsberg innovasjon | Svein-Olav Torø |
-|  NFR | John Arne Røttingen, postmottak |
-|  NHO | Ole Erik Almlid, postmottak |
-|  NHO Jenter og teknologi | Karoline Løvall |
-|  NIFU | Vibeke Opheim, Michael Mark |
-|  NITO | Trond Markussen |
-|  NKOM | John Velure, postmottak |
-|  Nordland fylkeskommune | postmottak |
-|  Norgesgruppen | Dina Thune |
-|  Norsk industri | Stein L. Hansen, postmottak |
-|  Norway Health Tech | postmottak |
-|  NSM | postmottak |
-|  NTNU | Ingrid Schølberg, Berit Kjeldstad, postmottak |
-|  Oslo Cancer Cluster | Ketil Widerberg |
-|  Oslo kommune | Arild Sundberg, Thomas Rigvår |
-|  OsloMet | Liv Karin Larsen, postmottak |
-|  Schibsted | Sven S. Thaulow |
-|  Simula | Marianne Aasen, Kyrre Lekve, postmottak |
-|  Sintef | Alexandra Bech Gjørv, Anne Karin Grønland |
-|  SIVA | Ingrid Riddervold Lorange, postmottak |
-|  Skatteetaten | Hans Christian Holte, Jørn Leonardsen |
-|  Smart innovation Norway, Halden | Mette Magnussen |
-|  SopraSteria | Kjell Rusti, postmottak |
-|  Spekter | Anne-Kari Bratten, postmottak |
-|  SSB | postmottak |
-|  Statens arbeidsgiverråd | Valgjerd B. Skauge |
-|  Statens vegvesen | Hilde Austlid, postmottak |
-|  Tekna | Line Henriette Holten, Lise Randeberg, postmottak |
-|  Telenor | Ragnhild Mathisen, Tormod Sandsto |
-|  Telia - Devision X | Henning Lunde |
-|  TietoEvry | Geir Remman |
-|  UiA | Morten Brekke, postmottak |
-|  UiB | Oddrun Samdal, postmottak |
-|  UiO | Morten Dæhlen, postmottak |
-|  UiS | Astrid B. Eggen, postmottak |
-|  UiT | Wenche Jajobsen, postmottak |
-|  Unit | Roar Olsen, Ingrid Melve, postmottak |
-|  USN Universitetet i Sørøst-Norge | Halvor Austenå, postmottak |
-|  Vestland fylkeskommune | Bjørn Lyngedal, postmottak |
-|  Viken fylkeskommune | Ingrid Lundvall, postmottak |
-|  Vipps | Hanne Kjærnes |
-|  Virke | Ivar Horneland Kristensen, postmottak |
-|  YS | Mirjam S. Folkvord, postmottak |
+
+[width="100%",options="header,footer"]
+
+|====================
+|  **Institusjon - virksomhet** | **Invitasjon sendt til:**
+|  Abelia | Øistein Søreide, Mads D. Blybakken 
+|  Akademikerne | Kari Sollien, postmottak 
+|  Aker BP | Per Harald Kongelf 
+|  Arkivverket | Inga Bolstad, Øyvind Akerhaugen
+|  Atea | Steinar Sønsteby
+|  Brønnøysundregistrene | Lars Peder Brekk, Arnt Kristiansen
+|  Datatilsynet | Bjørn Erik Thon, postmottak
+|  Digital Norway | Liv Dingsør
+|  Digitaliseringsdirektoratet | Steffen Sutorius, Knut Bjørgaas
+|  Diku - direktoratet for utdanningskvalitet | Harald Nybølet, postmottak
+|  Direktoratet for e-helse | Christine Bergland, Norunn Saure, postmottak
+|  DNB | Even Westerveld
+|  Equinor | Astri Okstad
+|  Fagstrategisk enhet UHR-MNT | Mette Jacobsen Mo, postmottak
+|  Finans Norge | Elin Mathiesen
+|  Folkehelseinstituttet | postmottak
+|  GCE Blue Maritime Cluster | Frank Støyva Emblem
+|  GCE NODE | Jan Helge Viste
+|  HiØ | Jo Ese, postmottak
+|  HVL Høgskulen på Vestlandet | Bjørg K. Selvik, postmottak
+|  Høyskolen Kristiania | Christen Krogh, postmottak
+|  IBM | postmottak
+|  ICE | Reynir Johannesson
+|  IKT-Norge | Fredrik Syversen , Ingeborg Frøysnes
+|  InFuture | Camilla Tepfers
+|  Innovasjon Norge | Håkon Haugli
+|  Kartverket | Johnny Welle, Olav Petter Aarrestad
+|  Kompetanse Norge | Margrete Svensrud
+|  KS | Kristin Weidemann Wieland, Asbjørn Finstad, postmottak
+|  LO | postmottak
+|  Lånekassen | Nina Schanke Funnemark, Ingunn Cowan
+|  Microsoft | Kristine Beitland
+|  Nasjonalt fagorgan for IKT | Mads Nygård
+|  Nasjonalt fagskoleråd | postmottak
+|  NAV | Sigrun Vågeng, Håkon Tverrli
+|  NCE Kongsberg innovasjon | Svein-Olav Torø
+|  NFR | John Arne Røttingen, postmottak
+|  NHO | Ole Erik Almlid, postmottak
+|  NHO Jenter og teknologi | Karoline Løvall
+|  NIFU | Vibeke Opheim, Michael Mark
+|  NITO | Trond Markussen
+|  NKOM | John Velure, postmottak
+|  Nordland fylkeskommune | postmottak
+|  Norgesgruppen | Dina Thune
+|  Norsk industri | Stein L. Hansen, postmottak
+|  Norway Health Tech | postmottak
+|  NSM | postmottak
+|  NTNU | Ingrid Schølberg, Berit Kjeldstad, postmottak
+|  Oslo Cancer Cluster | Ketil Widerberg
+|  Oslo kommune | Arild Sundberg, Thomas Rigvår
+|  OsloMet | Liv Karin Larsen, postmottak
+|  Schibsted | Sven S. Thaulow
+|  Simula | Marianne Aasen, Kyrre Lekve, postmottak
+|  Sintef | Alexandra Bech Gjørv, Anne Karin Grønland
+|  SIVA | Ingrid Riddervold Lorange, postmottak
+|  Skatteetaten | Hans Christian Holte, Jørn Leonardsen
+|  Smart innovation Norway, Halden | Mette Magnussen
+|  SopraSteria | Kjell Rusti, postmottak
+|  Spekter | Anne-Kari Bratten, postmottak
+|  SSB | postmottak
+|  Statens arbeidsgiverråd | Valgjerd B. Skauge
+|  Statens vegvesen | Hilde Austlid, postmottak
+|  Tekna | Line Henriette Holten, Lise Randeberg, postmottak
+|  Telenor | Ragnhild Mathisen, Tormod Sandsto
+|  Telia - Devision X | Henning Lunde
+|  TietoEvry | Geir Remman
+|  UiA | Morten Brekke, postmottak
+|  UiB | Oddrun Samdal, postmottak
+|  UiO | Morten Dæhlen, postmottak
+|  UiS | Astrid B. Eggen, postmottak
+|  UiT | Wenche Jajobsen, postmottak
+|  Unit | Roar Olsen, Ingrid Melve, postmottak
+|  USN Universitetet i Sørøst-Norge | Halvor Austenå, postmottak
+|  Vestland fylkeskommune | Bjørn Lyngedal, postmottak
+|  Viken fylkeskommune | Ingrid Lundvall, postmottak
+|  Vipps | Hanne Kjærnes
+|  Virke | Ivar Horneland Kristensen, postmottak
+|  YS | Mirjam S. Folkvord, postmottak
+|====================
