@@ -1,0 +1,13 @@
+= Stortingsmelding om datadrevet økonomi og innovasjon: Inviterte til innspillseminar om kompetanse 27. april 2020
+ - Digitaliseringsdirektoratet
+:doctype: book
+:docinfo:
+:icons: font
+:toc: left
+:toc-title: Innholdsfortegnelse
+:toclevels: 4
+:sectlinks:
+:leveloffset:
+:table-stripes: even
+
+include::inviterte.adoc[]
