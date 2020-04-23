@@ -1,0 +1,92 @@
+
+[width="100%",options="header,footer"]
+|====================
+|  Navn | Virksomhet | Stilling/rolle 
+|  Aase Marthe Johansen Horrigmo | Kunnskapsdepartementet | Statssekretær 
+|  Alexander Iversen | Nasjonal kommunikasjonsmyndighet | Fagsjef 
+|  Alexandra Bech  Gjørv | Sintef | Konsernsjef 
+|  Anders Reitan | Unit | Avdelingsdirektør 
+|  Andrea Rosness | Viken fylkeskommune | Rådgiver innovasjon 
+|  Anne-Lena Straumdal | Kommunal- og moderniseringsdepartementet | Utredningsleder 
+|  Anniken Tømte | NHO | Spesialrådgiver 
+|  Bente Hoff | Nasjonal sikkerhetsmyndighet | Avdelingsdirektør 
+|  Birgitte Jordahl | Tekna | Seniorrådgiver 
+|  Birgitte Sem | Kommunal- og regionaldepartementet | Utredningsleder 
+|  Bjørn Taale Sandberg | Telenor ASA | Forskningsdirektør (SVP Telenor Research) 
+|  Camilla Tepfers | INFuture | Partner 
+|  Cathrine Pihl Lyngstad | NAV | Kontorsjef i IT Data og innsikt (& leder AI-lab) 
+|  Christen Krogh | Høyskolen Kristiania | Prorektor 
+|  Curt Rice | OsloMet - storbyuniversitetet | Rektor 
+|  Edvin Søvik | Viken fylkeskommune | Fungerende fylkesråd for finans og administrasjon 
+|  Elena  Rosnes | Viken fylkeskommune | Koordinator Kompetanseforum Østfold 
+|  Erik Fjærli | Statistisk sentralbyrå | Seksjonssjef og forsker 
+|  Eva Margrethe  Kvalvaag | KS | Spesialrådgiver 
+|  Eva Margrethe  Kvalvaag | KS | Spesialrådgiver 
+|  Finn-Hugo Markussen | Kunnskapsdepartementet | seniorrådgiver 
+|  Gustav Aagesen | Lånekassen | CDO 
+|  Hallstein Husand | Datatilsynet | Fagdirektør 
+|  Hanne Kjærnes | Vipps | Kommunikasjonsdirektør 
+|  Hans Petter  Bøe Rebo | Norsk Industri | Fagsjef - Leverandørindustrien til olje- og gassbransjen 
+|  Håkon Tverrli | NAV | Seniorrådgiver 
+|  Ida Monclair | Samferdselsdepartementet | Utredningsleder 
+|  Ida Møller  Solheim | Folkehelseinstituttet | Avdelingsdirektør 
+|  Imad Bahson | Viken fylkeskommune | Rådgiver - Fremtidens transporter 
+|  Ingeborg Marie Østby Laukvik | Nasjonalt fagskoleråd | Leder 
+|  Ingrid Hannisdahl Ytreland | Landbruks- og matdepartementet | Seniorrådgiver 
+|  Ingrid Lorange | Siva SF | Administrerende Direktør 
+|  Ingrid Lundvall | Viken fylkeskommune, Avd. Forskning og innovasjon, Rådsområde Næring | Spesialrådgiver Innovasjon 
+|  Ingrid Schjølberg | NTNU Fakultet for informasjonsteknologi og elektroteknikk | Dekan 
+|  Jan Christian Sandberg | FIN - Etatsstyringsenheten | Fagdirektør 
+|  Jan Helge Viste | GCE NODE | Leder for digitalisering og forretningsutvikling 
+|  Janicke Weum | KMD | Seniorrådgiver 
+|  Jesper Werdelin Simonsen | Forskningsrådet | Områdedirektør 
+|  Johan Fu | Lånekassen | Leder for Analyse og kunnskap 
+|  John-Eivind Velure | Nasjonal kommunikasjonsmyndighet | Fungerende direktør 
+|  Jone Thingbø | Statens vegvesen | IT partner 
+|  Jon-Torgeir Lunke | Direktoratet for e-helse | Seniorrådgjevar- Divisjon strategi 
+|  Katarina de Brisis | KMD | avdelingsdirektør 
+|  Katrine Vinnes | Norsk Industri | Fagsjef FoUI/Bransjesjef Teknobedriftene 
+|  Ketil Widerberg | Oslo Cancer Cluster | Daglig leder 
+|  Kimberly Lein-Mathisen | Microsoft Norge AS | Adm Dir. 
+|  Kjetil Staalesen | Landsorganisasjonen i Norge | Spesialrådgiver 
+|  Kjetil Tvedt | Norsk Industri | Fagsjef 
+|  Kristine Beitland | Microsoft Norge | Direktør for myndighetskontakt 
+|  Kyrre Lekve | Simula Research Laboratory | Viseadministrerende direktør 
+|  Lars Nerdrum | Kompetansebehovsutvalget og KD | Sekretariatsleder 
+|  Lars Ødegaard | Sopra Steria | Direktør offentlig sektor 
+|  Lars Øystein Eriksen | NITO | Seniorrådgiver/Samfunnspolitikk 
+|  Lena Lundgreen | Microsoft | Leder Offentlig Sektor 
+|  Linda Hofstad Helleland | KMD | Statsråd 
+|  Lise Lyngsnes Randeberg | Tekna | President 
+|  Magnus Fodstad Larsen | Kompetanse Norge | Seksjonsleder 
+|  Maren  Aasand | KMD | Politisk rådgiver 
+|  Mari Nilsen | Barne- og familiedepartementet | Førstekonsulent 
+|  Maria Gjerpe | Direktoratet for e-helse | Lege/Seniorrådgiver 
+|  Maria Gjerpe | Direktoratet for e-helse | Lege/seniorrådgiver 
+|  Marie Elise Axelsen | KS | Avdelingsdirektør 
+|  Marit Lie | HOD | Spesialrådgiver 
+|  Martin Vestnes Sæter | KMD | Rådgiver 
+|  Mathilde Holm | Universitetet i Bergen | programdirektør for digitalisering 
+|  Michael  Mark | NIFU | Forskningsleder 
+|  Morten Dæhlen | Universitetet i Oslo | Professor/dekan 
+|  Oddrun Samdal | Universitetet i Bergen | Viserektor for utdanning 
+|  Ola Berge | Kunnskapsdepartementet | Seniorrådgiver 
+|  Paul Chaffey | KMD | Statssekretær 
+|  Per Martin  Norheim-Martinsen | OsloMet - storbyuniversitetet | Viserektor FoU 
+|  Per Morten Sandset | Universitetet i Oslo | Viserektor 
+|  Roger Haga Heimli | Landsorganisasjonen i Norge | 2. Nestleder 
+|  Runa Opdal Kerr | Finans Norge | Arbeidslivsdirektør 
+|  Runar Nygård | KS | Avdelingsdirektør 
+|  Rune Gløersen | Statistisk sentralbyrå | Seniorrådgiver datadeling 
+|  Sven Størmer Thaulow | Schibsted ASA | Chief Data & Technology Officer / EVP 
+|  Synneve Bottolfs | Kunnskapsdepartementet | Seniorrådgiver 
+|  Tale  Skjølsvik | OsloMet - storbyuniversitetet | Prodekan, Fakultet for teknologi, kunst og design 
+|  Terese Bjerke | ASD | Senior rådgiver 
+|  Torgeir Knutsen | Olje- og energidepartementet | underdirektør - seksjon for forskning og teknologi 
+|  Toril Nagelhus Hernes | NTNU | Prorektor nyskaping og innovasjon 
+|  Trond Bergene | Arbeidsgiverforeningen Spekter | Spesialrådgiver 
+|  Valgjerd Bakka Skauge | Sekretariatet for statens Arbeidsgiverråd/DFØ | Fagdirektør 
+|  Victoria Sparrman | NHO | Økonom 
+|  Øystein Eriksen Søreide | Abelia | Administrerende direktør 
+|  Øystein Åsnes | Digitaliseringsdirektoratet | Seniorrådgiver |
+|====================
