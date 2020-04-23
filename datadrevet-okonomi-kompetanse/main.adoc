@@ -1,5 +1,5 @@
 = Stortingsmelding om datadrevet økonomi og innovasjon: Deltakere på innspillseminar om kompetanse 27. april 2020
- - Digitaliseringsdirektoratet
+
 :doctype: book
 :docinfo:
 :icons: font
