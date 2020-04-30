@@ -1,4 +1,4 @@
-= Stortingsmelding om datadrevet økonomi og innovasjon: Deltakere på innspillseminar om kompetanse 27. april 2020
+= Stortingsmelding om datadrevet økonomi og innovasjon
 
 :doctype: book
 :docinfo:
