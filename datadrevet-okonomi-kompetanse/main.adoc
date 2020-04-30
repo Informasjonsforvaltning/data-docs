@@ -11,3 +11,4 @@
 :table-stripes: even
 
 include::del1.adoc[]
+include::del2.adoc[]
