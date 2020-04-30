@@ -1,4 +1,4 @@
-= Stortingsmelding om datadrevet økonomi og innovasjon
+== Stortingsmelding om datadrevet økonomi og innovasjon
 
 :doctype: book
 :docinfo:
