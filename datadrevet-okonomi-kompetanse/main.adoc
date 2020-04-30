@@ -10,4 +10,4 @@
 :leveloffset:
 :table-stripes: even
 
-include::deltakere.adoc[]
+include::midlertidig-versjon.adoc[]
